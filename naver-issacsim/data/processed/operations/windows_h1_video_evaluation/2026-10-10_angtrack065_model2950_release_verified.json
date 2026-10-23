@@ -1,0 +1,26 @@
+{
+  "verified_on": "2026-10-10 KST",
+  "release_tag": "private-h1-20261010-exp-h1-angular-tracking-boost-model2950-video-eval",
+  "release_url": "https://github.com/SE3C/naver-issacsim-nvidia/releases/tag/private-h1-20261010-exp-h1-angular-tracking-boost-model2950-video-eval",
+  "remote_verified": true,
+  "annotated_tag_target": "ef10b7a4c9a83481346d446e8a75aed655f72214",
+  "canonical_originals_commit": "2329fbfaf72334ee25c7023de4f7e8baaaaa6b92",
+  "all_remote_sizes_and_digests_match": true,
+  "assets": [
+    {
+      "name": "model_best_h1_6terrain_evaluation_20261010-041416_066bf8a3.zip",
+      "bytes": 32626954,
+      "sha256": "ec1bc325feae5cd6da1643a9fbbe13b0640ad7514b77b79e5532d8b836def93b"
+    },
+    {
+      "name": "model_best_h1_6terrain_evaluation_20261010-041416_066bf8a3.zip.sha256",
+      "bytes": 129,
+      "sha256": "c78b335d269d34ad5178541a9d7763d7af393b9298de0cfd9c5c14fc4a83bac3"
+    },
+    {
+      "name": "publication_manifest.json",
+      "bytes": 2370,
+      "sha256": "08ecb7d27e7abbae0ad0682630fc1959bbe46a1e97a04c9776461997c4ff6aee"
+    }
+  ]
+}

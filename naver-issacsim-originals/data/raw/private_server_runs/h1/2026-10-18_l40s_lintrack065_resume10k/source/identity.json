@@ -1,0 +1,160 @@
+{
+  "schema_version": 2,
+  "task_root": "/home/shadeform/naver-training/training/humanoid",
+  "profile": "h1",
+  "selection": "required profile files plus all task-root Python files; dynamic directories excluded",
+  "hashed_paths": [
+    "h1_task/__init__.py",
+    "h1_task/_finalize.py",
+    "h1_task/agent_cfg.py",
+    "h1_task/env_cfg.py",
+    "humanoid_rewards.py",
+    "play.py",
+    "pyproject.toml",
+    "train.py"
+  ],
+  "files": [
+    {
+      "path": "h1_task/__init__.py",
+      "exists": true,
+      "size": 512,
+      "sha256": "3334dc0a2245aeaf478b68b4dd51f04fa6cff47705bac6ac4d2f0a429e2d4026",
+      "after_exists": true,
+      "after_size": 512,
+      "after_sha256": "3334dc0a2245aeaf478b68b4dd51f04fa6cff47705bac6ac4d2f0a429e2d4026",
+      "changed_during_run": false
+    },
+    {
+      "path": "h1_task/_finalize.py",
+      "exists": true,
+      "size": 72597,
+      "sha256": "734b712fdb9d208c70fc784e4816830d892548bcb280ddf456081d81a809ea1a",
+      "after_exists": true,
+      "after_size": 72597,
+      "after_sha256": "734b712fdb9d208c70fc784e4816830d892548bcb280ddf456081d81a809ea1a",
+      "changed_during_run": false
+    },
+    {
+      "path": "h1_task/agent_cfg.py",
+      "exists": true,
+      "size": 1139,
+      "sha256": "4e8c9919aed8220333c998bfbabe345d8eb2ed54734d67674d48be3ecbd72bb6",
+      "after_exists": true,
+      "after_size": 1139,
+      "after_sha256": "4e8c9919aed8220333c998bfbabe345d8eb2ed54734d67674d48be3ecbd72bb6",
+      "changed_during_run": false
+    },
+    {
+      "path": "h1_task/env_cfg.py",
+      "exists": true,
+      "size": 8549,
+      "sha256": "78927fc5b57f71284db114e25c7981f3ab1d08c40a94a93838d2fa1b7609adab",
+      "after_exists": true,
+      "after_size": 8549,
+      "after_sha256": "78927fc5b57f71284db114e25c7981f3ab1d08c40a94a93838d2fa1b7609adab",
+      "changed_during_run": false
+    },
+    {
+      "path": "humanoid_rewards.py",
+      "exists": true,
+      "size": 9356,
+      "sha256": "5f1fe2c8f51a7440ece8c76cd271ca17e4b029e12308f5735b639ab62c8fc1ac",
+      "after_exists": true,
+      "after_size": 9356,
+      "after_sha256": "5f1fe2c8f51a7440ece8c76cd271ca17e4b029e12308f5735b639ab62c8fc1ac",
+      "changed_during_run": false
+    },
+    {
+      "path": "play.py",
+      "exists": true,
+      "size": 20344,
+      "sha256": "39be98d4c1c3e4ff995fce2e0d4863ba9deaa88ddce1e0fe459566c1ec362617",
+      "after_exists": true,
+      "after_size": 20344,
+      "after_sha256": "39be98d4c1c3e4ff995fce2e0d4863ba9deaa88ddce1e0fe459566c1ec362617",
+      "changed_during_run": false
+    },
+    {
+      "path": "pyproject.toml",
+      "exists": true,
+      "size": 571,
+      "sha256": "e34f23cb042dfc2d301ad20df8ac8a3d6785a5aa1552d31ab8a79c81b19a40ea",
+      "after_exists": true,
+      "after_size": 571,
+      "after_sha256": "e34f23cb042dfc2d301ad20df8ac8a3d6785a5aa1552d31ab8a79c81b19a40ea",
+      "changed_during_run": false
+    },
+    {
+      "path": "train.py",
+      "exists": true,
+      "size": 10450,
+      "sha256": "36fcd90a838659e217aac009bcb98f95cb574dc90ae8c52fc1e1bc77b8d1a358",
+      "after_exists": true,
+      "after_size": 10450,
+      "after_sha256": "36fcd90a838659e217aac009bcb98f95cb574dc90ae8c52fc1e1bc77b8d1a358",
+      "changed_during_run": false
+    }
+  ],
+  "after_files": [
+    {
+      "path": "h1_task/__init__.py",
+      "exists": true,
+      "size": 512,
+      "sha256": "3334dc0a2245aeaf478b68b4dd51f04fa6cff47705bac6ac4d2f0a429e2d4026"
+    },
+    {
+      "path": "h1_task/_finalize.py",
+      "exists": true,
+      "size": 72597,
+      "sha256": "734b712fdb9d208c70fc784e4816830d892548bcb280ddf456081d81a809ea1a"
+    },
+    {
+      "path": "h1_task/agent_cfg.py",
+      "exists": true,
+      "size": 1139,
+      "sha256": "4e8c9919aed8220333c998bfbabe345d8eb2ed54734d67674d48be3ecbd72bb6"
+    },
+    {
+      "path": "h1_task/env_cfg.py",
+      "exists": true,
+      "size": 8549,
+      "sha256": "78927fc5b57f71284db114e25c7981f3ab1d08c40a94a93838d2fa1b7609adab"
+    },
+    {
+      "path": "humanoid_rewards.py",
+      "exists": true,
+      "size": 9356,
+      "sha256": "5f1fe2c8f51a7440ece8c76cd271ca17e4b029e12308f5735b639ab62c8fc1ac"
+    },
+    {
+      "path": "play.py",
+      "exists": true,
+      "size": 20344,
+      "sha256": "39be98d4c1c3e4ff995fce2e0d4863ba9deaa88ddce1e0fe459566c1ec362617"
+    },
+    {
+      "path": "pyproject.toml",
+      "exists": true,
+      "size": 571,
+      "sha256": "e34f23cb042dfc2d301ad20df8ac8a3d6785a5aa1552d31ab8a79c81b19a40ea"
+    },
+    {
+      "path": "train.py",
+      "exists": true,
+      "size": 10450,
+      "sha256": "36fcd90a838659e217aac009bcb98f95cb574dc90ae8c52fc1e1bc77b8d1a358"
+    }
+  ],
+  "after_hashed_paths": [
+    "h1_task/__init__.py",
+    "h1_task/_finalize.py",
+    "h1_task/agent_cfg.py",
+    "h1_task/env_cfg.py",
+    "humanoid_rewards.py",
+    "play.py",
+    "pyproject.toml",
+    "train.py"
+  ],
+  "changed_during_run": false,
+  "changed_paths": []
+}

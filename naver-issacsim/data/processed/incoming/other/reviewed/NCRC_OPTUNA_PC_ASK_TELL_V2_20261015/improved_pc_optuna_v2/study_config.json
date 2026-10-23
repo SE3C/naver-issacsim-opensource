@@ -1,0 +1,21 @@
+{
+  "schema_version": 2,
+  "reward_context": {
+    "baseline_config_id": "UNVERIFIED_LEGACY_DEFAULT_RANGE_NOT_RESOLVED_REWARD",
+    "search_space_status": "historical_app_values_unapproved_for_new_training",
+    "note": "Original app.py ranges preserved for compatibility, NOT accepted as a new search recommendation. action_rate_l2=-0.0001 lies OUTSIDE this legacy range. New bounds require a new stage."
+  },
+  "search_space": {
+    "track_lin_vel_xy_exp": [0.50, 2.00],
+    "track_ang_vel_z_exp": [0.50, 2.00],
+    "feet_air_time": [0.12, 0.50],
+    "termination_penalty": [-300.0, -40.0],
+    "flat_orientation_l2": [-2.50, -0.30],
+    "ang_vel_xy_l2": [-0.25, -0.02],
+    "joint_deviation_hip": [-0.40, -0.10],
+    "joint_deviation_torso": [-0.25, -0.03],
+    "action_rate_l2": [-0.0080, -0.0002]
+  },
+  "objective": null,
+  "comparison": null
+}

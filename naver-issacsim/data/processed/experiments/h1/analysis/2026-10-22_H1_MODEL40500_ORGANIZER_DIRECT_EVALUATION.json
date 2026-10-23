@@ -1,0 +1,68 @@
+{
+  "recorded_date": "2026-10-22",
+  "report_record": "20261022-135618",
+  "evaluation_kind": "organizer_separate_direct_evaluation_not_round7",
+  "source_pdf": "../../../incoming/other/reviewed/NCRC 예선 직접 평가20261021.pdf",
+  "source_pdf_sha256": "62ae9d1c80474fb52a2d4ea67e144d3cdadf80cdc8e16bdfc1fd13f2ff5f452c",
+  "robot": "h1",
+  "experiment": "exp-h1-joint-tracking-balance",
+  "run_id": "20261018-162226-h1-top01-from9999-plus32500",
+  "selected_checkpoint_iteration": 40500,
+  "training_endpoint_as_reported": 42499,
+  "track_ang_vel_z_exp": 0.6,
+  "identity_basis": "User context and participant comment; PDF contains no checkpoint/artifact SHA",
+  "accepted_in_round7": false,
+  "simulation_score": 56.9,
+  "simulation_maximum": 70,
+  "design_intent_score": 20,
+  "report_quality_score": 10,
+  "total_score": 86.9,
+  "scenario_display_precision_decimals": 1,
+  "scenarios": [
+    {
+      "name": "제자리 균형",
+      "score": 8.7,
+      "maximum": 10.5
+    },
+    {
+      "name": "전진 속도 추종",
+      "score": 11.4,
+      "maximum": 14
+    },
+    {
+      "name": "좌우 속도 추종",
+      "score": 5.8,
+      "maximum": 7
+    },
+    {
+      "name": "회전 복합 추종",
+      "score": 5.7,
+      "maximum": 7
+    },
+    {
+      "name": "약한 요철",
+      "score": 8,
+      "maximum": 10.5
+    },
+    {
+      "name": "완만한 경사 ±10°",
+      "score": 8.6,
+      "maximum": 10.5
+    },
+    {
+      "name": "밀침 회복",
+      "score": 8.6,
+      "maximum": 10.5
+    }
+  ],
+  "displayed_scenario_sum": 56.8,
+  "reported_total_minus_displayed_sum": 0.1,
+  "aggregation_note": "Preserve report total and displayed components; unrounded values unavailable",
+  "accepted_model11650_simulation_score": 57.05,
+  "displayed_simulation_delta_vs_model11650": -0.15,
+  "comparison_limits": [
+    "Different parent and reward histories",
+    "No repeat-evaluation variance or survival/tracking decomposition",
+    "No training-duration causal conclusion"
+  ]
+}

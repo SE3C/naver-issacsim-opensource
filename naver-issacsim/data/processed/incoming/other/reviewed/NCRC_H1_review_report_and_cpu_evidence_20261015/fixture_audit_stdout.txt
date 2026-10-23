@@ -1,0 +1,11 @@
+{
+  "files": 3,
+  "important_files": [
+    "manifest.json",
+    "episodes.jsonl",
+    "diagnostics.json"
+  ],
+  "warnings": [
+    "Schema discovery only; identity, first-cohort, metric definitions and cross-policy comparability require manual field mapping."
+  ]
+}

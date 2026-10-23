@@ -1,0 +1,185 @@
+{
+  "policy_sha256": "4a343750b47920d3b49e5e3ec7a3bf49fd9403d5b51a3727604971e6b7b0025d",
+  "protocol_id": "d406a296d2c0e5a7deee4138de7df87532d2815ae9b65af999d7a8f0b7062d34",
+  "policy_sha_match_manifest_link": true,
+  "policy_sha_all_episode_rows": true,
+  "protocol_all_episode_rows": true,
+  "robot": "h1",
+  "complete": true,
+  "smoke": false,
+  "execution_status": "COMPLETE",
+  "raw_episodes": 3072,
+  "unique_episode_ids": 3072,
+  "unique_cohorts": 3072,
+  "episode_rows_per_cohort_hist": {
+    "1": 3072
+  },
+  "case_counts": {
+    "H1/flat": 384,
+    "H2/flat": 384,
+    "H3/flat": 384,
+    "H4/flat": 384,
+    "H5/rough": 384,
+    "H6/slope_down": 384,
+    "H6/slope_up": 384,
+    "H7/push": 384
+  },
+  "end_reason_counts": {
+    "timeout": 3072
+  },
+  "survived_counts": {
+    "true": 3072
+  },
+  "base_contact_missing": 0,
+  "base_contact_true": 0,
+  "cohorts_ever_terminated": 0,
+  "total_cohort_termination_count": 0,
+  "duration_s_hist": {
+    "20.0": 3072
+  },
+  "progress_integrated_diff_max": 0.0,
+  "diagnostics_crosscheck": {
+    "H1": {
+      "calculated_episodes": 384,
+      "calculated_survival_rate": 1.0,
+      "calculated_tracking_error": 0.09810470827586482,
+      "diagnostics_episodes": 384,
+      "diagnostics_survival_rate": 1.0,
+      "diagnostics_tracking_error": 0.09810470827586482
+    },
+    "H2": {
+      "calculated_episodes": 384,
+      "calculated_survival_rate": 1.0,
+      "calculated_tracking_error": 0.1577822359794587,
+      "diagnostics_episodes": 384,
+      "diagnostics_survival_rate": 1.0,
+      "diagnostics_tracking_error": 0.15778223597945867
+    },
+    "H3": {
+      "calculated_episodes": 384,
+      "calculated_survival_rate": 1.0,
+      "calculated_tracking_error": 0.11657900829575017,
+      "diagnostics_episodes": 384,
+      "diagnostics_survival_rate": 1.0,
+      "diagnostics_tracking_error": 0.11657900829575008
+    },
+    "H4": {
+      "calculated_episodes": 384,
+      "calculated_survival_rate": 1.0,
+      "calculated_tracking_error": 0.13732175969370394,
+      "diagnostics_episodes": 384,
+      "diagnostics_survival_rate": 1.0,
+      "diagnostics_tracking_error": 0.13732175969370386
+    },
+    "H5": {
+      "calculated_episodes": 384,
+      "calculated_survival_rate": 1.0,
+      "calculated_tracking_error": 0.21625127757703036,
+      "diagnostics_episodes": 384,
+      "diagnostics_survival_rate": 1.0,
+      "diagnostics_tracking_error": 0.21625127757703064
+    },
+    "H6": {
+      "calculated_episodes": 768,
+      "calculated_survival_rate": 1.0,
+      "calculated_tracking_error": 0.1461754560817101,
+      "diagnostics_episodes": 768,
+      "diagnostics_survival_rate": 1.0,
+      "diagnostics_tracking_error": 0.1461754560817101
+    },
+    "H7": {
+      "calculated_episodes": 384,
+      "calculated_survival_rate": 1.0,
+      "calculated_tracking_error": 0.15078305214659646,
+      "diagnostics_episodes": 384,
+      "diagnostics_survival_rate": 1.0,
+      "diagnostics_tracking_error": 0.15078305214659635
+    }
+  },
+  "resolved_agent_keys": [
+    "actor",
+    "algorithm",
+    "check_for_nan",
+    "class_name",
+    "clip_actions",
+    "critic",
+    "device",
+    "empirical_normalization",
+    "experiment_name",
+    "load_checkpoint",
+    "load_run",
+    "logger",
+    "max_iterations",
+    "neptune_project",
+    "num_steps_per_env",
+    "obs_groups",
+    "policy",
+    "resume",
+    "run_name",
+    "save_interval",
+    "seed",
+    "wandb_project"
+  ],
+  "resolved_case_seed_keys": [
+    "H1/flat/4201",
+    "H1/flat/4202",
+    "H1/flat/4203",
+    "H2/flat/4201",
+    "H2/flat/4202",
+    "H2/flat/4203",
+    "H3/flat/4201",
+    "H3/flat/4202",
+    "H3/flat/4203",
+    "H4/flat/4201",
+    "H4/flat/4202",
+    "H4/flat/4203",
+    "H5/rough/4201",
+    "H5/rough/4202",
+    "H5/rough/4203",
+    "H6/slope_down/4201",
+    "H6/slope_down/4202",
+    "H6/slope_down/4203",
+    "H6/slope_up/4201",
+    "H6/slope_up/4202",
+    "H6/slope_up/4203",
+    "H7/push/4201",
+    "H7/push/4202",
+    "H7/push/4203"
+  ],
+  "overall_episode_weighted_tracking": 0.14614661926647807,
+  "overall_episode_weighted_survival": 1.0,
+  "overall_case_equal_tracking": 0.14614661926647807,
+  "sha256_input_zip": "af58e8f10165dbce7bd1c0363c09f523db925d9775870549819f94854fe4f6b9",
+  "video_sha256_checks": {
+    "01_stairs.mp4": {
+      "manifest_sha256": "28b8a4822c320c8f7d64615d6be51868c79624d07163780b24ce471a8903701f",
+      "computed_sha256": "28b8a4822c320c8f7d64615d6be51868c79624d07163780b24ce471a8903701f",
+      "match": true
+    },
+    "02_inverted_stairs.mp4": {
+      "manifest_sha256": "ec4a68efcac75a3b43cfb6e7ceae7f5cbeb0431bcb2f0ca7caf0227069078abd",
+      "computed_sha256": "ec4a68efcac75a3b43cfb6e7ceae7f5cbeb0431bcb2f0ca7caf0227069078abd",
+      "match": true
+    },
+    "03_boxes.mp4": {
+      "manifest_sha256": "2171c9050ceb575d714b00aad5508126f6318594e7387914efeb35a676f214a3",
+      "computed_sha256": "2171c9050ceb575d714b00aad5508126f6318594e7387914efeb35a676f214a3",
+      "match": true
+    },
+    "04_random_rough.mp4": {
+      "manifest_sha256": "8e92670bffde653835ea97fa5cecb2fcc3b3883c1f3898fe8cc96d4747c21408",
+      "computed_sha256": "8e92670bffde653835ea97fa5cecb2fcc3b3883c1f3898fe8cc96d4747c21408",
+      "match": true
+    },
+    "05_slope_up_10deg.mp4": {
+      "manifest_sha256": "8de8bc492012e308ea57dc02a782579bd4cb716fc506d6f8c3f1c9f447c3c452",
+      "computed_sha256": "8de8bc492012e308ea57dc02a782579bd4cb716fc506d6f8c3f1c9f447c3c452",
+      "match": true
+    },
+    "06_slope_down_10deg.mp4": {
+      "manifest_sha256": "df121e60da3f88eccd261841fa8db3f272adb6ff4da045a1d4a8b58af9f59045",
+      "computed_sha256": "df121e60da3f88eccd261841fa8db3f272adb6ff4da045a1d4a8b58af9f59045",
+      "match": true
+    }
+  }
+}

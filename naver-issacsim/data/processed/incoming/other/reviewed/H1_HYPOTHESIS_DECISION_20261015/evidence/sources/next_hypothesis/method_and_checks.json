@@ -1,0 +1,11 @@
+{
+  "source_old": "comparison_outputs\\H1_4policy_LINTRACK065_analysis_bundle_20261014.zip!analysis/rough_cohorts.csv",
+  "source_new": "comparison_outputs\\H1_ACTRATE_PARENT_UNCHANGED_RESTORATION_COMPARISON_20261015.zip!csv/rough_matched_episodes.csv",
+  "original_A_progress_value_crosscheck": "384/384 abs difference <1e-6 m",
+  "original_A_tracking_value_crosscheck": "384/384 abs difference <1e-6",
+  "cohort_keys": "384/384 H5 case + evaluator_seed + env_id",
+  "calculation": "existing CPU-derived CSV cross-table join; no episodes.jsonl, MP4, native checkpoint read",
+  "warning": "same evaluation keys != guaranteed identical physics; evaluator seeds != independent training seeds; selected L4650 vs endpoint B4699",
+  "old_L_checkpoint": "ce7ad58657f3dd744e7cf2b7531f3d7d455773dfc6fb135f39d8a55aa49dea70",
+  "new_B_checkpoint": "722b35a127f7ae4209d94a9111ac5ee02071ba7f3b985dc9cdc0760bbe48f646"
+}

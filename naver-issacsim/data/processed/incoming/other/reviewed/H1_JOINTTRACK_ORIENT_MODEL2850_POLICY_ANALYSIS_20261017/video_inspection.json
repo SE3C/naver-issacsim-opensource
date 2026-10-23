@@ -1,0 +1,111 @@
+{
+  "01_stairs.mp4": {
+    "fps": 50.0,
+    "count": 1000,
+    "resolution": [
+      1920.0,
+      1080.0
+    ],
+    "black_count_subsample": 2,
+    "black_by_parity": [
+      2,
+      0
+    ],
+    "black_first_indices": [
+      0,
+      2
+    ],
+    "mean_brightness_subsample": 186.66,
+    "sheet": "video_frames/01_stairs_zoom.jpg"
+  },
+  "02_inverted_stairs.mp4": {
+    "fps": 50.0,
+    "count": 1000,
+    "resolution": [
+      1920.0,
+      1080.0
+    ],
+    "black_count_subsample": 1,
+    "black_by_parity": [
+      1,
+      0
+    ],
+    "black_first_indices": [
+      0
+    ],
+    "mean_brightness_subsample": 185.29,
+    "sheet": "video_frames/02_inverted_stairs_zoom.jpg"
+  },
+  "03_boxes.mp4": {
+    "fps": 50.0,
+    "count": 1000,
+    "resolution": [
+      1920.0,
+      1080.0
+    ],
+    "black_count_subsample": 1,
+    "black_by_parity": [
+      1,
+      0
+    ],
+    "black_first_indices": [
+      0
+    ],
+    "mean_brightness_subsample": 178.63,
+    "sheet": "video_frames/03_boxes_zoom.jpg"
+  },
+  "04_random_rough.mp4": {
+    "fps": 50.0,
+    "count": 1000,
+    "resolution": [
+      1920.0,
+      1080.0
+    ],
+    "black_count_subsample": 1,
+    "black_by_parity": [
+      1,
+      0
+    ],
+    "black_first_indices": [
+      0
+    ],
+    "mean_brightness_subsample": 182.91,
+    "sheet": "video_frames/04_random_rough_zoom.jpg"
+  },
+  "05_slope_up_10deg.mp4": {
+    "fps": 50.0,
+    "count": 1000,
+    "resolution": [
+      1920.0,
+      1080.0
+    ],
+    "black_count_subsample": 1,
+    "black_by_parity": [
+      1,
+      0
+    ],
+    "black_first_indices": [
+      0
+    ],
+    "mean_brightness_subsample": 187.55,
+    "sheet": "video_frames/05_slope_up_10deg_zoom.jpg"
+  },
+  "06_slope_down_10deg.mp4": {
+    "fps": 50.0,
+    "count": 1000,
+    "resolution": [
+      1920.0,
+      1080.0
+    ],
+    "black_count_subsample": 1,
+    "black_by_parity": [
+      1,
+      0
+    ],
+    "black_first_indices": [
+      0
+    ],
+    "mean_brightness_subsample": 187.83,
+    "sheet": "video_frames/06_slope_down_10deg_zoom.jpg"
+  }
+}

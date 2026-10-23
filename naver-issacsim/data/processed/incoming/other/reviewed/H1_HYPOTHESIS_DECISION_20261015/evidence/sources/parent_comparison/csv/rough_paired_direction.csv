@@ -1,0 +1,4 @@
+comparison,n_matched_h5,progress_increase,progress_decrease,mean_progress_delta,min_progress_delta,tracking_lower,tracking_higher,stall_lower,stall_higher
+C-B,384,373,11,0.850111115,-3.15255576,101,283,190,164
+B-A,384,0,384,-2.02898843,-3.68809585,128,256,11,356
+C-A,384,3,381,-1.17887732,-4.86533031,58,326,36,270

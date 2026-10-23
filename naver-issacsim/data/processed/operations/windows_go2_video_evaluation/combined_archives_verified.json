@@ -1,0 +1,30 @@
+[
+  {
+    "source_receipt": "C:\\NCRC\\go2-video-suite-logs\\suite-f108c21571674b0d9c924161348c51cf\\result.json",
+    "source_checkpoint": "C:/Users/[USER]\uc870\ub9bc.000\\Downloads\\model_2950.pt",
+    "source_checkpoint_sha256": "6b72c530e571f7e9fc826c3917bd6199a22c9b1a2a1028ca7bf981231485992a",
+    "combined_archive": {
+      "path": "C:/Users/[USER]\uc870\ub9bc.000\\Downloads\\model_2950_go2_6terrain_evaluation_20261004-030709_471ae945.zip",
+      "sha256": "d1a38155dc0bcf057d07ed5cf2ed41dd1dc9a26da1ea2578a1a690961692d612",
+      "size": 31385343,
+      "entries": 18
+    },
+    "evaluation_source_archive": "C:/Users/[USER]\uc870\ub9bc.000\\Downloads\\model_2950_go2_evaluation_20261004-001124_8f0b655c.zip",
+    "gpu_executed": false,
+    "comparison_report_created": false
+  },
+  {
+    "source_receipt": "C:\\NCRC\\go2-video-suite-logs\\suite-d7ccdc3f00d7484891a02e8b4f116e78\\result.json",
+    "source_checkpoint": "C:/Users/[USER]\uc870\ub9bc.000\\Downloads\\model_7050.pt",
+    "source_checkpoint_sha256": "d40f2666da6063c16c88353163115dcac1a2bd8b98011bf745543737a2188015",
+    "combined_archive": {
+      "path": "C:/Users/[USER]\uc870\ub9bc.000\\Downloads\\model_7050_go2_6terrain_evaluation_20261004-030710_e8bd9e18.zip",
+      "sha256": "34d45711d121a4bb59a92b6424f2652eeb915ed4f6436d49070389eacc33d1e1",
+      "size": 34310566,
+      "entries": 18
+    },
+    "evaluation_source_archive": "C:/Users/[USER]\uc870\ub9bc.000\\Downloads\\model_7050_go2_evaluation_20261004-004816_9981f1f5.zip",
+    "gpu_executed": false,
+    "comparison_report_created": false
+  }
+]

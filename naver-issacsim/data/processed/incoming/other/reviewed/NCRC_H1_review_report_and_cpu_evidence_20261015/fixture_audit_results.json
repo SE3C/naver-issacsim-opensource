@@ -1,0 +1,61 @@
+{
+  "input_filename": "fixture_synthetic_eval.zip",
+  "file_count": 3,
+  "entries": [
+    {
+      "name": "manifest.json",
+      "size_bytes": 60,
+      "json_kind": ".json",
+      "schema": {
+        "type": "object",
+        "keys": [
+          "case",
+          "policy_sha256",
+          "seed"
+        ]
+      }
+    },
+    {
+      "name": "episodes.jsonl",
+      "size_bytes": 133,
+      "json_kind": ".jsonl",
+      "rows": 2,
+      "invalid_rows": 0,
+      "first_row_schema": {
+        "type": "object",
+        "keys": [
+          "case",
+          "episode_id",
+          "seed",
+          "survived"
+        ]
+      },
+      "top_level_field_counts": {
+        "seed": 2,
+        "case": 2,
+        "episode_id": 2,
+        "survived": 2
+      }
+    },
+    {
+      "name": "diagnostics.json",
+      "size_bytes": 44,
+      "json_kind": ".json",
+      "schema": {
+        "type": "object",
+        "keys": [
+          "stat",
+          "warning"
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    "Schema discovery only; identity, first-cohort, metric definitions and cross-policy comparability require manual field mapping."
+  ],
+  "important_files": [
+    "manifest.json",
+    "episodes.jsonl",
+    "diagnostics.json"
+  ]
+}

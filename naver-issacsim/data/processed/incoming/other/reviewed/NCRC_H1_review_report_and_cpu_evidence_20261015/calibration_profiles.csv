@@ -1,0 +1,5 @@
+﻿profile,example_raw_70,example_base_70,computed_example_delta_70,declared_globalDelta70,declared_minus_computed_delta_70,blank_input_base_70,calculated_weighted_delta_if_unclipped
+term50_official_anchor_5637,50.1193,56.37,6.2507,6.2507,-0.0,6.2507,6.2507
+ab_mean_20260921,50.1193,56.5159,6.3966,6.9,0.5034,6.3966,6.3966
+b_exact_20260921,50.1193,56.5159,6.3966,6.38,-0.0166,6.3966,6.3966
+ref_mean_20260921,50.1193,49.9429,-0.1764,-0.325,-0.1486,0,-0.1764

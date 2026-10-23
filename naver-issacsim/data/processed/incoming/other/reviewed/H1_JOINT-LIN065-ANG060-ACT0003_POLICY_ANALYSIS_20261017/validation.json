@@ -1,0 +1,38 @@
+{
+  "archive_entries": 18,
+  "zip_crc_bad_member": null,
+  "video_sha256_checks": {
+    "01_stairs.mp4": true,
+    "02_inverted_stairs.mp4": true,
+    "03_boxes.mp4": true,
+    "04_random_rough.mp4": true,
+    "05_slope_up_10deg.mp4": true,
+    "06_slope_down_10deg.mp4": true
+  },
+  "all_video_sha256_pass": true,
+  "checkpoint_sha": "2df0584057deb4dc15ab3c4470d52da29e5468bbb819fe3e4c66a928462bc478",
+  "protocol_id": "d406a296d2c0e5a7deee4138de7df87532d2815ae9b65af999d7a8f0b7062d34",
+  "complete": true,
+  "smoke": false,
+  "rows": 3072,
+  "distinct_episode_ids": 3072,
+  "distinct_cohorts": 3072,
+  "end_reasons": {
+    "timeout": 3072
+  },
+  "survived_total": 3072,
+  "base_contact_failure_true": 0,
+  "diagnostics_absolute_difference_by_scenario": {
+    "H1": 2.7755575615628914e-17,
+    "H2": 6.938893903907228e-17,
+    "H3": 1.3877787807814457e-17,
+    "H4": 2.7755575615628914e-17,
+    "H5": 5.551115123125783e-17,
+    "H6": 5.551115123125783e-17,
+    "H7": 5.551115123125783e-17
+  },
+  "all_diagnostics_match_tol_1e-12": true,
+  "mixed_tracking_episode_weighted_mean": 0.12782163658557763,
+  "scenario_equal_weight_mean": 0.12555383536019946,
+  "case_equal_weight_mean": 0.12782163658557763
+}

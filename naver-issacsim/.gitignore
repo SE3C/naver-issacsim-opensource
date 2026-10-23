@@ -1,0 +1,26 @@
+# Local secrets / personal environment (tracked historical files are unaffected)
+.env
+.env.*
+!.env.example
+!.env.sample
+**/practice_key.bin
+**/submit_config.txt
+*.pem
+*.p12
+*.pfx
+
+# Build/test scratch, never delete preserved evidence with this ignore policy
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+coverage/
+.DS_Store
+Thumbs.db
+
+# Preserve dated source material and raw archives already in Git; this only ignores new local scratch.
+*.swp
+*.swo
+*.tmp
+*.temp

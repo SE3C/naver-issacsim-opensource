@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "release_count": 10,
+  "asset_count": 30,
+  "source_unchanged": true,
+  "remote_size_digest_match": true,
+  "original_body_preserved": true,
+  "source_deleted": false,
+  "date": "2026-10-15",
+  "tag_target_commit": "0e14bbd",
+  "independent_local_checks": "10 ZIP CRC PASS, 18 files each, COMPLETE/non-smoke manifests, SHA sidecars match source digest"
+}

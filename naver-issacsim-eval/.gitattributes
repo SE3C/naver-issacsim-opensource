@@ -1,0 +1,17 @@
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Installed Windows bundle identity includes exact bytes, BOM and line endings.
+isaac_runner.py -text
+eval_core.py -text
+compare_cli.py -text
+go2_6terrain_video.bat -text
+go2_6terrain_video.ps1 -text
+compare_policies.bat -text
+compare_policies.ps1 -text
+h1_6terrain_video.bat -text
+h1_6terrain_video.ps1 -text
+windows_bundle_manifest.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.py whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.ps1 whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.bat whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

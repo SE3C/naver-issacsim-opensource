@@ -1,0 +1,64 @@
+KNOWN GOOD BREV H1 ENVIRONMENT
+Captured: Mon Sep  7 12:32:42 PM KST 2026
+
+=== OS ===
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.5 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+
+=== GPU ===
+Mon Sep  7 03:32:42 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.126.09             Driver Version: 580.126.09     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA L40S                    On  |   00000000:01:00.0 Off |                    0 |
+| N/A   33C    P0             82W /  350W |    3642MiB /  46068MiB |      1%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A           31384    C+G   ...ac-sim/kit/python/bin/python3       3595MiB |
++-----------------------------------------------------------------------------------------+
+
+=== Isaac Sim ===
+5.1.0-rc.19+release.26219.9c81211b.gl
+=== Isaac Lab ===
+3e73d6dd79080fd7632488c061052a6edd52e230
+training-checkpoints-develop-4-g3e73d6dd7
+
+=== Isaac Python / Torch / RSL-RL ===
+Python: 3.11.13 (tags/v3.11.13-dirty:498b971, Jun  9 2025, 16:37:36) [GCC 7.3.1 20180303 (Red Hat 7.3.1-5)]
+Torch: 2.7.0+cu128
+CUDA available: True
+GPU: NVIDIA L40S
+IsaacLab: /home/shadeform/IsaacLab/source/isaaclab/isaaclab/__init__.py
+RSL-RL: /isaac-sim/kit/python/lib/python3.11/site-packages/rsl_rl/__init__.py
+
+=== libGLU ===
+	libGLU.so.1 (libc6,x86-64) => /lib/x86_64-linux-gnu/libGLU.so.1
+
+=== Relevant Debian packages ===
+build-essential	12.9ubuntu3
+cmake	3.22.1-1ubuntu1.22.04.2
+git	1:2.34.1-1ubuntu1.17
+git-lfs	3.0.2-1ubuntu0.3
+libglu1-mesa:amd64	9.0.2-1
+tmux	3.2a-4ubuntu0.2
+unzip	6.0-26ubuntu3.2

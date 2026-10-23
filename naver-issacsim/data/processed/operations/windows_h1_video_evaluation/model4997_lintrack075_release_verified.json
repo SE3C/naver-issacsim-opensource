@@ -1,0 +1,27 @@
+{
+  "verified_on": "2026-10-10 KST",
+  "release_id": 408028076,
+  "release_tag": "private-h1-20261009-lintrack-075-corrected5k-model4997-video-eval",
+  "release_url": "https://github.com/SE3C/naver-issacsim-nvidia/releases/tag/private-h1-20261009-lintrack-075-corrected5k-model4997-video-eval",
+  "remote_verified": true,
+  "annotated_tag_target": "ef10b7a4c9a83481346d446e8a75aed655f72214",
+  "canonical_originals_commit": "6dc864e",
+  "assets": [
+    {
+      "name": "h1_LINTRACK-075_corrected5k_model_4997_h1_6terrain_evaluation_20261009-235216_59e47db4.zip",
+      "bytes": 34470580,
+      "sha256": "1c740a56fe30596202dbf98870f6f3d730d548d781131e86473f9d053e6a5488"
+    },
+    {
+      "name": "h1_LINTRACK-075_corrected5k_model_4997_h1_6terrain_evaluation_20261009-235216_59e47db4.zip.sha256",
+      "bytes": 157,
+      "sha256": "18f5220868896eb85b3a9417342d43b5c4c9a6f4afbb890db7ea39ec968f5951"
+    },
+    {
+      "name": "publication_manifest.json",
+      "bytes": 3673,
+      "sha256": "d03915720b60f10e4702864b5e1ed7f95ffcbb00391fcc5cbdad1dc90826e08a"
+    }
+  ],
+  "all_remote_sizes_and_digests_match": true
+}

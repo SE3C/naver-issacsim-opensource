@@ -1,0 +1,10 @@
+﻿name,minimum,maximum,scale,step,test_target_minus_0_0001_covered
+track_lin_vel_xy_exp,0.5,2.0,linear uniform floats (suggest_float default),None (continuous),n/a
+track_ang_vel_z_exp,0.5,2.0,linear uniform floats (suggest_float default),None (continuous),n/a
+feet_air_time,0.12,0.5,linear uniform floats (suggest_float default),None (continuous),n/a
+termination_penalty,-300.0,-40.0,linear uniform floats (suggest_float default),None (continuous),n/a
+flat_orientation_l2,-2.5,-0.3,linear uniform floats (suggest_float default),None (continuous),n/a
+ang_vel_xy_l2,-0.25,-0.02,linear uniform floats (suggest_float default),None (continuous),n/a
+joint_deviation_hip,-0.4,-0.1,linear uniform floats (suggest_float default),None (continuous),n/a
+joint_deviation_torso,-0.25,-0.03,linear uniform floats (suggest_float default),None (continuous),n/a
+action_rate_l2,-0.008,-0.0002,linear uniform floats (suggest_float default),None (continuous),False

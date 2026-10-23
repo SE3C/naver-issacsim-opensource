@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-15",
+  "environment": "CPU-only sandbox (NOT user Windows PC)",
+  "python": "3.13.5",
+  "python_executable": "/opt/pyvenv/bin/python",
+  "optuna": "4.8.0",
+  "node": "22.16.0 (observed)",
+  "commands": [
+    {
+      "command": "python -m py_compile app.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m unittest discover -s tests -p 'test_*.py' -v",
+      "exit_code": 0
+    },
+    {
+      "command": "node tests/test_ui_static.js",
+      "exit_code": 0
+    },
+    {
+      "command": "node --check /tmp/reference_calibrator_DIAGNOSTIC_ONLY.html.js",
+      "exit_code": 0
+    }
+  ],
+  "expected_test_count": 12,
+  "fixtures": "synthetic temporary SQLite, synthetic evaluator/training IDs only",
+  "gpu_evaluation_training_export": "NOT RUN",
+  "note": "No Windows PC browser or real evaluator ZIP adapter tested."
+}

@@ -1,0 +1,17 @@
+﻿{
+    "evaluator_commit":  "45368dacbbbd1a365d32b2a05fd58c093e5441a3",
+    "installed_launcher_sha256":  "76a68fec34d4be74c4438e8bd9f7b87f41b0ae83d76354239c8081a844ef9402",
+    "cpu_tests":  52,
+    "cpu_tests_passed":  52,
+    "installer_preview_passed":  true,
+    "installer_fixture_backup_and_identical_reinstall_passed":  true,
+    "actual_install_only_changed_launcher":  true,
+    "previous_launcher_backup":  "C:\\NCRC\\go2-video-suite-backups\\install-43ef92217e1049ba864666e338f1659d\\go2_6terrain_video.ps1",
+    "combined_zip_entry_count":  18,
+    "gpu_executed":  false,
+    "actual_policy_comparison_executed":  false,
+    "source_evaluation_archives_preserved":  true,
+    "observed_at":  "2026-10-04T03:15:33.8159387+09:00",
+    "committed_export_bundle_and_launcher_bytes_verified":  true,
+    "runtime_evaluator_checkout_synced_to":  "45368dacbbbd1a365d32b2a05fd58c093e5441a3"
+}

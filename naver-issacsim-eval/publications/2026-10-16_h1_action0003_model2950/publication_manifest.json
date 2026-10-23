@@ -1,0 +1,51 @@
+{
+  "schema": "personal-video-evaluation-publication-v1",
+  "robot": "h1",
+  "experiment": "exp-h1-action-rate-relaxation",
+  "record_type": "post_training_video_and_evaluation",
+  "preset_reference": "h1-submit-2",
+  "preset_relative_overrides": {
+    "action_rate_l2": -0.0003
+  },
+  "training_environment": "OFFICIAL",
+  "evaluation_environment": "PERSONAL_WINDOWS",
+  "training_run_id": "20261016-033023-h1-actrate-0003-fresh3k",
+  "source_checkpoint_filename": "model_2950.pt",
+  "source_checkpoint_sha256": "1cc2c03197097c21c642e8373c760b25664b9c859ed75b5dc07582a770473c4b",
+  "training_link_basis": "SHA matches preserved OFFICIAL train checkpoint_index organizer keeper model_2950; raw evaluation source_run_id/preset remain null.",
+  "training_release": "https://github.com/SE3C/naver-issacsim-originals/releases/tag/official-h1-20261016-exp-h1-action-rate-relaxation-action0003-fresh3k",
+  "training_console_endpoint": "2999/3000",
+  "protocol_id": "d406a296d2c0e5a7deee4138de7df87532d2815ae9b65af999d7a8f0b7062d34",
+  "isaaclab_commit": "3e73d6dd79080fd7632488c061052a6edd52e230",
+  "suite": "scenario7",
+  "num_envs": 128,
+  "seeds": [
+    4201,
+    4202,
+    4203
+  ],
+  "case_count": 8,
+  "episode_rows": 3072,
+  "camera_enabled": false,
+  "complete": true,
+  "smoke": false,
+  "video_count": 6,
+  "video_scenario": "maneuver_push",
+  "video_duration_s_each": 20,
+  "slope_degrees": 10,
+  "archive": {
+    "filename": "20261016-033023-h1-actrate-0003-fresh3k_model_2950_h1_6terrain_evaluation_20261016-140528_c1ddab11.zip",
+    "bytes": 34884006,
+    "sha256": "55adccbbed0d4022f27fd6908d4dfe78b34b1f04918b04782870fae17fa0346e",
+    "file_count": 18,
+    "crc_verified": true
+  },
+  "canonical_raw_repository": "SE3C/naver-issacsim-originals",
+  "canonical_raw_path": "data/raw/private_server_runs/h1/2026-10-16_windows_action0003_model2950_video_evaluation",
+  "release_repository": "SE3C/naver-issacsim-eval",
+  "release_tag": "private-h1-20261016-exp-h1-action-rate-relaxation-action0003-model2950-video-eval",
+  "release_tag_target_role": "publication record, not actual source",
+  "official_score": false,
+  "comparison_report_included": false,
+  "original_zip_modified": false
+}

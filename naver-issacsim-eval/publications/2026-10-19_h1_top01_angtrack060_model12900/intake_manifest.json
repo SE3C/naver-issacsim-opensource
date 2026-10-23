@@ -1,0 +1,77 @@
+{
+  "record_type": "PERSONAL post-training evaluation archive",
+  "robot": "h1",
+  "experiment_detail": {
+    "run_name_label_from_preserved_filename": "ANGTRACK-060",
+    "actual_reward_setting": "ang=0.70"
+  },
+  "evaluation": {
+    "suite": "scenario7",
+    "camera_enabled": false,
+    "num_envs": 128,
+    "seeds": [4201],
+    "duration_s_per_case": 20,
+    "manifest_complete": true,
+    "execution_status": "COMPLETE",
+    "smoke": false,
+    "episode_rows": 1024,
+    "scenario_rows": {
+      "H1": 128,
+      "H2": 128,
+      "H3": 128,
+      "H4": 128,
+      "H5": 128,
+      "H6": 256,
+      "H7": 128
+    },
+    "finished_at_utc": "2026-10-18T15:22:00.095865+00:00",
+    "evaluation_environment": "PERSONAL",
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "raw_source_run_id": null,
+    "protocol_id": "66be571913f4709adb574d6ce633990f772e0e858d31e6692bfd3d75efe58417",
+    "upstream_implementation_commit": "9c774a322f2f7d4944444de57f01308987bcb3da"
+  },
+  "cohort_validation": {
+    "grouping_fields": ["seed", "scenario", "case"],
+    "groups": 8,
+    "expected_env_ids": "0-127 exactly once per group",
+    "duplicate_cohorts": 0,
+    "missing_cohorts": 0
+  },
+  "log_scan": {
+    "file": "evaluation.log",
+    "fatal_pattern_matches": false,
+    "secret_pattern_matches": false
+  },
+  "checkpoint": {
+    "label_from_input_name": "h1-top01-angtrack060-plus3k_model_12900.pt",
+    "source_path_recorded": "C:\\NCRC\\h1-checkpoint-staging\\h1-top01-angtrack060-plus3k_model_12900.pt",
+    "sha256_recorded_by_evaluator": "3f78944c81ff09cba97586deaaf2c6874b4e39bff1fde945628af6d314451b7a",
+    "raw_source_run_id": null,
+    "training_provenance_verified": false
+  },
+  "source_archive": {
+    "filename": "h1-top01-angtrack060-plus3k_model_12900_LOCAL_evaluation_20261019.zip",
+    "source_path": "C:/Users/[USER]\\Downloads\\NCRC_프로젝트_보관_20261019\\평가_결과\\h1-top01-angtrack060-plus3k_model_12900_LOCAL_evaluation_20261019.zip",
+    "size_bytes": 187666,
+    "sha256": "abf37b45d32c28c26de232214313641d7e3fcd289e422df16ba8cae72b030eb2",
+    "preserved_path": "publications/2026-10-19_h1_top01_angtrack060_model12900/h1-top01-angtrack060-plus3k_model_12900_LOCAL_evaluation_20261019.zip",
+    "zip_members": [
+      "diagnostics.json",
+      "episodes.jsonl",
+      "evaluation_manifest.json",
+      "README.txt",
+      "resolved_configs.json",
+      "video_evaluation_link.json"
+    ]
+  },
+  "external_training_link": {
+    "run_id": "20261018-140635-h1-top01-angtrack060-plus3k",
+    "training_environment": "OFFICIAL",
+    "checkpoint": "model_12900.pt",
+    "checkpoint_index_sha_match": true,
+    "evidence": "https://github.com/SE3C/naver-issacsim-originals/releases/tag/official-h1-20261018-exp-h1-joint-tracking-balance-ang070-plus3k",
+    "note": "Separately verified against the preserved official checkpoint index; raw evaluation source_run_id remains null. Actual angular reward is 0.70 despite the historical angtrack060 filename."
+  },
+  "scope_note": "Metadata and completeness inventory only; no policy-quality analysis or official-score claim."
+}

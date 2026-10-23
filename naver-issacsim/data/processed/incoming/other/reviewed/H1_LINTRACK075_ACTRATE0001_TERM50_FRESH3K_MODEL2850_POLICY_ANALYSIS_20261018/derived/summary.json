@@ -1,0 +1,139 @@
+{
+  "rows": 3072,
+  "unique_episode_ids": 3072,
+  "cohorts": 3072,
+  "unique_seeds": [
+    4201,
+    4202,
+    4203
+  ],
+  "counts_by_case": {
+    "H1/flat": 384,
+    "H2/flat": 384,
+    "H3/flat": 384,
+    "H4/flat": 384,
+    "H5/rough": 384,
+    "H6/slope_down": 384,
+    "H6/slope_up": 384,
+    "H7/push": 384
+  },
+  "end_reason": {
+    "timeout": 3072
+  },
+  "policy_shas": [
+    "8238421049335a19c288986ed58aa84f01468da315fbf6c355ee45088934f959"
+  ],
+  "protocols": [
+    "d406a296d2c0e5a7deee4138de7df87532d2815ae9b65af999d7a8f0b7062d34"
+  ],
+  "overall_episode_weighted": {
+    "mean_tracking_error": 0.25128850291036114,
+    "vx_error": 0.03372462438362759,
+    "vy_error": 0.06782056482690266,
+    "yaw_error": 0.22278745641342682,
+    "xy_rmse": 0.10737329144331842,
+    "yaw_rmse": 0.2748718625214079,
+    "forward_progress_m": 10.744215288086535,
+    "world_dx_m": -0.1781416599107691,
+    "world_dy_m": 0.0035399089132018466,
+    "world_xy_distance_m": 9.334724976114343,
+    "lateral_drift_m": 1.3564112965380533,
+    "stall_fraction": 0.003142578125,
+    "roll_pitch_rms": 0.034745747837178716,
+    "action_delta_rms": 0.5755827091806858
+  },
+  "case_equal_tracking": 0.25128850291036114,
+  "case_equal_survival": 1.0,
+  "cohort_ever_terminated_count": 0,
+  "tracked_diagnostics": {},
+  "case_rows": [
+    {
+      "scenario": "H1",
+      "case": "flat",
+      "episodes": 384,
+      "mean_tracking_error_mean": 0.19033867999000229,
+      "forward_progress_m_mean": 0.2980958405419493,
+      "forward_progress_m_p05": 0.29310632131691144,
+      "forward_progress_m_min": 0.29063786457758384,
+      "stall_fraction_mean": 0.0,
+      "stall_fraction_max": 0.0
+    },
+    {
+      "scenario": "H2",
+      "case": "flat",
+      "episodes": 384,
+      "mean_tracking_error_mean": 0.23446041132744436,
+      "forward_progress_m_mean": 15.106749722564226,
+      "forward_progress_m_p05": 15.09602461777813,
+      "forward_progress_m_min": 15.083315231651067,
+      "stall_fraction_mean": 0.0029999999999999996,
+      "stall_fraction_max": 0.003
+    },
+    {
+      "scenario": "H3",
+      "case": "flat",
+      "episodes": 384,
+      "mean_tracking_error_mean": 0.20161598484868284,
+      "forward_progress_m_mean": 0.27714837866675224,
+      "forward_progress_m_p05": 0.26558608682407736,
+      "forward_progress_m_min": 0.26158119272440705,
+      "stall_fraction_mean": 0.00801041666666667,
+      "stall_fraction_max": 0.009
+    },
+    {
+      "scenario": "H4",
+      "case": "flat",
+      "episodes": 384,
+      "mean_tracking_error_mean": 0.2932865910877857,
+      "forward_progress_m_mean": 10.198903304528116,
+      "forward_progress_m_p05": 10.196496108289798,
+      "forward_progress_m_min": 10.195075888112202,
+      "stall_fraction_mean": 0.0029999999999999996,
+      "stall_fraction_max": 0.003
+    },
+    {
+      "scenario": "H5",
+      "case": "rough",
+      "episodes": 384,
+      "mean_tracking_error_mean": 0.3018514352825143,
+      "forward_progress_m_mean": 9.866571058094863,
+      "forward_progress_m_p05": 9.639840003246432,
+      "forward_progress_m_min": 9.514183579534297,
+      "stall_fraction_mean": 0.004130208333333334,
+      "stall_fraction_max": 0.009
+    },
+    {
+      "scenario": "H6",
+      "case": "slope_down",
+      "episodes": 384,
+      "mean_tracking_error_mean": 0.2901177996687802,
+      "forward_progress_m_mean": 19.967129075927364,
+      "forward_progress_m_p05": 19.86241927747615,
+      "forward_progress_m_min": 19.80473493747414,
+      "stall_fraction_mean": 0.0020000000000000005,
+      "stall_fraction_max": 0.002
+    },
+    {
+      "scenario": "H6",
+      "case": "slope_up",
+      "episodes": 384,
+      "mean_tracking_error_mean": 0.28375226639822765,
+      "forward_progress_m_mean": 20.113378203632212,
+      "forward_progress_m_p05": 19.98688990700994,
+      "forward_progress_m_min": 19.94960857994855,
+      "stall_fraction_mean": 0.0020000000000000005,
+      "stall_fraction_max": 0.002
+    },
+    {
+      "scenario": "H7",
+      "case": "push",
+      "episodes": 384,
+      "mean_tracking_error_mean": 0.21488485467945198,
+      "forward_progress_m_mean": 10.125746720736789,
+      "forward_progress_m_p05": 10.071416759170589,
+      "forward_progress_m_min": 10.057915873415778,
+      "stall_fraction_mean": 0.0029999999999999996,
+      "stall_fraction_max": 0.003
+    }
+  ]
+}

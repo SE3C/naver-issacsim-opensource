@@ -1384,5 +1384,101 @@
         "status": "byte_identical"
       }
     ]
+  },
+  {
+    "source_repository": "naver-issacsim",
+    "source_tag": "submission-h1-prelim-r4-20260928",
+    "source_title": "h1-submit-4 / AIRTIME-025 · OFFICIAL · H1 preliminary Round 4 submission — 2026-09-28",
+    "source_body_sha256": "8016102ade2cdbc3be1037aff94437550cb5cd046dd776a20b0878d2a4162445",
+    "public_tag": "analysis--submission-h1-prelim-r4-20260928",
+    "public_title": "h1-submit-4 / AIRTIME-025 · OFFICIAL · H1 preliminary Round 4 submission — 2026-09-28",
+    "asset": "technical_report.txt",
+    "source_sha256": "c61c3475d40c35491fc048ded3afbd06a35ae09f1f4f66f278c96d156b4cf63e",
+    "public_sha256": "c61c3475d40c35491fc048ded3afbd06a35ae09f1f4f66f278c96d156b4cf63e",
+    "bytes": 1060,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "scope": "User-authored technical report only; other original assets not included.",
+    "assets": [
+      {
+        "name": "technical_report.txt",
+        "source_sha256": "c61c3475d40c35491fc048ded3afbd06a35ae09f1f4f66f278c96d156b4cf63e",
+        "public_sha256": "c61c3475d40c35491fc048ded3afbd06a35ae09f1f4f66f278c96d156b4cf63e",
+        "bytes": 1060,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "naver-issacsim",
+    "source_tag": "submission-go2-prelim-r5-20261006",
+    "source_title": "g2-submit-5 / LINTRACK-125 · OFFICIAL · Go2 preliminary Round 5 submission — 2026-10-06",
+    "source_body_sha256": "2f32ffdea8c38313d472f39cb42ac37bd844485eddca2b1d1e2b8a2388324a27",
+    "public_tag": "analysis--submission-go2-prelim-r5-20261006",
+    "public_title": "g2-submit-5 / LINTRACK-125 · OFFICIAL · Go2 preliminary Round 5 submission — 2026-10-06",
+    "asset": "technical_report.txt",
+    "source_sha256": "c165d76912a44a4e48ad1e1afccc75caa9a5654a4e996d420d317aa00c9cd0d2",
+    "public_sha256": "c165d76912a44a4e48ad1e1afccc75caa9a5654a4e996d420d317aa00c9cd0d2",
+    "bytes": 1014,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "scope": "User-authored technical report only; other original assets not included.",
+    "assets": [
+      {
+        "name": "technical_report.txt",
+        "source_sha256": "c165d76912a44a4e48ad1e1afccc75caa9a5654a4e996d420d317aa00c9cd0d2",
+        "public_sha256": "c165d76912a44a4e48ad1e1afccc75caa9a5654a4e996d420d317aa00c9cd0d2",
+        "bytes": 1014,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "naver-issacsim",
+    "source_tag": "submission-h1-prelim-r6-20261011",
+    "source_title": "h1-submit-6 / ACTRATE-0001 · OFFICIAL · H1 preliminary Round 6 submission — 2026-10-11",
+    "source_body_sha256": "c32fbdc1cf434da6f7243902e93412c2d8de65e5bc44a9bd86ec1d91c0874cb4",
+    "public_tag": "analysis--submission-h1-prelim-r6-20261011",
+    "public_title": "h1-submit-6 / ACTRATE-0001 · OFFICIAL · H1 preliminary Round 6 submission — 2026-10-11",
+    "asset": "technical_report.txt",
+    "source_sha256": "48cd70147c7bb50e46177124f4be4902736441fb7c1119109f12a5d72cc37a24",
+    "public_sha256": "48cd70147c7bb50e46177124f4be4902736441fb7c1119109f12a5d72cc37a24",
+    "bytes": 1168,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "scope": "User-authored technical report only; other original assets not included.",
+    "assets": [
+      {
+        "name": "technical_report.txt",
+        "source_sha256": "48cd70147c7bb50e46177124f4be4902736441fb7c1119109f12a5d72cc37a24",
+        "public_sha256": "48cd70147c7bb50e46177124f4be4902736441fb7c1119109f12a5d72cc37a24",
+        "bytes": 1168,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "naver-issacsim",
+    "source_tag": "official-h1-20261019-exp-h1-joint-tracking-balance-technical-report",
+    "source_title": "[분석] H1 TOP01 · OFFICIAL source · Technical improvement report — 2026-10-19",
+    "source_body_sha256": "bd81b94a0cd8088186638042ae126d49122a23fde65ec4e9924646a39cc7e0e3",
+    "public_tag": "analysis--official-h1-20261019-exp-h1-joint-tracking-balance-technical-report",
+    "public_title": "[분석] H1 TOP01 · OFFICIAL source · Technical improvement report — 2026-10-19",
+    "asset": "technical_report.txt",
+    "source_sha256": "426a5c0a6ce4755413d53c22080506b9bd7e5e7849d7bf1aec353c6059eb6696",
+    "public_sha256": "426a5c0a6ce4755413d53c22080506b9bd7e5e7849d7bf1aec353c6059eb6696",
+    "bytes": 1084,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "scope": "User-authored technical report only; other original assets not included.",
+    "assets": [
+      {
+        "name": "technical_report.txt",
+        "source_sha256": "426a5c0a6ce4755413d53c22080506b9bd7e5e7849d7bf1aec353c6059eb6696",
+        "public_sha256": "426a5c0a6ce4755413d53c22080506b9bd7e5e7849d7bf1aec353c6059eb6696",
+        "bytes": 1084,
+        "status": "byte_identical"
+      }
+    ]
   }
 ]

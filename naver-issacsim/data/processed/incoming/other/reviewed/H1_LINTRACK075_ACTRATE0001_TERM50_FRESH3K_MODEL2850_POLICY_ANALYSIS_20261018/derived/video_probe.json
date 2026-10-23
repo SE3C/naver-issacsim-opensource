@@ -1,0 +1,180 @@
+{
+  "01_stairs.mp4": {
+    "frames_header": 1000,
+    "decoded": 1000,
+    "fps": 50.0,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "black_frame_count": 1,
+    "black_sample_first": [
+      0
+    ],
+    "black_sample_last": [
+      0
+    ],
+    "black_parity": {
+      "even": 1,
+      "odd": 0
+    },
+    "min_brightness": 0.0,
+    "median_brightness": 187.05360628858023,
+    "mean_brightness": 186.74496476755402
+  },
+  "02_inverted_stairs.mp4": {
+    "frames_header": 1000,
+    "decoded": 1000,
+    "fps": 50.0,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "black_frame_count": 1,
+    "black_sample_first": [
+      0
+    ],
+    "black_sample_last": [
+      0
+    ],
+    "black_parity": {
+      "even": 1,
+      "odd": 0
+    },
+    "min_brightness": 0.0,
+    "median_brightness": 186.50475147890947,
+    "mean_brightness": 185.4083969420332
+  },
+  "03_boxes.mp4": {
+    "frames_header": 1000,
+    "decoded": 1000,
+    "fps": 50.0,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "black_frame_count": 500,
+    "black_sample_first": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      34,
+      36,
+      38
+    ],
+    "black_sample_last": [
+      960,
+      962,
+      964,
+      966,
+      968,
+      970,
+      972,
+      974,
+      976,
+      978,
+      980,
+      982,
+      984,
+      986,
+      988,
+      990,
+      992,
+      994,
+      996,
+      998
+    ],
+    "black_parity": {
+      "even": 500,
+      "odd": 0
+    },
+    "min_brightness": 0.0,
+    "median_brightness": 88.11741367669752,
+    "mean_brightness": 92.18661286683384
+  },
+  "04_random_rough.mp4": {
+    "frames_header": 1000,
+    "decoded": 1000,
+    "fps": 50.0,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "black_frame_count": 2,
+    "black_sample_first": [
+      0,
+      2
+    ],
+    "black_sample_last": [
+      0,
+      2
+    ],
+    "black_parity": {
+      "even": 2,
+      "odd": 0
+    },
+    "min_brightness": 0.0,
+    "median_brightness": 188.0268320794753,
+    "mean_brightness": 185.00666465663582
+  },
+  "05_slope_up_10deg.mp4": {
+    "frames_header": 1000,
+    "decoded": 1000,
+    "fps": 50.0,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "black_frame_count": 1,
+    "black_sample_first": [
+      0
+    ],
+    "black_sample_last": [
+      0
+    ],
+    "black_parity": {
+      "even": 1,
+      "odd": 0
+    },
+    "min_brightness": 0.0,
+    "median_brightness": 187.9673410172325,
+    "mean_brightness": 187.33417456002442
+  },
+  "06_slope_down_10deg.mp4": {
+    "frames_header": 1000,
+    "decoded": 1000,
+    "fps": 50.0,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "black_frame_count": 1,
+    "black_sample_first": [
+      0
+    ],
+    "black_sample_last": [
+      0
+    ],
+    "black_parity": {
+      "even": 1,
+      "odd": 0
+    },
+    "min_brightness": 0.0,
+    "median_brightness": 188.89816623263889,
+    "mean_brightness": 188.54770580488042
+  }
+}

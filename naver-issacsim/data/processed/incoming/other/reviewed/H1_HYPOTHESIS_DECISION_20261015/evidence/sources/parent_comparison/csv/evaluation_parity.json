@@ -1,0 +1,20 @@
+{
+  "A_B_protocol_identical": true,
+  "A_B_source_fingerprints_identical": true,
+  "A_B_suite_identical": true,
+  "A_B_task_config_identical": true,
+  "A_B_resolved_sha_identical": true,
+  "A_B_keyset_identical": true,
+  "B_C_protocol_identical": true,
+  "B_C_source_fingerprints_identical": true,
+  "B_C_suite_identical": true,
+  "B_C_task_config_identical": true,
+  "B_C_resolved_sha_identical": true,
+  "B_C_keyset_identical": true,
+  "A_C_protocol_identical": true,
+  "A_C_source_fingerprints_identical": true,
+  "A_C_suite_identical": true,
+  "A_C_task_config_identical": true,
+  "A_C_resolved_sha_identical": true,
+  "A_C_keyset_identical": true
+}

@@ -1,0 +1,54 @@
+{
+  "checkpoint": {
+    "label": "2950",
+    "path": "C:/Users/[USER]\\Downloads\\model_2950.pt",
+    "sha256": "6b72c530e571f7e9fc826c3917bd6199a22c9b1a2a1028ca7bf981231485992a"
+  },
+  "evaluation": {
+    "cohorts": 3456,
+    "complete": true,
+    "condition_seed_groups": 27,
+    "duration_s": 20.0,
+    "elapsed_wall_s": 1721.047000000006,
+    "episodes": 3488,
+    "file_sha256": {
+      "README.txt": "0d456cfe83e2ab192833ce503747726912d5f0ae9d9459bb12c397949cc252cf",
+      "diagnostics.json": "4ece6bcec5ac99f795633c87aa510c01fbd76f3f7448bfcb96221f474cd90a25",
+      "episodes.jsonl": "360685e9f823e939e57fba1f9cbcf720061d76e8a814e195ca75a6c9e805bb05",
+      "evaluation.log": "5f1df82dd91784ba5acac8b9f9338c34f539266041424e64fb4849805de9191b",
+      "evaluation_manifest.json": "debe3fc5f8e9cc28bad32e628f11143b96f1e3cbcbd707e334a9c56334b1b782",
+      "resolved_configs.json": "e88840f48324eecc5ff3c70612457c7bfd223c8d77126a908effd13195553ef9",
+      "video_evaluation_link.json": "649eea0b0a52ef30fc4759e79deb0ede5a7919c72e08ae36b3df39d43feffa28"
+    },
+    "native_exit_code": 0,
+    "num_envs": 128,
+    "path": "C:/Users/[USER]\\Downloads\\model_2950_go2_evaluation_20261004-001124_8f0b655c",
+    "protocol_id": "806d7e8280d8fac8bbbb6015013b1752335fe0446c8e39bf8f9dd4fbf7c145ad",
+    "seeds": [
+      4201,
+      4202,
+      4203
+    ],
+    "smoke": false
+  },
+  "success": true,
+  "verification": {
+    "camera_enabled": false,
+    "collector_sha256": "c5e157e488f99c84bfae7d719a8d59a7235e509f1f7e8ef6f1e052d2bdf5fe32",
+    "comparison_path_absent": true,
+    "dataset_valid": true,
+    "render_mode": null,
+    "scorer_sha256": "4c201c58bfbc267f34e0615407021dabb8e799ea476e01f00602fce9af58b14a",
+    "source_checkpoint_unchanged": true,
+    "video_success": true,
+    "video_zip_valid": true
+  },
+  "verified_at": "2026-10-03T15:51:33.525980+00:00",
+  "video": {
+    "scenario_sha256": "b719e60d4226b95ba8c533c18c10fdeda44359bd8f2ed6135c4c3d7c296d7dea",
+    "verified": true,
+    "zip_path": "C:/Users/[USER]\\Downloads\\model_2950_go2_6terrain_20261003-154646.zip",
+    "zip_sha256": "65e2c5db8571718df25f42f770cd035044a48374604a605fb3b644f8d13a3b82",
+    "zip_size": 30774660
+  }
+}

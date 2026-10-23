@@ -1,0 +1,76 @@
+{
+    "schema":  "windows-go2-installed-tools-documentation-v1",
+    "observed_at_utc":  "2026-10-03T17:42:29.0713154Z",
+    "scope":  "PERSONAL Windows local Go2; documentation snapshot",
+    "source_repo_head_before_documentation":  "dd63f6bd38be8637e79685acff0056113904d985",
+    "files":  [
+                  {
+                      "name":  "compare_policies.bat",
+                      "installed_path":  "C:\\NCRC\\compare_policies.bat",
+                      "bytes":  183,
+                      "sha256":  "3715f0d27d99a373f50148fbf48108be63e02db7442e9455bc0de499fdc6ff12"
+                  },
+                  {
+                      "name":  "compare_policies.ps1",
+                      "installed_path":  "C:\\NCRC\\compare_policies.ps1",
+                      "bytes":  4732,
+                      "sha256":  "0eec75755f9d383da1bf8627ea26780c05b415d5a8370dccbb69db7d7e67d508"
+                  },
+                  {
+                      "name":  "go2_6terrain_video.bat",
+                      "installed_path":  "C:\\NCRC\\go2_6terrain_video.bat",
+                      "bytes":  293,
+                      "sha256":  "b306ba0048fd1b85bbea3c1adec9cc1db4395757c28a01bdf0c98f9bd9d89109"
+                  },
+                  {
+                      "name":  "go2_6terrain_video.ps1",
+                      "installed_path":  "C:\\NCRC\\go2_6terrain_video.ps1",
+                      "bytes":  46917,
+                      "sha256":  "dbd9eb063cedfefc48ba9e41f4a0b985b79b46622291e66c74269f63745b5bcd"
+                  },
+                  {
+                      "name":  "go2_eval_smoke.bat",
+                      "installed_path":  "C:\\NCRC\\go2_eval_smoke.bat",
+                      "bytes":  183,
+                      "sha256":  "a84cfa53200f0c6b68406eb5c968a3d80df13cd72605e6b13028c640e3f6d2ba"
+                  },
+                  {
+                      "name":  "go2_eval_smoke.ps1",
+                      "installed_path":  "C:\\NCRC\\go2_eval_smoke.ps1",
+                      "bytes":  5818,
+                      "sha256":  "0b9d50fc98c109145e5f8364f57af649111de043dacf9a2461966e6c8f13f335"
+                  }
+              ],
+    "bundle_manifest":  {
+                            "handoff_commit":  "28895d75edf3095607e392a07207a62e768478c7",
+                            "local_changes":  "CUDA initialization before memory reset; runtime exception recording and pre-close traceback; no scorer/cohort/load contract changes",
+                            "file_sha256":  {
+                                                "eval_core.py":  "4c201c58bfbc267f34e0615407021dabb8e799ea476e01f00602fce9af58b14a",
+                                                "isaac_runner.py":  "c5e157e488f99c84bfae7d719a8d59a7235e509f1f7e8ef6f1e052d2bdf5fe32",
+                                                "compare_cli.py":  "cc2cc801ef49c7eae74181332fb170d1bc71d471798ea86459afa90bd43576cb"
+                                            },
+                            "upstream_implementation_commit":  "9c774a322f2f7d4944444de57f01308987bcb3da"
+                        },
+    "verification_record_copies":  [
+                                       {
+                                           "file":  "evaluation_2950_verified.json",
+                                           "source":  "C:/Users/[USER]\\Documents\\Codex\\2026-10-02\\windows-go2-6-terrain-1-windows\\outputs\\evaluation_2950_verified.json",
+                                           "sha256":  "90d708fb2161600d890fcb1e962651b92297b5a4a3d3e2ddf3fd6949ddc12969"
+                                       },
+                                       {
+                                           "file":  "evaluation_7050_verified.json",
+                                           "source":  "C:/Users/[USER]\\Documents\\Codex\\2026-10-02\\windows-go2-6-terrain-1-windows\\outputs\\evaluation_7050_verified.json",
+                                           "sha256":  "05b8e0bde254fda320b1c3d9ca1a0264fb07d38b0f6b670a4a42ebd0bad9523b"
+                                       }
+                                   ],
+    "documentation_checks":  {
+                                 "powershell_syntax_errors":  0,
+                                 "standalone_smoke_preview_exit":  0,
+                                 "saved_folder_comparison_preview_exit":  0,
+                                 "gpu_executed_in_documentation_task":  false,
+                                 "actual_policy_comparison_executed":  false,
+                                 "standalone_smoke_gpu_verified":  false,
+                                 "fresh_render_plus_full_evaluation_same_invocation_verified":  false
+                             },
+    "preservation":  "Original checkpoints, video ZIPs, full datasets, receipts and failed diagnostic work remain at their recorded local paths. These JSONs are processed verification snapshots, not new canonical raw runs."
+}

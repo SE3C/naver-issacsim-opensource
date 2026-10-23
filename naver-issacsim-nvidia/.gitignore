@@ -1,0 +1,8 @@
+workspace/
+logs/
+.env
+results/
+outputs/
+checkpoints/
+__pycache__/
+*.pyc
