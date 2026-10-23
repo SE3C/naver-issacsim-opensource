@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "$ROOT/scripts/python_runner.sh"
+STATE="${ISSACSIMZ_STATE_FILE:-$ROOT/.issacsimz-mode.env}"
+[[ -f "$STATE" ]] && source "$STATE"
+export ISSACSIMZ_MODE ISSACSIMZ_H1_ROOT ISSACSIMZ_GO2_ROOT ISSACSIMZ_ISAACLAB_ROOT
+if [[ -z "${ISSACSIMZ_LOG_ROOT:-}" && -n "${ISSACSIMZ_EVIDENCE_ROOT:-}" ]]; then
+  export ISSACSIMZ_LOG_ROOT="$ISSACSIMZ_EVIDENCE_ROOT"
+fi
+
+LAB_ROOT="${ISSACSIMZ_ISAACLAB_ROOT:-}"
+PYTHON_RUNNER="$(issacsimz_find_python_runner "$LAB_ROOT")" || exit 2
+
+exec "$PYTHON_RUNNER" -m issacsimz_cli "$@"

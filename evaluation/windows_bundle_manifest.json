@@ -1,0 +1,10 @@
+﻿{
+    "handoff_commit":  "28895d75edf3095607e392a07207a62e768478c7",
+    "local_changes":  "CUDA initialization before memory reset; runtime exception recording and pre-close traceback; no scorer/cohort/load contract changes",
+    "file_sha256":  {
+                        "eval_core.py":  "4c201c58bfbc267f34e0615407021dabb8e799ea476e01f00602fce9af58b14a",
+                        "isaac_runner.py":  "c5e157e488f99c84bfae7d719a8d59a7235e509f1f7e8ef6f1e052d2bdf5fe32",
+                        "compare_cli.py":  "cc2cc801ef49c7eae74181332fb170d1bc71d471798ea86459afa90bd43576cb"
+                    },
+    "upstream_implementation_commit":  "9c774a322f2f7d4944444de57f01308987bcb3da"
+}
