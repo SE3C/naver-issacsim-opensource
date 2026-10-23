@@ -10,11 +10,13 @@ H1·Go2 실험 과정에서 작성한 평가·evidence·실험 관리 도구의 
 - `sidecar/`: 외부 학습 코드의 실행과 evidence 수집을 돕는 `issacsimz` 도구의 공개 후보.
 - `server_tools/`: 독립적인 환경 준비·TensorBoard/checkpoint 보조 도구.
 - `knowledge/`: 공개 가능한 자체 실험 방법·판단 원칙. 제공 원문과 내부 대화는 포함하지 않습니다.
+- [분석·연구 기록](reports/README.md): H1·Go2 보고서, 수신 AI 분석, 실험 질문·계보와 자체 그래프의 공개용 사본.
+- [평가 결과](results/README.md): 공개 Release의 평가 데이터·영상과 원본/파생본 SHA 목록.
 - [공개 범위와 상태](PUBLICATION_STATUS.md)
 - [CPU 검증 결과와 한계](VERIFICATION.md)
 
 각 도구는 독립된 하위 폴더에서 사용합니다. 평가 명령은 `evaluation/`, sidecar 명령은 `sidecar/`에서 실행하세요. 이 저장소 전체를 자동 설치·실행하는 통합 명령은 없습니다.
 
-Isaac Sim·Isaac Lab 및 학습 task는 별도로 준비해야 합니다. 이 저장소는 공식 training 코드·강의·실습 배포본, 원본 정책 checkpoint, 개인 자격증명을 제공하지 않습니다. 원래 비공개 저장소의 Git 이력과 Release도 가져오지 않습니다.
+Isaac Sim·Isaac Lab 및 학습 task는 별도로 준비해야 합니다. 이 저장소는 공식 training 코드·강의·실습 배포본, 원본 정책 checkpoint, 개인 자격증명을 제공하지 않습니다. 원래 비공개 저장소의 Git 이력과 원본 Release를 그대로 복제하지 않고, 검토한 자체 결과의 공개 파생본을 새 Release로 제공합니다.
 
 GPU 작업, 외부 업로드, 서버 종료는 설치나 문서 열람의 일부로 자동 실행하지 않습니다. 공개 후보의 CPU 검증과 실제 GPU/서버 검증은 구분해서 기록합니다.

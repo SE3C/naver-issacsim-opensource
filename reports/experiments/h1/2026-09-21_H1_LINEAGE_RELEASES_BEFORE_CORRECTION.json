@@ -1,0 +1,679 @@
+{
+  "purpose": "Before warning-only Release edits; assets preserved unchanged",
+  "releases": [
+    {
+      "assets": [
+        {
+          "digest": "sha256:a95494a534edec9915d211c4e66ef674203ee7f0c1acee7b39952179215d9ae5",
+          "id": 571490065,
+          "name": "20260917-234047-h1-h008-cont2k-from-2998-POSTRUN-PROVENANCE.tar.gz",
+          "size": 249285
+        },
+        {
+          "digest": "sha256:c253d1a1508ee788a8279128280d493cd9aa3cbbc03519713c65888645fdc1c9",
+          "id": 571490064,
+          "name": "20260917-234047-h1-h008-cont2k-from-2998-POSTRUN-PROVENANCE.tar.gz.sha256",
+          "size": 149
+        },
+        {
+          "digest": "sha256:b669bf1b90a67a4468e6851ab237538bbab6450144b3e4f5e9eecbfeb6777d9e",
+          "id": 571490070,
+          "name": "20260917-234047-h1-h008-cont2k-from-2998.tar.gz",
+          "size": 153896399
+        },
+        {
+          "digest": "sha256:6e86a42826fe571492b40ddf04e703fd5fa3b9f0909e08cbac54450f550a3e92",
+          "id": 571490067,
+          "name": "20260917-234047-h1-h008-cont2k-from-2998.tar.gz.metadata.json",
+          "size": 246
+        },
+        {
+          "digest": "sha256:7970f48fa0d9b4ab4287224f4a6a701a5d61e680768d405bc41feb05ab0be4ab",
+          "id": 571490066,
+          "name": "20260917-234047-h1-h008-cont2k-from-2998.tar.gz.sha256",
+          "size": 114
+        },
+        {
+          "digest": "sha256:66d46af8b400770ef71c103802b040fdff35ec51a34a561f02b7022f109ab77b",
+          "id": 571511337,
+          "name": "H-008_LINTRACK075_PERSONAL_5K_DOWNLOAD.tar.gz",
+          "size": 6618151
+        },
+        {
+          "digest": "sha256:83beab2ad954e1923be315b47a8dde6ba3994f3d865bc56642f81339dbe5d39b",
+          "id": 571511338,
+          "name": "H-008_LINTRACK075_PERSONAL_5K_DOWNLOAD.tar.gz.sha256",
+          "size": 112
+        }
+      ],
+      "body": "## H-008 LINTRACK075 · PERSONAL 3K→5K continuation\n\n- Parent: H-008 3K `model_2998.pt`, SHA-256 `d9a30c8a117f69cac49c4e640500f0fa8d88de72d6c61855f1e147ea6c1912ae`\n- Reward configuration: unchanged H-008 configuration\n- Requested continuation: +2,000 iterations\n- Actual console range: global 2998–4997; exit code 0\n- Representative checkpoint: final `model_4997.pt`, SHA-256 `e6deed62c1dfff4d5bdaac4cf77ee7308f91f04f9ea6db32a8f80f3e5db922a2`\n- Environment: PERSONAL / Brev L40S. This is not OFFICIAL performance or submission evidence.\n\n## Download map\n\n- `H-008_LINTRACK075_PERSONAL_5K_DOWNLOAD.tar.gz` is the small, derived download handoff. Its single top-level directory contains only final `model_4997.pt`, matching `env.yaml`, native `report.html`, and a manifest/README.\n- `20260917-234047-h1-h008-cont2k-from-2998.tar.gz` is the immutable canonical training evidence. It retains TensorBoard, console, 21 numbered checkpoints, settings, source records, telemetry, internal `SHA256SUMS`, and validation record.\n- The canonical `.sha256` and `.metadata.json` are sidecars for that original archive.\n- `*-POSTRUN-PROVENANCE.tar.gz` is a supplementary post-run reconstruction. It helps identify the parent/final hashes but does not replace execution-time provenance.\n\n## Integrity and limitation\n\n- Canonical outer SHA-256: `b669bf1b90a67a4468e6851ab237538bbab6450144b3e4f5e9eecbfeb6777d9e`; its received sidecar and GitHub asset digest agree.\n- Internal canonical `SHA256SUMS`: 41/41 files verified.\n- Native automatic `model_best.pt` selected `model_4900.pt`; it is deliberately not the default representative here. Resume policy uses final numbered `model_4997.pt` unless a joint late-window regression is shown.\n- The run was launched through generic `issacsimz run`, so original metadata has `profile=null`, `source_checkpoint=null`, and `resume_lineage=null`; canonical `validation.json` is `WARN`. Do not upgrade this limitation through the supplementary archive.\n",
+      "draft": false,
+      "id": 391144701,
+      "name": "H1 H-008 LINTRACK075 · PERSONAL · 3K→5K continuation evidence",
+      "prerelease": false,
+      "tag_name": "20260917-234047-h1-h008-cont2k-from-2998"
+    },
+    {
+      "assets": [
+        {
+          "digest": "sha256:37029c87ba0ead421774f2abf0a0f1377362b749ee6352dfc58a73f580c5ce8d",
+          "id": 570628404,
+          "name": "boxes.mp4",
+          "size": 7218015
+        },
+        {
+          "digest": "sha256:d091c76c9258d1dcdafab32f86584ad5eab78d5a7646e5f43c5c25bf9e3fa9c7",
+          "id": 570624690,
+          "name": "h1-h007-lintrack100-model2998-6terrain-video-suite-20260918.tar.gz",
+          "size": 40567511
+        },
+        {
+          "digest": "sha256:5d8420696eb915a54b752f7f010d7374e0cd12c0d94d3496cdda5e449ec3efad",
+          "id": 570630287,
+          "name": "h1-h007-lintrack100-model2998-6terrain-video-suite-20260918.tar.gz.sha256",
+          "size": 133
+        },
+        {
+          "digest": "sha256:160cd7c20d15c6f4bbeb23757dc5e487d953e56d5d10b67a30fbfd19c022d311",
+          "id": 570630301,
+          "name": "inverted_stairs.mp4",
+          "size": 6240240
+        },
+        {
+          "digest": "sha256:c18b382059a03ca4d68bc230c43cb674bb1d7d3e8bf08fb0785455e933df280c",
+          "id": 570631932,
+          "name": "random_rough.mp4",
+          "size": 10268746
+        },
+        {
+          "digest": "sha256:1f9e7ff9782bc00d3098b23d94822230493f5a1ddf027bce30dfb5cb1b4aaf81",
+          "id": 570622001,
+          "name": "SHA256SUMS",
+          "size": 500
+        },
+        {
+          "digest": "sha256:f14bb953c662e7f7b75b456a55a52f5ec69fb1b4c1e9f7345a2bb1e8ed69b6fd",
+          "id": 570636490,
+          "name": "slope_down_10deg.mp4",
+          "size": 5640254
+        },
+        {
+          "digest": "sha256:80c53936e78e020c6c100b0489fb5c3fb96b6ce9c6ce5a47db484e8224f401cc",
+          "id": 570637094,
+          "name": "slope_up_10deg.mp4",
+          "size": 5584221
+        },
+        {
+          "digest": "sha256:a5061b8c443b5b6384042465bd058696aefec2108846d0afe237e8c89a331b94",
+          "id": 570637145,
+          "name": "stairs.mp4",
+          "size": 5659816
+        },
+        {
+          "digest": "sha256:341ef7dc1783ba4d2f4a6538c2b3c88a769ef6d898b0cd5d08f8609295581ce2",
+          "id": 570617252,
+          "name": "video_suite_manifest.json",
+          "size": 3051
+        }
+      ],
+      "body": "Personal post-train six-terrain video suite for H1 H-007 LINTRACK100, explicitly supplied as model_2998.pt output.\n\nThis is a video-only collection: it is associated with the existing H-007 PERSONAL resume evidence, but it contains no train archive, checkpoint bytes, console log, runtime metadata, or source-checkpoint hash. Therefore it does not independently prove checkpoint identity and does not alter H-007's HOLD causal decision or create an OFFICIAL claim.\n\nEach MP4 was checked as H.264, 1920x1080, 50 fps, 999 frames, 19.98 seconds. Included terrains: boxes, inverted stairs, random rough, slope down 10 degrees, slope up 10 degrees, and stairs.\n\nAssociated train evidence: https://github.com/SE3C/naver-issacsim-nvidia/releases/tag/private-20260917-002225-h1-h007-lintrack100-from-h001-1p5k\nPrior automatic-model video evidence (model_1700): https://github.com/SE3C/naver-issacsim-nvidia/releases/tag/private-20260917-004341-20260917-002225-h1-h007-lintrack100-from-h001-1p\n\nBundle SHA-256: d091c76c9258d1dcdafab32f86584ad5eab78d5a7646e5f43c5c25bf9e3fa9c7",
+      "draft": false,
+      "id": 390873856,
+      "name": "H1 H-007 LINTRACK100 · PERSONAL · model_2998 6-terrain video suite",
+      "prerelease": false,
+      "tag_name": "private-20260918-h1-h007-lintrack100-model2998-video-suite"
+    },
+    {
+      "assets": [
+        {
+          "digest": "sha256:fc294b49a7085e802e01099f1a7db5c8d496132157160905c9c5fc474d2ea34b",
+          "id": 577080292,
+          "name": "boxes.mp4",
+          "size": 6884846
+        },
+        {
+          "digest": "sha256:e051c57f1f6209b1f535bd40370fb40c2002bf7b147c7c23efc65065555f7a53",
+          "id": 577080327,
+          "name": "h1-h011-hipdev010-model4997-6terrain-video-suite-20260920.tar.gz",
+          "size": 41935215
+        },
+        {
+          "digest": "sha256:13bc95914db17c2c0c54b764c857104554cd55f85e2aff669afa6852a58658e2",
+          "id": 577080330,
+          "name": "h1-h011-hipdev010-model4997-6terrain-video-suite-20260920.tar.gz.sha256",
+          "size": 131
+        },
+        {
+          "digest": "sha256:a392163e5eecda8fce39e315deba9f2cef967bed198f81c2ddea1be256d24abd",
+          "id": 577080296,
+          "name": "inverted_stairs.mp4",
+          "size": 6269388
+        },
+        {
+          "digest": "sha256:e4ef40fa95169751fe314c994226c1ca444b467768511837f828cf811d45518c",
+          "id": 577080295,
+          "name": "random_rough.mp4",
+          "size": 10593817
+        },
+        {
+          "digest": "sha256:4136774f60ceb26401d3cb28be85f318395de980847bf00dfe142155f72d194f",
+          "id": 577080321,
+          "name": "SHA256SUMS",
+          "size": 494
+        },
+        {
+          "digest": "sha256:5a549a3437839661949896333c6f9b4a0585e09f0a625b0be800a2dfb576ed02",
+          "id": 577080289,
+          "name": "slope_down_10deg.mp4",
+          "size": 6115131
+        },
+        {
+          "digest": "sha256:032b28ab42e1b5ba7675e3ba4b0778a9852585080361934d86f8ab4531c1c642",
+          "id": 577080294,
+          "name": "slope_up_10deg.mp4",
+          "size": 5978174
+        },
+        {
+          "digest": "sha256:99172cfb24a6d4ce2ce6a8ef3becf93d2bd61a12e869d1eef9a98fe1213e14cd",
+          "id": 577080318,
+          "name": "stairs.mp4",
+          "size": 6142220
+        },
+        {
+          "digest": "sha256:3b18429eefe33ac9b78650dfdd79b9cc7150b110561dff05296a6236ab9127e8",
+          "id": 577080325,
+          "name": "video_suite_manifest.json",
+          "size": 2212
+        }
+      ],
+      "body": "Personal post-train six-terrain video suite for H1 H-011 HIPDEV010, explicitly supplied as model_4997.pt output.\n\nThis is a video-only collection: it is associated with the existing H-011 PERSONAL resume evidence, but it contains no train archive, checkpoint bytes, console log, or full runtime metadata. Therefore it does not independently establish OFFICIAL performance or alter the causal decision for this reward branch.\n\nEach MP4 was checked for codec, resolution, frame rate, frame count, and duration. Included terrains: boxes, inverted stairs, random rough, slope down 10 degrees, slope up 10 degrees, and stairs.\n\nAssociated train evidence: https://github.com/SE3C/naver-issacsim-nvidia/releases/tag/private-20260920-150652-h1-h011-hipdev010\n\nBundle SHA-256: e051c57f1f6209b1f535bd40370fb40c2002bf7b147c7c23efc65065555f7a53\n",
+      "draft": false,
+      "id": 392483329,
+      "name": "H1 H-011 HIPDEV010 · PERSONAL · model_4997 6-terrain video suite",
+      "prerelease": false,
+      "tag_name": "private-20260920-h1-h011-hipdev010-model4997-video-suite"
+    },
+    {
+      "assets": [
+        {
+          "digest": "sha256:d19346f035791e3c82284f9252824ce0d1977a75f58a106eeda54eb45ce14d2e",
+          "id": 577081009,
+          "name": "boxes.mp4",
+          "size": 6656762
+        },
+        {
+          "digest": "sha256:e9025e750eda9822370a23a0e6a9a4ebd0dd3f1626d7c9679415fd05cf4c33e1",
+          "id": 577081094,
+          "name": "h1-h010-airtime025-model4997-6terrain-video-suite-20260920.tar.gz",
+          "size": 40652294
+        },
+        {
+          "digest": "sha256:6c514780ee98947dca1f39e92b7ed2387cc9916a75a37ff34accb952384e9e7c",
+          "id": 577081106,
+          "name": "h1-h010-airtime025-model4997-6terrain-video-suite-20260920.tar.gz.sha256",
+          "size": 132
+        },
+        {
+          "digest": "sha256:18185e743bf39c2d9fd70204d62879a82aec1bd6af51fed7ce3ecb97b3bad6d9",
+          "id": 577081006,
+          "name": "inverted_stairs.mp4",
+          "size": 6653216
+        },
+        {
+          "digest": "sha256:b72582a4d5000c524f041ec4328b54803af751c0cffa08bcc36a706ec8929428",
+          "id": 577081007,
+          "name": "random_rough.mp4",
+          "size": 10021249
+        },
+        {
+          "digest": "sha256:8675477bc27366f24bc437532df1d1fbcf100bdf91329b1656437fb40509d026",
+          "id": 577081091,
+          "name": "SHA256SUMS",
+          "size": 494
+        },
+        {
+          "digest": "sha256:ad4ac6cb9441ac71c4995f03b95095441cc24d136e085f2e693d3b91d17a213d",
+          "id": 577081004,
+          "name": "slope_down_10deg.mp4",
+          "size": 5672086
+        },
+        {
+          "digest": "sha256:55cbc3878877b858b9a9cb688c5a20424d90b1033a82771a25ebd2da1719e050",
+          "id": 577081005,
+          "name": "slope_up_10deg.mp4",
+          "size": 5562169
+        },
+        {
+          "digest": "sha256:ddba28ac89cf6b459a48ca4b81d07c5ab09310fa3e8320d083e69afbee449cec",
+          "id": 577081087,
+          "name": "stairs.mp4",
+          "size": 6135533
+        },
+        {
+          "digest": "sha256:49179e9f149b2ca05e7edef81dc2c7ff04828cf290ed52480ad64a6d6e0fdd29",
+          "id": 577081093,
+          "name": "video_suite_manifest.json",
+          "size": 2220
+        }
+      ],
+      "body": "Personal post-train six-terrain video suite for H1 H-010 AIRTIME025, explicitly supplied as model_4997.pt output.\n\nThis is a video-only collection: it is associated with the existing H-010 PERSONAL resume evidence, but it contains no train archive, checkpoint bytes, console log, or full runtime metadata. Therefore it does not independently establish OFFICIAL performance or alter the causal decision for this reward branch.\n\nEach MP4 was checked for codec, resolution, frame rate, frame count, and duration. Included terrains: boxes, inverted stairs, random rough, slope down 10 degrees, slope up 10 degrees, and stairs.\n\nAssociated train evidence: https://github.com/SE3C/naver-issacsim-nvidia/releases/tag/private-20260920-134309-h1-h010-airtime025-rerun\n\nBundle SHA-256: e9025e750eda9822370a23a0e6a9a4ebd0dd3f1626d7c9679415fd05cf4c33e1\n",
+      "draft": false,
+      "id": 392483490,
+      "name": "H1 H-010 AIRTIME025 · PERSONAL · model_4997 6-terrain video suite",
+      "prerelease": false,
+      "tag_name": "private-20260920-h1-h010-airtime025-model4997-video-suite"
+    },
+    {
+      "assets": [
+        {
+          "digest": "sha256:8e54215b46b5f699aa7ca96d23ccf709e85f93962603c065d02d572ecc02ccfb",
+          "id": 577057816,
+          "name": "20260920-150652-h1-h011-hipdev010.tar.gz",
+          "size": 153902067
+        },
+        {
+          "digest": "sha256:08c803bd8d1b73a9ba0a09f420070263a4c694a1f84ee4f33b59d2143f66ce4e",
+          "id": 577057818,
+          "name": "20260920-150652-h1-h011-hipdev010.tar.gz.metadata.json",
+          "size": 239
+        },
+        {
+          "digest": "sha256:ea56b5303c09d5b8f0d7af91622b6c0adb1435edfec6762393ea1776a66b713e",
+          "id": 577057821,
+          "name": "20260920-150652-h1-h011-hipdev010.tar.gz.sha256",
+          "size": 107
+        }
+      ],
+      "body": "Personal NVIDIA/Brev evidence mirror. Preserve canonical raw separately.",
+      "draft": false,
+      "id": 392478652,
+      "name": "H1 H-011 HIPDEV010 · PERSONAL · 3K→5K continuation evidence",
+      "prerelease": false,
+      "tag_name": "private-20260920-150652-h1-h011-hipdev010"
+    },
+    {
+      "assets": [
+        {
+          "digest": "sha256:edc92686267b8df4c10880101ea7783a50ebf2f19affb5502216c96b249f2335",
+          "id": 576927710,
+          "name": "20260920-134309-h1-h010-airtime025-rerun.tar.gz",
+          "size": 153900905
+        },
+        {
+          "digest": "sha256:cb95f7256e0e1ce28ee8628dfae1de1ff689edeb5d9fcc28241d7cef6e7ebe1c",
+          "id": 576927712,
+          "name": "20260920-134309-h1-h010-airtime025-rerun.tar.gz.metadata.json",
+          "size": 245
+        },
+        {
+          "digest": "sha256:c94ec286ad0d3c5ede8868bfe8b1a9e00f7945fd6bb9a7fa8d2ffe89b141b309",
+          "id": 576927714,
+          "name": "20260920-134309-h1-h010-airtime025-rerun.tar.gz.sha256",
+          "size": 114
+        }
+      ],
+      "body": "Personal NVIDIA/Brev evidence mirror. Preserve canonical raw separately.",
+      "draft": false,
+      "id": 392453532,
+      "name": "H1 H-010 AIRTIME025 · PERSONAL · 3K→5K continuation evidence",
+      "prerelease": false,
+      "tag_name": "private-20260920-134309-h1-h010-airtime025-rerun"
+    },
+    {
+      "assets": [
+        {
+          "digest": "sha256:16f98464106cad8cfde7af39cbf22b70d89420df709af6ee26a2c246d241abe7",
+          "id": 571548739,
+          "name": "20260918-010042-h1-h009-hipdev030-from-h008-3k.tar.gz",
+          "size": 153929548
+        },
+        {
+          "digest": "sha256:63b7ab6e1b866e9f21aa528f5bf43c80602e6be5759429857ab0c8da993b008c",
+          "id": 571548742,
+          "name": "20260918-010042-h1-h009-hipdev030-from-h008-3k.tar.gz.metadata.json",
+          "size": 251
+        },
+        {
+          "digest": "sha256:e54f0faf329d0cc2e624288305ba0a9e269907d27fe4b0ff7e31919c698b5f22",
+          "id": 571548740,
+          "name": "20260918-010042-h1-h009-hipdev030-from-h008-3k.tar.gz.sha256",
+          "size": 120
+        }
+      ],
+      "body": "Personal NVIDIA/Brev evidence mirror for H-009.\\n\\n- Parent/resume: H-008 3K model_2998.pt\\n- Delta: joint_deviation_hip -0.20 → -0.30 only\\n- Scope: PERSONAL evidence only; this is not an OFFICIAL result or submission claim.\\n- The Release is a convenience mirror. Preserve and analyze canonical raw evidence separately.",
+      "draft": false,
+      "id": 391157894,
+      "name": "H1 H-009 HIPDEV030 · PERSONAL · 3K→5K continuation evidence",
+      "prerelease": false,
+      "tag_name": "private-20260918-010042-h1-h009-hipdev030-from-h008-3k"
+    },
+    {
+      "assets": [
+        {
+          "digest": "sha256:d78257b8bc2cb5352b1674c31fc04d961fc854f17a41fff512f5b4bb2e57dde6",
+          "id": 569169551,
+          "name": "20260917-010854-20260917-004530-h1-h008-lintrack075-from-h001-1p.tar.gz",
+          "size": 18497059
+        },
+        {
+          "digest": "sha256:9d81bda018c52641b0d956e3e47c2419255ecb11f5d6eb35dc4ce8c963dbd072",
+          "id": 569169549,
+          "name": "20260917-010854-20260917-004530-h1-h008-lintrack075-from-h001-1p.tar.gz.metadata.json",
+          "size": 267
+        },
+        {
+          "digest": "sha256:4be12e18d9db44277585a92db9db2b11c75e763c74206f7f67751a501ae582b4",
+          "id": 569169550,
+          "name": "20260917-010854-20260917-004530-h1-h008-lintrack075-from-h001-1p.tar.gz.sha256",
+          "size": 138
+        },
+        {
+          "digest": "sha256:ed6566a0ec7c8d267d4a1e0ef6813d301c3aa282c0fce493f288d77befd15074",
+          "id": 569169552,
+          "name": "play_video.mp4",
+          "size": 7014439
+        },
+        {
+          "digest": "sha256:aa5fc0e9760dfaa8708d852798212e6bc1e6b468e4c2fcb24cb682cc42b1f9d4",
+          "id": 569169554,
+          "name": "video_manifest.json",
+          "size": 478
+        }
+      ],
+      "body": "Personal NVIDIA/Brev evidence mirror. Preserve canonical raw separately.",
+      "draft": false,
+      "id": 390369806,
+      "name": "H1 H-008 LINTRACK075 · PERSONAL · 1.5K native play video evidence",
+      "prerelease": false,
+      "tag_name": "private-20260917-010854-20260917-004530-h1-h008-lintrack075-from-h001-1p"
+    },
+    {
+      "assets": [
+        {
+          "digest": "sha256:06f7d1dad5b492e701587009f46811e8aa8e7a4504fba4d92f763db6b7c388b5",
+          "id": 569161893,
+          "name": "20260917-004530-h1-h008-lintrack075-from-h001-1p5k.tar.gz",
+          "size": 120323309
+        },
+        {
+          "digest": "sha256:e352fd5c8a934e87f9db9d007047f696f5c7d922264a4078def9c1572255bfc9",
+          "id": 569161892,
+          "name": "20260917-004530-h1-h008-lintrack075-from-h001-1p5k.tar.gz.metadata.json",
+          "size": 255
+        },
+        {
+          "digest": "sha256:6e7b3e6b9b1a64aaf4ca0764c2d080ad2a9e400ef1f4adefc7409f5ba9907d89",
+          "id": 569161895,
+          "name": "20260917-004530-h1-h008-lintrack075-from-h001-1p5k.tar.gz.sha256",
+          "size": 124
+        }
+      ],
+      "body": "Personal NVIDIA/Brev evidence mirror. Preserve canonical raw separately.",
+      "draft": false,
+      "id": 390368541,
+      "name": "H1 H-008 LINTRACK075 · PERSONAL · 1.5K training evidence",
+      "prerelease": false,
+      "tag_name": "private-20260917-004530-h1-h008-lintrack075-from-h001-1p5k"
+    },
+    {
+      "assets": [
+        {
+          "digest": "sha256:695e47d77edb85f72f1a326a05d7086bdc198129d65437961596464c0d0b0cb7",
+          "id": 569122812,
+          "name": "20260917-004341-20260917-002225-h1-h007-lintrack100-from-h001-1p.tar.gz",
+          "size": 18266927
+        },
+        {
+          "digest": "sha256:6d6d034b37ac78ca6a77d8ff0919126f5ead3a04e6f2e1423fcc206adc5058af",
+          "id": 569122816,
+          "name": "20260917-004341-20260917-002225-h1-h007-lintrack100-from-h001-1p.tar.gz.metadata.json",
+          "size": 266
+        },
+        {
+          "digest": "sha256:6b07af54539952d28f834107764dde94d2622fb162ef8e1ab8a3d546e4e08385",
+          "id": 569122815,
+          "name": "20260917-004341-20260917-002225-h1-h007-lintrack100-from-h001-1p.tar.gz.sha256",
+          "size": 138
+        },
+        {
+          "digest": "sha256:58cdde2cacb13c26f93a8ccfe84203489a18a570f73480aa4a0beac87dd27d91",
+          "id": 569122818,
+          "name": "play_video.mp4",
+          "size": 6899807
+        },
+        {
+          "digest": "sha256:49bd1a22a90104e890c79163854df7c94a4a006712984b64391f4a7c6feb201d",
+          "id": 569122819,
+          "name": "video_manifest.json",
+          "size": 478
+        }
+      ],
+      "body": "Personal NVIDIA/Brev evidence mirror. Preserve canonical raw separately.",
+      "draft": false,
+      "id": 390361243,
+      "name": "H1 H-007 LINTRACK100 · PERSONAL · 1.5K native play video evidence",
+      "prerelease": false,
+      "tag_name": "private-20260917-004341-20260917-002225-h1-h007-lintrack100-from-h001-1p"
+    },
+    {
+      "assets": [
+        {
+          "digest": "sha256:ebcf43a6e6eccdc93508c75c7e78d4595370c92c8965f47f8215a80b67ae00bb",
+          "id": 569118346,
+          "name": "20260917-002225-h1-h007-lintrack100-from-h001-1p5k.tar.gz",
+          "size": 120322966
+        },
+        {
+          "digest": "sha256:28ff6600e7bae43d2b91d46a11fa9c0dbb9b7a63b0c633e965adaf7bf2f6e0f1",
+          "id": 569118345,
+          "name": "20260917-002225-h1-h007-lintrack100-from-h001-1p5k.tar.gz.metadata.json",
+          "size": 256
+        },
+        {
+          "digest": "sha256:20c2c722f1adf48466bc69f1f429c1f5013baadfb6b5cd867164f8fadbd2b3ee",
+          "id": 569118344,
+          "name": "20260917-002225-h1-h007-lintrack100-from-h001-1p5k.tar.gz.sha256",
+          "size": 124
+        }
+      ],
+      "body": "Personal NVIDIA/Brev evidence mirror. Preserve canonical raw separately.",
+      "draft": false,
+      "id": 390360508,
+      "name": "H1 H-007 LINTRACK100 · PERSONAL · 1.5K training evidence",
+      "prerelease": false,
+      "tag_name": "private-20260917-002225-h1-h007-lintrack100-from-h001-1p5k"
+    },
+    {
+      "assets": [
+        {
+          "digest": "sha256:17e776120fa35d2220b51b65b1ca75b0e921c3ab514610a521a395f56d522ea1",
+          "id": 569080905,
+          "name": "20260917-002012-20260916-235914-h1-h006-gait030-from-h001-1p5k-v.tar.gz",
+          "size": 19082407
+        },
+        {
+          "digest": "sha256:4e3c4aba2fc43f129c521ee73bd22ba31d9e27deb26eb63f604ef671613bc253",
+          "id": 569080900,
+          "name": "20260917-002012-20260916-235914-h1-h006-gait030-from-h001-1p5k-v.tar.gz.metadata.json",
+          "size": 266
+        },
+        {
+          "digest": "sha256:87872d774133292ae4e70abb7c673fa3f051004fbef2e61cd7b11b1a68513a59",
+          "id": 569080899,
+          "name": "20260917-002012-20260916-235914-h1-h006-gait030-from-h001-1p5k-v.tar.gz.sha256",
+          "size": 138
+        },
+        {
+          "digest": "sha256:6243d09197c0125d7c975d9ff6b01c8dd4e2eaed6a71ea909944156792aed31b",
+          "id": 569080901,
+          "name": "play_video.mp4",
+          "size": 7306826
+        },
+        {
+          "digest": "sha256:6db78bd66533fcb5580c41aeb6b52cb8400f1029a8fbe796605146045b6ebb11",
+          "id": 569080903,
+          "name": "video_manifest.json",
+          "size": 470
+        }
+      ],
+      "body": "Personal NVIDIA/Brev evidence mirror. Preserve canonical raw separately.",
+      "draft": false,
+      "id": 390353373,
+      "name": "H1 H-006 GAIT030 · PERSONAL · 1.5K native play video evidence",
+      "prerelease": false,
+      "tag_name": "private-20260917-002012-20260916-235914-h1-h006-gait030-from-h001-1p5k-v"
+    },
+    {
+      "assets": [
+        {
+          "digest": "sha256:eda221a1a6fe5c16e79ea6401d085c973eaa210e422e3444fdaf92e2da6d197d",
+          "id": 569077970,
+          "name": "20260916-235914-h1-h006-gait030-from-h001-1p5k.tar.gz",
+          "size": 120326838
+        },
+        {
+          "digest": "sha256:68396f08dc1e72068d038a84e104e27a27762a70a446e88aac2d306dc1ece20b",
+          "id": 569077971,
+          "name": "20260916-235914-h1-h006-gait030-from-h001-1p5k.tar.gz.metadata.json",
+          "size": 252
+        },
+        {
+          "digest": "sha256:8d2b3fb00e0d25947509af924b678542183fe5d532612ba8e25001f628194bb1",
+          "id": 569077969,
+          "name": "20260916-235914-h1-h006-gait030-from-h001-1p5k.tar.gz.sha256",
+          "size": 120
+        }
+      ],
+      "body": "Personal NVIDIA/Brev evidence mirror. Preserve canonical raw separately.",
+      "draft": false,
+      "id": 390352717,
+      "name": "H1 H-006 GAIT030 · PERSONAL · 1.5K training evidence",
+      "prerelease": false,
+      "tag_name": "private-20260916-235914-h1-h006-gait030-from-h001-1p5k"
+    },
+    {
+      "assets": [
+        {
+          "digest": "sha256:d0c823eb82d757e0b649ae5fd3228dc03b72ea2c09ceb8c008953d7958a07754",
+          "id": 569046715,
+          "name": "20260916-235551-20260916-233344-h1-h005-gait025-from-h001-1p5k-v.tar.gz",
+          "size": 18504709
+        },
+        {
+          "digest": "sha256:4580589c60aff2ada2044716c7f909ea52e70b25ca8f3c8a483c150c39d61ae4",
+          "id": 569046712,
+          "name": "20260916-235551-20260916-233344-h1-h005-gait025-from-h001-1p5k-v.tar.gz.metadata.json",
+          "size": 267
+        },
+        {
+          "digest": "sha256:8053f4e0f466c4406834df449d9495becccada3f5a3bf10f7ae30dbf44a310da",
+          "id": 569046711,
+          "name": "20260916-235551-20260916-233344-h1-h005-gait025-from-h001-1p5k-v.tar.gz.sha256",
+          "size": 138
+        },
+        {
+          "digest": "sha256:97827307e6f26889aee2911209385d3f821d8a43021b6288c25be3e26e6651f7",
+          "id": 569046710,
+          "name": "play_video.mp4",
+          "size": 7017072
+        },
+        {
+          "digest": "sha256:9ebced9348955accbfc6dfd36932f825d7dce3e93e0b036434cfdb5274546216",
+          "id": 569046713,
+          "name": "video_manifest.json",
+          "size": 470
+        }
+      ],
+      "body": "Personal NVIDIA/Brev evidence mirror. Preserve canonical raw separately.",
+      "draft": false,
+      "id": 390345904,
+      "name": "H1 H-005 GAIT025 · PERSONAL · 1.5K native play video evidence",
+      "prerelease": false,
+      "tag_name": "private-20260916-235551-20260916-233344-h1-h005-gait025-from-h001-1p5k-v"
+    },
+    {
+      "assets": [
+        {
+          "digest": "sha256:6137bea5de6de45bd060e3cf3c01647ae533014030743dd4f82d302e4e8ebf35",
+          "id": 569040912,
+          "name": "20260916-233344-h1-h005-gait025-from-h001-1p5k.tar.gz",
+          "size": 120316629
+        },
+        {
+          "digest": "sha256:8dbc02d2e040f2713bf97269fcc97101597a17a373b81bcf722083a6a5db29a1",
+          "id": 569040911,
+          "name": "20260916-233344-h1-h005-gait025-from-h001-1p5k.tar.gz.metadata.json",
+          "size": 252
+        },
+        {
+          "digest": "sha256:7f32bf52e89a0c947a5e31fa982f405867ade3371c075987c589658c276b41ad",
+          "id": 569040909,
+          "name": "20260916-233344-h1-h005-gait025-from-h001-1p5k.tar.gz.sha256",
+          "size": 120
+        }
+      ],
+      "body": "Personal NVIDIA/Brev evidence mirror. Preserve canonical raw separately.",
+      "draft": false,
+      "id": 390344553,
+      "name": "H1 H-005 GAIT025 · PERSONAL · 1.5K training evidence",
+      "prerelease": false,
+      "tag_name": "private-20260916-233344-h1-h005-gait025-from-h001-1p5k"
+    },
+    {
+      "assets": [
+        {
+          "digest": "sha256:25252b3425012faeaf450c07004a70c4699c998814940a6a52475370a1ff8443",
+          "id": 569008059,
+          "name": "20260916-230730-h1-term50-airtime-m02-1p5k.tar.gz",
+          "size": 120180190
+        },
+        {
+          "digest": "sha256:f78f22a7e07464b94edcfe60bbfa622b0e8f4f23c4d8e3ac900679c13461e799",
+          "id": 569008064,
+          "name": "20260916-230730-h1-term50-airtime-m02-1p5k.tar.gz.metadata.json",
+          "size": 248
+        },
+        {
+          "digest": "sha256:1e442be5583fe14fafbc01f961bf450834188979c91aaf7a32e6c0b05668f55a",
+          "id": 569008060,
+          "name": "20260916-230730-h1-term50-airtime-m02-1p5k.tar.gz.sha256",
+          "size": 116
+        }
+      ],
+      "body": "Personal NVIDIA/Brev evidence mirror. Preserve canonical raw separately.",
+      "draft": false,
+      "id": 390336204,
+      "name": "H1 H-001 TERM50 · PERSONAL · fresh 1.5K training evidence",
+      "prerelease": false,
+      "tag_name": "private-20260916-230730-h1-term50-airtime-m02-1p5k"
+    },
+    {
+      "assets": [
+        {
+          "digest": "sha256:828e98c04f8ee6cec6f15e5f80f8d34a7babd8b63a8748938f42c24524bfa460",
+          "id": 568277112,
+          "name": "20260916-152542-h1-h004-term20-1p5k.tar.gz",
+          "size": 120178264
+        },
+        {
+          "digest": "sha256:cf26afa6756d7094e2fb1cafe6823ee779a84678d6544c4285a148714ee6d8b3",
+          "id": 568277119,
+          "name": "20260916-152542-h1-h004-term20-1p5k.tar.gz.metadata.json",
+          "size": 241
+        },
+        {
+          "digest": "sha256:fce4aa0e01909059a7588deffabaaa8c0ca36f7fcf13c2ca6163b59944827dba",
+          "id": 568277120,
+          "name": "20260916-152542-h1-h004-term20-1p5k.tar.gz.sha256",
+          "size": 109
+        }
+      ],
+      "body": "PERSONAL NVIDIA/Brev evidence mirror for the planned H1 H-004 TERM20 1.5K run. This is not an OFFICIAL-server result, official competition score, or submission artifact. Assets retain the automatically generated archive, SHA-256 sidecar, and metadata. Canonical raw evidence is preserved separately in SE3C/naver-issacsim-originals. ",
+      "draft": false,
+      "id": 390061809,
+      "name": "H1 H-004 TERM20 · PERSONAL · 1.5K training evidence",
+      "prerelease": false,
+      "tag_name": "private-20260916-152542-h1-h004-term20-1p5k"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "robot": "h1",
+  "preliminary_round": 4,
+  "experiment_id": "H-005",
+  "run_id": "20260927-123428-h005-fresh10k-official",
+  "submission_date": "2026-09-28",
+  "submission_time": null,
+  "submission_status": "reported_by_user; portal receipt not supplied",
+  "official_score": null,
+  "received_folder": "H1_H005_OFFICIAL_10K_제출용_20260928",
+  "received_zip": null,
+  "source_official_run_release": "https://github.com/SE3C/naver-issacsim-originals/releases/tag/official-h1-20260927-h-005-fresh10k",
+  "source_canonical_archive": "naver-issacsim-originals/data/raw/official_server_runs/h1/2026-09-27_213434_h005_fresh10k/evidence_archives/20260927-123428-h005-fresh10k-official-download.tar.gz",
+  "source_canonical_archive_sha256": "3ff1dc0a820df63870c445260c2acf7d66781ab282325f3889d4d1ba669c0566",
+  "source_checkpoint_for_policy_pt": null,
+  "source_checkpoint_verified": false,
+  "source_checkpoint_note": "The loose policy.pt was received after the train archive; this evidence does not identify its source numbered checkpoint.",
+  "artifacts": {
+    "policy.pt": {
+      "bytes": 1206166,
+      "sha256": "833b525921fc40ade0574d99fad656f0f386e30f61101b8caec83e77f2637db6"
+    },
+    "env.yaml": {
+      "bytes": 33531,
+      "sha256": "d65d550f4bd062f62018e5e981052169e80a67581d4331f9059487471c126782"
+    },
+    "technical_report.txt": {
+      "bytes": 1060,
+      "sha256": "c61c3475d40c35491fc048ded3afbd06a35ae09f1f4f66f278c96d156b4cf63e"
+    }
+  }
+}

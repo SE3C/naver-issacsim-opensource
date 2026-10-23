@@ -1,0 +1,4 @@
+candidate,iteration,reward,terrain,xy_error,yaw_error,episode_length,action_std,timeout_pct,base_contact_pct,value_loss
+Original best checkpoint,4300,20.65,5.5469,0.5636,0.3999,951.37,0.64,92.14,7.86,0.1777
+Original fallback,4800,20.14,5.7367,0.5017,0.4278,968.01,0.66,91.89,8.110000000000001,0.0259
+Recovery best checkpoint,4900,24.4,4.6251,0.5489,0.3741,982.37,0.57,96.17999999999999,3.82,0.0201
