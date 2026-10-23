@@ -31,4 +31,5 @@
 - 추가 출처: analysis 322개, eval 80개, NVIDIA 10개, originals 165개. `FILES.json`의 정확한 출처 commit을 따릅니다. 문서에 적힌 당시 상태를 이번 공개 시점의 최신 운영 상태로 다시 쓰지 않았습니다.
 - 전체 선택 파일 SHA·경로·JSON 181개 검증, 새 Python 17개 AST 및 JavaScript 5개 syntax 검사 통과. 강의 source preflight의 synthetic fixture 30개 테스트도 exit 0이며 실제 강의 입력 접근·출력 쓰기·전체 build는 하지 않았습니다. 받은 분석 스크립트 전체를 실행하거나 GPU 결과를 다시 계산했다는 뜻은 아닙니다.
 - 독립 검토에서 추가 파일의 실제 credential·개인 메일·미처리 프로필 경로를 찾지 못했습니다. 제공 코드·DM·원문 평가 코멘트가 있는 후보는 파일 단위로 보류했습니다. 보류 목록은 `EXCLUDED.json`, 원문 그대로 남긴 미포함·역사 참조 346건은 `MISSING_REFERENCES.json`을 확인합니다.
-- 기존 평가 33건 외 **자체 기술 보고서 4건**을 원래 Release 제목·본문·파일명으로 추가 준비했습니다. 공개 `analysis--` Release에는 보고서만 포함하며 원문이 설명하는 policy·env·전체 제출 snapshot은 포함하지 않습니다. 모델·공식 training source·대화 원문·전체 archive의 공개 범위를 늘린 것은 아닙니다.
+- 기존 평가 33건 외 **자체 기술 보고서 4건**을 원래 Release 제목·본문·파일명으로 추가 게시했습니다. 공개 `analysis--` Release에는 보고서만 포함하며 원문이 설명하는 policy·env·전체 제출 snapshot은 포함하지 않습니다. 모델·공식 training source·대화 원문·전체 archive의 공개 범위를 늘린 것은 아닙니다.
+- 개별 Release 37건의 asset 103개 전부 원격 크기·GitHub SHA-256 digest와 제목·본문 대조를 통과했습니다. 기존 snapshot Release 2건은 별도로 보존합니다. Git index의 원본 파일 1,003개 바이트·mode 대조와 `git diff --cached --check`도 exit 0이며 관리 파일 포함 전체 추적 파일은 1,013개입니다.
