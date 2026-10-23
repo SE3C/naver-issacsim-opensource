@@ -1,0 +1,16 @@
+{
+  "receipt_schema": "se3c-checkpoint-index-excerpt-v1",
+  "source_member": "20261018-092452-h1-top07-same-reward-to10k/checkpoint_index.json",
+  "scope": "Final evaluated keeper entry only; this receipt is not a replacement for the full archive index.",
+  "run_id": "20261018-092452-h1-top07-same-reward-to10k",
+  "mode": "official",
+  "checkpoint": {
+    "filename": "model_9950.pt",
+    "source_path": "/workspace/training/humanoid/backup_log/2026-10-18_18-24-58/model_9950.pt",
+    "origin": "organizer_keeper_backup",
+    "size": 7151477,
+    "sha256": "642255c41cf09dac6a9401985f70cce0177c41cd87b85aa085a5f35bbbdf09c6"
+  },
+  "matches_evaluation_manifest": true,
+  "full_archive_index_copied": false
+}

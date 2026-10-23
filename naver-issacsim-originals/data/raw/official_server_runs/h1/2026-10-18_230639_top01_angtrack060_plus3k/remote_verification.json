@@ -1,0 +1,39 @@
+{
+  "verified_date": "2026-10-20",
+  "repository": "SE3C/naver-issacsim-originals",
+  "tag": "official-h1-20261018-exp-h1-joint-tracking-balance-ang070-plus3k",
+  "annotated_tag_target_commit": "2a534af08eba5a7906c508af9a12197427a94c02",
+  "remote_size_and_sha256_verified": true,
+  "assets": [
+    {
+      "name": "20261018-140635-h1-top01-angtrack060-plus3k-download.tar.gz",
+      "bytes": 419806526,
+      "sha256": "8a0c8c8e36ab34ed25357e70a7963d5613a72d6a9f5802f98113c64e0b0c6b31",
+      "url": "https://github.com/SE3C/naver-issacsim-originals/releases/download/official-h1-20261018-exp-h1-joint-tracking-balance-ang070-plus3k/20261018-140635-h1-top01-angtrack060-plus3k-download.tar.gz"
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 126,
+      "sha256": "af8bb405a8923081c4d3f25570003aa05f369ba062c6f992afb24e28c9a2022c",
+      "url": "https://github.com/SE3C/naver-issacsim-originals/releases/download/official-h1-20261018-exp-h1-joint-tracking-balance-ang070-plus3k/SHA256SUMS"
+    },
+    {
+      "name": "intake_manifest.json",
+      "bytes": 1864,
+      "sha256": "7cdef9879ef326b5cedb02db8b43631d759d584995e91502df66e3b80dd8f48f",
+      "url": "https://github.com/SE3C/naver-issacsim-originals/releases/download/official-h1-20261018-exp-h1-joint-tracking-balance-ang070-plus3k/intake_manifest.json"
+    },
+    {
+      "name": "evidence_intake_validation.json",
+      "bytes": 3198,
+      "sha256": "5ac34eae3270f4cfc36459abeadc76a515a415cde9fd0f013549b283b6779ef5",
+      "url": "https://github.com/SE3C/naver-issacsim-originals/releases/download/official-h1-20261018-exp-h1-joint-tracking-balance-ang070-plus3k/evidence_intake_validation.json"
+    },
+    {
+      "name": "README.md",
+      "bytes": 3040,
+      "sha256": "525262ff0121edd753e80ff3f9666ee6f176ea42441ef1f52fbcbeb6d03d4f8b",
+      "url": "https://github.com/SE3C/naver-issacsim-originals/releases/download/official-h1-20261018-exp-h1-joint-tracking-balance-ang070-plus3k/README.md"
+    }
+  ]
+}

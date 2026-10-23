@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "robot": "h1",
+  "environment": "OFFICIAL",
+  "run_id": "20261018-140635-h1-top01-angtrack060-plus3k",
+  "canonical_run_directory": "data/raw/official_server_runs/h1/2026-10-18_230639_top01_angtrack060_plus3k/",
+  "archive_filename": "20261018-140635-h1-top01-angtrack060-plus3k-download.tar.gz",
+  "archive_bytes": 419806526,
+  "archive_sha256": "8a0c8c8e36ab34ed25357e70a7963d5613a72d6a9f5802f98113c64e0b0c6b31",
+  "preservation": "Original outer archive copied byte-for-byte; no archive member modified or recompressed.",
+  "training_status": "COMPLETED",
+  "exit_code": 0,
+  "validation": "PASS",
+  "requested_additional_iterations": 3000,
+  "final_iteration": 12900,
+  "parent": {
+    "run_id_in_archive_metadata": null,
+    "imported_checkpoint": "model_9950.pt",
+    "sha256": "6e03f421b422c442ee85d449c708b3bf340d39e17c55de786276b9fd091847f3",
+    "matches_known_parent_run": "20261018-021823-h1-top01-same-reward-to10k",
+    "raw_source_provenance_verified": false
+  },
+  "selected_checkpoint": {
+    "filename": "model_11650.pt",
+    "iteration": 11650,
+    "sha256": "3d978261fb1b2c3c2cfbd48f8957972e81a54d6541e96d252a7d6a3344b3a381"
+  },
+  "latest_preserved_checkpoint": {
+    "filename": "model_12900.pt",
+    "iteration": 12900,
+    "sha256": "3f78944c81ff09cba97586deaaf2c6874b4e39bff1fde945628af6d314451b7a"
+  },
+  "resolved_configuration": {
+    "track_lin_vel_xy_exp": 0.65,
+    "track_ang_vel_z_exp": 0.7,
+    "action_rate_l2": -0.0003,
+    "termination_penalty": -50,
+    "feet_air_time": 0.2,
+    "feet_slide": -0.25
+  },
+  "validation_file": "evidence_intake_validation.json",
+  "training_release_tag": "official-h1-20261018-exp-h1-joint-tracking-balance-ang070-plus3k",
+  "release": "https://github.com/SE3C/naver-issacsim-originals/releases/tag/official-h1-20261018-exp-h1-joint-tracking-balance-ang070-plus3k"
+}

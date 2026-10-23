@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "robot": "h1",
+  "preliminary_round": 7,
+  "submission_preset": "h1-submit-7",
+  "experiment": "exp-h1-joint-tracking-balance",
+  "display_descriptor": "LIN065 ANG060 ACT0003 / R6 model9999 long continuation",
+  "run_id": "20261018-162226-h1-top01-from9999-plus32500",
+  "training_environment": "OFFICIAL",
+  "training_start": "resume",
+  "training_status": "COMPLETED",
+  "evidence_validation": "PASS",
+  "parent_run_id": "20261011-041745-h1-actrate-0001-fresh10k-official",
+  "parent_checkpoint": "model_9999.pt",
+  "parent_checkpoint_sha256": "a5020c273bc2b69bea1b20782fe80ba6605b3036b4054a7e5a8ab66151d2cb74",
+  "requested_additional_iterations": 32500,
+  "last_tensorboard_step": 42498,
+  "automatic_report_total_iterations": 42499,
+  "source_checkpoint_for_policy_pt": "model_40500.pt / automatic model_best.pt",
+  "source_checkpoint_iteration": 40500,
+  "source_checkpoint_sha256": "bbec034a81004dd5eae7059bd488330ddd3ded00f93dcca248e684fd97ceba0e",
+  "source_checkpoint_verified": true,
+  "source_checkpoint_verification": "All eight exported policy actor tensors exactly match native model40500; selected checkpoint and resolved env exactly match official automatic-backup and archive copies.",
+  "source_raw_lineage": {
+    "official_resume": true,
+    "parent_run_id": null,
+    "requested_checkpoint": "/workspace/model_9999.pt",
+    "source_checkpoint": "/workspace/model_9999.pt",
+    "source_checkpoint_sha256": "a5020c273bc2b69bea1b20782fe80ba6605b3036b4054a7e5a8ab66151d2cb74",
+    "source_checkpoint_origin": "user_imported_checkpoint",
+    "source_provenance_verified": false,
+    "start_iteration": 9999,
+    "requested_max_iterations": 32500,
+    "final_iteration": 42498,
+    "source_identity": "source/identity.json",
+    "native_checkpoint_path": "/workspace/training/humanoid/logs/rsl_rl/humanoid/issacsimz-import-a5020c273bc2b69b/model_9999.pt",
+    "native_checkpoint_staged": false,
+    "source_changed_during_run": false
+  },
+  "parent_connection_verification": "Imported source SHA matches preserved Round6 model9999; raw null/unverified provenance fields remain unchanged.",
+  "seed": 42,
+  "num_envs": 4096,
+  "save_interval": 50,
+  "submission_status": "User-selected replacement Round7 files and report; no new portal receipt or official score supplied.",
+  "submission_time": null,
+  "official_score": null,
+  "previous_submission_preset": "h1-submit-6",
+  "previous_submission_reward_deltas": {
+    "track_lin_vel_xy_exp": {
+      "from": 0.5,
+      "to": 0.65
+    },
+    "track_ang_vel_z_exp": {
+      "from": 0.5,
+      "to": 0.6
+    },
+    "action_rate_l2": {
+      "from": -0.0001,
+      "to": -0.0003
+    }
+  },
+  "resolved_config_source": "env.yaml (complete archived official resolved configuration)",
+  "source_archive_filename": "20261018-162226-h1-top01-from9999-plus32500-download.tar.gz",
+  "source_official_run_release": "https://github.com/SE3C/naver-issacsim-originals/releases/tag/official-h1-20261019-exp-h1-joint-tracking-balance-from9999-to42499",
+  "canonical_received_snapshot": "naver-issacsim-originals/data/raw/official_server_runs/h1/2026-10-19_round7_model40500_submission",
+  "submission_release": "https://github.com/SE3C/naver-issacsim/releases/tag/submission-h1-prelim-r7-20261019-model11650",
+  "release_tag_note": "Existing historical tag retains model11650; current title/assets/manifest identify model40500. The tag itself is not rewritten.",
+  "supersedes_snapshot": "2026-10-19_PRELIM_R7_MODEL11650_SUBMISSION",
+  "report_statistics_verification": {
+    "window": "last 100 recorded iterations ending at step42498, not selected model40500 neighborhood",
+    "mean_reward": 9.292709817886353,
+    "mean_episode_length": 898.1438995361328,
+    "error_vel_xy": 0.3614315751194954,
+    "error_vel_yaw": 0.8279127198457717,
+    "terrain_levels": 5.880571641921997,
+    "last10_base_contact": 0.17666626572608948,
+    "peak_reward": 10.58617115020752,
+    "peak_reward_step": 40510
+  },
+  "artifacts": {
+    "policy.pt": {
+      "bytes": 1206166,
+      "sha256": "dcc77124479d5c9666074b4f19c759c5a66f271ab75788e4abeef17c7ba45aa6"
+    },
+    "env.yaml": {
+      "bytes": 33531,
+      "sha256": "2cf4be82539bb1863d32d31403cceb30e42753746a8050fef7c0d3bf805e4cb8"
+    },
+    "technical_report.txt": {
+      "bytes": 1001,
+      "sha256": "8a566e18eaa5afd2a2d278dc48b842000c2abff77f74f5a421f402ddced649bb"
+    }
+  }
+}

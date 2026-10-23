@@ -1,2 +1,2 @@
-# Preserve reviewed file bytes and executable shell line endings across platforms.
-* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Original snapshots retain bytes, including Markdown hard breaks and historical EOF spacing.
+* -text whitespace=-blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol

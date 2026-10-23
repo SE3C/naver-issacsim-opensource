@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "source_archive": {
+    "filename": "20261018-140635-h1-top01-angtrack060-plus3k-download.tar.gz",
+    "bytes": 419806526,
+    "sha256": "8a0c8c8e36ab34ed25357e70a7963d5613a72d6a9f5802f98113c64e0b0c6b31",
+    "copied_to": "naver-issacsim-originals/data/raw/official_server_runs/h1/2026-10-18_230639_top01_angtrack060_plus3k/20261018-140635-h1-top01-angtrack060-plus3k-download.tar.gz",
+    "copy_sha256_verified": true
+  },
+  "wrapper_inner_archive": {
+    "filename": "20261018-140635-h1-top01-angtrack060-plus3k.tar.gz",
+    "bytes": 413264621,
+    "sha256": "c06254737f62f6f60f0df13ac51936e5888be418e79c68fdee9a5f24ddc57924",
+    "sidecar_sha256": "c06254737f62f6f60f0df13ac51936e5888be418e79c68fdee9a5f24ddc57924",
+    "matches_sidecar": true
+  },
+  "inner_sha256sums": {
+    "entries": 82,
+    "passed": 82,
+    "failed": 0
+  },
+  "training": {
+    "environment": "OFFICIAL",
+    "run_id": "20261018-140635-h1-top01-angtrack060-plus3k",
+    "status": "completed",
+    "exit_code": 0,
+    "validation": "PASS",
+    "official_backup_status": "success",
+    "official_finalize_status": "completed",
+    "requested_additional_iterations": 3000,
+    "final_iteration": 12900,
+    "actual_native_run": "2026-10-18_23-06-39",
+    "seed": 42,
+    "num_envs": 4096,
+    "resolved_rewards": {
+      "track_lin_vel_xy_exp": 0.65,
+      "track_ang_vel_z_exp": 0.7,
+      "action_rate_l2": -0.0003,
+      "termination_penalty": -50,
+      "feet_slide": 0.2
+    }
+  },
+  "lineage": {
+    "archive_metadata_parent_run_id": null,
+    "archive_metadata_source_provenance_verified": false,
+    "imported_checkpoint": "model_9950.pt",
+    "imported_checkpoint_sha256": "6e03f421b422c442ee85d449c708b3bf340d39e17c55de786276b9fd091847f3",
+    "hash_matches_known_top01_parent_run": "20261018-021823-h1-top01-same-reward-to10k",
+    "note": "Hash relationship is verified against the preserved parent keeper; raw imported-parent metadata remains null/unverified."
+  },
+  "checkpoints": {
+    "selected_best_iteration": 11650,
+    "selected_best_filename": "model_11650.pt",
+    "selected_best_sha256": "3d978261fb1b2c3c2cfbd48f8957972e81a54d6541e96d252a7d6a3344b3a381",
+    "latest_preserved_iteration": 12900,
+    "latest_preserved_filename": "model_12900.pt",
+    "latest_preserved_sha256": "3f78944c81ff09cba97586deaaf2c6874b4e39bff1fde945628af6d314451b7a",
+    "note": "model_best is the selected 11650 policy; latest keeper 12900 is a separate checkpoint."
+  },
+  "downloads_extraction_coverage": {
+    "files": 90,
+    "verified_against_outer_or_inner_archive": 89,
+    "uncovered": 1,
+    "mismatches": 0,
+    "uncovered_json": ".handoff/top01_extra3k_uncovered.json"
+  },
+  "extra_policy": {
+    "relative_path": "20261018-140635-h1-top01-angtrack060-plus3k\\policy.pt",
+    "bytes": 1206166,
+    "sha256": "3a49ac4a183609032b8bb23cf75a146048704e435c62d8797573d8cf001dbd1e"
+  },
+  "credential_like_filenames": [],
+  "credential_status_note": "Validation metadata records submit_host_present, submit_token_present, and submit_credentials_present as booleans; no credential-like filenames were found. Archive preserved unchanged.",
+  "duplicate_archive_found_in_originals": false
+}

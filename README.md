@@ -1,22 +1,25 @@
-# NCRC Robotics Research Tools
+# NCRC 프로젝트 공개 보관본
 
-H1·Go2 실험 과정에서 작성한 평가·evidence·실험 관리 도구의 공개 준비 저장소입니다.
+기존 프로젝트의 저장소 이름과 내부 폴더 구조를 유지한 선별 공개 snapshot입니다. 파일의 제목·본문·수치·Run ID·파일명·링크는 원본 그대로 두며, 필요한 개인정보만 블라인드합니다. 공개하기 곤란한 파일은 내용을 재작성하지 않고 파일 단위로 제외합니다.
 
-**준비 중:** 라이선스는 아직 결정되지 않았습니다. 공개 열람과 재사용 허가는 다르며, 현재 이 저장소가 포괄적인 오픈소스 라이선스를 제공한다고 가정하지 마세요.
+```text
+naver-issacsim-opensource/
+├─ naver-issacsim/            # 분석·문서·실험 registry
+├─ naver-issacsim-originals/  # 선별한 원본 보존·결과 메타데이터
+├─ naver-issacsim-nvidia/     # 자체 서버 도구·운영 문서
+├─ naver-issacsim-eval/       # 자체 평가기·실행기·문서
+├─ issacsimz/                # 실행·evidence sidecar
+└─ _publication/             # 공개 범위·블라인드·제외·Release 색인
+```
 
-## 구성
+- [공개 범위와 원본 보존 원칙](_publication/README.md)
+- [파일별 출처·원본/공개 SHA](_publication/FILES.json)
+- [파일 단위 제외 목록](_publication/EXCLUDED.json)
+- [원래 실험 단위의 Release 색인](_publication/RELEASES.md)
+- [검증·변경 기록](_publication/VERIFICATION.md)
 
-- `evaluation/`: 정책 비교·정량 평가·6지형 영상 실행 도구. 공식 평가기를 복제한 것이 아니며 결과는 자체 진단용입니다.
-- `sidecar/`: 외부 학습 코드의 실행과 evidence 수집을 돕는 `issacsimz` 도구의 공개 후보.
-- `server_tools/`: 독립적인 환경 준비·TensorBoard/checkpoint 보조 도구.
-- `knowledge/`: 공개 가능한 자체 실험 방법·판단 원칙. 제공 원문과 내부 대화는 포함하지 않습니다.
-- [분석·연구 기록](reports/README.md): H1·Go2 보고서, 수신 AI 분석, 실험 질문·계보와 자체 그래프의 공개용 사본.
-- [평가 결과](results/README.md): 공개 Release의 평가 데이터·영상과 원본/파생본 SHA 목록.
-- [공개 범위와 상태](PUBLICATION_STATUS.md)
-- [CPU 검증 결과와 한계](VERIFICATION.md)
+각 폴더의 README는 원래 저장소의 설명을 그대로 보존한 것입니다. **원래 5개 저장소의 전체 복제는 아닙니다.** 공식 training·강의·실습, 운영진 대화 원문, 모델·제출 정책·전체 학습 archive 등 제외 대상은 포함하지 않습니다. 원문 링크나 코드가 참조하는 외부 task·누락 자료를 이 snapshot만으로 제공하거나 재현한다고 주장하지 않습니다.
 
-각 도구는 독립된 하위 폴더에서 사용합니다. 평가 명령은 `evaluation/`, sidecar 명령은 `sidecar/`에서 실행하세요. 이 저장소 전체를 자동 설치·실행하는 통합 명령은 없습니다.
+기존 비공개 저장소의 Git 이력·Release·원본 자료는 변경하지 않습니다. 공개용 Release도 원본 실험 단위·제목·설명·asset 파일명을 보존하며, 한 저장소 안에서 구분하기 위한 `eval--` tag 접두어만 추가합니다. 이전 두 묶음 Release는 과거 공개 snapshot으로 남습니다.
 
-Isaac Sim·Isaac Lab 및 학습 task는 별도로 준비해야 합니다. 이 저장소는 공식 training 코드·강의·실습 배포본, 원본 정책 checkpoint, 개인 자격증명을 제공하지 않습니다. 원래 비공개 저장소의 Git 이력과 원본 Release를 그대로 복제하지 않고, 검토한 자체 결과의 공개 파생본을 새 Release로 제공합니다.
-
-GPU 작업, 외부 업로드, 서버 종료는 설치나 문서 열람의 일부로 자동 실행하지 않습니다. 공개 후보의 CPU 검증과 실제 GPU/서버 검증은 구분해서 기록합니다.
+**라이선스는 아직 미정입니다.** 공개 열람과 포괄적 재사용 허가는 구분합니다. GPU 작업·학습·영상·서버 종료는 이 공개 작업에서 실행하지 않았습니다.

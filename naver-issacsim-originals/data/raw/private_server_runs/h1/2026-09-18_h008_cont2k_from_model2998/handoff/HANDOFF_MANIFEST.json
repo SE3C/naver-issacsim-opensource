@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "artifact_type": "derived_download_handoff",
+  "run_id": "20260917-234047-h1-h008-cont2k-from-2998",
+  "hypothesis": "H-008 LINTRACK075",
+  "environment": "PERSONAL",
+  "parent": {
+    "checkpoint": "H-008 3K model_2998.pt",
+    "sha256": "d9a30c8a117f69cac49c4e640500f0fa8d88de72d6c61855f1e147ea6c1912ae"
+  },
+  "continuation": {
+    "requested_additional_iterations": 2000,
+    "actual_global_iteration_range": "2998-4997",
+    "representative_checkpoint": "model_4997.pt"
+  },
+  "files": {
+    "model_4997.pt": {
+      "bytes": 7151477,
+      "sha256": "e6deed62c1dfff4d5bdaac4cf77ee7308f91f04f9ea6db32a8f80f3e5db922a2"
+    },
+    "env.yaml": {
+      "bytes": 33553,
+      "sha256": "549e097fd9e6af6c6d5ed28488e1775c07cb39de68ad83d4f734508df18fc62b"
+    },
+    "report.html": {
+      "bytes": 14374,
+      "sha256": "e752576250abfe424bcb8bf8c45af458d27521f34ce02cf4ac75b4fe25ea209f"
+    }
+  },
+  "canonical_evidence": {
+    "archive": "20260917-234047-h1-h008-cont2k-from-2998.tar.gz",
+    "sha256": "b669bf1b90a67a4468e6851ab237538bbab6450144b3e4f5e9eecbfeb6777d9e",
+    "internal_sha256sums": "41/41 verified"
+  },
+  "limitation": "The canonical training was launched through generic issacsimz run; profile/source_checkpoint/resume_lineage are null and validation is WARN. Post-run provenance is supplementary only."
+}

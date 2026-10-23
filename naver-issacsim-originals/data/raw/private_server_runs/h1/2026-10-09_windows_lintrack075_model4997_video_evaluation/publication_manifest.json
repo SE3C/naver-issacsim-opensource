@@ -1,0 +1,85 @@
+{
+  "schema": "personal-video-evaluation-publication-v1",
+  "robot": "h1",
+  "experiment_question": "Does increasing linear tracking weight from 0.50 to 0.75 preserve stability and terrain progress in the corrected +0.20 feet lineage?",
+  "descriptor": "LINTRACK-075",
+  "legacy_aliases": [
+    "H-008",
+    "R04"
+  ],
+  "record_type": "post_training_video_and_evaluation",
+  "preset_reference": "h1-submit-2",
+  "resolved_config_source": "Source training archive native settings; this publication does not reconstruct or alter configuration",
+  "preset_relative_overrides": {
+    "track_lin_vel_xy_exp": 0.75
+  },
+  "training_environment": "PERSONAL",
+  "evaluation_environment": "PERSONAL_WINDOWS",
+  "training_run_id": "20260925-091257-h1-h008-corrected-control-to5k-h1-corrected-2026",
+  "source_training_release": "https://github.com/SE3C/naver-issacsim-nvidia/releases/tag/private-20260925-091257-h1-lintrack-075-corrected-control-to5k-h1-corrected-2026",
+  "source_training_archive": {
+    "filename": "20260925-091257-h1-h008-corrected-control-to5k-h1-corrected-2026.tar.gz",
+    "sha256": "17aa08173eea96a8eb93499fe7763e7bde7f9b00179eac8cc5d353a51bd76faf",
+    "bytes": 153865152
+  },
+  "training_status": "COMPLETED",
+  "training_validation": "PASS",
+  "training_source_provenance_verified": false,
+  "source_checkpoint_filename": "model_4997.pt",
+  "local_checkpoint_filename": "h1_LINTRACK-075_corrected5k_model_4997.pt",
+  "source_checkpoint_sha256": "4349fe5650135c6a77546afc1b165ff60c235bdd83831bd562d618b04c3b5b6d",
+  "source_checkpoint_bytes": 7151477,
+  "training_checkpoint_role": "final_numbered_checkpoint_not_automatic_best_model4900",
+  "training_link_basis": "Checkpoint bytes match corrected R04 training archive checkpoints/model_4997.pt; embedded source_run_id and preset remain null; external link only",
+  "parent_checkpoint": {
+    "filename": "model_2998.pt",
+    "sha256": "49fdb297924c861493d377f22b9de135d83c73969ef3d8a2e4a56c9879414983",
+    "legacy_run": "corrected R03"
+  },
+  "training_iterations": {
+    "requested_additional": 2000,
+    "start": 2998,
+    "end": 4997
+  },
+  "training_seed": 42,
+  "training_num_envs": 4096,
+  "evaluation_task_repo_commit": "ef10b7a4c9a83481346d446e8a75aed655f72214",
+  "evaluator_handoff_commit": "28895d75edf3095607e392a07207a62e768478c7",
+  "upstream_implementation_commit": "9c774a322f2f7d4944444de57f01308987bcb3da",
+  "protocol_id": "d406a296d2c0e5a7deee4138de7df87532d2815ae9b65af999d7a8f0b7062d34",
+  "suite": "scenario7",
+  "num_envs": 128,
+  "seeds": [
+    4201,
+    4202,
+    4203
+  ],
+  "case_count": 8,
+  "seconds_per_case": 20,
+  "camera_enabled": false,
+  "complete": true,
+  "smoke": false,
+  "native_exit_code": 0,
+  "launcher_exit_code": 0,
+  "aggregate_episode_count": 3072,
+  "cohort_count": 24,
+  "video_suite_id": "suite-95bea4930c234a61b5bf80bc8cf2bc53",
+  "video_scenario": "maneuver_push",
+  "video_count": 6,
+  "video_duration_s_each": 20,
+  "slope_degrees": 10,
+  "archive": {
+    "filename": "h1_LINTRACK-075_corrected5k_model_4997_h1_6terrain_evaluation_20261009-235216_59e47db4.zip",
+    "bytes": 34470580,
+    "sha256": "1c740a56fe30596202dbf98870f6f3d730d548d781131e86473f9d053e6a5488",
+    "file_count": 18
+  },
+  "canonical_raw_repository": "SE3C/naver-issacsim-originals",
+  "canonical_raw_path": "data/raw/private_server_runs/h1/2026-10-09_windows_lintrack075_model4997_video_evaluation",
+  "release_repository": "SE3C/naver-issacsim-nvidia",
+  "release_tag": "private-h1-20261009-lintrack-075-corrected5k-model4997-video-eval",
+  "official_score": false,
+  "comparison_report_included": false,
+  "calibration_included": false,
+  "original_zip_modified": false
+}

@@ -1,0 +1,13 @@
+{
+  "collector_sha256": "c5e157e488f99c84bfae7d719a8d59a7235e509f1f7e8ef6f1e052d2bdf5fe32",
+  "handoff_commit": "28895d75edf3095607e392a07207a62e768478c7",
+  "protocol_id": "d406a296d2c0e5a7deee4138de7df87532d2815ae9b65af999d7a8f0b7062d34",
+  "scorer_sha256": "4c201c58bfbc267f34e0615407021dabb8e799ea476e01f00602fce9af58b14a",
+  "smoke": false,
+  "source_checkpoint": "C:\\NCRC\\h1-checkpoint-staging\\20261017-015509-h1-lintrack-065-angtrack-060-actrate-0003-fresh5_model_4950.pt",
+  "source_checkpoint_sha256": "2df0584057deb4dc15ab3c4470d52da29e5468bbb819fe3e4c66a928462bc478",
+  "staged_checkpoint_used": "C:\\NCRC\\h1-video-suite-work\\suite-5cc956b4e7254bd499afe31cb27057c1\\checkpoint.pt",
+  "upstream_implementation_commit": "9c774a322f2f7d4944444de57f01308987bcb3da",
+  "video_zip": "C:\\NCRC\\h1-video-suite-logs\\suite-5cc956b4e7254bd499afe31cb27057c1\\video_source.zip",
+  "video_zip_sha256": "60cd840e93b3d86923c11de055b268c3c626417c048504082c38928cb381f22f"
+}

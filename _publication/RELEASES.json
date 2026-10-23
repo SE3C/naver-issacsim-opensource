@@ -1,0 +1,1388 @@
+[
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261019-exp-h1-joint-tracking-balance-ang070-model12900-local-eval",
+    "source_title": "[PERSONAL] H1 TOP01 ANG070 +3K model12900 local evaluation",
+    "source_body_sha256": "ecf1bd89f3e9575806d57f61e0ca1ead68856a8210211b00597ab8e0b5b8130e",
+    "public_tag": "eval--private-h1-20261019-exp-h1-joint-tracking-balance-ang070-model12900-local-eval",
+    "public_title": "[PERSONAL] H1 TOP01 ANG070 +3K model12900 local evaluation",
+    "asset": "h1-top01-angtrack060-plus3k_model_12900_LOCAL_evaluation_20261019.zip",
+    "source_sha256": "abf37b45d32c28c26de232214313641d7e3fcd289e422df16ba8cae72b030eb2",
+    "public_sha256": "abf37b45d32c28c26de232214313641d7e3fcd289e422df16ba8cae72b030eb2",
+    "bytes": 187666,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "assets": [
+      {
+        "name": "h1-top01-angtrack060-plus3k_model_12900_LOCAL_evaluation_20261019.zip",
+        "source_sha256": "abf37b45d32c28c26de232214313641d7e3fcd289e422df16ba8cae72b030eb2",
+        "public_sha256": "abf37b45d32c28c26de232214313641d7e3fcd289e422df16ba8cae72b030eb2",
+        "bytes": 187666,
+        "status": "byte_identical"
+      },
+      {
+        "name": "intake_manifest.json",
+        "source_sha256": "7e2eeed519dc5c92f3b08ce66f9eea01c56e06f8703b3e7ea4d79b1c6c18cae8",
+        "public_sha256": "25b9eca6038a077a3dc69a9539601b292da9377125ff9c26f8ca51cf99ae31db",
+        "bytes": 3103,
+        "status": "personal_profile_blinded"
+      },
+      {
+        "name": "SHA256SUMS",
+        "source_sha256": "58fca1f7ff169ff10a0371bb10a6c2c3534f60e839558e70418d947767aa9566",
+        "public_sha256": "58fca1f7ff169ff10a0371bb10a6c2c3534f60e839558e70418d947767aa9566",
+        "bytes": 136,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261019-model40300-2seed-personal-eval",
+    "source_title": "[PERSONAL] H1 model40300 two-seed local evaluation",
+    "source_body_sha256": "eb380edd17f0881174d9e25677c33a3463adf729b53cf5c7399715586b74ccb5",
+    "public_tag": "eval--private-h1-20261019-model40300-2seed-personal-eval",
+    "public_title": "[PERSONAL] H1 model40300 two-seed local evaluation",
+    "asset": "model_40300_h1_LOCAL_evaluation_2seed_20261019.zip",
+    "source_sha256": "046359f52f88035b79866b17469c49ad8bd62c3af2135b3ebe72ec1a5f535ceb",
+    "public_sha256": "b498aa83cfb9420b38dedafd3fdae448b495f478d9462bd61622a355864f29f7",
+    "bytes": 377556,
+    "status": "personal_profile_blinded",
+    "members_blinded": [
+      {
+        "path": "launcher_result.json",
+        "source_sha256": "dbd99046ba9af96f38f3c7fe5ec129ec360fd248f7b0143d851502542a2edfbc",
+        "public_sha256": "b456e5c31c701afa7da4bea82032e3f6d350b7794974c0d2ecb65895898dbd0f"
+      },
+      {
+        "path": "video_evaluation_link.json",
+        "source_sha256": "1fce7e6c8e30fe78076c96be1f2f629e15e1fec93839ad4df58a7b2f301ca3f3",
+        "public_sha256": "740fcae6189919c0e885d21d123b8f991cebf6350f3d58e4a9e4a7396e4bce53"
+      }
+    ],
+    "assets": [
+      {
+        "name": "model_40300_h1_LOCAL_evaluation_2seed_20261019.zip",
+        "source_sha256": "046359f52f88035b79866b17469c49ad8bd62c3af2135b3ebe72ec1a5f535ceb",
+        "public_sha256": "b498aa83cfb9420b38dedafd3fdae448b495f478d9462bd61622a355864f29f7",
+        "bytes": 377556,
+        "status": "personal_profile_blinded"
+      },
+      {
+        "name": "intake_manifest.json",
+        "source_sha256": "87c711e57d1f5f38c583259e829d72875eb82a5854388a688d04627ae68261bb",
+        "public_sha256": "102a141993b93724ad12a44a5b83d332b134e4cd5169fafc1e8b75a24612091c",
+        "bytes": 2952,
+        "status": "personal_profile_blinded"
+      },
+      {
+        "name": "SHA256SUMS",
+        "source_sha256": "ccdb3bf4ec2c0cdc8962d0b83f982e10258bc8a3ef98076048ad6422028eda5e",
+        "public_sha256": "ccdb3bf4ec2c0cdc8962d0b83f982e10258bc8a3ef98076048ad6422028eda5e",
+        "bytes": 117,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261018-exp-h1-action-first-planar-tracking-switch-model9999-a4000-eval",
+    "source_title": "[분석] H1 LINTRACK-065 + ACTRATE-0001 · model_9999 · PERSONAL A4000 scenario7 평가",
+    "source_body_sha256": "f4bf3b85aa51ef538f18770c2b4892d292a298081ee32272f51d3ae2445a278a",
+    "public_tag": "eval--private-h1-20261018-exp-h1-action-first-planar-tracking-switch-model9999-a4000-eval",
+    "public_title": "[분석] H1 LINTRACK-065 + ACTRATE-0001 · model_9999 · PERSONAL A4000 scenario7 평가",
+    "asset": "h1-top08-same-reward-to10k_model_9999_A4000_evaluation_20261018.zip",
+    "source_sha256": "551b3683ae1b618a49180e9528159e1636fe391c383bdae208f5d1515da22c48",
+    "public_sha256": "551b3683ae1b618a49180e9528159e1636fe391c383bdae208f5d1515da22c48",
+    "bytes": 546055,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "assets": [
+      {
+        "name": "h1-top08-same-reward-to10k_model_9999_A4000_evaluation_20261018.zip",
+        "source_sha256": "551b3683ae1b618a49180e9528159e1636fe391c383bdae208f5d1515da22c48",
+        "public_sha256": "551b3683ae1b618a49180e9528159e1636fe391c383bdae208f5d1515da22c48",
+        "bytes": 546055,
+        "status": "byte_identical"
+      },
+      {
+        "name": "asset.sha256",
+        "source_sha256": "145dfa939486de4b7d2c934d7960e5a99b31cc0025e5920c9c63b8da3986c7f0",
+        "public_sha256": "145dfa939486de4b7d2c934d7960e5a99b31cc0025e5920c9c63b8da3986c7f0",
+        "bytes": 134,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "285d0d315692709cacd3ab4d1fc68bf6d2df4f89b81f19e478568907c85a16d6",
+        "public_sha256": "285d0d315692709cacd3ab4d1fc68bf6d2df4f89b81f19e478568907c85a16d6",
+        "bytes": 2257,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261018-exp-h1-action-rate-smoothing-model9950-a4000-eval",
+    "source_title": "[분석] H1 ACTRATE-001 · model_9950 · PERSONAL A4000 scenario7 평가",
+    "source_body_sha256": "f0dff31830a5c15ff37cc7a66e011b666c07baf480637dbdacc569ca82b21e7e",
+    "public_tag": "eval--private-h1-20261018-exp-h1-action-rate-smoothing-model9950-a4000-eval",
+    "public_title": "[분석] H1 ACTRATE-001 · model_9950 · PERSONAL A4000 scenario7 평가",
+    "asset": "h1-top07-same-reward-to10k_model_9950_A4000_evaluation_20261018.zip",
+    "source_sha256": "00967e49176bcd03742db776f2d8ae4ce8ea633a6a9d9435cdac0cc26fcb953a",
+    "public_sha256": "00967e49176bcd03742db776f2d8ae4ce8ea633a6a9d9435cdac0cc26fcb953a",
+    "bytes": 547067,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "assets": [
+      {
+        "name": "h1-top07-same-reward-to10k_model_9950_A4000_evaluation_20261018.zip",
+        "source_sha256": "00967e49176bcd03742db776f2d8ae4ce8ea633a6a9d9435cdac0cc26fcb953a",
+        "public_sha256": "00967e49176bcd03742db776f2d8ae4ce8ea633a6a9d9435cdac0cc26fcb953a",
+        "bytes": 547067,
+        "status": "byte_identical"
+      },
+      {
+        "name": "asset.sha256",
+        "source_sha256": "7ea78d131602eaccb43c999cc49dd88c2ebedffddbed7720172262a34b7b6fdc",
+        "public_sha256": "7ea78d131602eaccb43c999cc49dd88c2ebedffddbed7720172262a34b7b6fdc",
+        "bytes": 134,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "e8700d4c5f8c6528fde03673ab4762b68810d15ef243036e6210fb20e83cef91",
+        "public_sha256": "e8700d4c5f8c6528fde03673ab4762b68810d15ef243036e6210fb20e83cef91",
+        "bytes": 2185,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261018-exp-h1-submit2-training-duration-control-model9950-a4000-eval",
+    "source_title": "[분석] H1 h1-submit-2 unchanged · model_9950 · PERSONAL A4000 scenario7 평가",
+    "source_body_sha256": "108d6d1c43e3140c8dc895b2a30384f622f824562d7891ab264dec8099cae686",
+    "public_tag": "eval--private-h1-20261018-exp-h1-submit2-training-duration-control-model9950-a4000-eval",
+    "public_title": "[분석] H1 h1-submit-2 unchanged · model_9950 · PERSONAL A4000 scenario7 평가",
+    "asset": "h1-top05-same-reward-to10k_model_9950_A4000_evaluation_20261018.zip",
+    "source_sha256": "4f8977ee6d31845f61f6638a1dc935e84af5c7b448e2e333019643d47de774ff",
+    "public_sha256": "4f8977ee6d31845f61f6638a1dc935e84af5c7b448e2e333019643d47de774ff",
+    "bytes": 545448,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "assets": [
+      {
+        "name": "h1-top05-same-reward-to10k_model_9950_A4000_evaluation_20261018.zip",
+        "source_sha256": "4f8977ee6d31845f61f6638a1dc935e84af5c7b448e2e333019643d47de774ff",
+        "public_sha256": "4f8977ee6d31845f61f6638a1dc935e84af5c7b448e2e333019643d47de774ff",
+        "bytes": 545448,
+        "status": "byte_identical"
+      },
+      {
+        "name": "h1-top05-same-reward-to10k_model_9950_A4000_evaluation_20261018.zip.sha256",
+        "source_sha256": "8bd48f5c47f4e20cc7849ce099efb9cdca49be45e6f06587dc5d7a12ea8085ec",
+        "public_sha256": "8bd48f5c47f4e20cc7849ce099efb9cdca49be45e6f06587dc5d7a12ea8085ec",
+        "bytes": 134,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "9f1badee854a883ad68bebdd83e8215723800bb7a3927b790b8e7b71dabd57b6",
+        "public_sha256": "9f1badee854a883ad68bebdd83e8215723800bb7a3927b790b8e7b71dabd57b6",
+        "bytes": 2023,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261018-exp-h1-action-planar-tracking-fresh-interaction-model9950-a4000-eval",
+    "source_title": "[분석] H1 LINTRACK-075 + ACTRATE-0001 · model_9950 · PERSONAL A4000 scenario7 평가",
+    "source_body_sha256": "aa401147a35ad29d01a1999e637756eaae6a786e32c8b698b7ed9b630622ceff",
+    "public_tag": "eval--private-h1-20261018-exp-h1-action-planar-tracking-fresh-interaction-model9950-a4000-eval",
+    "public_title": "[분석] H1 LINTRACK-075 + ACTRATE-0001 · model_9950 · PERSONAL A4000 scenario7 평가",
+    "asset": "h1-top09-same-reward-to10k_model_9950_A4000_evaluation_20261018.zip",
+    "source_sha256": "5473f31abbef9bb09736073572b3cec83fcdf9f37d0f4698988f28e1a69f3f26",
+    "public_sha256": "5473f31abbef9bb09736073572b3cec83fcdf9f37d0f4698988f28e1a69f3f26",
+    "bytes": 548968,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "assets": [
+      {
+        "name": "h1-top09-same-reward-to10k_model_9950_A4000_evaluation_20261018.zip",
+        "source_sha256": "5473f31abbef9bb09736073572b3cec83fcdf9f37d0f4698988f28e1a69f3f26",
+        "public_sha256": "5473f31abbef9bb09736073572b3cec83fcdf9f37d0f4698988f28e1a69f3f26",
+        "bytes": 548968,
+        "status": "byte_identical"
+      },
+      {
+        "name": "h1-top09-same-reward-to10k_model_9950_A4000_evaluation_20261018.zip.sha256",
+        "source_sha256": "1a8b0a08bf19f0acb29c7d4617171f9d2d3086e541ea293b77f40f03e8b60a48",
+        "public_sha256": "1a8b0a08bf19f0acb29c7d4617171f9d2d3086e541ea293b77f40f03e8b60a48",
+        "bytes": 134,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "a41447ecf8b0aab9cb9ad4747f8281f5297b8f738b320630e1025165cba9db14",
+        "public_sha256": "a41447ecf8b0aab9cb9ad4747f8281f5297b8f738b320630e1025165cba9db14",
+        "bytes": 2289,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261018-exp-h1-rough-terrain-orientation-relaxation-model9999-a4000-eval",
+    "source_title": "[분석] H1 ORIENT-100 · model_9999 · PERSONAL A4000 scenario7 평가",
+    "source_body_sha256": "e808a709a7e5b4a29589c89920eadd2f820b5e6f34151b99522e1105c72eb0bd",
+    "public_tag": "eval--private-h1-20261018-exp-h1-rough-terrain-orientation-relaxation-model9999-a4000-eval",
+    "public_title": "[분석] H1 ORIENT-100 · model_9999 · PERSONAL A4000 scenario7 평가",
+    "asset": "h1-top03-same-reward-to10k_model_9999_A4000_evaluation_20261018.zip",
+    "source_sha256": "acaebad31aa5086137ed42817813662926d322b3f01543e9ad6f3b29264c842e",
+    "public_sha256": "acaebad31aa5086137ed42817813662926d322b3f01543e9ad6f3b29264c842e",
+    "bytes": 547807,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "assets": [
+      {
+        "name": "h1-top03-same-reward-to10k_model_9999_A4000_evaluation_20261018.zip",
+        "source_sha256": "acaebad31aa5086137ed42817813662926d322b3f01543e9ad6f3b29264c842e",
+        "public_sha256": "acaebad31aa5086137ed42817813662926d322b3f01543e9ad6f3b29264c842e",
+        "bytes": 547807,
+        "status": "byte_identical"
+      },
+      {
+        "name": "h1-top03-same-reward-to10k_model_9999_A4000_evaluation_20261018.zip.sha256",
+        "source_sha256": "af99c61c793ae438f03d1109b30c3d36fcc4e595f84ecc53e57f1304f5a819a1",
+        "public_sha256": "af99c61c793ae438f03d1109b30c3d36fcc4e595f84ecc53e57f1304f5a819a1",
+        "bytes": 134,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "3aea2d09fbe3fc31ab53906fcf36c87e951ee8e14cbeca5c78866ea0d746cb69",
+        "public_sha256": "3aea2d09fbe3fc31ab53906fcf36c87e951ee8e14cbeca5c78866ea0d746cb69",
+        "bytes": 1976,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261018-exp-h1-planar-tracking-weight-model9999-a4000-eval",
+    "source_title": "[분석] H1 LINTRACK-065 · model_9999 · PERSONAL A4000 scenario7 평가",
+    "source_body_sha256": "8efb883e65d95752277dde96bcafb6c6a6b340555d69c14783bbe7baf429dcda",
+    "public_tag": "eval--private-h1-20261018-exp-h1-planar-tracking-weight-model9999-a4000-eval",
+    "public_title": "[분석] H1 LINTRACK-065 · model_9999 · PERSONAL A4000 scenario7 평가",
+    "asset": "h1-top06-same-reward-to10k_model_9999_A4000_evaluation_20261018.zip",
+    "source_sha256": "0c958e62450e3ee697d0c747bb00e0386c7bcebb5237009b869bea546c5ea417",
+    "public_sha256": "0c958e62450e3ee697d0c747bb00e0386c7bcebb5237009b869bea546c5ea417",
+    "bytes": 545434,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "assets": [
+      {
+        "name": "h1-top06-same-reward-to10k_model_9999_A4000_evaluation_20261018.zip",
+        "source_sha256": "0c958e62450e3ee697d0c747bb00e0386c7bcebb5237009b869bea546c5ea417",
+        "public_sha256": "0c958e62450e3ee697d0c747bb00e0386c7bcebb5237009b869bea546c5ea417",
+        "bytes": 545434,
+        "status": "byte_identical"
+      },
+      {
+        "name": "h1-top06-same-reward-to10k_model_9999_A4000_evaluation_20261018.zip.sha256",
+        "source_sha256": "9ba27a49acdb515980648060b7faef525b72bbf4ccffacf8d92cf5802574d6cf",
+        "public_sha256": "9ba27a49acdb515980648060b7faef525b72bbf4ccffacf8d92cf5802574d6cf",
+        "bytes": 134,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "f9fbaba78f9d0cbc6844c22abc606468e194fbac157c2e283026651cb6d51cfd",
+        "public_sha256": "f9fbaba78f9d0cbc6844c22abc606468e194fbac157c2e283026651cb6d51cfd",
+        "bytes": 2145,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261018-exp-h1-action-foot-contact-stability-action0001-feetslide035-model9950-a4000-eval",
+    "source_title": "[분석] H1 ACTRATE-0001 + FEETSLIDE-035 · model9950 · PERSONAL A4000 scenario7 평가",
+    "source_body_sha256": "928bbc1b6ae0c2694548d5dd25fa8c31b26b655d24eb89c1e38c151b35d548c0",
+    "public_tag": "eval--private-h1-20261018-exp-h1-action-foot-contact-stability-action0001-feetslide035-model9950-a4000-eval",
+    "public_title": "[분석] H1 ACTRATE-0001 + FEETSLIDE-035 · model9950 · PERSONAL A4000 scenario7 평가",
+    "asset": "h1-top04-same-reward-to10k_model_9950_A4000_evaluation_20261018.zip",
+    "source_sha256": "62345448eabc9e550816103ded5117495c303103d1a0521add2ea6a877b1f582",
+    "public_sha256": "62345448eabc9e550816103ded5117495c303103d1a0521add2ea6a877b1f582",
+    "bytes": 546945,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "assets": [
+      {
+        "name": "h1-top04-same-reward-to10k_model_9950_A4000_evaluation_20261018.zip",
+        "source_sha256": "62345448eabc9e550816103ded5117495c303103d1a0521add2ea6a877b1f582",
+        "public_sha256": "62345448eabc9e550816103ded5117495c303103d1a0521add2ea6a877b1f582",
+        "bytes": 546945,
+        "status": "byte_identical"
+      },
+      {
+        "name": "h1-top04-same-reward-to10k_model_9950_A4000_evaluation_20261018.zip.sha256",
+        "source_sha256": "97d1bf644aefa7e6c6307691f2fb6c5ca338a4ed218c0f92236105a18a697930",
+        "public_sha256": "97d1bf644aefa7e6c6307691f2fb6c5ca338a4ed218c0f92236105a18a697930",
+        "bytes": 134,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "d043fe5019724b4b29fa3698d89e36c6eccc3f782210e08fa52844e61af2a25d",
+        "public_sha256": "d043fe5019724b4b29fa3698d89e36c6eccc3f782210e08fa52844e61af2a25d",
+        "bytes": 1924,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261018-exp-h1-action-rate-relaxation-action0003-model9950-a4000-eval",
+    "source_title": "[분석] H1 ACTRATE-0003 same-reward continuation · model_9950 · PERSONAL A4000 scenario7 평가",
+    "source_body_sha256": "badd9f95edca9180e060e40528b48772e79fadeb505f632e1ec034e883eb2f1a",
+    "public_tag": "eval--private-h1-20261018-exp-h1-action-rate-relaxation-action0003-model9950-a4000-eval",
+    "public_title": "[분석] H1 ACTRATE-0003 same-reward continuation · model_9950 · PERSONAL A4000 scenario7 평가",
+    "asset": "h1-top02-same-reward-to10k_model_9950_A4000_evaluation_20261018.zip",
+    "source_sha256": "bbaf897f2bf5a3cce9be21aacf865be677eda7dd94cefe9ac4536941a53a9c31",
+    "public_sha256": "bbaf897f2bf5a3cce9be21aacf865be677eda7dd94cefe9ac4536941a53a9c31",
+    "bytes": 546518,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "assets": [
+      {
+        "name": "h1-top02-same-reward-to10k_model_9950_A4000_evaluation_20261018.zip",
+        "source_sha256": "bbaf897f2bf5a3cce9be21aacf865be677eda7dd94cefe9ac4536941a53a9c31",
+        "public_sha256": "bbaf897f2bf5a3cce9be21aacf865be677eda7dd94cefe9ac4536941a53a9c31",
+        "bytes": 546518,
+        "status": "byte_identical"
+      },
+      {
+        "name": "h1-top02-same-reward-to10k_model_9950_A4000_evaluation_20261018.zip.sha256",
+        "source_sha256": "b1ea7df0c9703557cf43e3b50bc065d466e0e1bc92ca3223330d9a08f5639fc9",
+        "public_sha256": "b1ea7df0c9703557cf43e3b50bc065d466e0e1bc92ca3223330d9a08f5639fc9",
+        "bytes": 134,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "74d218a9738a1e59d930dbaea1129d067d0ce57170e50f351feffcafe1297223",
+        "public_sha256": "74d218a9738a1e59d930dbaea1129d067d0ce57170e50f351feffcafe1297223",
+        "bytes": 1749,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261018-exp-h1-joint-tracking-balance-model9950-a4000-eval",
+    "source_title": "[분석] H1 joint tracking · model9950 · PERSONAL A4000 scenario7 평가",
+    "source_body_sha256": "9b3619343b89124b78d1c87c4d61c86790e63b812b44e96ccbc36b410a825fe3",
+    "public_tag": "eval--private-h1-20261018-exp-h1-joint-tracking-balance-model9950-a4000-eval",
+    "public_title": "[분석] H1 joint tracking · model9950 · PERSONAL A4000 scenario7 평가",
+    "asset": "h1-top01-same-reward-to10k_model_9950_A4000_evaluation_20261018.zip",
+    "source_sha256": "f0ecd1089e4d86f5009da565b73ed621a8e52e66c4d4f99d724fefb9e84dd731",
+    "public_sha256": "f0ecd1089e4d86f5009da565b73ed621a8e52e66c4d4f99d724fefb9e84dd731",
+    "bytes": 546213,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "assets": [
+      {
+        "name": "h1-top01-same-reward-to10k_model_9950_A4000_evaluation_20261018.zip",
+        "source_sha256": "f0ecd1089e4d86f5009da565b73ed621a8e52e66c4d4f99d724fefb9e84dd731",
+        "public_sha256": "f0ecd1089e4d86f5009da565b73ed621a8e52e66c4d4f99d724fefb9e84dd731",
+        "bytes": 546213,
+        "status": "byte_identical"
+      },
+      {
+        "name": "h1-top01-same-reward-to10k_model_9950_A4000_evaluation_20261018.zip.sha256",
+        "source_sha256": "6493f04d9e35abcec9ab2c83645e16e1787927615b32059261bb802e48c4efbc",
+        "public_sha256": "6493f04d9e35abcec9ab2c83645e16e1787927615b32059261bb802e48c4efbc",
+        "bytes": 134,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "46b427c1b3f81d50af13d1f782a64c59bfbcded1dbeff9a116930c8130e17c09",
+        "public_sha256": "46b427c1b3f81d50af13d1f782a64c59bfbcded1dbeff9a116930c8130e17c09",
+        "bytes": 2235,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261018-exp-h1-action-planar-tracking-fresh-interaction-model2850-video-eval",
+    "source_title": "[분석] H1 LINTRACK-075 + ACTRATE-0001 · model2850 · PERSONAL 평가",
+    "source_body_sha256": "c627bacd9fa20921c977c796f2a05abb1bdc8a8e6238f2f791f8025e572d5f83",
+    "public_tag": "eval--private-h1-20261018-exp-h1-action-planar-tracking-fresh-interaction-model2850-video-eval",
+    "public_title": "[분석] H1 LINTRACK-075 + ACTRATE-0001 · model2850 · PERSONAL 평가",
+    "asset": "20261017-140610-h1-lintrack-075-actrate-0001-term-50-fresh3k_model_2850_h1_6terrain_evaluation_20261018-010134_e75c39b0.zip",
+    "source_sha256": "bafeffabcc0e3d7c5b8e0548f2f6dc491c98607b2d9b49ec53c2ff1a1e353f2f",
+    "public_sha256": "bafeffabcc0e3d7c5b8e0548f2f6dc491c98607b2d9b49ec53c2ff1a1e353f2f",
+    "bytes": 33183156,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "assets": [
+      {
+        "name": "20261017-140610-h1-lintrack-075-actrate-0001-term-50-fresh3k_model_2850_h1_6terrain_evaluation_20261018-010134_e75c39b0.zip",
+        "source_sha256": "bafeffabcc0e3d7c5b8e0548f2f6dc491c98607b2d9b49ec53c2ff1a1e353f2f",
+        "public_sha256": "bafeffabcc0e3d7c5b8e0548f2f6dc491c98607b2d9b49ec53c2ff1a1e353f2f",
+        "bytes": 33183156,
+        "status": "byte_identical"
+      },
+      {
+        "name": "20261017-140610-h1-lintrack-075-actrate-0001-term-50-fresh3k_model_2850_h1_6terrain_evaluation_20261018-010134_e75c39b0.zip.sha256",
+        "source_sha256": "8363a95fa42c31ae8c506a8d0abd973e51fa968c126a7dc2401ec7d66a3123fb",
+        "public_sha256": "8363a95fa42c31ae8c506a8d0abd973e51fa968c126a7dc2401ec7d66a3123fb",
+        "bytes": 190,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "1a57eb1ebb3999f546d482ec1e8de15d1b00207233f9d96c3fe7366d2d95e52f",
+        "public_sha256": "1a57eb1ebb3999f546d482ec1e8de15d1b00207233f9d96c3fe7366d2d95e52f",
+        "bytes": 2631,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261017-exp-h1-joint-tracking-posture-relaxation-model2850-video-eval",
+    "source_title": "[분석] H1 joint tracking · orientation=-1.0 · hip=-0.1 · PERSONAL model2850 · 6영상 + scenario7",
+    "source_body_sha256": "afd918cef4c9098b468b4c7c66bebc839dac12b9f4fb24232e52be224a021392",
+    "public_tag": "eval--private-h1-20261017-exp-h1-joint-tracking-posture-relaxation-model2850-video-eval",
+    "public_title": "[분석] H1 joint tracking · orientation=-1.0 · hip=-0.1 · PERSONAL model2850 · 6영상 + scenario7",
+    "asset": "20261017-072659-h1-lintrack-065-angtrack-060-actrate-0003-orient_model_2850_h1_6terrain_evaluation_20261017-181149_f1f8e371.zip",
+    "source_sha256": "af58e8f10165dbce7bd1c0363c09f523db925d9775870549819f94854fe4f6b9",
+    "public_sha256": "af58e8f10165dbce7bd1c0363c09f523db925d9775870549819f94854fe4f6b9",
+    "bytes": 36524950,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "assets": [
+      {
+        "name": "20261017-072659-h1-lintrack-065-angtrack-060-actrate-0003-orient_model_2850_h1_6terrain_evaluation_20261017-181149_f1f8e371.zip",
+        "source_sha256": "af58e8f10165dbce7bd1c0363c09f523db925d9775870549819f94854fe4f6b9",
+        "public_sha256": "af58e8f10165dbce7bd1c0363c09f523db925d9775870549819f94854fe4f6b9",
+        "bytes": 36524950,
+        "status": "byte_identical"
+      },
+      {
+        "name": "20261017-072659-h1-lintrack-065-angtrack-060-actrate-0003-orient_model_2850_h1_6terrain_evaluation_20261017-181149_f1f8e371.zip.sha256",
+        "source_sha256": "e6204e3123993dc106f115b0c485c3e20a533f7b6e6e09abe0d5caf51eb40dd0",
+        "public_sha256": "e6204e3123993dc106f115b0c485c3e20a533f7b6e6e09abe0d5caf51eb40dd0",
+        "bytes": 194,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "e3e97ec7db6c40d3bc225b5f82acc8ca1140d1ef18df45e9b7cdcb32aede70d3",
+        "public_sha256": "e3e97ec7db6c40d3bc225b5f82acc8ca1140d1ef18df45e9b7cdcb32aede70d3",
+        "bytes": 2485,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261017-exp-h1-joint-tracking-balance-model4950-video-eval",
+    "source_title": "[분석] H1 lin=0.65 · ang=0.60 · action=-0.0003 · PERSONAL model4950 · 6영상 + scenario7",
+    "source_body_sha256": "80f4cfc4e2468df64885ead7545b423fcf48acd9317672a3b5679b22daf51951",
+    "public_tag": "eval--private-h1-20261017-exp-h1-joint-tracking-balance-model4950-video-eval",
+    "public_title": "[분석] H1 lin=0.65 · ang=0.60 · action=-0.0003 · PERSONAL model4950 · 6영상 + scenario7",
+    "asset": "20261017-015509-h1-lintrack-065-angtrack-060-actrate-0003-fresh5_model_4950_h1_6terrain_evaluation_20261017-133309_7911f3d0.zip",
+    "source_sha256": "f431ea153ffe6245fe29f781a3201239029922bc432f07bf1683a014e9cd46b3",
+    "public_sha256": "f431ea153ffe6245fe29f781a3201239029922bc432f07bf1683a014e9cd46b3",
+    "bytes": 34866869,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "assets": [
+      {
+        "name": "20261017-015509-h1-lintrack-065-angtrack-060-actrate-0003-fresh5_model_4950_h1_6terrain_evaluation_20261017-133309_7911f3d0.zip",
+        "source_sha256": "f431ea153ffe6245fe29f781a3201239029922bc432f07bf1683a014e9cd46b3",
+        "public_sha256": "f431ea153ffe6245fe29f781a3201239029922bc432f07bf1683a014e9cd46b3",
+        "bytes": 34866869,
+        "status": "byte_identical"
+      },
+      {
+        "name": "20261017-015509-h1-lintrack-065-angtrack-060-actrate-0003-fresh5_model_4950_h1_6terrain_evaluation_20261017-133309_7911f3d0.zip.sha256",
+        "source_sha256": "3fe26dc6ccbc59628f943c5fb064876a94adaa1a193ff615b57e45b5deed9718",
+        "public_sha256": "3fe26dc6ccbc59628f943c5fb064876a94adaa1a193ff615b57e45b5deed9718",
+        "bytes": 194,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "4432451893555d29914475de025ea29f198f173373378a09f586422e18628c57",
+        "public_sha256": "4432451893555d29914475de025ea29f198f173373378a09f586422e18628c57",
+        "bytes": 2241,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261017-exp-h1-action-rate-relaxation-action0002-model2950-video-eval",
+    "source_title": "[분석] H1 action=-0.0002 · PERSONAL model_2950 · 6영상 + scenario7 평가",
+    "source_body_sha256": "afd983e6348a90e4aa32bb6f175c5d51fe65ae8fe70c8da1cf72cb9ea290ea38",
+    "public_tag": "eval--private-h1-20261017-exp-h1-action-rate-relaxation-action0002-model2950-video-eval",
+    "public_title": "[분석] H1 action=-0.0002 · PERSONAL model_2950 · 6영상 + scenario7 평가",
+    "asset": "20261016-150803-h1-actrate0002-fresh3k_model_2950_h1_6terrain_evaluation_20261017-020342_54af98b1.zip",
+    "source_sha256": "f658b2217737e5271caaf4eaa3c0ac48f29d1929d680a1688da509a0d87b3c3c",
+    "public_sha256": "f658b2217737e5271caaf4eaa3c0ac48f29d1929d680a1688da509a0d87b3c3c",
+    "bytes": 35969460,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "assets": [
+      {
+        "name": "20261016-150803-h1-actrate0002-fresh3k_model_2950_h1_6terrain_evaluation_20261017-020342_54af98b1.zip",
+        "source_sha256": "f658b2217737e5271caaf4eaa3c0ac48f29d1929d680a1688da509a0d87b3c3c",
+        "public_sha256": "f658b2217737e5271caaf4eaa3c0ac48f29d1929d680a1688da509a0d87b3c3c",
+        "bytes": 35969460,
+        "status": "byte_identical"
+      },
+      {
+        "name": "20261016-150803-h1-actrate0002-fresh3k_model_2950_h1_6terrain_evaluation_20261017-020342_54af98b1.zip.sha256",
+        "source_sha256": "6f654d4bb2f651329b98e798380cab256dbc7db8a4f2b29df97adb0139670684",
+        "public_sha256": "6f654d4bb2f651329b98e798380cab256dbc7db8a4f2b29df97adb0139670684",
+        "bytes": 168,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "cc16ee765d2aa9ce92eaf7b41f51ca81d3595263f217b57797ab191f8dd7a45d",
+        "public_sha256": "cc16ee765d2aa9ce92eaf7b41f51ca81d3595263f217b57797ab191f8dd7a45d",
+        "bytes": 2181,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261016-exp-h1-action-rate-relaxation-action0003-model2950-video-eval",
+    "source_title": "[분석] H1 action=-0.0003 · PERSONAL model_2950 · 6영상 + scenario7 평가",
+    "source_body_sha256": "a727f6ea790d28bdc870d580132faa58d92a8ad3a012a24ffb60015e06ca370d",
+    "public_tag": "eval--private-h1-20261016-exp-h1-action-rate-relaxation-action0003-model2950-video-eval",
+    "public_title": "[분석] H1 action=-0.0003 · PERSONAL model_2950 · 6영상 + scenario7 평가",
+    "asset": "20261016-033023-h1-actrate-0003-fresh3k_model_2950_h1_6terrain_evaluation_20261016-140528_c1ddab11.zip",
+    "source_sha256": "55adccbbed0d4022f27fd6908d4dfe78b34b1f04918b04782870fae17fa0346e",
+    "public_sha256": "55adccbbed0d4022f27fd6908d4dfe78b34b1f04918b04782870fae17fa0346e",
+    "bytes": 34884006,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "assets": [
+      {
+        "name": "20261016-033023-h1-actrate-0003-fresh3k_model_2950_h1_6terrain_evaluation_20261016-140528_c1ddab11.zip",
+        "source_sha256": "55adccbbed0d4022f27fd6908d4dfe78b34b1f04918b04782870fae17fa0346e",
+        "public_sha256": "55adccbbed0d4022f27fd6908d4dfe78b34b1f04918b04782870fae17fa0346e",
+        "bytes": 34884006,
+        "status": "byte_identical"
+      },
+      {
+        "name": "20261016-033023-h1-actrate-0003-fresh3k_model_2950_h1_6terrain_evaluation_20261016-140528_c1ddab11.zip.sha256",
+        "source_sha256": "0dc7967a93f9a883303911d664c0d16690a8230f9e3897758c9854e51c607f35",
+        "public_sha256": "0dc7967a93f9a883303911d664c0d16690a8230f9e3897758c9854e51c607f35",
+        "bytes": 169,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "37b40b70064054d0c9b9d12384285686993aa885951f7842c1ba173a3bd763f5",
+        "public_sha256": "37b40b70064054d0c9b9d12384285686993aa885951f7842c1ba173a3bd763f5",
+        "bytes": 2199,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261016-exp-h1-action-first-body-rate-switch-angxy008-model4650-video-eval",
+    "source_title": "[분석] H1 angxy=-0.08 + action=-0.0001 · PERSONAL model_4650 · 6영상 + scenario7 평가",
+    "source_body_sha256": "81566b92dd04c9b1af71fe9b282cdf7ed6959362744076c7883c29b77ea8287f",
+    "public_tag": "eval--private-h1-20261016-exp-h1-action-first-body-rate-switch-angxy008-model4650-video-eval",
+    "public_title": "[분석] H1 angxy=-0.08 + action=-0.0001 · PERSONAL model_4650 · 6영상 + scenario7 평가",
+    "asset": "h1-actrate0001-angxy008-from2700-plus2k_model_4650_h1_6terrain_evaluation_20261016-082140_edfb8cad.zip",
+    "source_sha256": "522c8b6a6bc2e1a9ae99e1fdf86308b7a335c7bb6c2964c03ad6b3875be51d22",
+    "public_sha256": "522c8b6a6bc2e1a9ae99e1fdf86308b7a335c7bb6c2964c03ad6b3875be51d22",
+    "bytes": 34822373,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "assets": [
+      {
+        "name": "h1-actrate0001-angxy008-from2700-plus2k_model_4650_h1_6terrain_evaluation_20261016-082140_edfb8cad.zip",
+        "source_sha256": "522c8b6a6bc2e1a9ae99e1fdf86308b7a335c7bb6c2964c03ad6b3875be51d22",
+        "public_sha256": "522c8b6a6bc2e1a9ae99e1fdf86308b7a335c7bb6c2964c03ad6b3875be51d22",
+        "bytes": 34822373,
+        "status": "byte_identical"
+      },
+      {
+        "name": "h1-actrate0001-angxy008-from2700-plus2k_model_4650_h1_6terrain_evaluation_20261016-082140_edfb8cad.zip.sha256",
+        "source_sha256": "a2e44bd85baad390e66763eb20d8f36cc3f57b869bd46e50bacfa9f45f0214e8",
+        "public_sha256": "a2e44bd85baad390e66763eb20d8f36cc3f57b869bd46e50bacfa9f45f0214e8",
+        "bytes": 169,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "6e74ab3b622d9a518a6a328960f6fe53becc4116f2b1ce38ee106b84a84fd9d4",
+        "public_sha256": "6e74ab3b622d9a518a6a328960f6fe53becc4116f2b1ce38ee106b84a84fd9d4",
+        "bytes": 2466,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261015-exp-h1-action-first-planar-tracking-switch-lin055-model4650-video-eval",
+    "source_title": "[분석] H1 lin=0.55 + action=-0.0001 · PERSONAL model_4650 · 6영상 + scenario7 평가",
+    "source_body_sha256": "b4342e2690c1d3738cbba641c66ad7dfc429bcafda7a891b365d2693109e3396",
+    "public_tag": "eval--private-h1-20261015-exp-h1-action-first-planar-tracking-switch-lin055-model4650-video-eval",
+    "public_title": "[분석] H1 lin=0.55 + action=-0.0001 · PERSONAL model_4650 · 6영상 + scenario7 평가",
+    "asset": "h1-actrate0001-lintrack-055-from2700-plus2k_model_4650_h1_6terrain_evaluation_20261015-212325_721f36f6.zip",
+    "source_sha256": "6c2241ec8533928a59b1c44ee53dfe389d6935077159764c1ef1b19f366dc110",
+    "public_sha256": "6c2241ec8533928a59b1c44ee53dfe389d6935077159764c1ef1b19f366dc110",
+    "bytes": 32884306,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "assets": [
+      {
+        "name": "h1-actrate0001-lintrack-055-from2700-plus2k_model_4650_h1_6terrain_evaluation_20261015-212325_721f36f6.zip",
+        "source_sha256": "6c2241ec8533928a59b1c44ee53dfe389d6935077159764c1ef1b19f366dc110",
+        "public_sha256": "6c2241ec8533928a59b1c44ee53dfe389d6935077159764c1ef1b19f366dc110",
+        "bytes": 32884306,
+        "status": "byte_identical"
+      },
+      {
+        "name": "h1-actrate0001-lintrack-055-from2700-plus2k_model_4650_h1_6terrain_evaluation_20261015-212325_721f36f6.zip.sha256",
+        "source_sha256": "8fc6a74346bc4dacc24e6d3062f08282435d218c367f8897428684423150d3e0",
+        "public_sha256": "8fc6a74346bc4dacc24e6d3062f08282435d218c367f8897428684423150d3e0",
+        "bytes": 173,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "dcd8db8c665f421f5052ab75dec313f49dcbddb13140ac7d0be0fcf8d4c17bc5",
+        "public_sha256": "dcd8db8c665f421f5052ab75dec313f49dcbddb13140ac7d0be0fcf8d4c17bc5",
+        "bytes": 2492,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-go2-20261004-exp-go2-planar-tracking-terrain-progression-model7050-video-eval",
+    "source_title": "[분석] Go2 LINTRACK-125 · PERSONAL Windows · model_7050 · 6영상 + scenario7 평가",
+    "source_body_sha256": "cd915100f583638c8b37f2d452942ee256cce9877082b47187c794128554ddab",
+    "public_tag": "eval--private-go2-20261004-exp-go2-planar-tracking-terrain-progression-model7050-video-eval",
+    "public_title": "[분석] Go2 LINTRACK-125 · PERSONAL Windows · model_7050 · 6영상 + scenario7 평가",
+    "asset": "model_7050_go2_6terrain_evaluation_20261004-030710_e8bd9e18.zip",
+    "source_sha256": "34d45711d121a4bb59a92b6424f2652eeb915ed4f6436d49070389eacc33d1e1",
+    "public_sha256": "ac2f68d660e607bd8ab6ff2e5625d4e57e945c626afa059789c76b99702e5149",
+    "bytes": 34310540,
+    "status": "personal_profile_blinded",
+    "members_blinded": [
+      {
+        "path": "source_checkpoint.txt",
+        "source_sha256": "de0fbfd40feca42cb2f6c5372701cbe6b03873f9d1241060d3f9a5449ede5475",
+        "public_sha256": "e18d70b646c812185fb39376cf53823e3efb1ac63ae9f9ae09d97ef4efb37ff5"
+      },
+      {
+        "path": "evaluation/video_evaluation_link.json",
+        "source_sha256": "9d5b2453131037ae880196eab891a421e1e83c792a4089b620607d5511069623",
+        "public_sha256": "204a22e6402b2854192d26d483994789509992bf790c8fcafa856d4905d7dca0"
+      }
+    ],
+    "assets": [
+      {
+        "name": "model_7050_go2_6terrain_evaluation_20261004-030710_e8bd9e18.zip",
+        "source_sha256": "34d45711d121a4bb59a92b6424f2652eeb915ed4f6436d49070389eacc33d1e1",
+        "public_sha256": "ac2f68d660e607bd8ab6ff2e5625d4e57e945c626afa059789c76b99702e5149",
+        "bytes": 34310540,
+        "status": "personal_profile_blinded"
+      },
+      {
+        "name": "model_7050_go2_6terrain_evaluation_20261004-030710_e8bd9e18.zip.sha256",
+        "source_sha256": "df0ca8179d74a63e2492b5fe1badf4f619954f785acf3857015d4b7aab4e4ea2",
+        "public_sha256": "df0ca8179d74a63e2492b5fe1badf4f619954f785acf3857015d4b7aab4e4ea2",
+        "bytes": 130,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "7095b7d3c35e7782984fa64e622a91a4d8ce3ad782328637ed5163111255b492",
+        "public_sha256": "7095b7d3c35e7782984fa64e622a91a4d8ce3ad782328637ed5163111255b492",
+        "bytes": 2053,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261007-exp-h1-rough-terrain-orientation-relaxation-model2850-video-eval",
+    "source_title": "[분석] H1 ORIENT-100 · model_2850 · PERSONAL Windows 6영상 + 평가",
+    "source_body_sha256": "6938c10f684497ea3892f2fdda0a0694be9f48132fe68e0e7854e34aed9922fd",
+    "public_tag": "eval--private-h1-20261007-exp-h1-rough-terrain-orientation-relaxation-model2850-video-eval",
+    "public_title": "[분석] H1 ORIENT-100 · model_2850 · PERSONAL Windows 6영상 + 평가",
+    "asset": "model_2850_ORIENT-100_h1_6terrain_evaluation_20261007-010444_f6b3b8b3.zip",
+    "source_sha256": "aecc82b13671d54c96813af6c02c1b2a7769ee001b30aa4a5c2761457110eb7a",
+    "public_sha256": "319e1d70b3a33247c4ba3c38dad17894929e4649432ccb3a4e2dc3844279cfd1",
+    "bytes": 33323137,
+    "status": "personal_profile_blinded",
+    "members_blinded": [
+      {
+        "path": "source_checkpoint.txt",
+        "source_sha256": "5ea3eeea88e5c2f4965e6d2f91b3b27f156223d99b3013698c0e9abbc2496620",
+        "public_sha256": "6ee8354f33a59f728bb8f00b419afde6060502985982bead18cc9f7b9f8c653a"
+      },
+      {
+        "path": "evaluation/video_evaluation_link.json",
+        "source_sha256": "8ad4cce0431893588e18e33cb8b2bf387ce8c9acb20a1b06a127025fb1a3689d",
+        "public_sha256": "b4291ab857c270f7129b82673dafc2e9d8c35be385d0bdabdaaf8f02b29051ba"
+      }
+    ],
+    "assets": [
+      {
+        "name": "model_2850_ORIENT-100_h1_6terrain_evaluation_20261007-010444_f6b3b8b3.zip",
+        "source_sha256": "aecc82b13671d54c96813af6c02c1b2a7769ee001b30aa4a5c2761457110eb7a",
+        "public_sha256": "319e1d70b3a33247c4ba3c38dad17894929e4649432ccb3a4e2dc3844279cfd1",
+        "bytes": 33323137,
+        "status": "personal_profile_blinded"
+      },
+      {
+        "name": "model_2850_ORIENT-100_h1_6terrain_evaluation_20261007-010444_f6b3b8b3.zip.sha256",
+        "source_sha256": "7ba9bac5159e55e523b0b895f2784141ce805a7990b3686921f3f04ff4ca2d72",
+        "public_sha256": "7ba9bac5159e55e523b0b895f2784141ce805a7990b3686921f3f04ff4ca2d72",
+        "bytes": 141,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "509e03afed268aa9b6ac55e61125c95371f4f98048589d655976f4494fc544fb",
+        "public_sha256": "509e03afed268aa9b6ac55e61125c95371f4f98048589d655976f4494fc544fb",
+        "bytes": 2153,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-go2-20261009-g2-submit-3-model4800-video-eval",
+    "source_title": "[분석] Go2 g2-submit-3 · original model_4800 · PERSONAL · 6-terrain + scenario7 evaluation",
+    "source_body_sha256": "383f042e68a9ad5e05f77909ca56fc7486982f76536093620f6002c1ab6ed778",
+    "public_tag": "eval--private-go2-20261009-g2-submit-3-model4800-video-eval",
+    "public_title": "[분석] Go2 g2-submit-3 · original model_4800 · PERSONAL · 6-terrain + scenario7 evaluation",
+    "asset": "g2-submit-3_model_4800_go2_6terrain_evaluation_20261009-021618_04460d33.zip",
+    "source_sha256": "f2bb7917fd325544858ce5aecf801f54e24572c164ed5c6d38ed17c316a1d221",
+    "public_sha256": "3a13f3786c8564c89c542ed0189b522befb9bab8aa71661e605035d024d14550",
+    "bytes": 36843913,
+    "status": "personal_profile_blinded",
+    "members_blinded": [
+      {
+        "path": "source_checkpoint.txt",
+        "source_sha256": "6d91e1443c625c3d57cf3613ff4cf67842aeb5f248e5b505ea67ba1a8e46c03d",
+        "public_sha256": "1f177401aed067ef875c11ef4224546960b926c4e7ddc228aedb303f645021be"
+      },
+      {
+        "path": "evaluation/video_evaluation_link.json",
+        "source_sha256": "326836b8f1a8f857b9e6d049f707b4ed5ab797cfb2fe7ecf63b8e91196574418",
+        "public_sha256": "3e880bcb8b88afc127a256d680d5bab3738a8e9181f70eaf09101b5674d0e581"
+      }
+    ],
+    "assets": [
+      {
+        "name": "g2-submit-3_model_4800_go2_6terrain_evaluation_20261009-021618_04460d33.zip",
+        "source_sha256": "f2bb7917fd325544858ce5aecf801f54e24572c164ed5c6d38ed17c316a1d221",
+        "public_sha256": "3a13f3786c8564c89c542ed0189b522befb9bab8aa71661e605035d024d14550",
+        "bytes": 36843913,
+        "status": "personal_profile_blinded"
+      },
+      {
+        "name": "g2-submit-3_model_4800_go2_6terrain_evaluation_20261009-021618_04460d33.zip.sha256",
+        "source_sha256": "e862fefc21ab4b5f12c664cfe51b801bfc8003cfb901ac8a9f8adc169da24f65",
+        "public_sha256": "e862fefc21ab4b5f12c664cfe51b801bfc8003cfb901ac8a9f8adc169da24f65",
+        "bytes": 142,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "7d696d5a852e26505b46b5e125a9cf20e6993523588391f8f6953ecb086efa45",
+        "public_sha256": "7d696d5a852e26505b46b5e125a9cf20e6993523588391f8f6953ecb086efa45",
+        "bytes": 2375,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261008-exp-h1-rough-terrain-orientation-relaxation-model2800-control-video-eval",
+    "source_title": "[분석] H1 h1-submit-2 / TERM-50 · model_2800 · PERSONAL Windows 6영상 + 평가",
+    "source_body_sha256": "5e1ecc43bc4704b1941ff7c2249c139f72fa42f1bb90f3f793996aee4040b0b4",
+    "public_tag": "eval--private-h1-20261008-exp-h1-rough-terrain-orientation-relaxation-model2800-control-video-eval",
+    "public_title": "[분석] H1 h1-submit-2 / TERM-50 · model_2800 · PERSONAL Windows 6영상 + 평가",
+    "asset": "model_2800_h1_6terrain_evaluation_20261008-171331_a8ab9d61.zip",
+    "source_sha256": "d4a47b0e182763e21077b688f44f7d9cdc00759c0f0f78f4217930e1c49975da",
+    "public_sha256": "e0687014dced522f977c260281803ffb1ff5561cedb172370ed3c1cddfdb69bc",
+    "bytes": 34012828,
+    "status": "personal_profile_blinded",
+    "members_blinded": [
+      {
+        "path": "source_checkpoint.txt",
+        "source_sha256": "102e820012a95142a725cf20b8558c878ad76d4cafbb185667dabb5c66e5118c",
+        "public_sha256": "dcac2b54f561c96b8b4cb9444834da6d89d9ec40705dd9d1031eac3feee8dddf"
+      },
+      {
+        "path": "evaluation/video_evaluation_link.json",
+        "source_sha256": "ce008ada6fe2faae28224442e25c610ad5842f1f00ddfe63f0ae1d4cbe445500",
+        "public_sha256": "93a8f30d47a7208d26c403fbb8d04c30049e49677b4764bd0a3b380ab5052000"
+      }
+    ],
+    "assets": [
+      {
+        "name": "model_2800_h1_6terrain_evaluation_20261008-171331_a8ab9d61.zip",
+        "source_sha256": "d4a47b0e182763e21077b688f44f7d9cdc00759c0f0f78f4217930e1c49975da",
+        "public_sha256": "e0687014dced522f977c260281803ffb1ff5561cedb172370ed3c1cddfdb69bc",
+        "bytes": 34012828,
+        "status": "personal_profile_blinded"
+      },
+      {
+        "name": "model_2800_h1_6terrain_evaluation_20261008-171331_a8ab9d61.zip.sha256",
+        "source_sha256": "39ce2c2b8a47f9d27efac9fa6ee417372958f4f5df05ae7e034822261b6e3d4d",
+        "public_sha256": "39ce2c2b8a47f9d27efac9fa6ee417372958f4f5df05ae7e034822261b6e3d4d",
+        "bytes": 129,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "9c7705566d41564cededde43ebc681f5d2620ac36316eda07ac0be218f291668",
+        "public_sha256": "9c7705566d41564cededde43ebc681f5d2620ac36316eda07ac0be218f291668",
+        "bytes": 2056,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261009-lintrack-075-corrected5k-model4997-video-eval",
+    "source_title": "[분석] H1 LINTRACK-075 corrected 5K · model_4997 · PERSONAL videos + full evaluation",
+    "source_body_sha256": "2777df532a77315fc04ce884545074b224e58c30fa275d712e742cc8764da20f",
+    "public_tag": "eval--private-h1-20261009-lintrack-075-corrected5k-model4997-video-eval",
+    "public_title": "[분석] H1 LINTRACK-075 corrected 5K · model_4997 · PERSONAL videos + full evaluation",
+    "asset": "h1_LINTRACK-075_corrected5k_model_4997_h1_6terrain_evaluation_20261009-235216_59e47db4.zip",
+    "source_sha256": "1c740a56fe30596202dbf98870f6f3d730d548d781131e86473f9d053e6a5488",
+    "public_sha256": "35ad7dd6a5bdb961a2e9ffdb359e03366e87feac95366493e2b764bc42fa5935",
+    "bytes": 34470554,
+    "status": "personal_profile_blinded",
+    "members_blinded": [
+      {
+        "path": "source_checkpoint.txt",
+        "source_sha256": "717265596e3c4ff0d13b87f5a809ba706182e460a168e50293d7c7d90d348a60",
+        "public_sha256": "708c9a5892e43aa40c8f4309c2e5f0015d074351aba9fa87c696e555fd2a88b7"
+      },
+      {
+        "path": "evaluation/video_evaluation_link.json",
+        "source_sha256": "389fe3c435f82e38611cc74899d5713fedae3fc8d08386e3573020185369a764",
+        "public_sha256": "5e278a59c0083bf1faf23508ca432dd32825ac3c78272a4e53c0b3c767642398"
+      }
+    ],
+    "assets": [
+      {
+        "name": "h1_LINTRACK-075_corrected5k_model_4997_h1_6terrain_evaluation_20261009-235216_59e47db4.zip",
+        "source_sha256": "1c740a56fe30596202dbf98870f6f3d730d548d781131e86473f9d053e6a5488",
+        "public_sha256": "35ad7dd6a5bdb961a2e9ffdb359e03366e87feac95366493e2b764bc42fa5935",
+        "bytes": 34470554,
+        "status": "personal_profile_blinded"
+      },
+      {
+        "name": "h1_LINTRACK-075_corrected5k_model_4997_h1_6terrain_evaluation_20261009-235216_59e47db4.zip.sha256",
+        "source_sha256": "18f5220868896eb85b3a9417342d43b5c4c9a6f4afbb890db7ea39ec968f5951",
+        "public_sha256": "18f5220868896eb85b3a9417342d43b5c4c9a6f4afbb890db7ea39ec968f5951",
+        "bytes": 157,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "d03915720b60f10e4702864b5e1ed7f95ffcbb00391fcc5cbdad1dc90826e08a",
+        "public_sha256": "d03915720b60f10e4702864b5e1ed7f95ffcbb00391fcc5cbdad1dc90826e08a",
+        "bytes": 3673,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261010-exp-h1-action-rate-relaxation-model2700-video-eval",
+    "source_title": "[분석] H1 ACTRATE-0001 · model_2700 · PERSONAL videos + full evaluation",
+    "source_body_sha256": "b7e97527f61305ff0b1818e463c091a473efbc8bffa903b088137b4e3e53e89e",
+    "public_tag": "eval--private-h1-20261010-exp-h1-action-rate-relaxation-model2700-video-eval",
+    "public_title": "[분석] H1 ACTRATE-0001 · model_2700 · PERSONAL videos + full evaluation",
+    "asset": "model_2700_h1_6terrain_evaluation_20261010-012639_61aa406d.zip",
+    "source_sha256": "6270d299def2a3bcb8cc10253027898621dd65a00ad30baafde0cbcde03076e3",
+    "public_sha256": "6270d299def2a3bcb8cc10253027898621dd65a00ad30baafde0cbcde03076e3",
+    "bytes": 32539016,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "assets": [
+      {
+        "name": "model_2700_h1_6terrain_evaluation_20261010-012639_61aa406d.zip",
+        "source_sha256": "6270d299def2a3bcb8cc10253027898621dd65a00ad30baafde0cbcde03076e3",
+        "public_sha256": "6270d299def2a3bcb8cc10253027898621dd65a00ad30baafde0cbcde03076e3",
+        "bytes": 32539016,
+        "status": "byte_identical"
+      },
+      {
+        "name": "model_2700_h1_6terrain_evaluation_20261010-012639_61aa406d.zip.sha256",
+        "source_sha256": "4eac0fec637ee9493f44cbbbe4e9e5bdf71bd9e8fbb273541455f2389653d828",
+        "public_sha256": "4eac0fec637ee9493f44cbbbe4e9e5bdf71bd9e8fbb273541455f2389653d828",
+        "bytes": 129,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "c0c26d1d1e9e1d494f7eea93eb1e48a5781dfcfe6640a1c86419d99f817d54b9",
+        "public_sha256": "c0c26d1d1e9e1d494f7eea93eb1e48a5781dfcfe6640a1c86419d99f817d54b9",
+        "bytes": 2655,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261010-exp-h1-action-rate-smoothing-model2850-video-eval",
+    "source_title": "[분석] H1 ACTRATE-001 model_2850 PERSONAL 6-terrain video + scenario7 evaluation",
+    "source_body_sha256": "921d493eded9e607f76dcb8d62a07ab1cc0ddd93310a80c2aeb90a315e9e9e67",
+    "public_tag": "eval--private-h1-20261010-exp-h1-action-rate-smoothing-model2850-video-eval",
+    "public_title": "[분석] H1 ACTRATE-001 model_2850 PERSONAL 6-terrain video + scenario7 evaluation",
+    "asset": "model_2850_h1_6terrain_evaluation_20261010-233937_1cc2ab9d.zip",
+    "source_sha256": "1906880030393b904d7323bdbf71352f408a067328a09ac8bf87604438c07351",
+    "public_sha256": "2f27b56e1c21f89d5fea3f9461f51a81a036c3db23cf91e8d9aee6c5826a84f5",
+    "bytes": 35121551,
+    "status": "personal_profile_blinded",
+    "members_blinded": [
+      {
+        "path": "source_checkpoint.txt",
+        "source_sha256": "a268d1ea9690f7532e2f32fe2c021c0befd2e05229a0ce34e09d8f92a37eca11",
+        "public_sha256": "c29ecc154ba8698638974c8d480a6dce1bbd8cd694cd4d8b7d0d2a6b6b009d22"
+      },
+      {
+        "path": "evaluation/video_evaluation_link.json",
+        "source_sha256": "0359bcbeb884e6466c4ce6bd6df88e659a035d3e696d835263ff168c09263ed4",
+        "public_sha256": "b867b8b676cb0bc2df476535f0ee0d24b5c3d0010b25337e33ac43487d2dd787"
+      }
+    ],
+    "assets": [
+      {
+        "name": "model_2850_h1_6terrain_evaluation_20261010-233937_1cc2ab9d.zip",
+        "source_sha256": "1906880030393b904d7323bdbf71352f408a067328a09ac8bf87604438c07351",
+        "public_sha256": "2f27b56e1c21f89d5fea3f9461f51a81a036c3db23cf91e8d9aee6c5826a84f5",
+        "bytes": 35121551,
+        "status": "personal_profile_blinded"
+      },
+      {
+        "name": "model_2850_h1_6terrain_evaluation_20261010-233937_1cc2ab9d.zip.sha256",
+        "source_sha256": "8dfe7468ecc3c6e3807bb36df7a9c05203b3a44ef49a1eb121ace59c6b095f4f",
+        "public_sha256": "8dfe7468ecc3c6e3807bb36df7a9c05203b3a44ef49a1eb121ace59c6b095f4f",
+        "bytes": 129,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "458c2e96a4e1d4267277d987b4b79265846f2c2cb8d1bb8c6f5751219b1c93a1",
+        "public_sha256": "458c2e96a4e1d4267277d987b4b79265846f2c2cb8d1bb8c6f5751219b1c93a1",
+        "bytes": 2168,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261010-exp-h1-angular-tracking-boost-model2950-video-eval",
+    "source_title": "[분석] H1 ANGTRACK-065 · model_2950 · PERSONAL videos + full evaluation",
+    "source_body_sha256": "f71c7ccb462ffcef8f5a38adef2979ca6dec73f1709041122741edcd3124908f",
+    "public_tag": "eval--private-h1-20261010-exp-h1-angular-tracking-boost-model2950-video-eval",
+    "public_title": "[분석] H1 ANGTRACK-065 · model_2950 · PERSONAL videos + full evaluation",
+    "asset": "model_best_h1_6terrain_evaluation_20261010-041416_066bf8a3.zip",
+    "source_sha256": "ec1bc325feae5cd6da1643a9fbbe13b0640ad7514b77b79e5532d8b836def93b",
+    "public_sha256": "b8c97ec15fb01f0d998cb2cf009dc15d5cb81af67473365550dd8fbaa3d8c167",
+    "bytes": 32626942,
+    "status": "personal_profile_blinded",
+    "members_blinded": [
+      {
+        "path": "source_checkpoint.txt",
+        "source_sha256": "ade8896232b177929ebee45fa803707650f08f4703f82e2431b51ad4d84b0dbe",
+        "public_sha256": "83880a2c8c820e79daca25b36b9da6d81b259ba9bbfd410cdda0c4f7cd43a0e4"
+      },
+      {
+        "path": "evaluation/video_evaluation_link.json",
+        "source_sha256": "d735f32ae58cc2b1c94479669d7dc1e71bdd9c6eacb40ff85bc50c1631dc2e24",
+        "public_sha256": "b2efeeac97c6f4e81c0d37c666827436d0a0d00f308c90f2be420457a1e64d1d"
+      }
+    ],
+    "assets": [
+      {
+        "name": "model_best_h1_6terrain_evaluation_20261010-041416_066bf8a3.zip",
+        "source_sha256": "ec1bc325feae5cd6da1643a9fbbe13b0640ad7514b77b79e5532d8b836def93b",
+        "public_sha256": "b8c97ec15fb01f0d998cb2cf009dc15d5cb81af67473365550dd8fbaa3d8c167",
+        "bytes": 32626942,
+        "status": "personal_profile_blinded"
+      },
+      {
+        "name": "model_best_h1_6terrain_evaluation_20261010-041416_066bf8a3.zip.sha256",
+        "source_sha256": "c78b335d269d34ad5178541a9d7763d7af393b9298de0cfd9c5c14fc4a83bac3",
+        "public_sha256": "c78b335d269d34ad5178541a9d7763d7af393b9298de0cfd9c5c14fc4a83bac3",
+        "bytes": 129,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "08ecb7d27e7abbae0ad0682630fc1959bbe46a1e97a04c9776461997c4ff6aee",
+        "public_sha256": "08ecb7d27e7abbae0ad0682630fc1959bbe46a1e97a04c9776461997c4ff6aee",
+        "bytes": 2370,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261011-exp-h1-action-first-planar-tracking-switch-model4650-video-eval",
+    "source_title": "[분석] H1 ACTRATE-0001 → lin=0.65 · PERSONAL model_4650 videos + evaluation",
+    "source_body_sha256": "96114ab9bd700091397af611ad3d8a72117ea09f55d3723bd7cdd9758ecabe8b",
+    "public_tag": "eval--private-h1-20261011-exp-h1-action-first-planar-tracking-switch-model4650-video-eval",
+    "public_title": "[분석] H1 ACTRATE-0001 → lin=0.65 · PERSONAL model_4650 videos + evaluation",
+    "asset": "model_4650_h1_6terrain_evaluation_20261011-030854_89b4c4a0.zip",
+    "source_sha256": "5fa60c81a3808481b9a547ab097fa527a708e792992ea4443d66be3c5900ae3d",
+    "public_sha256": "7a3ffe0e728ddc4c075efadf7067b113d5348db2342331246a3db8b1274d28a6",
+    "bytes": 35747746,
+    "status": "personal_profile_blinded",
+    "members_blinded": [
+      {
+        "path": "source_checkpoint.txt",
+        "source_sha256": "bb0cd7de5eeaec54568010d2ccd24e4f46717cb8d3a26a552b239b1c66ab1096",
+        "public_sha256": "2e9e3d5e776f15ea48b67809596f3902836e5e272954ea855f1f764ce8e17a21"
+      },
+      {
+        "path": "evaluation/video_evaluation_link.json",
+        "source_sha256": "61d3f71af84afaa1fc17874256a5c910f4cece7b3adba9590a17aff9099cbcf0",
+        "public_sha256": "a51d334d29da4cec72d8fabb9bd531b3014f840e4414285ebe37cd783af8fdd1"
+      }
+    ],
+    "assets": [
+      {
+        "name": "model_4650_h1_6terrain_evaluation_20261011-030854_89b4c4a0.zip",
+        "source_sha256": "5fa60c81a3808481b9a547ab097fa527a708e792992ea4443d66be3c5900ae3d",
+        "public_sha256": "7a3ffe0e728ddc4c075efadf7067b113d5348db2342331246a3db8b1274d28a6",
+        "bytes": 35747746,
+        "status": "personal_profile_blinded"
+      },
+      {
+        "name": "model_4650_h1_6terrain_evaluation_20261011-030854_89b4c4a0.zip.sha256",
+        "source_sha256": "25890695c0cbdaccf353e423506b679d776aa6497e0dfe0767f6b7642a57edfd",
+        "public_sha256": "25890695c0cbdaccf353e423506b679d776aa6497e0dfe0767f6b7642a57edfd",
+        "bytes": 129,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "be80d92609358e390adeb5943512a5e4e6fa55558740e5a5102a8f7236110812",
+        "public_sha256": "be80d92609358e390adeb5943512a5e4e6fa55558740e5a5102a8f7236110812",
+        "bytes": 1767,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261011-exp-h1-action-rate-relaxation-model9999-video-eval",
+    "source_title": "[분석] H1 ACTRATE-0001 fresh 10K · model_9999 · PERSONAL videos + full evaluation",
+    "source_body_sha256": "062dcb31eb5ceb4d27b78847615ba04488b87737adc99ab1732973bc60b764b4",
+    "public_tag": "eval--private-h1-20261011-exp-h1-action-rate-relaxation-model9999-video-eval",
+    "public_title": "[분석] H1 ACTRATE-0001 fresh 10K · model_9999 · PERSONAL videos + full evaluation",
+    "asset": "model_9999_h1_6terrain_evaluation_20261011-162017_8438c90e.zip",
+    "source_sha256": "ecb6df0e03bf11ec1e2259f5e0fd8b7d4b57e6e63ca09c482f31a8adcf63bfbe",
+    "public_sha256": "0da5539a0b8cd348f248bf1a6934c162514e34474213012e43de94189bebea04",
+    "bytes": 34850029,
+    "status": "personal_profile_blinded",
+    "members_blinded": [
+      {
+        "path": "source_checkpoint.txt",
+        "source_sha256": "fd96d9362ea91a6877cc38f96bf11c6bfc884d27ad458e78ae033a36042b5c21",
+        "public_sha256": "485e9b39505866295812d6589853ad2ab8909a1a0d892c2b3528e74e9af9b353"
+      },
+      {
+        "path": "evaluation/video_evaluation_link.json",
+        "source_sha256": "0a51e976eb5e22753ff6f7db2dcff01f47bda93ee19474c86686755ae7252092",
+        "public_sha256": "078f38b923a473c4b2d41494b0ec1dc8d15ac49b128ec7b2ca4a1a1f2a167025"
+      }
+    ],
+    "assets": [
+      {
+        "name": "model_9999_h1_6terrain_evaluation_20261011-162017_8438c90e.zip",
+        "source_sha256": "ecb6df0e03bf11ec1e2259f5e0fd8b7d4b57e6e63ca09c482f31a8adcf63bfbe",
+        "public_sha256": "0da5539a0b8cd348f248bf1a6934c162514e34474213012e43de94189bebea04",
+        "bytes": 34850029,
+        "status": "personal_profile_blinded"
+      },
+      {
+        "name": "model_9999_h1_6terrain_evaluation_20261011-162017_8438c90e.zip.sha256",
+        "source_sha256": "1e45779dfaa7c43cd34ccb1ea3899cbf3ff4c0519f7a8910adc5a1ffc6158f9e",
+        "public_sha256": "1e45779dfaa7c43cd34ccb1ea3899cbf3ff4c0519f7a8910adc5a1ffc6158f9e",
+        "bytes": 129,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "a9fb8cc662ad425a503035aad606a2efcb9f4132feffc81cadde84b2716a2e00",
+        "public_sha256": "a9fb8cc662ad425a503035aad606a2efcb9f4132feffc81cadde84b2716a2e00",
+        "bytes": 1910,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261015-exp-h1-planar-tracking-weight-model4950-video-eval",
+    "source_title": "[분석] H1 LINTRACK-065 fresh5K · PERSONAL model_4950 · 6영상 + full evaluation",
+    "source_body_sha256": "cd52e364b6d4a2b1876f58f4abecfa1190cba051e6f7cbbfca7d0aa91594e44d",
+    "public_tag": "eval--private-h1-20261015-exp-h1-planar-tracking-weight-model4950-video-eval",
+    "public_title": "[분석] H1 LINTRACK-065 fresh5K · PERSONAL model_4950 · 6영상 + full evaluation",
+    "asset": "h1-lintrack-065-fresh5k_model_4950_h1_6terrain_evaluation_20261015-014027_cf736cea.zip",
+    "source_sha256": "7ba96f53955907364003e8b7d1ad194d9ed8a9580d3d373cb2a7c852bd49c8b4",
+    "public_sha256": "ae92ab603f0a91e8d1ae1f27995527267f8fd5128565295caedb611f4d66eb12",
+    "bytes": 33208683,
+    "status": "personal_profile_blinded",
+    "members_blinded": [
+      {
+        "path": "source_checkpoint.txt",
+        "source_sha256": "163c3ec8e754ff1f55b3aeeaa73a40f6c06f0b06f48ab9da1e0fd68f9adfd121",
+        "public_sha256": "78d7987f9007e978b4d9562b9b40336ca0963cd6af61214ba6cb0f58ec98c881"
+      },
+      {
+        "path": "evaluation/video_evaluation_link.json",
+        "source_sha256": "724b7f9d3e02378bd2ee29b9b2da933ccc6df6b3d59aa06be73e45575e168f50",
+        "public_sha256": "c48c675e2fb6779f325dc6335c40a74ada8f6d03d714f6803e579ef694533105"
+      }
+    ],
+    "assets": [
+      {
+        "name": "h1-lintrack-065-fresh5k_model_4950_h1_6terrain_evaluation_20261015-014027_cf736cea.zip",
+        "source_sha256": "7ba96f53955907364003e8b7d1ad194d9ed8a9580d3d373cb2a7c852bd49c8b4",
+        "public_sha256": "ae92ab603f0a91e8d1ae1f27995527267f8fd5128565295caedb611f4d66eb12",
+        "bytes": 33208683,
+        "status": "personal_profile_blinded"
+      },
+      {
+        "name": "h1-lintrack-065-fresh5k_model_4950_h1_6terrain_evaluation_20261015-014027_cf736cea.zip.sha256",
+        "source_sha256": "cf62ab83063f3bc228d77d8d8e78c731a28c18f15010bacc4c374474fa7bcea1",
+        "public_sha256": "cf62ab83063f3bc228d77d8d8e78c731a28c18f15010bacc4c374474fa7bcea1",
+        "bytes": 153,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "e00e9e3c4aaf2e137454f3fd7f9980d8cc0d63e66a84a335a7cd601ccd049f5b",
+        "public_sha256": "e00e9e3c4aaf2e137454f3fd7f9980d8cc0d63e66a84a335a7cd601ccd049f5b",
+        "bytes": 2346,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261015-exp-h1-action-rate-restoration-model4650-video-eval",
+    "source_title": "[분석] H1 action-rate 복원 +2K · PERSONAL model_4650 · 6영상 + full evaluation",
+    "source_body_sha256": "ca5ac2a72060582c0188ebb9a4f975b04c070175f284260a67fb0cc3b7534654",
+    "public_tag": "eval--private-h1-20261015-exp-h1-action-rate-restoration-model4650-video-eval",
+    "public_title": "[분석] H1 action-rate 복원 +2K · PERSONAL model_4650 · 6영상 + full evaluation",
+    "asset": "h1-actrate-return2700-2k_model_4650_h1_6terrain_evaluation_20261015-032125_3fb52eff.zip",
+    "source_sha256": "f3c5bd802479ab50b347984a122615a895343ccf418f9e66b4d846f83399f84c",
+    "public_sha256": "ed29888ec487d8caace537e2505d9de7eb81e74f4c2e941fc951fd2677630d97",
+    "bytes": 36115342,
+    "status": "personal_profile_blinded",
+    "members_blinded": [
+      {
+        "path": "source_checkpoint.txt",
+        "source_sha256": "1217690f96c74d37d9adcf57a7772f2c69e3e72a2efc31f9e676e21478af6aa9",
+        "public_sha256": "9526f6deed9086993340db1ffde5ba21b4fe0f7603132921ce3e39903b8c7b05"
+      },
+      {
+        "path": "evaluation/video_evaluation_link.json",
+        "source_sha256": "1884541c645967b71cf9697e6eccc053788d1dcf2022cbb81db8217785b1cd39",
+        "public_sha256": "c01ac213c6e4d7dc5349a319765c93613e2e97905d8cc5538c915ab63da030b5"
+      }
+    ],
+    "assets": [
+      {
+        "name": "h1-actrate-return2700-2k_model_4650_h1_6terrain_evaluation_20261015-032125_3fb52eff.zip",
+        "source_sha256": "f3c5bd802479ab50b347984a122615a895343ccf418f9e66b4d846f83399f84c",
+        "public_sha256": "ed29888ec487d8caace537e2505d9de7eb81e74f4c2e941fc951fd2677630d97",
+        "bytes": 36115342,
+        "status": "personal_profile_blinded"
+      },
+      {
+        "name": "h1-actrate-return2700-2k_model_4650_h1_6terrain_evaluation_20261015-032125_3fb52eff.zip.sha256",
+        "source_sha256": "23d8e40877a39c1fd6d4eedb6dbfc3c9a398e0ba11b29d321ade257427eabdca",
+        "public_sha256": "23d8e40877a39c1fd6d4eedb6dbfc3c9a398e0ba11b29d321ade257427eabdca",
+        "bytes": 154,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "b38a325db65ec29a4f89af68e6617cc04d74140259a10b9a59c3caf69333c919",
+        "public_sha256": "b38a325db65ec29a4f89af68e6617cc04d74140259a10b9a59c3caf69333c919",
+        "bytes": 2473,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261015-exp-h1-action-rate-relaxation-model4699-video-eval",
+    "source_title": "[분석] H1 ACTRATE-0001 무변경 +2K · PERSONAL model_4699 · 6영상 + full evaluation",
+    "source_body_sha256": "ddf5df2d7383513465f7966a70ef441e9d3f8c2e7cd867c8f0b6b8b1a7d16edd",
+    "public_tag": "eval--private-h1-20261015-exp-h1-action-rate-relaxation-model4699-video-eval",
+    "public_title": "[분석] H1 ACTRATE-0001 무변경 +2K · PERSONAL model_4699 · 6영상 + full evaluation",
+    "asset": "h1-actrate-0001-unchanged-cont2k_model_4699_h1_6terrain_evaluation_20261015-023102_9aafef7f.zip",
+    "source_sha256": "3b331610cdc776c253bf8c4a1a13a3201c9ee4aed417d1af94ef4735f57a543e",
+    "public_sha256": "ed4f4ff7a7139ffb4eb280db72c48967a7053ce4cc9cd651e2b7b0375a0ba9e4",
+    "bytes": 32155777,
+    "status": "personal_profile_blinded",
+    "members_blinded": [
+      {
+        "path": "source_checkpoint.txt",
+        "source_sha256": "ad554e208a3ab01c623fcce39ff981fb89dc749f19d29593b1fa80d49f739806",
+        "public_sha256": "a6d6e91b6acbdb9b0600c96f75b8ef382a9a6a9d70490cac1f0d0bb30cdf6a9a"
+      },
+      {
+        "path": "evaluation/video_evaluation_link.json",
+        "source_sha256": "929d74c8220e464e654dee5efdba9bd90e3a340d4e1f00ea8cfb8ba605e40a1e",
+        "public_sha256": "1544cfe9ce3b112c0599500bed7f8626915536af0796f147834448b5e02971a2"
+      }
+    ],
+    "assets": [
+      {
+        "name": "h1-actrate-0001-unchanged-cont2k_model_4699_h1_6terrain_evaluation_20261015-023102_9aafef7f.zip",
+        "source_sha256": "3b331610cdc776c253bf8c4a1a13a3201c9ee4aed417d1af94ef4735f57a543e",
+        "public_sha256": "ed4f4ff7a7139ffb4eb280db72c48967a7053ce4cc9cd651e2b7b0375a0ba9e4",
+        "bytes": 32155777,
+        "status": "personal_profile_blinded"
+      },
+      {
+        "name": "h1-actrate-0001-unchanged-cont2k_model_4699_h1_6terrain_evaluation_20261015-023102_9aafef7f.zip.sha256",
+        "source_sha256": "d76fc9846982abf681f74844428e7d0e339ca6f7c2908aeca66e01d29744207a",
+        "public_sha256": "d76fc9846982abf681f74844428e7d0e339ca6f7c2908aeca66e01d29744207a",
+        "bytes": 162,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "8ea84d8a3849b8d99d2f6f1c7c21c9dba25fc71846bcbf7f3fdc5dd5dc3bfe62",
+        "public_sha256": "8ea84d8a3849b8d99d2f6f1c7c21c9dba25fc71846bcbf7f3fdc5dd5dc3bfe62",
+        "bytes": 2434,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261014-exp-h1-action-foot-contact-stability-model2950-video-eval",
+    "source_title": "[분석] H1 ACTRATE-0001 + feet_slide=-0.35 · PERSONAL model_2950 · 6영상 + full evaluation",
+    "source_body_sha256": "2a53f0d1fd434f2539fe2fd5ad86eb5be2bc1f65e54577279c27ffee83217a7d",
+    "public_tag": "eval--private-h1-20261014-exp-h1-action-foot-contact-stability-model2950-video-eval",
+    "public_title": "[분석] H1 ACTRATE-0001 + feet_slide=-0.35 · PERSONAL model_2950 · 6영상 + full evaluation",
+    "asset": "model_2950_h1_6terrain_evaluation_20261014-032520_aaa76aa8.zip",
+    "source_sha256": "085528354857a38db145f3a9695fb81c7f8376fec412b1b2f9e0b2f390f361bf",
+    "public_sha256": "9fd2478751df223547feda0d232c562f14485d0a7552f2ec6bbb735467195d94",
+    "bytes": 32729289,
+    "status": "personal_profile_blinded",
+    "members_blinded": [
+      {
+        "path": "source_checkpoint.txt",
+        "source_sha256": "bac7b86ac77d22545b7e036043d3fb7853b2e7cc1b8c71cb8ae629837ea45e38",
+        "public_sha256": "05ae4e6518854a75c26374b5a1b09fe820624139a98114fdefc34b466fe55d93"
+      },
+      {
+        "path": "evaluation/video_evaluation_link.json",
+        "source_sha256": "310dbad9e372adf047d363293cc6f10d1b29a8a2059950ef1a3bff2dd8b18cef",
+        "public_sha256": "7ad91ec1b05e56e4f74da3c262882863bbbb73175b0fcb91bf8a76a30429969c"
+      }
+    ],
+    "assets": [
+      {
+        "name": "model_2950_h1_6terrain_evaluation_20261014-032520_aaa76aa8.zip",
+        "source_sha256": "085528354857a38db145f3a9695fb81c7f8376fec412b1b2f9e0b2f390f361bf",
+        "public_sha256": "9fd2478751df223547feda0d232c562f14485d0a7552f2ec6bbb735467195d94",
+        "bytes": 32729289,
+        "status": "personal_profile_blinded"
+      },
+      {
+        "name": "model_2950_h1_6terrain_evaluation_20261014-032520_aaa76aa8.zip.sha256",
+        "source_sha256": "10eeb282ab0e908ec5fb3d7b009b07490e1aa83caf32aec5e0536fe3acf4a2a0",
+        "public_sha256": "10eeb282ab0e908ec5fb3d7b009b07490e1aa83caf32aec5e0536fe3acf4a2a0",
+        "bytes": 129,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "79bb9a0297b8b706642339e335467be104cde3e307b409cccf331897b92a739a",
+        "public_sha256": "79bb9a0297b8b706642339e335467be104cde3e307b409cccf331897b92a739a",
+        "bytes": 2224,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "SE3C/naver-issacsim-eval",
+    "source_tag": "private-h1-20261014-exp-h1-action-airtime-fresh-interaction-model2950-video-eval",
+    "source_title": "[분석] H1 ACTRATE-0001 + AIRTIME-025 · PERSONAL model_2950 · 6영상 + full evaluation",
+    "source_body_sha256": "76eceaee5f147c62c9d866aad4f060301f7a5738acbc933e795eef51babfafbd",
+    "public_tag": "eval--private-h1-20261014-exp-h1-action-airtime-fresh-interaction-model2950-video-eval",
+    "public_title": "[분석] H1 ACTRATE-0001 + AIRTIME-025 · PERSONAL model_2950 · 6영상 + full evaluation",
+    "asset": "model_2950_h1_6terrain_evaluation_20261014-023343_bcda8c25.zip",
+    "source_sha256": "42ae846593a54dd89280272e60d0e518c249db1ee777b94bd28a7d6f44f4bf3c",
+    "public_sha256": "d86b4fbdac92ad76bdce69b8a74b70fce52607dd7f6960f4363717e0defe39dd",
+    "bytes": 35160958,
+    "status": "personal_profile_blinded",
+    "members_blinded": [
+      {
+        "path": "source_checkpoint.txt",
+        "source_sha256": "d219979e7f0985c4c1e26380c145e3cef0ad3e9d7ec5f4cab555bf6fa8f92ce7",
+        "public_sha256": "9df671bf8b36d347e3ec82d2644114390de586bc4e5222b4cbd0843683377d8e"
+      },
+      {
+        "path": "evaluation/video_evaluation_link.json",
+        "source_sha256": "78eeea406f2e52dac8020053701b35483dafa932af182d7443f0541e6141193b",
+        "public_sha256": "e4adcdcfc0aa75085b522e6190d7737e2e9e33282888049bad8d123d4b1e3abd"
+      }
+    ],
+    "assets": [
+      {
+        "name": "model_2950_h1_6terrain_evaluation_20261014-023343_bcda8c25.zip",
+        "source_sha256": "42ae846593a54dd89280272e60d0e518c249db1ee777b94bd28a7d6f44f4bf3c",
+        "public_sha256": "d86b4fbdac92ad76bdce69b8a74b70fce52607dd7f6960f4363717e0defe39dd",
+        "bytes": 35160958,
+        "status": "personal_profile_blinded"
+      },
+      {
+        "name": "model_2950_h1_6terrain_evaluation_20261014-023343_bcda8c25.zip.sha256",
+        "source_sha256": "119288c8f091e22adc08d43a8ed8f8c42c3c0e8f2c7b23148a7a13127d8a4f88",
+        "public_sha256": "119288c8f091e22adc08d43a8ed8f8c42c3c0e8f2c7b23148a7a13127d8a4f88",
+        "bytes": 129,
+        "status": "byte_identical"
+      },
+      {
+        "name": "publication_manifest.json",
+        "source_sha256": "05e5a27f47efc5d73e8910d6db471d347a07093a8a854b6631c5bbf73033a99b",
+        "public_sha256": "05e5a27f47efc5d73e8910d6db471d347a07093a8a854b6631c5bbf73033a99b",
+        "bytes": 2235,
+        "status": "byte_identical"
+      }
+    ]
+  }
+]

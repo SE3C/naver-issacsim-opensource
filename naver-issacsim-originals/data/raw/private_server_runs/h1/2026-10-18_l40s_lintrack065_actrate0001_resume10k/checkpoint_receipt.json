@@ -1,0 +1,15 @@
+{
+  "receipt_schema": "se3c-checkpoint-sha256sum-receipt-v1",
+  "run_id": "20261018-090630-h1-top08-same-reward-to10k",
+  "mode": "personal",
+  "archive_has_checkpoint_index": false,
+  "source_member": "20261018-090630-h1-top08-same-reward-to10k/SHA256SUMS",
+  "checkpoint": {
+    "filename": "model_9999.pt",
+    "archive_path": "checkpoints/model_9999.pt",
+    "size": 7151477,
+    "sha256": "852c95fa0fcfabec456572541c24dad68385084ce480aa09b8422597b704929b"
+  },
+  "matches_evaluation_manifest": true,
+  "full_archive_sha256sums_copied": false
+}
