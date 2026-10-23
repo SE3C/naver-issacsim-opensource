@@ -1,0 +1,12 @@
+# Copy to config/issacsimz.conf only to override non-secret paths.
+# Never put GH_TOKEN, GITHUB_TOKEN, SSH keys, SUBMIT_TOKEN, or credentials here.
+ISSACSIMZ_PERSONAL_REPO="SE3C/naver-issacsim-nvidia"
+ISSACSIMZ_PERSONAL_ROOT="/ephemeral/naver-issacsim-nvidia"
+ISSACSIMZ_PERSONAL_EVIDENCE="$HOME/issacsimz-evidence"
+# Optional. If unset, bootstrap discovers the first usable isaaclab.sh.
+ISSACSIMZ_PERSONAL_ISAACLAB_ROOT=""
+# Optional. If unset, use python3 or fall back to IsaacLab/Isaac Sim python.sh.
+ISSACSIMZ_PYTHON_RUNNER=""
+ISSACSIMZ_OFFICIAL_H1_ROOT="/workspace/training/humanoid"
+ISSACSIMZ_OFFICIAL_GO2_ROOT="/workspace/training/quadruped"
+ISSACSIMZ_OFFICIAL_ISAACLAB_ROOT="/workspace/IsaacLab"
