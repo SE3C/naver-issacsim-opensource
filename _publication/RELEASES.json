@@ -1480,5 +1480,53 @@
         "status": "byte_identical"
       }
     ]
+  },
+  {
+    "source_repository": "naver-issacsim",
+    "source_tag": "submission-h1-prelim-r2-20260909",
+    "source_title": "h1-submit-2 / TERM-50 · OFFICIAL · H1 preliminary Round 2 submission — 2026-09-09",
+    "source_body_sha256": "ee3aca4faf24574c55155fb384fa0474efbe92838df2d9047745d7e0218f6f0c",
+    "public_tag": "analysis--submission-h1-prelim-r2-20260909",
+    "public_title": "h1-submit-2 / TERM-50 · OFFICIAL · H1 preliminary Round 2 submission — 2026-09-09",
+    "asset": "technical_report.txt",
+    "source_sha256": "86e040ca3d72bdae5654630ad4d16d7786f1bfc2f0693ad2afc7e1ed62b13164",
+    "public_sha256": "86e040ca3d72bdae5654630ad4d16d7786f1bfc2f0693ad2afc7e1ed62b13164",
+    "bytes": 824,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "scope": "User-authored technical report only; other original assets not included.",
+    "assets": [
+      {
+        "name": "technical_report.txt",
+        "source_sha256": "86e040ca3d72bdae5654630ad4d16d7786f1bfc2f0693ad2afc7e1ed62b13164",
+        "public_sha256": "86e040ca3d72bdae5654630ad4d16d7786f1bfc2f0693ad2afc7e1ed62b13164",
+        "bytes": 824,
+        "status": "byte_identical"
+      }
+    ]
+  },
+  {
+    "source_repository": "naver-issacsim",
+    "source_tag": "submission-go2-prelim-r3-20260915",
+    "source_title": "g2-submit-3 / LINTRACK-150-LINZ-2 · OFFICIAL · Go2 preliminary Round 3 submission — 2026-09-15",
+    "source_body_sha256": "3d52bd9b4dc6df9db15887bb21270c0b43fbabffce40ea1c61533202fbccacfa",
+    "public_tag": "analysis--submission-go2-prelim-r3-20260915",
+    "public_title": "g2-submit-3 / LINTRACK-150-LINZ-2 · OFFICIAL · Go2 preliminary Round 3 submission — 2026-09-15",
+    "asset": "technical_report.txt",
+    "source_sha256": "ad69df76a481717e18eb96791f67eb73452e41ca44a5edfe988b21f98459af57",
+    "public_sha256": "ad69df76a481717e18eb96791f67eb73452e41ca44a5edfe988b21f98459af57",
+    "bytes": 1074,
+    "status": "byte_identical",
+    "members_blinded": [],
+    "scope": "User-authored technical report only; other original assets not included.",
+    "assets": [
+      {
+        "name": "technical_report.txt",
+        "source_sha256": "ad69df76a481717e18eb96791f67eb73452e41ca44a5edfe988b21f98459af57",
+        "public_sha256": "ad69df76a481717e18eb96791f67eb73452e41ca44a5edfe988b21f98459af57",
+        "bytes": 1074,
+        "status": "byte_identical"
+      }
+    ]
   }
 ]
