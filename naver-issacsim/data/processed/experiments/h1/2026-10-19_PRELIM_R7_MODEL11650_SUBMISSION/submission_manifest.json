@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "robot": "h1",
+  "preliminary_round": 7,
+  "submission_preset": "h1-submit-7",
+  "experiment": "exp-h1-joint-tracking-balance",
+  "display_descriptor": "TOP01 + ANG070 / JOINT LIN065 ANG070 ACT0003",
+  "run_id": "20261018-140635-h1-top01-angtrack060-plus3k",
+  "training_environment": "OFFICIAL",
+  "training_start": "resume",
+  "training_status": "COMPLETED",
+  "evidence_validation": "PASS",
+  "parent_run_id": "20261018-021823-h1-top01-same-reward-to10k",
+  "parent_checkpoint": "model_9950.pt",
+  "parent_checkpoint_sha256": "6e03f421b422c442ee85d449c708b3bf340d39e17c55de786276b9fd091847f3",
+  "requested_additional_iterations": 3000,
+  "console_final_iteration": null,
+  "source_checkpoint_for_policy_pt": "model_best.pt (stored iter=11650)",
+  "source_checkpoint_sha256": "3d978261fb1b2c3c2cfbd48f8957972e81a54d6541e96d252a7d6a3344b3a381",
+  "source_checkpoint_verified": true,
+  "source_checkpoint_verification": "Previous local check: env/model_best/report match +3K archive byte-for-byte; all eight policy actor tensors exactly match its model_best iter11650; CPU forward passed.",
+  "policy_export_evidence_run_id": null,
+  "seed": 42,
+  "num_envs": 4096,
+  "received_date": "2026-10-19",
+  "submission_status": "User replaced the Round-7 submission selection with +3K best iter11650 and supplied this final technical report; portal completion time/receipt not provided.",
+  "submission_time": null,
+  "official_score": null,
+  "previous_submission_preset": "h1-submit-6",
+  "previous_submission_reward_deltas": {
+    "track_lin_vel_xy_exp": {
+      "from": 0.5,
+      "to": 0.65
+    },
+    "track_ang_vel_z_exp": {
+      "from": 0.5,
+      "to": 0.7
+    },
+    "action_rate_l2": {
+      "from": -0.0001,
+      "to": -0.0003
+    }
+  },
+  "source_official_run_release": null,
+  "canonical_received_snapshot": "naver-issacsim-originals/data/raw/official_server_runs/h1/2026-10-19_round7_model11650_submission/",
+  "submission_release": "https://github.com/SE3C/naver-issacsim/releases/tag/submission-h1-prelim-r7-20261019-model11650",
+  "report_statistics_verification": "User-written report preserved without editorial changes; statistics not independently recalculated for publication.",
+  "artifacts": {
+    "policy.pt": {
+      "bytes": 1206166,
+      "sha256": "3a49ac4a183609032b8bb23cf75a146048704e435c62d8797573d8cf001dbd1e"
+    },
+    "env.yaml": {
+      "bytes": 33531,
+      "sha256": "cf60d48a07a8c9fb6046112c49527a828a71564289f1396b55c02e74b995bfc6"
+    },
+    "technical_report.txt": {
+      "bytes": 1048,
+      "sha256": "fdaeeb55d52636251cbcfee630c52543e588403985e12421b145cb2125bca1ac"
+    }
+  },
+  "latest_preserved_iteration": 12900,
+  "source_checkpoint_iteration": 11650,
+  "source_checkpoint_origin": "official automatic best export; user-selected model_best stored iter11650, not latest keeper12900",
+  "source_archive_filename": "20261018-140635-h1-top01-angtrack060-plus3k-download.tar.gz",
+  "source_archive_note": "Archive was directly read locally for identity verification. This submission Release does not claim a published source training Release.",
+  "source_raw_lineage": {
+    "source_checkpoint_origin": "user_imported_checkpoint",
+    "source_provenance_verified": false,
+    "parent_run_id": null
+  },
+  "parent_connection_verification": "Separate SHA match to known TOP01 model9950; raw imported-parent unknown/null fields are not rewritten.",
+  "supersedes_release": "submission-h1-prelim-r7-20261019",
+  "transition_from_parent": {
+    "track_ang_vel_z_exp": {
+      "from": 0.6,
+      "to": 0.7
+    }
+  },
+  "source_run_name_note": "Run filename retains angtrack060, but actual archived env.yaml confirms angular weight 0.70. Do not infer final parameters from that name."
+}

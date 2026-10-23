@@ -1,0 +1,460 @@
+{
+  "complete": true,
+  "cuda_memory": {
+    "device": "NVIDIA RTX A4000",
+    "peak_allocated_bytes": 30447104,
+    "total_bytes": 15693250560
+  },
+  "elapsed_wall_s": 961.6665982520026,
+  "evaluation_environment": "PERSONAL",
+  "execution_status": "COMPLETE",
+  "finished_at": "2026-10-18T11:02:56.920662+00:00",
+  "gpu_info_after": "NVIDIA RTX A4000, 2532, 15352",
+  "gpu_info_before": "NVIDIA RTX A4000, 264, 15352",
+  "policy": {
+    "kind": "rsl_rl_checkpoint",
+    "path": "/ephemeral/ncrc-checkpoints/h1-top08-same-reward-to10k_model_9999.pt",
+    "preset": null,
+    "sha256": "852c95fa0fcfabec456572541c24dad68385084ce480aa09b8422597b704929b",
+    "source_run_id": null
+  },
+  "protocol": {
+    "actor_mode": "deterministic_inference",
+    "agent_config_fingerprint": "976cb139c936d5acb396a0c6e934e8a0fc50d00cbd3896de23ed0bdf09e729b2",
+    "applied_environment_config_fingerprints": {
+      "H1/flat/4201": "57c293fede5053088c04094819226b9582ebcd03ed3c86020b9c972261d9bf60",
+      "H1/flat/4202": "fd09eea8daecd685e19002095ee80c7ed358eab9e671a12a45ae04a6ce49a044",
+      "H1/flat/4203": "d11f91e624d0913dee806ffc483b210d9d134852c582c882e2fd8e89a4cf19e0",
+      "H2/flat/4201": "57c293fede5053088c04094819226b9582ebcd03ed3c86020b9c972261d9bf60",
+      "H2/flat/4202": "fd09eea8daecd685e19002095ee80c7ed358eab9e671a12a45ae04a6ce49a044",
+      "H2/flat/4203": "d11f91e624d0913dee806ffc483b210d9d134852c582c882e2fd8e89a4cf19e0",
+      "H3/flat/4201": "57c293fede5053088c04094819226b9582ebcd03ed3c86020b9c972261d9bf60",
+      "H3/flat/4202": "fd09eea8daecd685e19002095ee80c7ed358eab9e671a12a45ae04a6ce49a044",
+      "H3/flat/4203": "d11f91e624d0913dee806ffc483b210d9d134852c582c882e2fd8e89a4cf19e0",
+      "H4/flat/4201": "57c293fede5053088c04094819226b9582ebcd03ed3c86020b9c972261d9bf60",
+      "H4/flat/4202": "fd09eea8daecd685e19002095ee80c7ed358eab9e671a12a45ae04a6ce49a044",
+      "H4/flat/4203": "d11f91e624d0913dee806ffc483b210d9d134852c582c882e2fd8e89a4cf19e0",
+      "H5/rough/4201": "a6290752b620f0bfc61498201668aff2db37894deb6e87f7a13e56f4dd387112",
+      "H5/rough/4202": "6ef8581c4c07b88481f7028a8b2cfb50576940adc008b42d945763692fc4873d",
+      "H5/rough/4203": "663730c041df89b39da2d7c4d94125ee5ef0a4d9189ed828ca0710fe684f2b25",
+      "H6/slope_down/4201": "f41021a4b346b76adcea204c1b1273a012e8e68b0ea769a8119b1e4c2bfb56a3",
+      "H6/slope_down/4202": "ee2e52081090df62671eda427e09319034bb3d97747b9609114ec8a145cc6da5",
+      "H6/slope_down/4203": "49df8229a7f36a55e352679ef50f35a4ac44277d6f964f194fc3bc5a98dcd33d",
+      "H6/slope_up/4201": "e54a7cac1620f6ac401d1d8aacab4fba68f1798ebc082f7a859e042694c08a71",
+      "H6/slope_up/4202": "c3bb5647c799719516cd6ecc570ee534d2e2d4e3c7d1cd29ae834e5827b5d80f",
+      "H6/slope_up/4203": "c8afafe1ef28bb6a3be6edce4dd240739da1be42e280707c71a1fb6166f6dd36",
+      "H7/push/4201": "57c293fede5053088c04094819226b9582ebcd03ed3c86020b9c972261d9bf60",
+      "H7/push/4202": "fd09eea8daecd685e19002095ee80c7ed358eab9e671a12a45ae04a6ce49a044",
+      "H7/push/4203": "d11f91e624d0913dee806ffc483b210d9d134852c582c882e2fd8e89a4cf19e0"
+    },
+    "camera_enabled": false,
+    "collector_version": "se3c-isaac-collector-v1",
+    "command_schedule": "per_episode_step_clock_without_rng_v1",
+    "device": "cuda:0",
+    "disturbance_schedule": "fixed_xy_velocity_deltas_at_4_8_12_16s_v1",
+    "num_envs": 128,
+    "render_mode": null,
+    "robot": "h1",
+    "seeds": [
+      4201,
+      4202,
+      4203
+    ],
+    "source_fingerprints": {
+      "h1_task/__init__.py": "3334dc0a2245aeaf478b68b4dd51f04fa6cff47705bac6ac4d2f0a429e2d4026",
+      "h1_task/agent_cfg.py": "4e8c9919aed8220333c998bfbabe345d8eb2ed54734d67674d48be3ecbd72bb6",
+      "h1_task/env_cfg.py": "78927fc5b57f71284db114e25c7981f3ab1d08c40a94a93838d2fa1b7609adab",
+      "humanoid_rewards.py": "c09c850f3114f8ba39a91e5b3450d621d9bef3e2e45489ca9a1a1dc2205fff54"
+    },
+    "suite": {
+      "command_period_s": 10.0,
+      "duration_s": 20.0,
+      "episode_mode": "time_window",
+      "name": "scenario7",
+      "robot": "h1",
+      "scenarios": [
+        {
+          "cases": [
+            {
+              "commands": [
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "difficulty": 0.5,
+              "id": "flat",
+              "terrain": "flat"
+            }
+          ],
+          "id": "H1",
+          "name": "balance",
+          "weight": 0.15
+        },
+        {
+          "cases": [
+            {
+              "commands": [
+                [
+                  0.5,
+                  0.0,
+                  0.0
+                ],
+                [
+                  1.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "difficulty": 0.5,
+              "id": "flat",
+              "terrain": "flat"
+            }
+          ],
+          "id": "H2",
+          "name": "forward_tracking",
+          "weight": 0.2
+        },
+        {
+          "cases": [
+            {
+              "commands": [
+                [
+                  0.0,
+                  0.3,
+                  0.0
+                ],
+                [
+                  0.0,
+                  -0.3,
+                  0.0
+                ]
+              ],
+              "difficulty": 0.5,
+              "id": "flat",
+              "terrain": "flat"
+            }
+          ],
+          "id": "H3",
+          "name": "lateral_tracking",
+          "weight": 0.1
+        },
+        {
+          "cases": [
+            {
+              "commands": [
+                [
+                  0.5,
+                  0.0,
+                  0.5
+                ],
+                [
+                  0.5,
+                  0.0,
+                  -0.5
+                ]
+              ],
+              "difficulty": 0.5,
+              "id": "flat",
+              "terrain": "flat"
+            }
+          ],
+          "id": "H4",
+          "name": "rotation_tracking",
+          "weight": 0.1
+        },
+        {
+          "cases": [
+            {
+              "commands": [
+                [
+                  0.5,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "difficulty": 0.5,
+              "id": "rough",
+              "terrain": "random_rough"
+            }
+          ],
+          "id": "H5",
+          "name": "rough_terrain",
+          "weight": 0.15
+        },
+        {
+          "cases": [
+            {
+              "commands": [
+                [
+                  1.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "difficulty": 0.5,
+              "id": "slope_up",
+              "slope": 0.17632698070846498,
+              "terrain": "hf_pyramid_slope"
+            },
+            {
+              "commands": [
+                [
+                  1.0,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "difficulty": 0.5,
+              "id": "slope_down",
+              "slope": 0.17632698070846498,
+              "terrain": "hf_pyramid_slope_inv"
+            }
+          ],
+          "id": "H6",
+          "name": "slope",
+          "weight": 0.15
+        },
+        {
+          "cases": [
+            {
+              "commands": [
+                [
+                  0.5,
+                  0.0,
+                  0.0
+                ]
+              ],
+              "difficulty": 0.5,
+              "id": "push",
+              "push_delta": 0.5,
+              "terrain": "flat"
+            }
+          ],
+          "id": "H7",
+          "name": "push_recovery",
+          "weight": 0.15
+        }
+      ],
+      "stall_command_m_s": 0.2,
+      "stall_speed_m_s": 0.1,
+      "version": "internal-suite-v1"
+    },
+    "task_id": "Humanoid-v0",
+    "versions": {
+      "isaaclab_commit": "3e73d6dd79080fd7632488c061052a6edd52e230",
+      "isaaclab_version": "0.54.3",
+      "isaacsim_version": "unavailable",
+      "rsl_rl_version": "5.0.1",
+      "torch_version": "2.7.0+cu128"
+    }
+  },
+  "protocol_id": "5ebd59ae7b45d3bc87af7916d871086872a1d90368461d01c2a28172dcd5b121",
+  "robot": "h1",
+  "schema": "se3c-evaluation-v1",
+  "smoke": false,
+  "source_fingerprints": {
+    "h1_task/__init__.py": "3334dc0a2245aeaf478b68b4dd51f04fa6cff47705bac6ac4d2f0a429e2d4026",
+    "h1_task/agent_cfg.py": "4e8c9919aed8220333c998bfbabe345d8eb2ed54734d67674d48be3ecbd72bb6",
+    "h1_task/env_cfg.py": "78927fc5b57f71284db114e25c7981f3ab1d08c40a94a93838d2fa1b7609adab",
+    "humanoid_rewards.py": "c09c850f3114f8ba39a91e5b3450d621d9bef3e2e45489ca9a1a1dc2205fff54"
+  },
+  "started_at": "2026-10-18T10:46:55.226780+00:00",
+  "suite": {
+    "command_period_s": 10.0,
+    "duration_s": 20.0,
+    "episode_mode": "time_window",
+    "name": "scenario7",
+    "robot": "h1",
+    "scenarios": [
+      {
+        "cases": [
+          {
+            "commands": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "difficulty": 0.5,
+            "id": "flat",
+            "terrain": "flat"
+          }
+        ],
+        "id": "H1",
+        "name": "balance",
+        "weight": 0.15
+      },
+      {
+        "cases": [
+          {
+            "commands": [
+              [
+                0.5,
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "difficulty": 0.5,
+            "id": "flat",
+            "terrain": "flat"
+          }
+        ],
+        "id": "H2",
+        "name": "forward_tracking",
+        "weight": 0.2
+      },
+      {
+        "cases": [
+          {
+            "commands": [
+              [
+                0.0,
+                0.3,
+                0.0
+              ],
+              [
+                0.0,
+                -0.3,
+                0.0
+              ]
+            ],
+            "difficulty": 0.5,
+            "id": "flat",
+            "terrain": "flat"
+          }
+        ],
+        "id": "H3",
+        "name": "lateral_tracking",
+        "weight": 0.1
+      },
+      {
+        "cases": [
+          {
+            "commands": [
+              [
+                0.5,
+                0.0,
+                0.5
+              ],
+              [
+                0.5,
+                0.0,
+                -0.5
+              ]
+            ],
+            "difficulty": 0.5,
+            "id": "flat",
+            "terrain": "flat"
+          }
+        ],
+        "id": "H4",
+        "name": "rotation_tracking",
+        "weight": 0.1
+      },
+      {
+        "cases": [
+          {
+            "commands": [
+              [
+                0.5,
+                0.0,
+                0.0
+              ]
+            ],
+            "difficulty": 0.5,
+            "id": "rough",
+            "terrain": "random_rough"
+          }
+        ],
+        "id": "H5",
+        "name": "rough_terrain",
+        "weight": 0.15
+      },
+      {
+        "cases": [
+          {
+            "commands": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "difficulty": 0.5,
+            "id": "slope_up",
+            "slope": 0.17632698070846498,
+            "terrain": "hf_pyramid_slope"
+          },
+          {
+            "commands": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "difficulty": 0.5,
+            "id": "slope_down",
+            "slope": 0.17632698070846498,
+            "terrain": "hf_pyramid_slope_inv"
+          }
+        ],
+        "id": "H6",
+        "name": "slope",
+        "weight": 0.15
+      },
+      {
+        "cases": [
+          {
+            "commands": [
+              [
+                0.5,
+                0.0,
+                0.0
+              ]
+            ],
+            "difficulty": 0.5,
+            "id": "push",
+            "push_delta": 0.5,
+            "terrain": "flat"
+          }
+        ],
+        "id": "H7",
+        "name": "push_recovery",
+        "weight": 0.15
+      }
+    ],
+    "stall_command_m_s": 0.2,
+    "stall_speed_m_s": 0.1,
+    "version": "internal-suite-v1"
+  },
+  "task_config": {
+    "agent_config_class": "HumanoidPPORunnerCfg",
+    "environment_config_class": "HumanoidRoughEnvCfg",
+    "observation_architecture": {
+      "activation": null,
+      "actor_hidden_dims": [],
+      "critic_hidden_dims": [
+        512,
+        256,
+        128
+      ],
+      "empirical_normalization": true,
+      "policy_class_name": null,
+      "policy_observation_normalization": false,
+      "recurrent": false,
+      "runner_class_name": "OnPolicyRunner",
+      "runner_config_class": "HumanoidPPORunnerCfg"
+    },
+    "task_id": "Humanoid-v0"
+  },
+  "task_root": "/ephemeral/naver-issacsim-nvidia/training/humanoid"
+}

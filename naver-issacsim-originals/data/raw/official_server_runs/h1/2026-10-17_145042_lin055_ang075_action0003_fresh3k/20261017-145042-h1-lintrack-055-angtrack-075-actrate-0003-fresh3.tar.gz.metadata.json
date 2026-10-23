@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "run_id": "20261017-145042-h1-lintrack-055-angtrack-075-actrate-0003-fresh3",
+  "pack_duration_sec": 10.043,
+  "evidence_bytes": 455031269,
+  "archive_bytes": 412370029,
+  "free_bytes_before": 816067362816,
+  "required_free_bytes": 522140133
+}

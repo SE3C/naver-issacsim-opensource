@@ -1,0 +1,55 @@
+{
+  "schema": "windows-personal-policy-evaluation-publication-v1",
+  "robot": "h1",
+  "experiment_id": "exp-h1-angular-tracking-boost",
+  "legacy_descriptor": "ANGTRACK-065",
+  "evaluation_environment": "PERSONAL",
+  "training_environment": "OFFICIAL",
+  "training_run_id": "20261009-155344-h1-angtrack-065-fresh3k",
+  "training_release_url": "https://github.com/SE3C/naver-issacsim-originals/releases/tag/official-h1-20261010-exp-h1-angular-tracking-boost-fresh3k",
+  "checkpoint": {
+    "filename": "model_2950.pt",
+    "sha256": "6a6f456eb3f25a7d2764af576e30b1a8169674256ae5c2ba0a1b79ed368e118c",
+    "embedded_source_run_id": null,
+    "embedded_preset": null,
+    "embedded_source_provenance_verified": false
+  },
+  "evaluation": {
+    "execution_status": "COMPLETE",
+    "complete": true,
+    "smoke": false,
+    "protocol_id": "d406a296d2c0e5a7deee4138de7df87532d2815ae9b65af999d7a8f0b7062d34",
+    "scenario_suite": "scenario7",
+    "camera_enabled": false,
+    "num_envs": 128,
+    "seeds": [4201, 4202, 4203],
+    "cases_per_seed": 8,
+    "episode_duration_seconds": 20,
+    "episodes": 3087,
+    "finished_at_utc": "2026-10-09T19:14:15.187571Z",
+    "native_exit_code": 0,
+    "video_suite": {
+      "terrain_labels": ["stairs", "inverted_stairs", "boxes", "random_rough", "slope_up_10deg", "slope_down_10deg"],
+      "command_schedule": "maneuver_push",
+      "duration_seconds_per_terrain": 20
+    }
+  },
+  "artifact": {
+    "filename": "model_best_h1_6terrain_evaluation_20261010-041416_066bf8a3.zip",
+    "bytes": 32626954,
+    "sha256": "ec1bc325feae5cd6da1643a9fbbe13b0640ad7514b77b79e5532d8b836def93b",
+    "file_count": 18
+  },
+  "publication": {
+    "repository": "SE3C/naver-issacsim-nvidia",
+    "tag": "private-h1-20261010-exp-h1-angular-tracking-boost-model2950-video-eval",
+    "title": "H1 ANGTRACK-065 · model_2950 · PERSONAL videos + full evaluation",
+    "tag_target_commit": "ef10b7a4c9a83481346d446e8a75aed655f72214"
+  },
+  "limitations": [
+    "This is a PERSONAL post-training evaluation, not an official competition score.",
+    "No A/B comparison, calibration, or policy analysis is included.",
+    "The bundle's source_run_id and preset are null; training linkage is recorded externally by checkpoint SHA.",
+    "The source training metadata's source_provenance_verified=false is not upgraded by this evaluation publication."
+  ]
+}

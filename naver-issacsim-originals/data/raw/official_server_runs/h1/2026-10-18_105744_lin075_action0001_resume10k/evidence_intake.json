@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "source_archive": {
+    "filename": "20261018-105744-h1-top09-same-reward-to10k-download.tar.gz",
+    "bytes": 959601708,
+    "sha256": "ba9334e5e4509a318562fb4ca31ae712392979b2e3ac9b6e99c79efd7a3fe995",
+    "nested_archive": "20261018-105744-h1-top09-same-reward-to10k/20261018-105744-h1-top09-same-reward-to10k.tar.gz",
+    "nested_bytes": 953178162
+  },
+  "run": {
+    "run_id": "20261018-105744-h1-top09-same-reward-to10k",
+    "name": "h1-top09-same-reward-to10k",
+    "mode": "official",
+    "operation": "train",
+    "status": "completed",
+    "training_status": "completed",
+    "exit_code": 0,
+    "official_finalize_status": "completed",
+    "official_backup_status": "success",
+    "evidence_validation": "PASS",
+    "requested_iterations": 7050,
+    "start_iteration": 2950,
+    "final_iteration": 9950,
+    "seed": 42,
+    "num_envs": 4096,
+    "save_interval": 50,
+    "parent_run_id": null,
+    "parent_checkpoint_sha256": "952330c4d95c61e5104e446fdf947a94c38ad7feac6e4806b8164d709826fba3",
+    "source_checkpoint": "/workspace/top09/model_2950.pt",
+    "source_checkpoint_origin": "user_imported_checkpoint",
+    "source_run_mode": "unknown",
+    "source_evidence_run_id": null,
+    "source_provenance_verified": false,
+    "resolved_reward_weights": {
+      "track_lin_vel_xy_exp": 0.75,
+      "track_ang_vel_z_exp": 0.5,
+      "feet_air_time": 0.2,
+      "termination_penalty": -50.0,
+      "flat_orientation_l2": -1.5,
+      "ang_vel_xy_l2": -0.05,
+      "joint_deviation_hip": -0.2,
+      "joint_deviation_torso": -0.1,
+      "action_rate_l2": -0.0001
+    },
+    "source_git_commit": null,
+    "source_identity": "source/identity.json",
+    "source_reward_file": "source/humanoid_rewards.py",
+    "source_reward_sha256": "15267130f596a2a922e60ff0f6d8b4566ee240f3dc49de4897ec7141548262cc",
+    "resolved_environment": "source/resolved_env.yaml",
+    "raw_metadata": "metadata.json"
+  },
+  "checkpoint_index": {
+    "indexed_checkpoint_count": 142,
+    "final": {
+      "filename": "model_9950.pt",
+      "sha256": "086cac9dbac3261dc44d8d079dcbdce658cbb28e34da7bbb7c309589c48d4d0e",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-18_19-57-48/model_9950.pt"
+    },
+    "parent_sha_join": {
+      "checkpoint_sha256": "952330c4d95c61e5104e446fdf947a94c38ad7feac6e4806b8164d709826fba3",
+      "matching_official_run": "2026-10-17_140610_lin075_action0001_fresh3k",
+      "raw_source_provenance_verified": false
+    }
+  },
+  "validation": {
+    "overall": "PASS",
+    "path": "validation.json"
+  },
+  "release": {
+    "title": "[학습] H1 LINTRACK-075 + ACTRATE-0001 · OFFICIAL continuation to 10K",
+    "tag": "official-h1-20261018-exp-h1-action-planar-tracking-fresh-interaction-top09-resume10k"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "run_id": "20260917-234047-h1-h008-cont2k-from-2998",
+  "pack_duration_sec": 7.356,
+  "evidence_bytes": 172323593,
+  "archive_bytes": 153896399,
+  "free_bytes_before": 579598950400,
+  "required_free_bytes": 239432457
+}

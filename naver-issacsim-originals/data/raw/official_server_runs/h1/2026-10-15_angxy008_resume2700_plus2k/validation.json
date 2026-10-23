@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "overall": "PASS",
+  "checks": [
+    {
+      "name": "native_run",
+      "status": "PASS",
+      "detail": "native run copied"
+    },
+    {
+      "name": "tensorboard",
+      "status": "PASS",
+      "detail": "events=1"
+    },
+    {
+      "name": "organizer_checkpoints",
+      "status": "PASS",
+      "detail": "copied=40 exit=0 error=None"
+    },
+    {
+      "name": "source_identity",
+      "status": "PASS",
+      "detail": "before/after hashes match"
+    },
+    {
+      "name": "official_backup",
+      "status": "PASS",
+      "detail": "status=success"
+    },
+    {
+      "name": "collection",
+      "status": "PASS",
+      "detail": "new_or_modified=5"
+    },
+    {
+      "name": "exported_model_best.pt",
+      "status": "PASS",
+      "detail": "NEW/MODIFIED"
+    },
+    {
+      "name": "exported_env.yaml",
+      "status": "PASS",
+      "detail": "NEW/MODIFIED"
+    },
+    {
+      "name": "official_finalize",
+      "status": "PASS",
+      "detail": "status=completed"
+    }
+  ]
+}

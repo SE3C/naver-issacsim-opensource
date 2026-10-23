@@ -1,0 +1,27 @@
+[
+  {
+    "repository": "issacsimz",
+    "path": "tests/test_orchestration.py",
+    "reason": "Official keeper source is embedded in a test fixture; omit the whole file rather than editing its contents."
+  },
+  {
+    "repository": "naver-issacsim",
+    "path": "data/processed/experiments/h1/analysis/2026-09-10_OFFICIAL_EVAL_H1_ROUND2_TERM50.md",
+    "reason": "Third-party feedback transcript; omitted whole instead of rewriting the quotation."
+  },
+  {
+    "repository": "naver-issacsim",
+    "path": "data/processed/experiments/h1/analysis/2026-09-10_ROUND2_EVALUATION_RECORD_AND_FUTURE_SUBMISSION_TEMPLATE.md",
+    "reason": "Third-party feedback transcript; omitted whole instead of rewriting the quotation."
+  },
+  {
+    "repository": "naver-issacsim",
+    "path": "data/processed/experiments/h1/analysis/2026-09-30_OFFICIAL_EVAL_H1_ROUND4_AIRTIME025.md",
+    "reason": "Third-party feedback transcript; omitted whole instead of rewriting the quotation."
+  },
+  {
+    "repository": "naver-issacsim-eval",
+    "path": "AGENTS.md",
+    "reason": "Local-only agent instructions are not published."
+  }
+]

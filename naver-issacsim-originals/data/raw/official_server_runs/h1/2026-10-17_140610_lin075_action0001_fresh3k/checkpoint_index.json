@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "run_id": "20261017-140610-h1-lintrack-075-actrate-0001-term-50-fresh3k",
+  "mode": "official",
+  "generated_utc": "2026-10-17T14:42:55.316104+00:00",
+  "checkpoints": [
+    {
+      "filename": "model_2850.pt",
+      "source_path": "/workspace/training/humanoid/logs/rsl_rl/humanoid/2026-10-17_23-06-13/model_2850.pt",
+      "origin": "official_native_run",
+      "size": 7151477,
+      "sha256": "8238421049335a19c288986ed58aa84f01468da315fbf6c355ee45088934f959"
+    },
+    {
+      "filename": "model_0.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_0.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7150807,
+      "sha256": "cb85fd8cb5ef976725385708e61d9dffe24eef4840d2a278d28025b3b015bb97"
+    },
+    {
+      "filename": "model_100.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_100.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151403,
+      "sha256": "063c115f632445d0bff8cc78573b649e6516ac7e522e0600c0f82285493beea7"
+    },
+    {
+      "filename": "model_1000.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1000.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "6681297aaed9fe45a40d366f6d871a4625f0abfe3d4c19677033e6b9e5cf42cc"
+    },
+    {
+      "filename": "model_1050.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1050.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "f4dd9207dfd64756b8e4af42b0febf4c7fbffc87c30a67d2bf5ccdda51fed61c"
+    },
+    {
+      "filename": "model_1100.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1100.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "8c702aed66a981d6a4bf5b6ee4fb3e6d6f04742b8a9d4a4127a28cc530ba662d"
+    },
+    {
+      "filename": "model_1150.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1150.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "14029915209659035ef1173fdfc43a93204124906fed1de394c0c5bf259f11a7"
+    },
+    {
+      "filename": "model_1200.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1200.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "98c44d2d9d823cfad7f5f7e93d5effd813ff7b71e67d6b0be0e25710c5e67898"
+    },
+    {
+      "filename": "model_1250.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1250.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "5f0750ec61e6566c7e480c72812430c22f70d2309cc446cdd971edd004495e44"
+    },
+    {
+      "filename": "model_1300.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1300.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "97e352955a175908966b6a4710d9c41c6f3a91ab9c3019800b6eb23bea8eb4b5"
+    },
+    {
+      "filename": "model_1350.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1350.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "efc1f1263e6f67d5abb203d32c9e8b7ce66301e3543b45fe357b4b3da848c5a3"
+    },
+    {
+      "filename": "model_1400.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1400.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "94b9b177064c5414c1f8e138a3f34aeb7e68e01e63f7c0b070f552c08feaea77"
+    },
+    {
+      "filename": "model_1450.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1450.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "5b4c3ce676bd3274125591ceab8fb4391996f4bdd34b1401147a495078b17853"
+    },
+    {
+      "filename": "model_150.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_150.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151403,
+      "sha256": "06a0c70804b4ed4d5b99b08615f654e40f48f8f34578b91dae3d62cdb1b2b1ba"
+    },
+    {
+      "filename": "model_1500.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1500.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "115b0cfd0602d14f34c0464b26653c7a7252accf9346007599590091f5955171"
+    },
+    {
+      "filename": "model_1550.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1550.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "c40a9bf4e59965ecec6876e6068423352bbd48460792de3ffc8e02efb82d68ab"
+    },
+    {
+      "filename": "model_1600.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1600.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "e1bb73910df1815594bf5883fae20b78efa6e99771cf38aaff929c93f7cc289f"
+    },
+    {
+      "filename": "model_1650.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1650.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "0965a27b417719d4933e710c7740cc34953907e23ededd25606b667ad6222a56"
+    },
+    {
+      "filename": "model_1700.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1700.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "5f9bb8aabccd6ee76bc156602d3f9e8acdc4b8c16a5fbd3c6c632e7d8eb31c9f"
+    },
+    {
+      "filename": "model_1750.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1750.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "84e7ff513446a57abd73d0885de4d34b9920b613365051fe14c602774a7f0d52"
+    },
+    {
+      "filename": "model_1800.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1800.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "34a7b6254a5ef32d3230c92880cb34ad595813873c998e7d0051fb61246400a2"
+    },
+    {
+      "filename": "model_1850.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1850.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "58f9f54e3a16ef20dc4d02c31025f37909756dafe8f48025972e0a887afeae39"
+    },
+    {
+      "filename": "model_1900.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1900.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "41be4f28420692dd68499f1a4a715b4f28401a7838961f63a0565ffd23b4e716"
+    },
+    {
+      "filename": "model_1950.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_1950.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "e891986a38c2ca4d0dcf13caf7f7b4710d55b5272f0bd7b52c3ceffcab34818e"
+    },
+    {
+      "filename": "model_200.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_200.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151403,
+      "sha256": "260c114a9837a5b8b00cf6e56375710390303380b6a6350ef52fc54d0f5c11e4"
+    },
+    {
+      "filename": "model_2000.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2000.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "566b9f44b1117089dfc3aa6ad12aa885d2ce2299e111253b8fba9cabf2fcae89"
+    },
+    {
+      "filename": "model_2050.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2050.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "f359ab182da390c02377e2f61049a8cbecc00153f9cea9f7979b5467574d2d8b"
+    },
+    {
+      "filename": "model_2100.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2100.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "5f4e8a6b1f2ac358bd257f8a2e528cb29f510458aa208962211de96e6921f1ef"
+    },
+    {
+      "filename": "model_2150.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2150.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "00a4db179649e5461e8aae672245fed70118881eeb65e8a9573dbeb77ee54ac2"
+    },
+    {
+      "filename": "model_2200.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2200.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "cfc2dbb9154d3b65d337e92b86e302f3c67dfab70c48fccc06386a3b83d91eb1"
+    },
+    {
+      "filename": "model_2250.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2250.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "e540a980654cfc8283fbc75287a3a5927134ee5abd4ae9b72b11a6c88d804e57"
+    },
+    {
+      "filename": "model_2300.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2300.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "ee284b9958559b02a9952756aab116094f7c2f9c09f6f2bd865c5b8d8fc68729"
+    },
+    {
+      "filename": "model_2350.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2350.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "dd68b8777fb03f8b02b17c27d8af4ac593d328d0be2426a61c478c976e55e814"
+    },
+    {
+      "filename": "model_2400.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2400.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "ac172a6f2e33fd1140646297e872f93b8d78c384152f7430b075f9c5e37ad862"
+    },
+    {
+      "filename": "model_2450.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2450.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "f759fd904eedaf64f9d08cb7d10ba2177efc28e59ebb4bbff927dfa3fed86034"
+    },
+    {
+      "filename": "model_250.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_250.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151403,
+      "sha256": "65f90fae09fbb4e05b72eaebe5b14d0dd25aa5ae778264e2d03de04daac212c7"
+    },
+    {
+      "filename": "model_2500.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2500.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "e5d4b598670d53bdcd8f2bf29f644562a0ede6df69a57ea31c564bb2782f52f7"
+    },
+    {
+      "filename": "model_2550.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2550.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "4a0e61122c7e705b7e6d1f1bad1669ee2797ff653e652e6139872058492e4f23"
+    },
+    {
+      "filename": "model_2600.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2600.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "ff1a47c8243d8618bf3216e09274b68ec44659ed5e7d15decb7305d0c426e657"
+    },
+    {
+      "filename": "model_2650.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2650.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "5bae945fe97cea7213720b20c1e24d85b3524ed5a7fb41a53e1baf66d7b56838"
+    },
+    {
+      "filename": "model_2700.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2700.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "d22ba08c20b65436a44c48a8c521e2608069c2a020736259ba3dcc56a6eb278c"
+    },
+    {
+      "filename": "model_2750.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2750.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "61eab41fae101aad78648f69ca58ca9582e4e2d9e33658cb52d452bd856e3918"
+    },
+    {
+      "filename": "model_2800.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2800.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "75b692bbee66a128af98cdbbbb54fd7e835470bd9796fe7f20e3f140e95194c4"
+    },
+    {
+      "filename": "model_2850.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2850.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "8238421049335a19c288986ed58aa84f01468da315fbf6c355ee45088934f959"
+    },
+    {
+      "filename": "model_2900.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2900.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "dd957beb2851dedde2d4375ebf0381a9277c36f0a60790ae2bcd0f483ec1ca61"
+    },
+    {
+      "filename": "model_2950.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_2950.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151477,
+      "sha256": "952330c4d95c61e5104e446fdf947a94c38ad7feac6e4806b8164d709826fba3"
+    },
+    {
+      "filename": "model_300.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_300.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151403,
+      "sha256": "e49f698287a81ffdfbe8701953fe1007b9b8c8472bd160824cba93ffcd58cb18"
+    },
+    {
+      "filename": "model_350.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_350.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151403,
+      "sha256": "51977c46b92f10a1820738a2fc80f2f4d548d2c29e841c8c65d28fabe0fedaac"
+    },
+    {
+      "filename": "model_400.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_400.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151403,
+      "sha256": "f9dad1ea60cd41c6584a7e595b707e8fea5a10fd28e1e8ce3d2ecfd61383ea60"
+    },
+    {
+      "filename": "model_450.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_450.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151403,
+      "sha256": "2a1bafef1fef74ec286ac02f5a1095ac8a97b5b8e7007c25b4239d73c425c89a"
+    },
+    {
+      "filename": "model_50.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_50.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151329,
+      "sha256": "f2d3a652cb5920aec913ad653f394b624561adad061045684e32c9494a8a2436"
+    },
+    {
+      "filename": "model_500.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_500.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151403,
+      "sha256": "718ad36bed115b18320d4bd99d17f8b18e3a303277649f62d40d6e6ac92c0e57"
+    },
+    {
+      "filename": "model_550.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_550.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151403,
+      "sha256": "6ba531cd67ff1803377e50352038cd601898700b422cc9fc977a625bfe0cb4a5"
+    },
+    {
+      "filename": "model_600.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_600.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151403,
+      "sha256": "c489ac7a2e84d49a902e678c61d2e296b8c37ae7c0cb55641e80f2baa4590242"
+    },
+    {
+      "filename": "model_650.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_650.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151403,
+      "sha256": "52b2a003abc1efba1eb901f504a5b3062d1a3696661b7b7b7a1eab29930f43d5"
+    },
+    {
+      "filename": "model_700.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_700.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151403,
+      "sha256": "5841ed754cad36f1fbbe6c7c046945cb507ba71412f9db145730c1946af6fc4a"
+    },
+    {
+      "filename": "model_750.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_750.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151403,
+      "sha256": "2a3eadaa065161b617817d65305017dea72da9e4eeea6a0b3ae9d766782c2ce2"
+    },
+    {
+      "filename": "model_800.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_800.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151403,
+      "sha256": "c532442f2f6ecd8de3642e1d8b846e126465345d59c600cdab96fe450e8780b6"
+    },
+    {
+      "filename": "model_850.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_850.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151403,
+      "sha256": "c3b75ebc131959534d7e97bd3bd0a781b4d858e9f2c64cd3702936b28047f253"
+    },
+    {
+      "filename": "model_900.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_900.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151403,
+      "sha256": "095c0c9cfd77b1e489180f046373ce4ab4c7f7655a74e5b79bf122f1a89dc40e"
+    },
+    {
+      "filename": "model_950.pt",
+      "source_path": "/workspace/training/humanoid/backup_log/2026-10-17_23-06-13/model_950.pt",
+      "origin": "organizer_keeper_backup",
+      "size": 7151403,
+      "sha256": "98b28d2ddda3d7ead08c36e91d04f00849912b2f70650a706a2e5e40862f40cd"
+    }
+  ],
+  "errors": []
+}
