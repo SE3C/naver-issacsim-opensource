@@ -1,0 +1,302 @@
+{
+  "model_2700": {
+    "checkpoint_sha256": "e54d3389e20ea913968ef8d3edbea5004368ff225fa6b94f73fcd91cf93ca7ae",
+    "sha256_zip": "6270d299def2a3bcb8cc10253027898621dd65a00ad30baafde0cbcde03076e3",
+    "mean_tracking_error": 0.145339070298576,
+    "cases": {
+      "H1/flat": {
+        "mean_tracking_error": 0.1536852939340747,
+        "vx_error": 0.09941254262683501,
+        "vy_error": 0.05928220072333513,
+        "yaw_error": 0.08304104550320614,
+        "forward_progress_m": 1.9870149946398854,
+        "world_displacement_m": 2.0113210001915416,
+        "roll_pitch_rms": 0.02304804723846381,
+        "action_delta_rms": 0.35679808772890426,
+        "stall_fraction": 0.0
+      },
+      "H2/flat": {
+        "mean_tracking_error": 0.11877992229128949,
+        "vx_error": 0.04271764603006886,
+        "vy_error": 0.06271861648971726,
+        "yaw_error": 0.07250311198203745,
+        "forward_progress_m": 15.326194229821752,
+        "world_displacement_m": 15.298935114225548,
+        "roll_pitch_rms": 0.02827635440169714,
+        "action_delta_rms": 0.4648605836472007,
+        "stall_fraction": 0.004000000000000001
+      },
+      "H3/flat": {
+        "mean_tracking_error": 0.15255352973201156,
+        "vx_error": 0.08395067198458246,
+        "vy_error": 0.06727488774584404,
+        "yaw_error": 0.08795357018070744,
+        "forward_progress_m": 1.6770921051187664,
+        "world_displacement_m": 0.6693254367942787,
+        "roll_pitch_rms": 0.027154976234412445,
+        "action_delta_rms": 0.4112031180221978,
+        "stall_fraction": 0.006187500000000001
+      },
+      "H4/flat": {
+        "mean_tracking_error": 0.1535470214841309,
+        "vx_error": 0.03922068928336375,
+        "vy_error": 0.06546267440022786,
+        "yaw_error": 0.11832146623967159,
+        "forward_progress_m": 10.556067146888818,
+        "world_displacement_m": 4.8432574732135185,
+        "roll_pitch_rms": 0.02785532629557086,
+        "action_delta_rms": 0.43188602660777436,
+        "stall_fraction": 0.004000000000000001
+      },
+      "H5/rough": {
+        "mean_tracking_error": 0.1781087162771872,
+        "vx_error": 0.059213510566811844,
+        "vy_error": 0.060074028841470097,
+        "yaw_error": 0.13433551432681443,
+        "forward_progress_m": 9.948159906365253,
+        "world_displacement_m": 9.850497487328708,
+        "roll_pitch_rms": 0.03312778921452103,
+        "action_delta_rms": 0.47916214482989555,
+        "stall_fraction": 0.0055546875,
+        "progress_min": 8.814981909953055,
+        "progress_p05": 9.592359814659686,
+        "tracking_p95": 0.19155488902713438,
+        "stall_max": 0.023,
+        "progress_lt_9_5": 6
+      },
+      "H6/slope_down": {
+        "mean_tracking_error": 0.13667321979538602,
+        "vx_error": 0.049708376457696435,
+        "vy_error": 0.05937272158079451,
+        "yaw_error": 0.09194026090488842,
+        "forward_progress_m": 19.833646461098784,
+        "world_displacement_m": 19.657395284051955,
+        "roll_pitch_rms": 0.03549676767445845,
+        "action_delta_rms": 0.5400867357585576,
+        "stall_fraction": 0.004000000000000001
+      },
+      "H6/slope_up": {
+        "mean_tracking_error": 0.13610818183095152,
+        "vx_error": 0.051237590590535544,
+        "vy_error": 0.05821238541097701,
+        "yaw_error": 0.09082360252250159,
+        "forward_progress_m": 20.051793266235908,
+        "world_displacement_m": 19.893214743796772,
+        "roll_pitch_rms": 0.038161837348264345,
+        "action_delta_rms": 0.5339743343010875,
+        "stall_fraction": 0.004000000000000001
+      },
+      "H7/push": {
+        "mean_tracking_error": 0.1332566770435766,
+        "vx_error": 0.05435968343388716,
+        "vy_error": 0.06994440283820683,
+        "yaw_error": 0.07857747594124942,
+        "forward_progress_m": 10.542448832423155,
+        "world_displacement_m": 10.512029226683955,
+        "roll_pitch_rms": 0.028367251032520722,
+        "action_delta_rms": 0.436990984043538,
+        "stall_fraction": 0.004242187500000001
+      }
+    }
+  },
+  "model_2800": {
+    "checkpoint_sha256": "dffaa77848741fed1f4d22d0b78d4d8911af49057541107845e4d1df02c09ad6",
+    "sha256_zip": "d4a47b0e182763e21077b688f44f7d9cdc00759c0f0f78f4217930e1c49975da",
+    "mean_tracking_error": 0.1571178167704006,
+    "cases": {
+      "H1/flat": {
+        "mean_tracking_error": 0.10133222157120392,
+        "vx_error": 0.06773788160549156,
+        "vy_error": 0.04787430675649725,
+        "yaw_error": 0.04124882441177893,
+        "forward_progress_m": 1.352272792763591,
+        "world_displacement_m": 1.3564577161003786,
+        "roll_pitch_rms": 0.034336811796012535,
+        "action_delta_rms": 0.2390973230047714,
+        "stall_fraction": 0.0
+      },
+      "H2/flat": {
+        "mean_tracking_error": 0.16178573383892045,
+        "vx_error": 0.03843446020058763,
+        "vy_error": 0.06127191128354254,
+        "yaw_error": 0.1320906040228291,
+        "forward_progress_m": 15.168063566183653,
+        "world_displacement_m": 14.492722044749092,
+        "roll_pitch_rms": 0.03057086990030029,
+        "action_delta_rms": 0.40603949379427773,
+        "stall_fraction": 0.0057630208333333335
+      },
+      "H3/flat": {
+        "mean_tracking_error": 0.12747895606313756,
+        "vx_error": 0.06035198011275414,
+        "vy_error": 0.06848305000041334,
+        "yaw_error": 0.0674054978003059,
+        "forward_progress_m": 1.205017654486981,
+        "world_displacement_m": 0.9725327837787269,
+        "roll_pitch_rms": 0.035840247894510714,
+        "action_delta_rms": 0.27039975763695057,
+        "stall_fraction": 0.009125
+      },
+      "H4/flat": {
+        "mean_tracking_error": 0.14804701903130849,
+        "vx_error": 0.027586434501456095,
+        "vy_error": 0.06111516975050681,
+        "yaw_error": 0.11933916539808949,
+        "forward_progress_m": 10.098991942804616,
+        "world_displacement_m": 3.0070879682661436,
+        "roll_pitch_rms": 0.03223569664709037,
+        "action_delta_rms": 0.3519278107013879,
+        "stall_fraction": 0.005999999999999999
+      },
+      "H5/rough": {
+        "mean_tracking_error": 0.18151826208517532,
+        "vx_error": 0.07122223120440883,
+        "vy_error": 0.0632777938994379,
+        "yaw_error": 0.13224407693428383,
+        "forward_progress_m": 8.896122852990311,
+        "world_displacement_m": 8.635321204327088,
+        "roll_pitch_rms": 0.03174332935154108,
+        "action_delta_rms": 0.359252530761571,
+        "stall_fraction": 0.010007812500000003,
+        "progress_min": 2.6391001645440717,
+        "progress_p05": 8.532545619972979,
+        "tracking_p95": 0.2057859874180656,
+        "stall_max": 0.611,
+        "progress_lt_9_5": 374
+      },
+      "H6/slope_down": {
+        "mean_tracking_error": 0.1899608217071214,
+        "vx_error": 0.058150544150658484,
+        "vy_error": 0.05964506010268127,
+        "yaw_error": 0.15237214607675273,
+        "forward_progress_m": 19.985207235584895,
+        "world_displacement_m": 19.013805220986484,
+        "roll_pitch_rms": 0.03916486461858113,
+        "action_delta_rms": 0.47975644995603856,
+        "stall_fraction": 0.004999999999999999
+      },
+      "H6/slope_up": {
+        "mean_tracking_error": 0.19103076653231943,
+        "vx_error": 0.06133601231820406,
+        "vy_error": 0.057506566295005716,
+        "yaw_error": 0.15310077967371197,
+        "forward_progress_m": 20.199499876820145,
+        "world_displacement_m": 19.32287191881228,
+        "roll_pitch_rms": 0.040624318380333174,
+        "action_delta_rms": 0.4764080069557823,
+        "stall_fraction": 0.004999999999999999
+      },
+      "H7/push": {
+        "mean_tracking_error": 0.15578875333401818,
+        "vx_error": 0.037875635787442054,
+        "vy_error": 0.06760874692806804,
+        "yaw_error": 0.11720597213354633,
+        "forward_progress_m": 10.050314747550196,
+        "world_displacement_m": 9.796665030403524,
+        "roll_pitch_rms": 0.025957982759899714,
+        "action_delta_rms": 0.3394635131281403,
+        "stall_fraction": 0.0062187499999999995
+      }
+    }
+  },
+  "model_2850": {
+    "checkpoint_sha256": "6aedeced60562c1d496d5319d29b76cf9e26ff43df06827cb370f24f5313f7b0",
+    "sha256_zip": "aecc82b13671d54c96813af6c02c1b2a7769ee001b30aa4a5c2761457110eb7a",
+    "mean_tracking_error": 0.14041026158257006,
+    "cases": {
+      "H1/flat": {
+        "mean_tracking_error": 0.11705953604572346,
+        "vx_error": 0.08182407755422173,
+        "vy_error": 0.0527335709198555,
+        "yaw_error": 0.04917845970781409,
+        "forward_progress_m": 1.6333588069328107,
+        "world_displacement_m": 1.6268192238063939,
+        "roll_pitch_rms": 0.07358208775804172,
+        "action_delta_rms": 0.25554044026150047,
+        "stall_fraction": 0.0
+      },
+      "H2/flat": {
+        "mean_tracking_error": 0.12703459168886935,
+        "vx_error": 0.04759233671086622,
+        "vy_error": 0.06261634978444267,
+        "yaw_error": 0.0800028546131648,
+        "forward_progress_m": 15.407530626182487,
+        "world_displacement_m": 15.183481067195267,
+        "roll_pitch_rms": 0.0904367179303495,
+        "action_delta_rms": 0.3729877931133512,
+        "stall_fraction": 0.007000000000000002
+      },
+      "H3/flat": {
+        "mean_tracking_error": 0.11997386828423201,
+        "vx_error": 0.05918170327966588,
+        "vy_error": 0.06390147991383006,
+        "yaw_error": 0.06042260183944801,
+        "forward_progress_m": 1.1803403807073967,
+        "world_displacement_m": 0.8200189852824504,
+        "roll_pitch_rms": 0.07585430252107674,
+        "action_delta_rms": 0.2758316903347717,
+        "stall_fraction": 0.008999999999999998
+      },
+      "H4/flat": {
+        "mean_tracking_error": 0.1429262117105712,
+        "vx_error": 0.04417922162798641,
+        "vy_error": 0.06254340646059026,
+        "yaw_error": 0.10256609311876068,
+        "forward_progress_m": 10.52483642051491,
+        "world_displacement_m": 4.641027375384318,
+        "roll_pitch_rms": 0.07567808373905313,
+        "action_delta_rms": 0.35267182246056894,
+        "stall_fraction": 0.005999999999999999
+      },
+      "H5/rough": {
+        "mean_tracking_error": 0.17088501006921922,
+        "vx_error": 0.06953410776503968,
+        "vy_error": 0.0613413864232083,
+        "yaw_error": 0.11903140706401127,
+        "forward_progress_m": 9.451284630630544,
+        "world_displacement_m": 8.979128354990237,
+        "roll_pitch_rms": 0.05873036116711988,
+        "action_delta_rms": 0.3552095433919114,
+        "stall_fraction": 0.009643229166666668,
+        "progress_min": 7.831305231889708,
+        "progress_p05": 8.863097515407016,
+        "tracking_p95": 0.19483065667526425,
+        "stall_max": 0.073,
+        "progress_lt_9_5": 212
+      },
+      "H6/slope_down": {
+        "mean_tracking_error": 0.15857378663560337,
+        "vx_error": 0.06022617771744263,
+        "vy_error": 0.06565285953850938,
+        "yaw_error": 0.10866777019750629,
+        "forward_progress_m": 20.172987733094487,
+        "world_displacement_m": 19.982855309202893,
+        "roll_pitch_rms": 0.09026852773188991,
+        "action_delta_rms": 0.4639437612549635,
+        "stall_fraction": 0.007000000000000002
+      },
+      "H6/slope_up": {
+        "mean_tracking_error": 0.15776527588006387,
+        "vx_error": 0.06513143406322827,
+        "vy_error": 0.06220160460965174,
+        "yaw_error": 0.10514324074893944,
+        "forward_progress_m": 20.42592017955855,
+        "world_displacement_m": 20.21829751475076,
+        "roll_pitch_rms": 0.09494813959805716,
+        "action_delta_rms": 0.4521659630574124,
+        "stall_fraction": 0.007000000000000002
+      },
+      "H7/push": {
+        "mean_tracking_error": 0.12906381234627803,
+        "vx_error": 0.05351920050423723,
+        "vy_error": 0.06592200547679306,
+        "yaw_error": 0.07451498409444877,
+        "forward_progress_m": 10.530503816745403,
+        "world_displacement_m": 10.335369506089128,
+        "roll_pitch_rms": 0.08167188297948046,
+        "action_delta_rms": 0.3323696844200589,
+        "stall_fraction": 0.007179687500000001
+      }
+    }
+  }
+}

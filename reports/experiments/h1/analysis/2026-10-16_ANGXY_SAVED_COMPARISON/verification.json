@@ -1,0 +1,33 @@
+{
+  "inputs": [
+    {
+      "filename": "H1_LIN055_4POLICY_COHORT_INPUT_20261015.zip",
+      "sha256": "eff60bee8fd66a5703110f3240626945a499476a9493f0256561d9deef6a9f21"
+    },
+    {
+      "filename": "h1-actrate0001-angxy008-from2700-plus2k_model_4650_h1_6terrain_evaluation_20261016-082140_edfb8cad.zip",
+      "sha256": "522c8b6a6bc2e1a9ae99e1fdf86308b7a335c7bb6c2964c03ad6b3875be51d22"
+    }
+  ],
+  "checkpoint_sha256": {
+    "A_parent2700": "e54d3389e20ea913968ef8d3edbea5004368ff225fa6b94f73fcd91cf93ca7ae",
+    "B_unchanged4699": "722b35a127f7ae4209d94a9111ac5ee02071ba7f3b985dc9cdc0760bbe48f646",
+    "C_lin055_4650": "e8a358a50832f6653b1e558788a5a676ab9a849d3ec6c64e3ed2430e9ff41814",
+    "D_lin065_4650": "ce7ad58657f3dd744e7cf2b7531f3d7d455773dfc6fb135f39d8a55aa49dea70",
+    "E_angxy008_4650": "c272b13b5d3702c8a84c1470b597526efe2214d0ee38f34f65918c5f912a335f"
+  },
+  "rows_per_policy": 3072,
+  "policies": 5,
+  "total_rows": 15360,
+  "matching_unique_keys": true,
+  "identical_evaluation_protocol": true,
+  "identical_resolved_evaluation_configs": true,
+  "protocol_id": "d406a296d2c0e5a7deee4138de7df87532d2815ae9b65af999d7a8f0b7062d34",
+  "mode": "CPU saved-data only; no render/evaluator/training",
+  "limits": [
+    "Matching keys/configs do not prove identical realized terrain/trajectories.",
+    "Three evaluation seeds are not three independent training seeds.",
+    "A automatic-best2700, B endpoint4699, C/D/E selected keeper4650 differ in selection role.",
+    "No official score, reward causality, p-values or aggregate mixed-unit score."
+  ]
+}

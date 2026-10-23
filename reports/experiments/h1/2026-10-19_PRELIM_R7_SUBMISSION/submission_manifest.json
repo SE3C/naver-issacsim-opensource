@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "robot": "h1",
+  "preliminary_round": 7,
+  "submission_preset": "h1-submit-7",
+  "experiment": "exp-h1-joint-tracking-balance",
+  "display_descriptor": "TOP01 / JOINT LIN065 ANG060 ACT0003",
+  "run_id": "20261018-021823-h1-top01-same-reward-to10k",
+  "training_environment": "OFFICIAL",
+  "training_start": "resume",
+  "training_status": "COMPLETED",
+  "evidence_validation": "PASS",
+  "parent_run_id": "20261017-015509-h1-lintrack-065-angtrack-060-actrate-0003-fresh5",
+  "parent_checkpoint": "model_4950.pt",
+  "parent_checkpoint_sha256": "2df0584057deb4dc15ab3c4470d52da29e5468bbb819fe3e4c66a928462bc478",
+  "requested_additional_iterations": 5050,
+  "console_final_iteration": 9999,
+  "source_checkpoint_for_policy_pt": "model_9950.pt",
+  "source_checkpoint_sha256": "6e03f421b422c442ee85d449c708b3bf340d39e17c55de786276b9fd091847f3",
+  "source_checkpoint_verified": true,
+  "source_checkpoint_verification": "All eight TorchScript actor tensors exactly match model_9950; CPU load/forward passed; identity normalizer and deterministic head confirmed.",
+  "policy_export_evidence_run_id": null,
+  "seed": 42,
+  "num_envs": 4096,
+  "received_date": "2026-10-19",
+  "submission_status": "User explicitly identified this policy/env/report snapshot as preliminary Round 7; exact portal completion time and receipt not supplied.",
+  "submission_time": null,
+  "official_score": null,
+  "previous_submission_preset": "h1-submit-6",
+  "previous_submission_reward_deltas": {
+    "track_lin_vel_xy_exp": {
+      "from": 0.5,
+      "to": 0.65
+    },
+    "track_ang_vel_z_exp": {
+      "from": 0.5,
+      "to": 0.6
+    },
+    "action_rate_l2": {
+      "from": -0.0001,
+      "to": -0.0003
+    }
+  },
+  "source_official_run_release": "https://github.com/SE3C/naver-issacsim-originals/releases/tag/official-h1-20261018-exp-h1-joint-tracking-balance-resume10k",
+  "canonical_received_snapshot": "naver-issacsim-originals/data/raw/official_server_runs/h1/2026-10-19_round7_model9950_submission/",
+  "submission_release": "https://github.com/SE3C/naver-issacsim/releases/tag/submission-h1-prelim-r7-20261019",
+  "report_statistics_verification": "User-written report preserved without editorial changes; statistics not independently recalculated for publication.",
+  "artifacts": {
+    "policy.pt": {
+      "bytes": 1206166,
+      "sha256": "3afa565a725f78f19b3ce662f910969caa44e2ce2ee2ecacacf4ee4d5d38bdc9"
+    },
+    "env.yaml": {
+      "bytes": 33531,
+      "sha256": "5d3abab1f8cbca0c410df86f331df0fd39b6f84c728f799ccc7713f6592a8e47"
+    },
+    "technical_report.txt": {
+      "bytes": 1084,
+      "sha256": "426a5c0a6ce4755413d53c22080506b9bd7e5e7849d7bf1aec353c6059eb6696"
+    }
+  }
+}
