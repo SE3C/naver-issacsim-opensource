@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="890" height="525" viewBox="0 0 890 525">
+<rect width="890" height="525" fill="#ffffff"/>
+<text x="65" y="34" font-size="22" font-weight="700" font-family="sans-serif">H1 정지 body 누수와 H5 rough 진행의 상쇄</text>
+<text x="65" y="58" font-size="12" fill="#444" font-family="sans-serif">기존 CPU 요약값 / 서로 다른 체크포인트와 학습 경로 / yaw·횡복귀는 별도 비용</text>
+<line x1="105" y1="326.6" x2="700" y2="326.6" stroke="#dee3e8"/>
+<text x="95" y="330.6" text-anchor="end" font-size="12" font-family="sans-serif">8.0</text>
+<line x1="105" y1="273.1" x2="700" y2="273.1" stroke="#dee3e8"/>
+<text x="95" y="277.1" text-anchor="end" font-size="12" font-family="sans-serif">8.5</text>
+<line x1="105" y1="219.7" x2="700" y2="219.7" stroke="#dee3e8"/>
+<text x="95" y="223.7" text-anchor="end" font-size="12" font-family="sans-serif">9.0</text>
+<line x1="105" y1="166.2" x2="700" y2="166.2" stroke="#dee3e8"/>
+<text x="95" y="170.2" text-anchor="end" font-size="12" font-family="sans-serif">9.5</text>
+<line x1="105" y1="112.8" x2="700" y2="112.8" stroke="#dee3e8"/>
+<text x="95" y="116.8" text-anchor="end" font-size="12" font-family="sans-serif">10.0</text>
+<line x1="105.0" y1="380" x2="105.0" y2="70" stroke="#eef1f4"/>
+<text x="105.0" y="400" text-anchor="middle" font-size="12" font-family="sans-serif">0.0</text>
+<line x1="243.4" y1="380" x2="243.4" y2="70" stroke="#eef1f4"/>
+<text x="243.4" y="400" text-anchor="middle" font-size="12" font-family="sans-serif">0.5</text>
+<line x1="381.7" y1="380" x2="381.7" y2="70" stroke="#eef1f4"/>
+<text x="381.7" y="400" text-anchor="middle" font-size="12" font-family="sans-serif">1.0</text>
+<line x1="520.1" y1="380" x2="520.1" y2="70" stroke="#eef1f4"/>
+<text x="520.1" y="400" text-anchor="middle" font-size="12" font-family="sans-serif">1.5</text>
+<line x1="658.5" y1="380" x2="658.5" y2="70" stroke="#eef1f4"/>
+<text x="658.5" y="400" text-anchor="middle" font-size="12" font-family="sans-serif">2.0</text>
+<line x1="105" y1="70" x2="105" y2="380" stroke="#444"/>
+<line x1="105" y1="380" x2="700" y2="380" stroke="#444"/>
+<text x="402.5" y="429" text-anchor="middle" font-size="14" font-family="sans-serif">H1 |비명령 body x 적분| (m) ↓</text>
+<text x="22" y="225.0" transform="rotate(-90 22 225.0)" text-anchor="middle" font-size="14" font-family="sans-serif">H5 body 진행 평균 (m) ↑</text>
+<circle cx="654.9" cy="118.3" r="8" fill="#125979" stroke="white" stroke-width="2"/>
+<text x="667.9" y="110.3" font-family="sans-serif" font-size="13" font-weight="bold" fill="#125979">A</text>
+<circle cx="720" cy="102" r="6" fill="#125979"/>
+<text x="735" y="107" font-size="13" font-weight="700" font-family="sans-serif">A 부모2700</text>
+<text x="735" y="124" font-size="12" font-family="sans-serif">H4 yaw 0.118</text>
+<text x="735" y="141" font-size="12" font-family="sans-serif">H3 world 0.669m</text>
+<circle cx="305.5" cy="335.2" r="8" fill="#a35b13" stroke="white" stroke-width="2"/>
+<text x="318.5" y="327.2" font-family="sans-serif" font-size="13" font-weight="bold" fill="#a35b13">B</text>
+<circle cx="720" cy="165" r="6" fill="#a35b13"/>
+<text x="735" y="170" font-size="13" font-weight="700" font-family="sans-serif">B 무변경4699</text>
+<text x="735" y="187" font-size="12" font-family="sans-serif">H4 yaw 0.092</text>
+<text x="735" y="204" font-size="12" font-family="sans-serif">H3 world 0.581m</text>
+<circle cx="183.0" cy="244.3" r="8" fill="#73439a" stroke="white" stroke-width="2"/>
+<text x="196.0" y="236.3" font-family="sans-serif" font-size="13" font-weight="bold" fill="#73439a">C</text>
+<circle cx="720" cy="228" r="6" fill="#73439a"/>
+<text x="735" y="233" font-size="13" font-weight="700" font-family="sans-serif">C 복원4650</text>
+<text x="735" y="250" font-size="12" font-family="sans-serif">H4 yaw 0.094</text>
+<text x="735" y="267" font-size="12" font-family="sans-serif">H3 world 0.167m</text>
+<circle cx="134.8" cy="161.3" r="8" fill="#0e766b" stroke="white" stroke-width="2"/>
+<text x="147.8" y="153.3" font-family="sans-serif" font-size="13" font-weight="bold" fill="#0e766b">L</text>
+<circle cx="720" cy="291" r="6" fill="#0e766b"/>
+<text x="735" y="296" font-size="13" font-weight="700" font-family="sans-serif">L lin=.65 4650</text>
+<text x="735" y="313" font-size="12" font-family="sans-serif">H4 yaw 0.179</text>
+<text x="735" y="330" font-size="12" font-family="sans-serif">H3 world 2.398m</text>
+<text x="65" y="483" font-family="sans-serif" font-size="12" fill="#555">H1 body 누수는 부호를 제거하여 표시. world 복귀·vy 추종과 같지 않음.</text>
+<text x="65" y="503" font-family="sans-serif" font-size="12" fill="#555">L=lin=.65 resume, B=unchanged resume. 평가 seed 3개는 학습 seed 반복 아님.</text>
+</svg>

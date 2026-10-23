@@ -1,0 +1,641 @@
+{
+  "repo": "SE3C/naver-issacsim-nvidia",
+  "verified_at": "2026-10-13",
+  "updated": 65,
+  "unchanged": 5,
+  "tag_and_asset_metadata_unchanged": true,
+  "original_bodies_exactly_preserved": true,
+  "total_assets": 349,
+  "records": [
+    {
+      "id": 409526567,
+      "tag": "private-h1-20261011-exp-h1-action-rate-relaxation-model9999-video-eval",
+      "old_title": "[EVAL-PC] H1 ACTRATE-0001 fresh 10K · model_9999 · PERSONAL videos + full evaluation",
+      "new_title": "[분석] H1 ACTRATE-0001 fresh 10K · model_9999 · PERSONAL videos + full evaluation",
+      "edited": true,
+      "original_body_sha256": "b3388b0d4f13d8d03b695457e3be818854e776b11272fbcb6c409249348a5358",
+      "asset_count": 3
+    },
+    {
+      "id": 409313785,
+      "tag": "private-h1-20261011-exp-h1-action-first-planar-tracking-switch-model4650-video-eval",
+      "old_title": "[EVAL-PC] H1 ACTRATE-0001 → lin=0.65 · PERSONAL model_4650 videos + evaluation",
+      "new_title": "[분석] H1 ACTRATE-0001 → lin=0.65 · PERSONAL model_4650 videos + evaluation",
+      "edited": true,
+      "original_body_sha256": "ba82579918c8a7148e1acdbd7cff830e53f8b92d424c15b7d6278193c810d58c",
+      "asset_count": 3
+    },
+    {
+      "id": 408488675,
+      "tag": "private-h1-20261010-exp-h1-angular-tracking-boost-model2950-video-eval",
+      "old_title": "[EVAL-PC] H1 ANGTRACK-065 · model_2950 · PERSONAL videos + full evaluation",
+      "new_title": "[분석] H1 ANGTRACK-065 · model_2950 · PERSONAL videos + full evaluation",
+      "edited": true,
+      "original_body_sha256": "377905413d8009bfb404f225593251a30dd9b53f75735f2765764d355555c147",
+      "asset_count": 3
+    },
+    {
+      "id": 409010313,
+      "tag": "private-h1-20261010-exp-h1-action-rate-smoothing-model2850-video-eval",
+      "old_title": "[EVAL-PC] H1 ACTRATE-001 model_2850 PERSONAL 6-terrain video + scenario7 evaluation",
+      "new_title": "[분석] H1 ACTRATE-001 model_2850 PERSONAL 6-terrain video + scenario7 evaluation",
+      "edited": true,
+      "original_body_sha256": "5e46faf3120a2cc812c8659391e5b693404d9b62f5f707655e1a27ccb1190f3c",
+      "asset_count": 3
+    },
+    {
+      "id": 408119746,
+      "tag": "private-h1-20261010-exp-h1-action-rate-relaxation-model2700-video-eval",
+      "old_title": "[EVAL-PC] H1 ACTRATE-0001 · model_2700 · PERSONAL videos + full evaluation",
+      "new_title": "[분석] H1 ACTRATE-0001 · model_2700 · PERSONAL videos + full evaluation",
+      "edited": true,
+      "original_body_sha256": "2a1353dc553017a241605aac3d07a225399ed742703046760041f5012cd1be6c",
+      "asset_count": 3
+    },
+    {
+      "id": 408028076,
+      "tag": "private-h1-20261009-lintrack-075-corrected5k-model4997-video-eval",
+      "old_title": "[EVAL-PC] H1 LINTRACK-075 corrected 5K · model_4997 · PERSONAL videos + full evaluation",
+      "new_title": "[분석] H1 LINTRACK-075 corrected 5K · model_4997 · PERSONAL videos + full evaluation",
+      "edited": true,
+      "original_body_sha256": "e710642dcda9e4ea3fbf6f9e4b138f215cbbb8d47b61f28b324e2cf26bf4e397",
+      "asset_count": 3
+    },
+    {
+      "id": 407419036,
+      "tag": "private-h1-20261008-exp-h1-rough-terrain-orientation-relaxation-model2800-control-video-eval",
+      "old_title": "[EVAL-PC] H1 h1-submit-2 / TERM-50 · model_2800 · PERSONAL Windows 6영상 + 평가",
+      "new_title": "[분석] H1 h1-submit-2 / TERM-50 · model_2800 · PERSONAL Windows 6영상 + 평가",
+      "edited": true,
+      "original_body_sha256": "231890f62ddd521bebe6cea95c094d697da582b0cddd045c4ef43bff054a5fd2",
+      "asset_count": 3
+    },
+    {
+      "id": 407953880,
+      "tag": "private-go2-20261009-g2-submit-3-model4800-video-eval",
+      "old_title": "[EVAL-PC] Go2 g2-submit-3 · original model_4800 · PERSONAL · 6-terrain + scenario7 evaluation",
+      "new_title": "[분석] Go2 g2-submit-3 · original model_4800 · PERSONAL · 6-terrain + scenario7 evaluation",
+      "edited": true,
+      "original_body_sha256": "d709b280d8452e96a8db2d8feb88da1ba8e21daa63af74237b89cd74e6dec578",
+      "asset_count": 3
+    },
+    {
+      "id": 405269946,
+      "tag": "private-h1-20261007-exp-h1-rough-terrain-orientation-relaxation-model2850-video-eval",
+      "old_title": "[EVAL-PC] H1 ORIENT-100 · model_2850 · PERSONAL Windows 6영상 + 평가",
+      "new_title": "[분석] H1 ORIENT-100 · model_2850 · PERSONAL Windows 6영상 + 평가",
+      "edited": true,
+      "original_body_sha256": "7c497f53b560de6e1718d5e65505d673ea3239c526d82938d24ce2a38711a6db",
+      "asset_count": 3
+    },
+    {
+      "id": 402768655,
+      "tag": "private-go2-20261004-exp-go2-planar-tracking-terrain-progression-model7050-video-eval",
+      "old_title": "[EVAL-PC] Go2 LINTRACK-125 · PERSONAL Windows · model_7050 · 6영상 + scenario7 평가",
+      "new_title": "[분석] Go2 LINTRACK-125 · PERSONAL Windows · model_7050 · 6영상 + scenario7 평가",
+      "edited": true,
+      "original_body_sha256": "37605d005348fb5664c5f1c65c275a4e29817eae65fe65ea32a88d920422f753",
+      "asset_count": 3
+    },
+    {
+      "id": 397538308,
+      "tag": "private-checkpoint-h1-model_4800-40c6a4a8273c-videos",
+      "old_title": "[VIDEO] AIRTIME-025 · PERSONAL · video suite · model_4800 (intermediate; final model_4997)",
+      "new_title": "[분석] AIRTIME-025 · PERSONAL · video suite · model_4800 (intermediate; final model_4997)",
+      "edited": true,
+      "original_body_sha256": "eacdfefb1ea90871da2215f3a386347896c0d6de423dfe4edc6251f7d5d11e07",
+      "asset_count": 10
+    },
+    {
+      "id": 397507897,
+      "tag": "private-checkpoint-h1-model_2750-6d7d0ecb13c7-videos",
+      "old_title": "[VIDEO] AIRTIME-025 · PERSONAL · video suite · automatic-best model_2750 (final model_2999)",
+      "new_title": "[분석] AIRTIME-025 · PERSONAL · video suite · automatic-best model_2750 (final model_2999)",
+      "edited": true,
+      "original_body_sha256": "47bd693d962539f1cebe525a15d3ced4c395d35b669d2770a9efd72b417dfaee",
+      "asset_count": 10
+    },
+    {
+      "id": 397522470,
+      "tag": "private-checkpoint-h1-model_2700-5d19578749df-videos",
+      "old_title": "[VIDEO] AIRTIME-025 · LINTRACK-075 · PERSONAL · video suite · automatic-best model_2700 (final model_2999)",
+      "new_title": "[분석] AIRTIME-025 · LINTRACK-075 · PERSONAL · video suite · automatic-best model_2700 (final model_2999)",
+      "edited": true,
+      "original_body_sha256": "9ae745d9f0d706028a73002ea66f2fb20d3e87c68cd2efc6c88d3c322e4fd6c9",
+      "asset_count": 10
+    },
+    {
+      "id": 397533362,
+      "tag": "private-20260927-054950-h1-airtime-025-corrected3kto5k-r02-20260927",
+      "old_title": "[TRAIN] AIRTIME-025 · PERSONAL · corrected 3K→5K continuation · attempt 02 · train evidence",
+      "new_title": "[학습] AIRTIME-025 · PERSONAL · corrected 3K→5K continuation · attempt 02 · train evidence",
+      "edited": true,
+      "original_body_sha256": "82debcf1679f5a787a821799ccd5f433dedbbe849cdbead0bce760d0d7d5a566",
+      "asset_count": 3
+    },
+    {
+      "id": 397524220,
+      "tag": "private-20260927-053754-h1-airtime-025-corrected3kto5k-r01-20260927_FAILED",
+      "old_title": "실패 · [TRAIN] AIRTIME-025 · PERSONAL · corrected 3K→5K continuation · attempt 01",
+      "new_title": "실패 · [학습] AIRTIME-025 · PERSONAL · corrected 3K→5K continuation · attempt 01",
+      "edited": true,
+      "original_body_sha256": "7bd49217890487bd5c32455218090ab75932c1042ee28011406ee62f59ae7f94",
+      "asset_count": 3
+    },
+    {
+      "id": 397519696,
+      "tag": "private-20260927-043527-h1-airtime-025-lintrack-075-fresh3k-r01-20260927",
+      "old_title": "[TRAIN] AIRTIME-025 · LINTRACK-075 · PERSONAL · fresh 3K · train evidence",
+      "new_title": "[학습] AIRTIME-025 · LINTRACK-075 · PERSONAL · fresh 3K · train evidence",
+      "edited": true,
+      "original_body_sha256": "00ec57cf68634d912f51875671c6da6408b1407c508d066f970e06a4e705a2b4",
+      "asset_count": 3
+    },
+    {
+      "id": 397503431,
+      "tag": "private-20260927-032343-h1-airtime-025-fresh3k-r01-20260927",
+      "old_title": "[TRAIN] AIRTIME-025 · PERSONAL · fresh 3K · train evidence",
+      "new_title": "[학습] AIRTIME-025 · PERSONAL · fresh 3K · train evidence",
+      "edited": true,
+      "original_body_sha256": "c4b4e226fe139c46e050da9ace918c20045e85bc5234c3add5a63e7a5261e3e3",
+      "asset_count": 3
+    },
+    {
+      "id": 396370440,
+      "tag": "private-h1-term-50-r05-parent-h1-corrected-20260925-03-videos",
+      "old_title": "[VIDEO] TERM-50 · PERSONAL · corrected +0.2 parent · video suite · model_1499",
+      "new_title": "[분석] TERM-50 · PERSONAL · corrected +0.2 parent · video suite · model_1499",
+      "edited": true,
+      "original_body_sha256": "85e36f1b5998b5748872fe48943488cc74abc781e037798883c0cb23b9c7eeb1",
+      "asset_count": 10
+    },
+    {
+      "id": 396386723,
+      "tag": "private-h1-term-50-control-3k-h1-corrected-20260925-03-videos",
+      "old_title": "[VIDEO] TERM-50 · PERSONAL · unchanged 3K control · video suite · model_2998",
+      "new_title": "[분석] TERM-50 · PERSONAL · unchanged 3K control · video suite · model_2998",
+      "edited": true,
+      "original_body_sha256": "cae99a752a657122c031fcd333d8fb6951dc25b34e576429cd7105d6c52eea04",
+      "asset_count": 10
+    },
+    {
+      "id": 396447841,
+      "tag": "private-h1-lintrack-100-r02-h1-corrected-20260925-03-videos",
+      "old_title": "[VIDEO] LINTRACK-100 · PERSONAL · corrected-lineage video suite · model_2998",
+      "new_title": "[분석] LINTRACK-100 · PERSONAL · corrected-lineage video suite · model_2998",
+      "edited": true,
+      "original_body_sha256": "b3c67d02bf7e23ef430617dcc593d1ac3e074255b67255176ee2151d8317b413",
+      "asset_count": 10
+    },
+    {
+      "id": 396466044,
+      "tag": "private-h1-lintrack-075-r03-h1-corrected-20260925-03-videos",
+      "old_title": "[VIDEO] LINTRACK-075 · PERSONAL · corrected-lineage video suite · model_2998",
+      "new_title": "[분석] LINTRACK-075 · PERSONAL · corrected-lineage video suite · model_2998",
+      "edited": true,
+      "original_body_sha256": "f6d2db3ab23a646ebfe7a8704f808e3424ad7a715cdedd43d645bec491bfcbff",
+      "asset_count": 10
+    },
+    {
+      "id": 396489657,
+      "tag": "private-h1-lintrack-075-control-5k-h1-corrected-20260925-03-videos",
+      "old_title": "[VIDEO] LINTRACK-075 · PERSONAL · unchanged 5K control video suite · model_4997",
+      "new_title": "[분석] LINTRACK-075 · PERSONAL · unchanged 5K control video suite · model_4997",
+      "edited": true,
+      "original_body_sha256": "abfa3612a340b332c5ea8e8e905dc4f3f19bfb2ef148c892adb7cabfdb7cbb18",
+      "asset_count": 10
+    },
+    {
+      "id": 396511734,
+      "tag": "private-h1-hipdev-030-lintrack-075-r02-h1-corrected-20260925-03-videos",
+      "old_title": "[VIDEO] HIPDEV-030 · LINTRACK-075 · PERSONAL · corrected-lineage video suite · model_4997",
+      "new_title": "[분석] HIPDEV-030 · LINTRACK-075 · PERSONAL · corrected-lineage video suite · model_4997",
+      "edited": true,
+      "original_body_sha256": "5606c113f6c5346fd42f163068b80d88c5a4f910040427c8081ef736afd46f15",
+      "asset_count": 10
+    },
+    {
+      "id": 396576603,
+      "tag": "private-h1-hipdev-010-lintrack-075-r02-h1-corrected-20260925-03-videos",
+      "old_title": "[VIDEO] HIPDEV-010 · LINTRACK-075 · PERSONAL · corrected-lineage video suite · model_4997",
+      "new_title": "[분석] HIPDEV-010 · LINTRACK-075 · PERSONAL · corrected-lineage video suite · model_4997",
+      "edited": true,
+      "original_body_sha256": "81fa486a067a5ab24569a85fdec39ff07638fd9fba68f492ef28a0c766264d87",
+      "asset_count": 10
+    },
+    {
+      "id": 396427232,
+      "tag": "private-h1-airtime-030-r02-h1-corrected-20260925-03-videos",
+      "old_title": "[VIDEO] AIRTIME-030 · PERSONAL · corrected-lineage video suite · model_2998",
+      "new_title": "[분석] AIRTIME-030 · PERSONAL · corrected-lineage video suite · model_2998",
+      "edited": true,
+      "original_body_sha256": "ca509add58a5d076e4d5877053e8ecc390c749bf65ed01368c10481d0269c6be",
+      "asset_count": 10
+    },
+    {
+      "id": 396406678,
+      "tag": "private-h1-airtime-025-from-term-50-r02-h1-corrected-20260925-03-videos",
+      "old_title": "[VIDEO] AIRTIME-025 · from TERM-50 parent · PERSONAL · corrected-lineage video suite · model_2998",
+      "new_title": "[분석] AIRTIME-025 · from TERM-50 parent · PERSONAL · corrected-lineage video suite · model_2998",
+      "edited": true,
+      "original_body_sha256": "70b7acb4ed043721a69beca0b31601d957d6d230f0d21f65644689b090bf2598",
+      "asset_count": 10
+    },
+    {
+      "id": 396533142,
+      "tag": "private-h1-airtime-025-from-lintrack-075-r02-h1-corrected-20260925-03-videos",
+      "old_title": "[VIDEO] AIRTIME-025 · LINTRACK-075 · PERSONAL · corrected-lineage video suite · model_4997",
+      "new_title": "[분석] AIRTIME-025 · LINTRACK-075 · PERSONAL · corrected-lineage video suite · model_4997",
+      "edited": true,
+      "original_body_sha256": "bfa7cb88f1312dcb8848718fa18654d3d7dd4848c8ad3b61cf960e717927b28e",
+      "asset_count": 10
+    },
+    {
+      "id": 396568853,
+      "tag": "private-20260925-110346-h1-hipdev-010-lintrack-075-r02-corrected-h1-corrected-202-source75123c7",
+      "old_title": "[TRAIN] HIPDEV-010 · LINTRACK-075 · PERSONAL · corrected 5K train evidence · verified source 75123c7",
+      "new_title": "[학습] HIPDEV-010 · LINTRACK-075 · PERSONAL · corrected 5K train evidence · verified source 75123c7",
+      "edited": true,
+      "original_body_sha256": "fa368b0de3e7e29ddd2e10dcbbcecd978b637e62bc46e4669e65daf88cf00c08",
+      "asset_count": 3
+    },
+    {
+      "id": 396549686,
+      "tag": "private-20260925-110346-h1-hipdev-010-lintrack-075-r02-corrected-h1-corrected-202",
+      "old_title": "대체됨 · [TRAIN] HIPDEV-010 · LINTRACK-075 · PERSONAL · corrected 5K train evidence · incorrect tag source",
+      "new_title": "대체됨 · [학습] HIPDEV-010 · LINTRACK-075 · PERSONAL · corrected 5K train evidence · incorrect tag source",
+      "edited": true,
+      "original_body_sha256": "a3192f89e213f7c100ab4ad9764ea158467d06c21efbecc06684a1e81c3fa0b7",
+      "asset_count": 3
+    },
+    {
+      "id": 396527995,
+      "tag": "private-20260925-102659-h1-airtime-025-lintrack-075-r02-corrected-h1-corrected-20",
+      "old_title": "[TRAIN] AIRTIME-025 · LINTRACK-075 · PERSONAL · corrected 5K train evidence",
+      "new_title": "[학습] AIRTIME-025 · LINTRACK-075 · PERSONAL · corrected 5K train evidence",
+      "edited": true,
+      "original_body_sha256": "fa3c6e8e7b1a6146852f98abe95c31ea1cfe723f1938b1c614e6d535fda2ceff",
+      "asset_count": 3
+    },
+    {
+      "id": 396507045,
+      "tag": "private-20260925-095000-h1-hipdev-030-lintrack-075-r02-corrected-h1-corrected-202",
+      "old_title": "[TRAIN] HIPDEV-030 · LINTRACK-075 · PERSONAL · corrected 5K train evidence",
+      "new_title": "[학습] HIPDEV-030 · LINTRACK-075 · PERSONAL · corrected 5K train evidence",
+      "edited": true,
+      "original_body_sha256": "1f909bc2d4c8336bd6cc8e026990f450616019578b22c5b39ad5e7fc42402d40",
+      "asset_count": 3
+    },
+    {
+      "id": 396483748,
+      "tag": "private-20260925-091257-h1-lintrack-075-corrected-control-to5k-h1-corrected-2026",
+      "old_title": "[TRAIN] LINTRACK-075 · PERSONAL · corrected unchanged 5K control · train evidence",
+      "new_title": "[학습] LINTRACK-075 · PERSONAL · corrected unchanged 5K control · train evidence",
+      "edited": true,
+      "original_body_sha256": "e12ca663e8063842307a086736fba028d65d9f43f125441ef32a44820e9838df",
+      "asset_count": 3
+    },
+    {
+      "id": 396460706,
+      "tag": "private-20260925-084248-h1-lintrack-075-r03-corrected-h1-corrected-2",
+      "old_title": "[TRAIN] LINTRACK-075 · PERSONAL · corrected 3K train evidence",
+      "new_title": "[학습] LINTRACK-075 · PERSONAL · corrected 3K train evidence",
+      "edited": true,
+      "original_body_sha256": "3e6f04d2638c771caf376e1a05e4b73efc897f0ea21d6994560d78c768098f9b",
+      "asset_count": 3
+    },
+    {
+      "id": 396442038,
+      "tag": "private-20260925-081241-h1-lintrack-100-r02-corrected-h1-corrected-2",
+      "old_title": "[TRAIN] LINTRACK-100 · PERSONAL · corrected 3K train evidence",
+      "new_title": "[학습] LINTRACK-100 · PERSONAL · corrected 3K train evidence",
+      "edited": true,
+      "original_body_sha256": "ff73f53374c756f00d2647de991430aa86eda48f88e306b91c0569e8170d9271",
+      "asset_count": 3
+    },
+    {
+      "id": 396421600,
+      "tag": "private-20260925-074219-h1-airtime-030-r02-corrected-h1-corrected-20260",
+      "old_title": "[TRAIN] AIRTIME-030 · PERSONAL · corrected 3K train evidence",
+      "new_title": "[학습] AIRTIME-030 · PERSONAL · corrected 3K train evidence",
+      "edited": true,
+      "original_body_sha256": "3294334bfec4128139a8a224059ef8d04040b133c383408dedefc153a36ac65b",
+      "asset_count": 3
+    },
+    {
+      "id": 396400525,
+      "tag": "private-20260925-071158-h1-airtime-025-from-term-50-r02-corrected-h1-corrected-20260",
+      "old_title": "[TRAIN] AIRTIME-025 · from TERM-50 parent · PERSONAL · corrected 3K train evidence",
+      "new_title": "[학습] AIRTIME-025 · from TERM-50 parent · PERSONAL · corrected 3K train evidence",
+      "edited": true,
+      "original_body_sha256": "a8ea13a9dcf4e771b496a7217fae32ea86d58a5fc66a3c28dbc86572584f602b",
+      "asset_count": 3
+    },
+    {
+      "id": 396382369,
+      "tag": "private-20260925-064143-h1-term-50-corrected-control-to3k-h1-corrected-2026",
+      "old_title": "[TRAIN] TERM-50 · PERSONAL · corrected unchanged 3K control · train evidence",
+      "new_title": "[학습] TERM-50 · PERSONAL · corrected unchanged 3K control · train evidence",
+      "edited": true,
+      "original_body_sha256": "17fee3ceb52351d2fe6bd85c18e2da48351f8e4fae8c18bb1071d7c8c3bb506d",
+      "asset_count": 3
+    },
+    {
+      "id": 396365228,
+      "tag": "private-20260925-061112-h1-term-50-r05-corrected-parent-1p5k-h1-corrected-2",
+      "old_title": "[TRAIN] TERM-50 · PERSONAL · corrected +0.2 parent 1.5K · batch -03",
+      "new_title": "[학습] TERM-50 · PERSONAL · corrected +0.2 parent 1.5K · batch -03",
+      "edited": true,
+      "original_body_sha256": "15b0f4cad32fa867563627b6866ef70909e8f9af36620f45039b8b049ada9607",
+      "asset_count": 3
+    },
+    {
+      "id": 396329859,
+      "tag": "private-20260925-050146-h1-term-50-r05-corrected-parent-1p5k-h1-corrected-2",
+      "old_title": "검증 대기 · [TRAIN] TERM-50 · corrected-parent earlier -02 batch · PERSONAL",
+      "new_title": "검증 대기 · [학습] TERM-50 · corrected-parent earlier -02 batch · PERSONAL",
+      "edited": true,
+      "original_body_sha256": "26f402ba5e35c1827d448d97a04f63cbf716434fabf921b5d76d14ca47927af3",
+      "asset_count": 3
+    },
+    {
+      "id": 392713101,
+      "tag": "h1-term-100-5k-videos",
+      "old_title": "[VIDEO] TERM-100 · PERSONAL · video suite · model_4700",
+      "new_title": "[분석] TERM-100 · PERSONAL · video suite · model_4700",
+      "edited": true,
+      "original_body_sha256": "b06265b4875a068bb1325503e9529af51d7f709967787bcae01d58dfccb8e1e0",
+      "asset_count": 10
+    },
+    {
+      "id": 391144701,
+      "tag": "20260917-234047-h1-lintrack-075-cont2k-from-2998",
+      "old_title": "[ARCHIVE] LINTRACK-075 · PERSONAL · historical 3K→5K continuation · relative comparison only",
+      "new_title": "[ARCHIVE] LINTRACK-075 · PERSONAL · historical 3K→5K continuation · relative comparison only",
+      "edited": false,
+      "original_body_sha256": "43379b56ee86b9a23f811ad871e0e8ec981abf3548e2705fd803584d6a37e1f8",
+      "asset_count": 7
+    },
+    {
+      "id": 390873856,
+      "tag": "private-20260918-h1-lintrack-100-model2998-video-suite",
+      "old_title": "[VIDEO] LINTRACK-100 · PERSONAL · historical video suite · model_2998 · relative comparison only",
+      "new_title": "[분석] LINTRACK-100 · PERSONAL · historical video suite · model_2998 · relative comparison only",
+      "edited": true,
+      "original_body_sha256": "8022b091ddc5ba5e44dffaeb636ba0a42cd44dece1c195e1497ed757418c43a7",
+      "asset_count": 10
+    },
+    {
+      "id": 388870498,
+      "tag": "private-go2-20260915-lintrack-150-linz-2-checkpoint-quant-eval-seed4201-d1",
+      "old_title": "[EVAL] LINTRACK-150-LINZ-2 · PERSONAL · fixed checkpoint evaluation · seed 4201, d1",
+      "new_title": "[분석] LINTRACK-150-LINZ-2 · PERSONAL · fixed checkpoint evaluation · seed 4201, d1",
+      "edited": true,
+      "original_body_sha256": "3823ef1d430f6f5fd385ac6c072294a5a97fecb27645d5838160317f98f07fcc",
+      "asset_count": 2
+    },
+    {
+      "id": 388866675,
+      "tag": "private-go2-20260915-lintrack-150-linz-2-4800-vs-4900-native-video",
+      "old_title": "[EVAL] LINTRACK-150-LINZ-2 · PERSONAL · native video comparison · checkpoints 4800/4900",
+      "new_title": "[분석] LINTRACK-150-LINZ-2 · PERSONAL · native video comparison · checkpoints 4800/4900",
+      "edited": true,
+      "original_body_sha256": "089cd9ea6136393202bad0c9bff5f14747e444d237713fd5f3276010b419b35a",
+      "asset_count": 2
+    },
+    {
+      "id": 392700762,
+      "tag": "private-20260921-033633-h1-term-100-5k",
+      "old_title": "[TRAIN] TERM-100 · PERSONAL · fresh 5K train evidence",
+      "new_title": "[학습] TERM-100 · PERSONAL · fresh 5K train evidence",
+      "edited": true,
+      "original_body_sha256": "c8ffa6d16450987e47e6312b935bb13b3f2766461ea84390bd1d9262831e165e",
+      "asset_count": 3
+    },
+    {
+      "id": 392483329,
+      "tag": "private-20260920-h1-hipdev-010-lintrack-075-model4997-video-suite",
+      "old_title": "[VIDEO] HIPDEV-010 · LINTRACK-075 · PERSONAL · historical video suite · model_4997 · relative comparison only",
+      "new_title": "[분석] HIPDEV-010 · LINTRACK-075 · PERSONAL · historical video suite · model_4997 · relative comparison only",
+      "edited": true,
+      "original_body_sha256": "626160f288e8e9e1e9c0345087171240668ced833ad15c3fafdfd0c5c319f45c",
+      "asset_count": 10
+    },
+    {
+      "id": 392483490,
+      "tag": "private-20260920-h1-airtime-025-lintrack-075-model4997-video-suite",
+      "old_title": "[VIDEO] AIRTIME-025 · LINTRACK-075 · PERSONAL · historical video suite · model_4997 · relative comparison only",
+      "new_title": "[분석] AIRTIME-025 · LINTRACK-075 · PERSONAL · historical video suite · model_4997 · relative comparison only",
+      "edited": true,
+      "original_body_sha256": "23302c40dd3cb0202b0a1eef2e0dcbbf14d76394ab6ecec49c6d3848486d7461",
+      "asset_count": 10
+    },
+    {
+      "id": 392478652,
+      "tag": "private-20260920-150652-h1-hipdev-010-lintrack-075",
+      "old_title": "[TRAIN] HIPDEV-010 · LINTRACK-075 · PERSONAL · historical 3K→5K continuation · relative comparison only",
+      "new_title": "[학습] HIPDEV-010 · LINTRACK-075 · PERSONAL · historical 3K→5K continuation · relative comparison only",
+      "edited": true,
+      "original_body_sha256": "56003e71ba65c5112f54aa4210bff3199261afb4017a1e262379cac8e2403adc",
+      "asset_count": 3
+    },
+    {
+      "id": 392453532,
+      "tag": "private-20260920-134309-h1-airtime-025-lintrack-075-rerun",
+      "old_title": "[TRAIN] AIRTIME-025 · LINTRACK-075 · PERSONAL · historical 3K→5K continuation · relative comparison only",
+      "new_title": "[학습] AIRTIME-025 · LINTRACK-075 · PERSONAL · historical 3K→5K continuation · relative comparison only",
+      "edited": true,
+      "original_body_sha256": "44f61e82b66c1db9a1be359d49ef8a835b0a1cc8d7eb68d5541a36fd3a4bbfae",
+      "asset_count": 3
+    },
+    {
+      "id": 391157894,
+      "tag": "private-20260918-010042-h1-hipdev-030-lintrack-075-from-h008-3k",
+      "old_title": "[TRAIN] HIPDEV-030 · LINTRACK-075 · PERSONAL · historical 3K→5K continuation · relative comparison only",
+      "new_title": "[학습] HIPDEV-030 · LINTRACK-075 · PERSONAL · historical 3K→5K continuation · relative comparison only",
+      "edited": true,
+      "original_body_sha256": "aef0ccf79968f5534179aa18b3e1515ea82e22549e2b0921a4c9efa9fbf332d9",
+      "asset_count": 3
+    },
+    {
+      "id": 390369806,
+      "tag": "private-20260917-010854-20260917-004530-h1-lintrack-075-from-term-50-feet-minus-0.2-1p",
+      "old_title": "[VIDEO] LINTRACK-075 · PERSONAL · historical native-play video · relative comparison only",
+      "new_title": "[분석] LINTRACK-075 · PERSONAL · historical native-play video · relative comparison only",
+      "edited": true,
+      "original_body_sha256": "f153df2d1bdd3e915a50b394c4d7c38636163328950244ea0038f42e951be247",
+      "asset_count": 5
+    },
+    {
+      "id": 390368541,
+      "tag": "private-20260917-004530-h1-lintrack-075-from-term-50-feet-minus-0.2-1p5k",
+      "old_title": "[TRAIN] LINTRACK-075 · PERSONAL · historical 1.5K train evidence · relative comparison only",
+      "new_title": "[학습] LINTRACK-075 · PERSONAL · historical 1.5K train evidence · relative comparison only",
+      "edited": true,
+      "original_body_sha256": "a0f559499332757fa14bf86fcae77373f0722b6c03ad959ae4158afd7f230031",
+      "asset_count": 3
+    },
+    {
+      "id": 390361243,
+      "tag": "private-20260917-004341-20260917-002225-h1-lintrack-100-from-term-50-feet-minus-0.2-1p",
+      "old_title": "[VIDEO] LINTRACK-100 · PERSONAL · historical native-play video · relative comparison only",
+      "new_title": "[분석] LINTRACK-100 · PERSONAL · historical native-play video · relative comparison only",
+      "edited": true,
+      "original_body_sha256": "5bfaca04f45568abea4c80b3018bf49873b5f1f4f7bdbc2b16ed0c09df859bfb",
+      "asset_count": 5
+    },
+    {
+      "id": 390360508,
+      "tag": "private-20260917-002225-h1-lintrack-100-from-term-50-feet-minus-0.2-1p5k",
+      "old_title": "[TRAIN] LINTRACK-100 · PERSONAL · historical 1.5K train evidence · relative comparison only",
+      "new_title": "[학습] LINTRACK-100 · PERSONAL · historical 1.5K train evidence · relative comparison only",
+      "edited": true,
+      "original_body_sha256": "5ac8f1792b827203d2b33802cb35dd3e15dbc82b67a2074412744515552bcc25",
+      "asset_count": 3
+    },
+    {
+      "id": 390353373,
+      "tag": "private-20260917-002012-20260916-235914-h1-airtime-030-from-term-50-feet-minus-0.2-1p5k-v",
+      "old_title": "[VIDEO] AIRTIME-030 · PERSONAL · historical native-play video · relative comparison only",
+      "new_title": "[분석] AIRTIME-030 · PERSONAL · historical native-play video · relative comparison only",
+      "edited": true,
+      "original_body_sha256": "f8972c61b112e8e31d05eb9596ec58fa1606f9a113d2b8f0ce90fe4192f45b2e",
+      "asset_count": 5
+    },
+    {
+      "id": 390352717,
+      "tag": "private-20260916-235914-h1-airtime-030-from-term-50-feet-minus-0.2-1p5k",
+      "old_title": "[TRAIN] AIRTIME-030 · PERSONAL · historical 1.5K train evidence · relative comparison only",
+      "new_title": "[학습] AIRTIME-030 · PERSONAL · historical 1.5K train evidence · relative comparison only",
+      "edited": true,
+      "original_body_sha256": "23c31581f504363cfceaa93a11241b086650ca27560650e92571700081fc13c5",
+      "asset_count": 3
+    },
+    {
+      "id": 390345904,
+      "tag": "private-20260916-235551-20260916-233344-h1-airtime-025-from-term-50-feet-minus-0.2-1p5k-v",
+      "old_title": "[VIDEO] AIRTIME-025 · PERSONAL · historical native-play video · relative comparison only",
+      "new_title": "[분석] AIRTIME-025 · PERSONAL · historical native-play video · relative comparison only",
+      "edited": true,
+      "original_body_sha256": "7adb7a83ecd6f4efb96d603dc77430f3c31c4ebcb616f6dd4078a9be3212603d",
+      "asset_count": 5
+    },
+    {
+      "id": 390344553,
+      "tag": "private-20260916-233344-h1-airtime-025-from-term-50-feet-minus-0.2-1p5k",
+      "old_title": "[TRAIN] AIRTIME-025 · PERSONAL · historical 1.5K train evidence · relative comparison only",
+      "new_title": "[학습] AIRTIME-025 · PERSONAL · historical 1.5K train evidence · relative comparison only",
+      "edited": true,
+      "original_body_sha256": "b2991dbad9dadbc074cc6ceefbfb4b80b732e4584111808b60a5e3908236015c",
+      "asset_count": 3
+    },
+    {
+      "id": 390336204,
+      "tag": "private-20260916-230730-h1-term-50-feet-minus-0.2-1p5k",
+      "old_title": "[TRAIN] TERM-50 · PERSONAL · historical 1.5K parent · feet_air_time=-0.2",
+      "new_title": "[학습] TERM-50 · PERSONAL · historical 1.5K parent · feet_air_time=-0.2",
+      "edited": true,
+      "original_body_sha256": "1ed7c3cd04e7e899858329663fca3b42fee15a913c947d5881cfea8ecf484752",
+      "asset_count": 3
+    },
+    {
+      "id": 390061809,
+      "tag": "private-20260916-152542-h1-term-20-1p5k",
+      "old_title": "[TRAIN] TERM-20 · PERSONAL · fresh 1.5K · relative comparison only",
+      "new_title": "[학습] TERM-20 · PERSONAL · fresh 1.5K · relative comparison only",
+      "edited": true,
+      "original_body_sha256": "1928088a05c9a94d2f5f909c7af8a6d67b7b923ab4f5544ac76afcdb9e1a4e36",
+      "asset_count": 3
+    },
+    {
+      "id": 387977847,
+      "tag": "private-20260913-173221-20260913-144615-go2-lintrack-150-linz-2-video-3k",
+      "old_title": "[VIDEO] LINTRACK-150-LINZ-2 · PERSONAL · native-play video · 3K run",
+      "new_title": "[분석] LINTRACK-150-LINZ-2 · PERSONAL · native-play video · 3K run",
+      "edited": true,
+      "original_body_sha256": "6a77e08b3a84e199ad0e993e35fb922e36c73a278311268dddee44b237f3d209",
+      "asset_count": 5
+    },
+    {
+      "id": 387977333,
+      "tag": "private-20260913-144615-go2-lintrack-150-linz-2-train-3k",
+      "old_title": "[TRAIN] LINTRACK-150-LINZ-2 · PERSONAL · fresh 3K train evidence",
+      "new_title": "[학습] LINTRACK-150-LINZ-2 · PERSONAL · fresh 3K train evidence",
+      "edited": true,
+      "original_body_sha256": "5f4519133d88e2d849e0fbd7d052e7bb74aa5cc41404fbb6d58889b12c9b7304",
+      "asset_count": 3
+    },
+    {
+      "id": 387926170,
+      "tag": "private-20260913-142759-20260913-132700-go2-lintrack-150-linz-2-video-1k",
+      "old_title": "[VIDEO] LINTRACK-150-LINZ-2 · PERSONAL · native-play video · 1K run",
+      "new_title": "[분석] LINTRACK-150-LINZ-2 · PERSONAL · native-play video · 1K run",
+      "edited": true,
+      "original_body_sha256": "f9290e7d19da2ecd348001c96f1a0dc43666c63cd1a00da086c1d39fe98d0d00",
+      "asset_count": 5
+    },
+    {
+      "id": 387923814,
+      "tag": "private-20260913-132700-go2-lintrack-150-linz-2-train-1k",
+      "old_title": "[TRAIN] LINTRACK-150-LINZ-2 · PERSONAL · fresh 1K train evidence",
+      "new_title": "[학습] LINTRACK-150-LINZ-2 · PERSONAL · fresh 1K train evidence",
+      "edited": true,
+      "original_body_sha256": "70a5a2e600adc3af5dde476c00453a282e01a05c9a9c36b1edfc54e3b93edea1",
+      "asset_count": 3
+    },
+    {
+      "id": 387836020,
+      "tag": "private-20260913-070026-go2-angxy-012-1k-20260913",
+      "old_title": "[TRAIN] ANGXY-012 · PERSONAL · fresh 1K train evidence · legacy G5",
+      "new_title": "[학습] ANGXY-012 · PERSONAL · fresh 1K train evidence · legacy G5",
+      "edited": true,
+      "original_body_sha256": "c1e6f98eff5c8baf38f062555531c4cc792a1e87173ee8ea7987475227eeaf01",
+      "asset_count": 3
+    },
+    {
+      "id": 387811287,
+      "tag": "private-20260913-061236-smoke-go2-20260913",
+      "old_title": "[TRAIN] Go2 · PERSONAL · 1-iteration smoke evidence",
+      "new_title": "[학습] Go2 · PERSONAL · 1-iteration smoke evidence",
+      "edited": true,
+      "original_body_sha256": "56597360b68c9afbd1213c7dd189ce7bdbe193d5118537a9b08f32138c1a5a22",
+      "asset_count": 3
+    },
+    {
+      "id": 383812555,
+      "tag": "h1-screening-20260907_122939_KST",
+      "old_title": "[ARCHIVE] H1 · historical 1K screening bundle · TERM-50 / ANGTRACK-075 / HIPDEV-010-TORSODEV-005",
+      "new_title": "[ARCHIVE] H1 · historical 1K screening bundle · TERM-50 / ANGTRACK-075 / HIPDEV-010-TORSODEV-005",
+      "edited": false,
+      "original_body_sha256": "469ccbc703bc49e0f7bdc712ceb5e62dc856644b4bf23ab455b8d2a67eb9157b",
+      "asset_count": 12
+    },
+    {
+      "id": 383778649,
+      "tag": "h1-baseline-5k-20260907_102236_KST",
+      "old_title": "[ARCHIVE] H1 · historical baseline 5K backup",
+      "new_title": "[ARCHIVE] H1 · historical baseline 5K backup",
+      "edited": false,
+      "original_body_sha256": "5fafef8b3d378453b5952eeaa1117cb45f534b27c2d4eb1ae2f73aeddb4df7cc",
+      "asset_count": 2
+    },
+    {
+      "id": 379174385,
+      "tag": "brev-go2-recovery-20260830_125132_KST",
+      "old_title": "[ARCHIVE] Go2 · historical Brev recovery bundle",
+      "new_title": "[ARCHIVE] Go2 · historical Brev recovery bundle",
+      "edited": false,
+      "original_body_sha256": "07edd6d4391c45bb033bb395c393e20930144d15b2dbe5282df68159274e5ee3",
+      "asset_count": 2
+    },
+    {
+      "id": 376765234,
+      "tag": "brev-backup-20260826_075522_KST",
+      "old_title": "[ARCHIVE] H1 · historical training backup",
+      "new_title": "[ARCHIVE] H1 · historical training backup",
+      "edited": false,
+      "original_body_sha256": "d5f360de3fcd9e700ebaa7ab9e07325f63fe86a755581934e6058b202787defb",
+      "asset_count": 2
+    }
+  ]
+}

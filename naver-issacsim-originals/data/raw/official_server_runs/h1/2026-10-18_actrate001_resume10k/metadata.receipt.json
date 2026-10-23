@@ -1,0 +1,51 @@
+{
+  "receipt_schema": "se3c-run-metadata-receipt-v1",
+  "source_member": "20261018-092452-h1-top07-same-reward-to10k/metadata.json",
+  "run_id": "20261018-092452-h1-top07-same-reward-to10k",
+  "mode": "official",
+  "operation": "train",
+  "status": "completed",
+  "training_status": "completed",
+  "exit_code": 0,
+  "official_finalize_status": "completed",
+  "official_backup_status": "success",
+  "evidence_validation": "PASS",
+  "start_utc": "2026-10-18T09:24:52.553166+00:00",
+  "end_utc": "2026-10-18T10:50:10.155190+00:00",
+  "resume": {
+    "start_iteration": 2950,
+    "requested_max_iterations": 7050,
+    "final_iteration": 9950,
+    "seed": 42,
+    "num_envs": 4096,
+    "checkpoint": "model_9950.pt"
+  },
+  "reward": {
+    "preset": "h1-submit-2",
+    "final_overrides": {
+      "action_rate_l2": -0.001
+    },
+    "resolved_values": {
+      "track_lin_vel_xy_exp": 0.5,
+      "termination_penalty": -50,
+      "action_rate_l2": -0.001
+    }
+  },
+  "parent": {
+    "checkpoint": "model_2950.pt",
+    "sha256": "8914b6b48e74a6463808f629648f87900efdb853e5253e142e99c738adb2d085",
+    "origin": "user_imported_checkpoint",
+    "source_run_id": null,
+    "source_provenance_verified": false
+  },
+  "outer_download_archive": {
+    "filename": "20261018-092452-h1-top07-same-reward-to10k-download.tar.gz",
+    "bytes": 958182392,
+    "sha256": "72449e4ba3b0cf5bc3b9d1278b243e7e273f982513198fe202e544a8598c141b",
+    "location": "C:/Users/[USER]/Downloads/이어학습/7(완)/",
+    "copied_into_repository": true
+  },
+  "embedded_run_archive_sha256": "25166b2d8f5a3f3e4b0b61197602b648e1f2a47c5226baf7c72c54d97dd2f483",
+  "release_tag_intended": "official-h1-20261018-exp-h1-action-rate-smoothing-resume10k",
+  "release_status": "published_verified"
+}

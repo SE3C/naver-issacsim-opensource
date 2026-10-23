@@ -1,0 +1,9 @@
+# [분석] H1 angxy=-0.08 + action=-0.0001 · PERSONAL model_4650 · 6영상 + scenario7 평가
+
+Experiment: `exp-h1-action-first-body-rate-switch`. Source OFFICIAL train Run `20261015-143107-h1-actrate0001-angxy008-from2700-plus2k`; training Release: https://github.com/SE3C/naver-issacsim-originals/releases/tag/official-h1-20261015-exp-h1-action-first-body-rate-switch-angxy008-resume2700-plus2k.
+
+ZIP checkpoint model_4650 SHA `c272b13b5d3702c8a84c1470b597526efe2214d0ee38f34f65918c5f912a335f` matches the preserved train checkpoint index. This keeper is not console endpoint4699 or auto-best3400, and differs from lin=.55/e8a358a5, lin=.65/ce7ad586 and ACTION-restoration/a8249db4 model4650. Raw evaluation source_run_id/preset remain null; training imported-parent provenance remains unverified. Publication records the external SHA linkage only.
+
+Windows PERSONAL evaluation COMPLETE/non-smoke: camera-off H1 scenario7, 128env × seeds4201/4202/4203 ×8cases =3072 episode rows. Six 20-second maneuver_push videos with ±10° slopes; original18-file ZIP CRC PASS. No new GPU work was run during publication. This is not an official score, new training Run, submission, A/B comparison or adoption. **Policy report/behavior analysis pending; HOLD.** The local evaluation ZIP must remain available until its analysis report is preserved.
+
+Assets: original unchanged ZIP + .sha256 + publication_manifest.json. ZIP `h1-actrate0001-angxy008-from2700-plus2k_model_4650_h1_6terrain_evaluation_20261016-082140_edfb8cad.zip`, 34822373bytes, SHA256 `522c8b6a6bc2e1a9ae99e1fdf86308b7a335c7bb6c2964c03ad6b3875be51d22`. Canonical raw: Originals `data/raw/private_server_runs/h1/2026-10-16_windows_angxy008_model4650_video_evaluation/evidence_archives/`. Annotated publication tag is a publication-record pointer, not actual training source revision.

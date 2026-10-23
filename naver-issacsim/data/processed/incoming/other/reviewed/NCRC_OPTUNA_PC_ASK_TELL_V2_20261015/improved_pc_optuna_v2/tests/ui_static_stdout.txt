@@ -1,0 +1,1 @@
+UI syntax, separate endpoints, blank score on trial selection, explicit confirmations: PASS

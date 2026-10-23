@@ -1,0 +1,51 @@
+{
+  "source_zip_name": "20261016-150803-h1-actrate0002-fresh3k_model_2950_h1_6terrain_evaluation_20261017-020342_54af98b1.zip",
+  "source_zip_sha256": "f658b2217737e5271caaf4eaa3c0ac48f29d1929d680a1688da509a0d87b3c3c",
+  "policy_sha256_from_metadata_only": "eaa7a50c51fbdf3b39c15fe4278d1c9def38f96e9af872eb37111b66ac4d34fb",
+  "protocol_id": "d406a296d2c0e5a7deee4138de7df87532d2815ae9b65af999d7a8f0b7062d34",
+  "record_count": 3072,
+  "distinct_cohorts": 3072,
+  "case_count": 8,
+  "terminated_episodes": 0,
+  "episode_tracking_mean": 0.15457027233948545,
+  "scenario_equal_weight_tracking_mean": 0.15153477609315344,
+  "case_equal_weight_tracking_mean": 0.15457027233948545,
+  "diagnostics_reconciliation": {
+    "H1": {
+      "count_match": true,
+      "tracking_abs_delta": 2.7755575615628914e-17,
+      "survival_abs_delta": 0.0
+    },
+    "H2": {
+      "count_match": true,
+      "tracking_abs_delta": 8.326672684688674e-17,
+      "survival_abs_delta": 0.0
+    },
+    "H3": {
+      "count_match": true,
+      "tracking_abs_delta": 2.7755575615628914e-17,
+      "survival_abs_delta": 0.0
+    },
+    "H4": {
+      "count_match": true,
+      "tracking_abs_delta": 5.551115123125783e-17,
+      "survival_abs_delta": 0.0
+    },
+    "H5": {
+      "count_match": true,
+      "tracking_abs_delta": 1.6653345369377348e-16,
+      "survival_abs_delta": 0.0
+    },
+    "H6": {
+      "count_match": true,
+      "tracking_abs_delta": 8.326672684688674e-17,
+      "survival_abs_delta": 0.0
+    },
+    "H7": {
+      "count_match": true,
+      "tracking_abs_delta": 2.7755575615628914e-17,
+      "survival_abs_delta": 0.0
+    }
+  },
+  "source_checkpoint_original_bytes_present_in_bundle": false
+}

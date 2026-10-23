@@ -1,0 +1,11 @@
+# [학습] H1 action=-0.0003 · OFFICIAL fresh3K
+
+Experiment: `exp-h1-action-rate-relaxation`; actual Run `20261016-033023-h1-actrate-0003-fresh3k`. Preset-relative override: **h1-submit-2 + action_rate_l2=-0.0003**. Other eight exposed reward values remain lin=.5, angular tracking=.5, feet=.2, termination=-50, orientation=-1.5, body-angxy=-.05, hip=-.2, torso=-.1. Full resolved native configurations and source are preserved inside the nested evidence archive under native_run/params/{env,agent}.yaml and source/.
+
+OFFICIAL train **COMPLETED / exit0 / validation PASS**; fresh/no parent, 3000 requested, console endpoint2999/3000, seed42,4096env. Native Run `/workspace/training/humanoid/logs/rsl_rl/humanoid/2026-10-16_12-30-29`; UTC03:30:23–04:07:30 (KST12:30:23–13:07:30). Finalize and automatic backup succeeded; save_interval=50, organizer keeper copied60 checkpoints. This intake did not launch training, evaluation or rendering.
+
+Latest indexed keeper **model_2950.pt**, SHA256 `1cc2c03197097c21c642e8373c760b25664b9c859ed75b5dc07582a770473c4b`, source `/workspace/training/humanoid/backup_log/2026-10-16_12-30-29/model_2950.pt`. It is not the exact console endpoint2999. Automatic best is **model_2900.pt**, SHA256 `d12a7a868c14aca99f9233bac041c4a50070e15e00cf5429e822115b9ca2e03f`, selected by training reward at step2887. Do not equate these checkpoints or infer behavioral quality from training reward.
+
+Received archive `20261016-033023-h1-actrate-0003-fresh3k-download.tar.gz`: **419048691 bytes**, SHA256 `c519c677334d622aa3daed6b708191d19ad7abb5983947c0e5289665da5c016d`. Original bytes remain unchanged in evidence_archives/ with adjacent checksum. Verified nested archive checksum, all82 evidence SHA256SUMS entries, keeper index hashes and outer model_best/env consistency. metadata.json, validation.json and checkpoint_index.json are unchanged extracted reference copies. Console, TensorBoard, full source/config and organizer checkpoints remain inside the original archive; it was not repacked.
+
+**Behavior evaluation/report pending; adoption HOLD.** This is not a new submission or official score. [Release](https://github.com/SE3C/naver-issacsim-originals/releases/tag/official-h1-20261016-exp-h1-action-rate-relaxation-action0003-fresh3k). The annotated publication tag identifies the Originals preservation commit, not the training-source revision.

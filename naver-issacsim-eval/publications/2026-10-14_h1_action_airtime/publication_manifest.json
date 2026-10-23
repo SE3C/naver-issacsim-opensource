@@ -1,0 +1,51 @@
+{
+  "schema": "personal-video-evaluation-publication-v1",
+  "robot": "h1",
+  "experiment": "exp-h1-action-airtime-fresh-interaction",
+  "record_type": "post_training_video_and_evaluation",
+  "preset_reference": "h1-submit-2",
+  "preset_relative_overrides": {
+    "action_rate_l2": -0.0001,
+    "feet_air_time": 0.25
+  },
+  "evaluation_environment": "PERSONAL_WINDOWS",
+  "training_environment": "OFFICIAL",
+  "training_run_id": "20261013-144616-h1-actrate0001-airtime025-fresh3k",
+  "source_checkpoint_filename": "model_2950.pt",
+  "source_checkpoint_sha256": "14fd9ad432dfc2ba7696b0d48d9a31753f42c74727083429cc9f2c7299aaffd6",
+  "training_link_basis": "ZIP checkpoint SHA matches completed OFFICIAL train checkpoint_index.json",
+  "training_release": "https://github.com/SE3C/naver-issacsim-originals/releases/tag/official-h1-20261013-exp-h1-action-airtime-fresh-interaction-fresh3k",
+  "evaluation_task_repo_commit": "ef10b7a4c9a83481346d446e8a75aed655f72214",
+  "isaaclab_commit": "3e73d6dd79080fd7632488c061052a6edd52e230",
+  "protocol_id": "d406a296d2c0e5a7deee4138de7df87532d2815ae9b65af999d7a8f0b7062d34",
+  "suite": "scenario7",
+  "num_envs": 128,
+  "seeds": [
+    4201,
+    4202,
+    4203
+  ],
+  "case_count": 8,
+  "episode_rows": 3072,
+  "camera_enabled": false,
+  "complete": true,
+  "smoke": false,
+  "video_scenario": "maneuver_push",
+  "video_count": 6,
+  "video_duration_s_each": 20,
+  "slope_degrees": 10,
+  "archive": {
+    "filename": "model_2950_h1_6terrain_evaluation_20261014-023343_bcda8c25.zip",
+    "bytes": 35160971,
+    "sha256": "42ae846593a54dd89280272e60d0e518c249db1ee777b94bd28a7d6f44f4bf3c",
+    "file_count": 18
+  },
+  "canonical_raw_repository": "SE3C/naver-issacsim-originals",
+  "canonical_raw_path": "data/raw/private_server_runs/h1/2026-10-14_windows_actrate0001_airtime025_model2950_video_evaluation",
+  "release_repository": "SE3C/naver-issacsim-eval",
+  "release_tag": "private-h1-20261014-exp-h1-action-airtime-fresh-interaction-model2950-video-eval",
+  "release_tag_target_role": "Eval publication record, not actual task/training source",
+  "official_score": false,
+  "comparison_report_included": false,
+  "original_zip_modified": false
+}

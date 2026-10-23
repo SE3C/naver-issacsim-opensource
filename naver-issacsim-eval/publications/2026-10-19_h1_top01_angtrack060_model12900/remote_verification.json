@@ -1,0 +1,27 @@
+{
+  "verified_date": "2026-10-20",
+  "repository": "SE3C/naver-issacsim-eval",
+  "tag": "private-h1-20261019-exp-h1-joint-tracking-balance-ang070-model12900-local-eval",
+  "annotated_tag_target_commit": "4c02e31ca59877435f3d8cbbafddbf32a71918d6",
+  "remote_size_and_sha256_verified": true,
+  "assets": [
+    {
+      "name": "h1-top01-angtrack060-plus3k_model_12900_LOCAL_evaluation_20261019.zip",
+      "bytes": 187666,
+      "sha256": "abf37b45d32c28c26de232214313641d7e3fcd289e422df16ba8cae72b030eb2",
+      "url": "https://github.com/SE3C/naver-issacsim-eval/releases/download/private-h1-20261019-exp-h1-joint-tracking-balance-ang070-model12900-local-eval/h1-top01-angtrack060-plus3k_model_12900_LOCAL_evaluation_20261019.zip"
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 136,
+      "sha256": "58fca1f7ff169ff10a0371bb10a6c2c3534f60e839558e70418d947767aa9566",
+      "url": "https://github.com/SE3C/naver-issacsim-eval/releases/download/private-h1-20261019-exp-h1-joint-tracking-balance-ang070-model12900-local-eval/SHA256SUMS"
+    },
+    {
+      "name": "intake_manifest.json",
+      "bytes": 3112,
+      "sha256": "7e2eeed519dc5c92f3b08ce66f9eea01c56e06f8703b3e7ea4d79b1c6c18cae8",
+      "url": "https://github.com/SE3C/naver-issacsim-eval/releases/download/private-h1-20261019-exp-h1-joint-tracking-balance-ang070-model12900-local-eval/intake_manifest.json"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 # 원래 실험 단위의 공개 Release
 
-원래 저장소는 `SE3C/naver-issacsim-eval`이다. 원래 제목·설명·파일명과 실험별 구분을 유지하며 tag에 `eval--` 구분자만 추가한다. `RELEASES.json`이 원본/공개 SHA의 기준이다. 기존 두 묶음 Release는 이전 공개 snapshot으로 남는다.
+원래 제목·설명·파일명과 실험별 구분을 유지하며 tag에 원래 저장소별 `eval--` 또는 `analysis--` 구분자만 추가한다. `RELEASES.json`이 원래 저장소와 원본/공개 SHA의 기준이다. 기존 두 묶음 Release는 이전 공개 snapshot으로 남는다.
 
-ZIP 구성은 그대로이며 블라인드하지 않은 ZIP은 원본과 바이트 동일하다. 로그·원본 checksum도 보존한다. 내부 checksum은 원본 기준일 수 있으므로 공개본 해시는 외부 manifest를 확인한다.
+평가 ZIP은 원래 구성을 유지하며 블라인드하지 않은 ZIP은 원본과 바이트 동일하다. 로그·원본 checksum도 보존한다. 내부 checksum은 원본 기준일 수 있으므로 공개본 해시는 외부 manifest를 확인한다. `analysis--` Release는 자체 기술 보고서만 선별하며 원문이 설명하는 policy·env·전체 제출 snapshot은 포함하지 않는다.
 
 - [[PERSONAL] H1 TOP01 ANG070 +3K model12900 local evaluation](https://github.com/SE3C/naver-issacsim-opensource/releases/tag/eval--private-h1-20261019-exp-h1-joint-tracking-balance-ang070-model12900-local-eval) — `h1-top01-angtrack060-plus3k_model_12900_LOCAL_evaluation_20261019.zip`; `byte_identical`
 - [[PERSONAL] H1 model40300 two-seed local evaluation](https://github.com/SE3C/naver-issacsim-opensource/releases/tag/eval--private-h1-20261019-model40300-2seed-personal-eval) — `model_40300_h1_LOCAL_evaluation_2seed_20261019.zip`; `personal_profile_blinded`
@@ -37,3 +37,7 @@ ZIP 구성은 그대로이며 블라인드하지 않은 ZIP은 원본과 바이�
 - [[분석] H1 ACTRATE-0001 무변경 +2K · PERSONAL model_4699 · 6영상 + full evaluation](https://github.com/SE3C/naver-issacsim-opensource/releases/tag/eval--private-h1-20261015-exp-h1-action-rate-relaxation-model4699-video-eval) — `h1-actrate-0001-unchanged-cont2k_model_4699_h1_6terrain_evaluation_20261015-023102_9aafef7f.zip`; `personal_profile_blinded`
 - [[분석] H1 ACTRATE-0001 + feet_slide=-0.35 · PERSONAL model_2950 · 6영상 + full evaluation](https://github.com/SE3C/naver-issacsim-opensource/releases/tag/eval--private-h1-20261014-exp-h1-action-foot-contact-stability-model2950-video-eval) — `model_2950_h1_6terrain_evaluation_20261014-032520_aaa76aa8.zip`; `personal_profile_blinded`
 - [[분석] H1 ACTRATE-0001 + AIRTIME-025 · PERSONAL model_2950 · 6영상 + full evaluation](https://github.com/SE3C/naver-issacsim-opensource/releases/tag/eval--private-h1-20261014-exp-h1-action-airtime-fresh-interaction-model2950-video-eval) — `model_2950_h1_6terrain_evaluation_20261014-023343_bcda8c25.zip`; `personal_profile_blinded`
+- [h1-submit-4 / AIRTIME-025 · OFFICIAL · H1 preliminary Round 4 submission — 2026-09-28](https://github.com/SE3C/naver-issacsim-opensource/releases/tag/analysis--submission-h1-prelim-r4-20260928) — `technical_report.txt`; `byte_identical`
+- [g2-submit-5 / LINTRACK-125 · OFFICIAL · Go2 preliminary Round 5 submission — 2026-10-06](https://github.com/SE3C/naver-issacsim-opensource/releases/tag/analysis--submission-go2-prelim-r5-20261006) — `technical_report.txt`; `byte_identical`
+- [h1-submit-6 / ACTRATE-0001 · OFFICIAL · H1 preliminary Round 6 submission — 2026-10-11](https://github.com/SE3C/naver-issacsim-opensource/releases/tag/analysis--submission-h1-prelim-r6-20261011) — `technical_report.txt`; `byte_identical`
+- [[분석] H1 TOP01 · OFFICIAL source · Technical improvement report — 2026-10-19](https://github.com/SE3C/naver-issacsim-opensource/releases/tag/analysis--official-h1-20261019-exp-h1-joint-tracking-balance-technical-report) — `technical_report.txt`; `byte_identical`

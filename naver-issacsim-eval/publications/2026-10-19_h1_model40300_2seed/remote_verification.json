@@ -1,0 +1,27 @@
+{
+  "verified_date": "2026-10-20",
+  "repository": "SE3C/naver-issacsim-eval",
+  "tag": "private-h1-20261019-model40300-2seed-personal-eval",
+  "annotated_tag_target_commit": "4c02e31ca59877435f3d8cbbafddbf32a71918d6",
+  "remote_size_and_sha256_verified": true,
+  "assets": [
+    {
+      "name": "model_40300_h1_LOCAL_evaluation_2seed_20261019.zip",
+      "bytes": 377570,
+      "sha256": "046359f52f88035b79866b17469c49ad8bd62c3af2135b3ebe72ec1a5f535ceb",
+      "url": "https://github.com/SE3C/naver-issacsim-eval/releases/download/private-h1-20261019-model40300-2seed-personal-eval/model_40300_h1_LOCAL_evaluation_2seed_20261019.zip"
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 117,
+      "sha256": "ccdb3bf4ec2c0cdc8962d0b83f982e10258bc8a3ef98076048ad6422028eda5e",
+      "url": "https://github.com/SE3C/naver-issacsim-eval/releases/download/private-h1-20261019-model40300-2seed-personal-eval/SHA256SUMS"
+    },
+    {
+      "name": "intake_manifest.json",
+      "bytes": 2979,
+      "sha256": "87c711e57d1f5f38c583259e829d72875eb82a5854388a688d04627ae68261bb",
+      "url": "https://github.com/SE3C/naver-issacsim-eval/releases/download/private-h1-20261019-model40300-2seed-personal-eval/intake_manifest.json"
+    }
+  ]
+}

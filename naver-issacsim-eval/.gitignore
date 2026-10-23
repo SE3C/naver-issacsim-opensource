@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+test-output/
+demo-results/
+demo-comparison.json
+demo-comparison.html

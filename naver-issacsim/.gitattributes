@@ -1,0 +1,19 @@
+# Preserve reviewed incoming reports byte-for-byte.
+data/processed/incoming/other/reviewed/** -text whitespace=-blank-at-eol
+
+# Preserve dated web/API snapshot bytes; comparison depends on the original payloads.
+data/processed/reference/public/2026-09-23_ncrc_site_snapshot/*.html -text
+data/processed/reference/public/2026-09-23_ncrc_site_snapshot/*.json -text
+
+# Preserve user-facing AI prompt files exactly as supplied.
+docs/ai_prompts/** -text
+
+# Frozen native submission configuration copies must retain their source bytes.
+research/submission_presets/*/*.yaml -text
+
+# Preserve received Round-5 submission text and publication records byte-for-byte.
+data/processed/experiments/go2/2026-10-06_PRELIM_R5_SUBMISSION/* -text whitespace=cr-at-eol
+
+# Preserve received Round-6 submission report and generated identity records.
+data/processed/experiments/h1/2026-10-11_PRELIM_R6_SUBMISSION/* -text whitespace=cr-at-eol
+data/processed/experiments/h1/2026-10-19_PRELIM_R7_MODEL40500_SUBMISSION/* -text whitespace=cr-at-eol

@@ -1,0 +1,49 @@
+{
+  "recorded_date": "2026-10-21",
+  "source_access": "User-provided official score transcription and organizer reply; no direct portal-log access",
+  "organizer_reply": "../../../incoming/other/reviewed/H1_ROUND7_ORGANIZER_FILE_CONFIRMATION_20261021.txt",
+  "robot": "h1",
+  "submission_round": 7,
+  "preset": "h1-submit-7",
+  "experiment": "exp-h1-joint-tracking-balance",
+  "evaluated_run_id": "20261018-140635-h1-top01-angtrack060-plus3k",
+  "evaluated_checkpoint_iteration": 11650,
+  "track_ang_vel_z_exp": 0.7,
+  "accepted_at_as_reported": "2026-10-19 08:48",
+  "accepted_at_timezone": null,
+  "submission_or_replacement_count": 7,
+  "submission_window_as_reported": ["2026-10-19 00:46", "2026-10-19 08:48"],
+  "accepted_artifacts": {
+    "policy.pt": "3a49ac4a183609032b8bb23cf75a146048704e435c62d8797573d8cf001dbd1e",
+    "env.yaml": "cf60d48a07a8c9fb6046112c49527a828a71564289f1396b55c02e74b995bfc6"
+  },
+  "simulation_score": 57.05,
+  "simulation_maximum": 70,
+  "design_intent_score": null,
+  "report_quality_score": null,
+  "total_score": null,
+  "scenarios": [
+    {"name": "제자리 균형", "score": 8.67, "maximum": 10.5, "round6_score": 8.60},
+    {"name": "전진 속도 추종", "score": 11.47, "maximum": 14, "round6_score": 11.30},
+    {"name": "좌우 속도 추종", "score": 5.78, "maximum": 7, "round6_score": 5.73},
+    {"name": "회전 복합 추종", "score": 5.75, "maximum": 7, "round6_score": 5.68},
+    {"name": "약한 요철", "score": 8.17, "maximum": 10.5, "round6_score": 8.02},
+    {"name": "완만한 경사 ±10°", "score": 8.60, "maximum": 10.5, "round6_score": 8.52},
+    {"name": "밀침 회복", "score": 8.61, "maximum": 10.5, "round6_score": 8.50}
+  ],
+  "round6_simulation_score": 56.35,
+  "simulation_delta_vs_round6": 0.70,
+  "qualification_status": "User reported preliminary elimination",
+  "intended_model40500": {
+    "run_id": "20261018-162226-h1-top01-from9999-plus32500",
+    "track_ang_vel_z_exp": 0.6,
+    "accepted_in_round7": false,
+    "policy_sha256": "dcc77124479d5c9666074b4f19c759c5a66f271ab75788e4abeef17c7ba45aa6",
+    "env_sha256": "2cf4be82539bb1863d32d31403cceb30e42753746a8050fef7c0d3bf805e4cb8",
+    "outgoing_actor_tensor_match_count": 8,
+    "outgoing_cpu_forward_pass": true,
+    "separate_review_status": "Organizer separate direct evaluation received 2026-10-22",
+    "separate_review_record": "2026-10-22_H1_MODEL40500_ORGANIZER_DIRECT_EVALUATION.json",
+    "official_simulation_score": 56.9
+  }
+}

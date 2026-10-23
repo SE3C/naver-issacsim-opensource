@@ -1,0 +1,17 @@
+test_actual_process_restart_next_ask_and_db_restore (test_pc_optuna.CpuHTTPTests.test_actual_process_restart_next_ask_and_db_restore) ... ok
+test_config_mutation_frozen_existing_stage (test_pc_optuna.CpuHTTPTests.test_config_mutation_frozen_existing_stage) ... ok
+test_explicit_fixed_action_value_new_stage (test_pc_optuna.CpuHTTPTests.test_explicit_fixed_action_value_new_stage) ... ok
+test_fail_resume_comparison_parent_check (test_pc_optuna.CpuHTTPTests.test_fail_resume_comparison_parent_check) ... ok
+test_history_write_failure_does_not_hide_complete (test_pc_optuna.CpuHTTPTests.test_history_write_failure_does_not_hide_complete) ... ok
+test_initial_candidates_not_identical_and_reproducible (test_pc_optuna.CpuHTTPTests.test_initial_candidates_not_identical_and_reproducible) ... ok
+test_manual_record_hold_reject_and_abandon (test_pc_optuna.CpuHTTPTests.test_manual_record_hold_reject_and_abandon) ... ok
+test_no_tell_without_config_even_after_record (test_pc_optuna.CpuHTTPTests.test_no_tell_without_config_even_after_record) ... ok
+test_ready_tell_duplicate_invalid_and_recovery (test_pc_optuna.CpuHTTPTests.test_ready_tell_duplicate_invalid_and_recovery) ... ok
+test_safety_boundary_and_local_bind_only (test_pc_optuna.CpuHTTPTests.test_safety_boundary_and_local_bind_only) ... ok
+test_stage_collision_prevention (test_pc_optuna.CpuHTTPTests.test_stage_collision_prevention) ... ok
+test_tell_missing_or_bad_sha_and_comparison_seed (test_pc_optuna.CpuHTTPTests.test_tell_missing_or_bad_sha_and_comparison_seed) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 26.307s
+
+OK

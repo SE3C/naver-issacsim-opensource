@@ -1,0 +1,6 @@
+NCRC 개인 PC Optuna Ask/Record/Tell v2.0.0 — 2026-10-15
+1. improved_pc_optuna_v2/README.md 와 REPORT_ko.md를 먼저 읽으세요.
+2. 실행 전체 소스: improved_pc_optuna_v2/ (app.py, index.html, study_config.json, launcher, requirements).
+3. tests/는 실제 CPU-only 테스트 코드, TEST_RESULTS.json, 표준출력 로그입니다.
+4. 원본 전체 파일은 source_originals/ 아래 전달 당시 ZIP 그대로 보존됩니다.
+5. 기본 objective/comparison 미정 → Ask/진단 가능, Tell 차단. GPU/서버/평가 자동연결 없음.

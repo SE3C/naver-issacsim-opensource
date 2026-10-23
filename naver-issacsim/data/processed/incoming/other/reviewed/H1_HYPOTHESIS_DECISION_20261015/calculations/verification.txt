@@ -1,0 +1,7 @@
+command: python calculations/targeted_check.py
+exit_code: 0
+stdout:
+PASS: 14 targeted aggregate comparisons; direction checks: C-B 373/11, B-A 384 decreases, L-B 384 increases
+Input = supplied derived CSVs only; no independent raw episode/video/native checkpoint reading
+
+stderr:

@@ -1,0 +1,38 @@
+{
+  "release_repository": "SE3C/naver-issacsim-nvidia",
+  "release_tag": "private-go2-20261004-exp-go2-planar-tracking-terrain-progression-model7050-video-eval",
+  "release_id": 402768655,
+  "release_url": "https://github.com/SE3C/naver-issacsim-nvidia/releases/tag/private-go2-20261004-exp-go2-planar-tracking-terrain-progression-model7050-video-eval",
+  "draft": false,
+  "annotated_tag_target": "ef10b7a4c9a83481346d446e8a75aed655f72214",
+  "remote_tag_target_verified": true,
+  "canonical_originals_commit": "87bcc11",
+  "canonical_path": "data/raw/private_server_runs/go2/2026-10-04_windows_model7050_video_evaluation/",
+  "verified_date_kst": "2026-10-04",
+  "assets": [
+    {
+      "filename": "model_7050_go2_6terrain_evaluation_20261004-030710_e8bd9e18.zip",
+      "asset_id": 608887006,
+      "bytes": 34310566,
+      "sha256": "34d45711d121a4bb59a92b6424f2652eeb915ed4f6436d49070389eacc33d1e1"
+    },
+    {
+      "filename": "model_7050_go2_6terrain_evaluation_20261004-030710_e8bd9e18.zip.sha256",
+      "asset_id": 608887012,
+      "bytes": 130,
+      "sha256": "df0ca8179d74a63e2492b5fe1badf4f619954f785acf3857015d4b7aab4e4ea2"
+    },
+    {
+      "filename": "publication_manifest.json",
+      "asset_id": 608887011,
+      "bytes": 2053,
+      "sha256": "7095b7d3c35e7782984fa64e622a91a4d8ce3ad782328637ed5163111255b492"
+    }
+  ],
+  "remote_sizes_and_digests_match": true,
+  "zip_crc_valid": true,
+  "zip_file_count": 18,
+  "gpu_executed_for_publication": false,
+  "comparison_created": false,
+  "original_download_preserved": true
+}

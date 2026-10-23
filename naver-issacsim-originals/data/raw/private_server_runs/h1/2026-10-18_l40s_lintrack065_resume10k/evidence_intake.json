@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "source_archive": {
+    "filename": "20261018-074037-h1-top06-same-reward-to10k.tar.gz",
+    "bytes": 693117438,
+    "sha256": "bfa764fa7b5b3331c77116e952d6ffff5b73e9c2880cb0e1e6df36bf931d9748",
+    "nested_archive": null,
+    "nested_bytes": null
+  },
+  "run": {
+    "run_id": "20261018-074037-h1-top06-same-reward-to10k",
+    "name": "h1-top06-same-reward-to10k",
+    "mode": "personal",
+    "operation": "train",
+    "status": "completed",
+    "training_status": "completed",
+    "exit_code": 0,
+    "official_finalize_status": "completed",
+    "evidence_validation": "PASS",
+    "requested_iterations": 5050,
+    "start_iteration": 4950,
+    "final_iteration": 9999,
+    "parent_run_id": null,
+    "parent_checkpoint_sha256": "b7528923eef5b1368ba2299f4e0538804ba00dd358049bfdff5027f448e31ece",
+    "source_checkpoint": "/home/shadeform/model_4950.pt",
+    "source_checkpoint_origin": "user_imported_checkpoint",
+    "source_run_mode": "unknown",
+    "source_evidence_run_id": null,
+    "source_provenance_verified": false,
+    "resume_lineage": {
+      "official_resume": false,
+      "parent_run_id": null,
+      "requested_checkpoint": "/home/shadeform/model_4950.pt",
+      "source_checkpoint": "/home/shadeform/model_4950.pt",
+      "source_checkpoint_sha256": "b7528923eef5b1368ba2299f4e0538804ba00dd358049bfdff5027f448e31ece",
+      "source_checkpoint_origin": "user_imported_checkpoint",
+      "source_provenance_verified": false,
+      "start_iteration": 4950,
+      "requested_max_iterations": 5050,
+      "final_iteration": 9999,
+      "source_identity": "source/identity.json",
+      "native_checkpoint_path": "/home/shadeform/naver-training/training/humanoid/logs/rsl_rl/humanoid/issacsimz-import-b7528923eef5b136/model_4950.pt",
+      "native_checkpoint_staged": true,
+      "source_changed_during_run": false
+    }
+  },
+  "checkpoint_index": {
+    "source_file_present": false,
+    "indexed_checkpoint_count": null,
+    "final_from_archive_member": {
+      "filename": "checkpoints/model_9999.pt",
+      "sha256": "030253593bda0b0b3b5ce11532cc8446b19fabdf172d8a96dd7c1c9757e3a856"
+    },
+    "best_from_archive_member": {
+      "filename": "20261018-074037-h1-top06-same-reward-to10k/collected/exported/model_best.pt",
+      "sha256": "030253593bda0b0b3b5ce11532cc8446b19fabdf172d8a96dd7c1c9757e3a856",
+      "bytes": 7151477
+    },
+    "note": "checkpoint_index.json was absent from the supplied archive; final SHA was calculated from the archived model_9999.pt bytes. No index file was synthesized."
+  },
+  "validation": {
+    "schema_version": 1,
+    "overall": "PASS",
+    "checks": [
+      {
+        "name": "native_run",
+        "status": "PASS",
+        "detail": "native run copied"
+      },
+      {
+        "name": "tensorboard",
+        "status": "PASS",
+        "detail": "events=1"
+      },
+      {
+        "name": "checkpoints",
+        "status": "PASS",
+        "detail": "mirrored=102"
+      },
+      {
+        "name": "source_identity",
+        "status": "PASS",
+        "detail": "before/after hashes match"
+      },
+      {
+        "name": "official_backup",
+        "status": "PASS",
+        "detail": "status=skipped_no_config"
+      },
+      {
+        "name": "collection",
+        "status": "PASS",
+        "detail": "new_or_modified=5"
+      },
+      {
+        "name": "exported_model_best.pt",
+        "status": "PASS",
+        "detail": "NEW/MODIFIED"
+      },
+      {
+        "name": "exported_env.yaml",
+        "status": "PASS",
+        "detail": "NEW/MODIFIED"
+      },
+      {
+        "name": "official_finalize",
+        "status": "PASS",
+        "detail": "status=completed"
+      }
+    ]
+  },
+  "source_identity": {
+    "profile": "h1",
+    "schema_version": 2,
+    "changed_during_run": false,
+    "changed_paths": [],
+    "hashed_paths": [
+      "h1_task/__init__.py",
+      "h1_task/_finalize.py",
+      "h1_task/agent_cfg.py",
+      "h1_task/env_cfg.py",
+      "humanoid_rewards.py",
+      "play.py",
+      "pyproject.toml",
+      "train.py"
+    ],
+    "git_commit": null,
+    "files": [
+      {
+        "path": "h1_task/__init__.py",
+        "sha256": "3334dc0a2245aeaf478b68b4dd51f04fa6cff47705bac6ac4d2f0a429e2d4026",
+        "after_sha256": "3334dc0a2245aeaf478b68b4dd51f04fa6cff47705bac6ac4d2f0a429e2d4026",
+        "changed_during_run": false
+      },
+      {
+        "path": "h1_task/_finalize.py",
+        "sha256": "734b712fdb9d208c70fc784e4816830d892548bcb280ddf456081d81a809ea1a",
+        "after_sha256": "734b712fdb9d208c70fc784e4816830d892548bcb280ddf456081d81a809ea1a",
+        "changed_during_run": false
+      },
+      {
+        "path": "h1_task/agent_cfg.py",
+        "sha256": "4e8c9919aed8220333c998bfbabe345d8eb2ed54734d67674d48be3ecbd72bb6",
+        "after_sha256": "4e8c9919aed8220333c998bfbabe345d8eb2ed54734d67674d48be3ecbd72bb6",
+        "changed_during_run": false
+      },
+      {
+        "path": "h1_task/env_cfg.py",
+        "sha256": "78927fc5b57f71284db114e25c7981f3ab1d08c40a94a93838d2fa1b7609adab",
+        "after_sha256": "78927fc5b57f71284db114e25c7981f3ab1d08c40a94a93838d2fa1b7609adab",
+        "changed_during_run": false
+      },
+      {
+        "path": "humanoid_rewards.py",
+        "sha256": "5f1fe2c8f51a7440ece8c76cd271ca17e4b029e12308f5735b639ab62c8fc1ac",
+        "after_sha256": "5f1fe2c8f51a7440ece8c76cd271ca17e4b029e12308f5735b639ab62c8fc1ac",
+        "changed_during_run": false
+      },
+      {
+        "path": "play.py",
+        "sha256": "39be98d4c1c3e4ff995fce2e0d4863ba9deaa88ddce1e0fe459566c1ec362617",
+        "after_sha256": "39be98d4c1c3e4ff995fce2e0d4863ba9deaa88ddce1e0fe459566c1ec362617",
+        "changed_during_run": false
+      },
+      {
+        "path": "pyproject.toml",
+        "sha256": "e34f23cb042dfc2d301ad20df8ac8a3d6785a5aa1552d31ab8a79c81b19a40ea",
+        "after_sha256": "e34f23cb042dfc2d301ad20df8ac8a3d6785a5aa1552d31ab8a79c81b19a40ea",
+        "changed_during_run": false
+      },
+      {
+        "path": "train.py",
+        "sha256": "36fcd90a838659e217aac009bcb98f95cb574dc90ae8c52fc1e1bc77b8d1a358",
+        "after_sha256": "36fcd90a838659e217aac009bcb98f95cb574dc90ae8c52fc1e1bc77b8d1a358",
+        "changed_during_run": false
+      }
+    ]
+  }
+}

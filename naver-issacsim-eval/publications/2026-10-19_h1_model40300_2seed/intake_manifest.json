@@ -1,0 +1,77 @@
+{
+  "record_type": "PERSONAL post-training evaluation archive",
+  "robot": "h1",
+  "evaluation": {
+    "suite": "scenario7",
+    "camera_enabled": false,
+    "num_envs": 128,
+    "seeds": [4201, 4202],
+    "duration_s_per_case": 20,
+    "manifest_complete": true,
+    "execution_status": "COMPLETE",
+    "smoke": false,
+    "episode_rows": 2048,
+    "scenario_rows": {
+      "H1": 256,
+      "H2": 256,
+      "H3": 256,
+      "H4": 256,
+      "H5": 256,
+      "H6": 512,
+      "H7": 256
+    },
+    "finished_at_utc": "2026-10-18T22:55:40.580679+00:00",
+    "evaluation_environment": "PERSONAL",
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "isaac_sim": "5.1.0-rc.19+release.26219.9c81211b.gl",
+    "raw_source_run_id": null,
+    "protocol_id": "94af8f7ec1e641e1e4fa6a46616006edfff69be298dd66e01215068e103daaed",
+    "upstream_implementation_commit": "9c774a322f2f7d4944444de57f01308987bcb3da",
+    "launcher_success": false,
+    "launcher_error": "Final source integrity check failed: original checkpoint path was not found after evaluation"
+  },
+  "checkpoint": {
+    "label_from_input_name": "model_40300.pt",
+    "source_path_recorded": "C:/Users/[USER]\\Downloads\\model_40300.pt",
+    "sha256_recorded_by_evaluator": "fadaf83e56a972de050e357909eca4d62cca6229f11717d35b2e2cd41cbaa20b",
+    "raw_source_run_id": null,
+    "training_provenance_verified": false
+  },
+  "relocated_checkpoint_verified_sha": "fadaf83e56a972de050e357909eca4d62cca6229f11717d35b2e2cd41cbaa20b",
+  "relocated_checkpoint": {
+    "path": "C:/Users/[USER]\\Downloads\\NCRC_프로젝트_보관_20261019\\체크포인트\\model_40300.pt",
+    "size_bytes": 7151551,
+    "sha256": "fadaf83e56a972de050e357909eca4d62cca6229f11717d35b2e2cd41cbaa20b",
+    "matches_evaluator_recorded_sha": true
+  },
+  "cohort_validation": {
+    "grouping_fields": ["seed", "scenario", "case"],
+    "groups": 16,
+    "expected_env_ids": "0-127 exactly once per group",
+    "duplicate_cohorts": 0,
+    "missing_cohorts": 0
+  },
+  "log_scan": {
+    "file": "evaluation.log",
+    "fatal_pattern_matches": false,
+    "secret_pattern_matches": false
+  },
+  "source_archive": {
+    "filename": "model_40300_h1_LOCAL_evaluation_2seed_20261019.zip",
+    "source_path": "C:/Users/[USER]\\Downloads\\NCRC_프로젝트_보관_20261019\\평가_결과\\model_40300_h1_LOCAL_evaluation_2seed_20261019.zip",
+    "size_bytes": 377570,
+    "sha256": "046359f52f88035b79866b17469c49ad8bd62c3af2135b3ebe72ec1a5f535ceb",
+    "preserved_path": "publications/2026-10-19_h1_model40300_2seed/model_40300_h1_LOCAL_evaluation_2seed_20261019.zip",
+    "zip_members": [
+      "diagnostics.json",
+      "episodes.jsonl",
+      "evaluation.log",
+      "evaluation_manifest.json",
+      "launcher_result.json",
+      "README.txt",
+      "resolved_configs.json",
+      "video_evaluation_link.json"
+    ]
+  },
+  "scope_note": "Metadata and completeness inventory only; no policy-quality analysis or official-score claim."
+}

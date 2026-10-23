@@ -1,0 +1,8 @@
+﻿scenario,B_EXAMPLE_normalized,raw_points_70,anchor_corrected_points_70,difference_points_70,provenance
+H1,0.7883,8.27715,8.62,0.34285,derived from embedded UI constants; not independently verified official result
+H2,0.7001,9.8014,11.24,1.4386,derived from embedded UI constants; not independently verified official result
+H3,0.7732,5.4124,5.73,0.3176,derived from embedded UI constants; not independently verified official result
+H4,0.7424,5.1968,5.66,0.4632,derived from embedded UI constants; not independently verified official result
+H5,0.639,6.7095,8.17,1.4605,derived from embedded UI constants; not independently verified official result
+H6,0.7054,7.4067,8.47,1.0633,derived from embedded UI constants; not independently verified official result
+H7,0.6967,7.31535,8.48,1.16465,derived from embedded UI constants; not independently verified official result

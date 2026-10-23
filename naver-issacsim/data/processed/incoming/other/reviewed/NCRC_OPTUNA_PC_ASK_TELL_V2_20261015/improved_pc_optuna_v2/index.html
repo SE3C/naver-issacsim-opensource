@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NCRC Optuna PC — 수동 Ask / Record / Tell</title>
+<style>
+:root {color-scheme:dark;--bg:#0a101e;--surface:#172133;--line:#344359;--text:#e9f0fa;--muted:#b7c5d7;--accent:#7bd0f6;--danger:#ffd6ba}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui, sans-serif}main{max-width:1130px;margin:28px auto;padding:0 18px}h1{font-size:1.8rem}h2{font-size:1.12rem;margin:0 0 14px}.muted,small{color:var(--muted)}.panel{background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:20px;margin:16px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}label{display:block;color:var(--muted);font-size:.87rem;margin-bottom:6px}input,select,textarea{display:block;width:100%;min-height:38px;padding:9px;color:var(--text);background:#0b1425;border:1px solid #53647d;border-radius:7px;font:inherit}textarea{min-height:88px}button{background:#29577b;border:1px solid #5082a5;color:#fff;padding:9px 15px;margin:6px 7px 6px 0;border-radius:8px;cursor:pointer;font:inherit}button:hover{background:#39769f}button:disabled{opacity:.4;cursor:not-allowed}button.warn{background:#7b4336}pre{white-space:pre-wrap;word-break:break-word;background:#0a1424;padding:14px;border:1px solid var(--line);border-radius:8px;max-height:360px;overflow:auto}table{border-collapse:collapse;width:100%;font-size:.86rem}td,th{border-bottom:1px solid var(--line);padding:8px;text-align:left}tr.active{background:#244762}tr[data-number]{cursor:pointer}code{font-size:.9em;color:var(--accent)}.notice{border-left:4px solid #f3be72;padding-left:12px;color:#ffdeaf}.error{color:var(--danger)}.success{color:#b8f5bf}#stateMsg{min-height:30px}.nowrap{white-space:nowrap}.scroll{overflow-x:auto}
+</style></head><body><main>
+<h1>Optuna Ask / 수동 결과 기록 / Tell <small>PC-only v2</small></h1>
+<p class="notice">이 화면은 자체 evaluator, 학습, GPU, 자동 Tell, 다음 Ask 연쇄 실행을 제공하지 않습니다. 기존 TERM50 고정 보정·LOG 추정값은 <strong>목적함수로 사용하지 않습니다.</strong> 기본 목적함수·비교 조건 미설정 상태에서는 Tell이 차단됩니다.</p>
+<div class="panel"><h2>1. Stage · DB 상태 · Ask</h2>
+<div class="grid"><div><label for="stage">Stage (ASCII, 이름 자동변환 없음)</label><input id="stage" value="legacy_h1_review" maxlength="64"></div><div><label>연결 상태</label><div id="health">확인 중</div></div><div><label>Tell 준비 상태</label><div id="ready">설정 확인 중</div></div></div>
+<button id="refresh">SQLite 상태 조회</button><button id="ask">새 후보 Ask (명시적)</button>
+<pre id="contract">설정 확인 중</pre><p id="stateMsg" aria-live="polite"></p>
+</div>
+<div class="panel"><h2>2. Trial 목록 · 후보 확인</h2><p class="muted">재시작 후에도 SQLite에서 모든 상태를 다시 읽습니다. 후보 값은 승인된 학습 설정이 아닙니다. 동일한 이름의 checkpoint를 정책 동일성 근거로 삼지 마세요.</p>
+<div class="scroll"><table><thead><tr><th>Trial</th><th>Optuna 상태</th><th>목적값</th><th>진단 판정</th><th>평가 ID</th></tr></thead><tbody id="trials"><tr><td colspan="5">없음</td></tr></tbody></table></div>
+<div class="grid"><div><label for="trial">선택 Trial 번호</label><select id="trial"><option value="">먼저 Ask 또는 조회</option></select></div><div><label>선택된 candidate parameters</label><pre id="params">선택 없음</pre><button id="copyParams">Reward JSON 복사</button></div></div>
+</div>
+<div class="panel"><h2>3. 실제 결과·진단 기록 (Tell과 독립)</h2>
+<p class="muted">원본 증거의 식별자를 사람이 확인해 입력합니다. 이 도구는 파일 바이트를 열어 SHA를 검증하지 않으며 기록은 <strong>사용자 제공·미독립검증</strong>입니다. 모르는 항목은 비워 두세요. 학습 Run ID는 Ask에서 필요하지 않습니다.</p>
+<div class="grid" id="evidenceFields"></div>
+<div class="grid"><div><label for="decision">판정 (점수와 별도)</label><select id="decision"><option value="">미확인</option><option>UNDECIDED</option><option>HOLD</option><option>REJECT</option><option>PROMOTE</option></select></div><div><label for="diagnostic">사실·진단·출처 / 미확인 사항</label><textarea id="diagnostic" placeholder="실제 자료에서 확인한 내용만 기록; 점수 대용 아님"></textarea></div></div>
+<button id="save">진단/identity 저장 (No Tell)</button>
+</div>
+<div class="panel"><h2>4. 명시적 Tell 또는 Abandon</h2>
+<p class="notice">Tell: frozen objective·비교 조건 설정 + 필수 실제 식별자 및 비교 일치 + 수치 범위 검증 후에만 수행됩니다. 이전 값은 재사용하지 않습니다. HOLD/REJECT를 임의 숫자로 바꾸지 않습니다.</p>
+<div class="grid"><div><label for="value">단 하나의 canonical objective_value (직접 입력)</label><input id="value" type="number" placeholder="비워두면 거부" step="any"></div><div><label for="reason">실패/중단(Abandon) 사유</label><input id="reason" placeholder="사유 필수 · FAIL 전이"></div></div>
+<button id="tell">이 Trial Tell (다음 Ask 없음)</button><button class="warn" id="abandon">이 Trial FAIL/Abandon</button>
+</div>
+<p class="muted">인터넷 서버 연동 없음 · SQLite가 완료 상태의 기준 · JSONL 기록 실패는 완료 상태를 취소하지 않음 · 평가기는 별도의 기존 Windows 도구 사용</p>
+</main>
+<script>
+'use strict';
+const $=id=>document.getElementById(id);
+const keys=['training_run_id','checkpoint_sha256','evaluation_id','protocol_id','evaluator_id','parent_checkpoint_sha256','training_iterations','training_seed','checkpoint_selector','resolved_reward_id','evaluation_archive_sha256','notes'];
+const labels=['실제 학습 Run ID','선택 checkpoint SHA-256 (64자리)','평가 식별자','평가 protocol ID','평가기/source ID','부모 checkpoint SHA-256 (resume 시)','실제 학습 iterations','학습 seed','checkpoint 선택 규칙','resolved reward/config 증거 ID','평가 ZIP SHA-256 (선택)','별도 identity 메모'];
+keys.forEach((k,i)=>{const div=document.createElement('div');const label=document.createElement('label');label.htmlFor='e_'+k;label.textContent=labels[i];const input=document.createElement('input');input.id='e_'+k;input.placeholder='모르면 공란 유지';if(k==='training_iterations'||k==='training_seed'){input.type='number';input.step='1';input.min=k==='training_seed'?'0':'1'}div.append(label,input);$('evidenceFields').append(div)});
+let state={trials:[],contract:null};let selected=null;
+function show(message,error=false){$('stateMsg').textContent=message;$('stateMsg').className=error?'error':'success'}
+function st(){return $('stage').value.trim()}
+async function api(path,body){const opts=body===undefined?{}:{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)};const res=await fetch(path,opts);const json=await res.json();if(!res.ok)throw new Error(json.error||`HTTP ${res.status}`);return json}
+function getEvidence(){let out={};for(const k of keys){const raw=$('e_'+k).value.trim();out[k]=raw===''?null:(k==='training_iterations'||k==='training_seed'?Number(raw):raw)}return out}
+function resetForm(){keys.forEach(k=>$('e_'+k).value='');$('decision').value='';$('diagnostic').value='';$('value').value='';$('reason').value=''}
+function choose(num){const t=num===''||num===null||num===undefined?null:state.trials.find(t=>t.number===Number(num));selected=t||null;resetForm();$('params').textContent=t?JSON.stringify(t.params,null,2):'선택 없음';if(t){let r=t.record||{};let e=r.evidence||{};for(const k of keys){$('e_'+k).value=e[k]??''}$('decision').value=r.decision||'';$('diagnostic').value=r.diagnostic||''}const editable=!!t&&t.state==='RUNNING';for(const id of ['save','tell','abandon'])$(id).disabled=!editable}
+function render(data,prefer){state=data;const ts=data.trials||[];$('ready').textContent=data.tell_ready?'계약은 설정됨 (증거와 값은 별도 검증)':'차단됨 — objective/comparison 미설정 또는 config 불일치';$('contract').textContent=JSON.stringify(data.contract||data.config||{},null,2);
+const tbody=$('trials');tbody.replaceChildren();for(const t of ts){const tr=document.createElement('tr');tr.dataset.number=t.number;for(const v of [t.number,t.state,t.value??'-',t.record?.decision||'-',t.record?.evidence?.evaluation_id||'-']){const td=document.createElement('td');td.textContent=v;tr.append(td)}tr.onclick=()=>{$('trial').value=t.number;choose(t.number)};tbody.append(tr)}if(!ts.length){const tr=document.createElement('tr');tr.innerHTML='<td colspan="5">기록된 Trial 없음</td>';tbody.append(tr)}
+const sel=$('trial');sel.replaceChildren();const blank=document.createElement('option');blank.value='';blank.textContent='선택';sel.append(blank);for(const t of ts){const op=document.createElement('option');op.value=t.number;op.textContent=`#${t.number} ${t.state}`;sel.append(op)}const n=ts.some(t=>t.number===prefer)?prefer:ts.some(t=>t.number===selected?.number)?selected.number:'';sel.value=n;choose(n)
+if(data.exists&& !data.config_matches)show('설정 파일과 동결된 study 계약이 다릅니다. Ask/Tell/Record 불가. 원설정 복원 또는 다른 stage 사용.',true)
+}
+async function refresh(prefer){try{const data=await api('/api/study?stage='+encodeURIComponent(st()));render(data,prefer);return data}catch(e){show(e.message,true)}}
+$('refresh').onclick=()=>refresh();$('stage').onchange=()=>{selected=null;refresh()};$('trial').onchange=e=>choose(e.target.value);
+$('ask').onclick=async()=>{try{const a=await api('/api/ask',{stage:st()});show(`Trial #${a.trial} 생성. 후보는 수동으로 검토하세요. ${a.warning||''}`);await refresh(a.trial)}catch(e){show(e.message,true)}};
+$('save').onclick=async()=>{if(!selected)return;try{const r=await api('/api/record',{stage:st(),trial:selected.number,evidence:getEvidence(),decision:$('decision').value||null,diagnostic:$('diagnostic').value});await refresh(selected.number);show(`Trial #${r.trial} 진단 기록 저장 (Optuna ${r.state}; Tell 아님). ${r.warning||''}`)}catch(e){show(e.message,true)}};
+$('tell').onclick=async()=>{if(!selected)return;const raw=$('value').value.trim();if(raw===''){show('목적값 미입력 — Tell 불가',true);return}const x=Number(raw);if(!Number.isFinite(x)){show('유한한 수치만 허용',true);return}const n=selected.number;if(!window.confirm(`Trial #${n}에 canonical objective_value=${x}를 Tell하고 COMPLETE로 확정할까요?\n다음 Ask는 자동으로 실행하지 않습니다.`))return;try{const r=await api('/api/tell',{stage:st(),trial:n,objective_value:x});await refresh(n);show(`SQLite Trial #${n} ${r.state}, 값 ${r.objective_value}. ${r.warning||''}`)}catch(e){show(e.message,true)}};
+$('abandon').onclick=async()=>{if(!selected)return;const n=selected.number;const reason=$('reason').value.trim();if(!reason){show('중단 사유를 입력하세요',true);return}if(!window.confirm(`Trial #${n}을 FAIL로 확정할까요?`))return;try{const r=await api('/api/abandon',{stage:st(),trial:n,reason});await refresh(n);show(`Trial #${n} ${r.state}. ${r.warning||''}`)}catch(e){show(e.message,true)}};
+$('copyParams').onclick=async()=>{if(!selected){show('먼저 Trial 선택',true);return}try{await navigator.clipboard.writeText(JSON.stringify(selected.params,null,2));show('후보 JSON 복사됨')}catch(e){show('클립보드 권한 없음: 후보를 화면에서 직접 복사하세요',true)}};
+api('/api/health').then(h=>{$('health').textContent=`127.0.0.1 · Optuna ${h.optuna_version} · 평가기 OFF`}).catch(e=>{$('health').textContent=e.message});refresh();
+</script></body></html>

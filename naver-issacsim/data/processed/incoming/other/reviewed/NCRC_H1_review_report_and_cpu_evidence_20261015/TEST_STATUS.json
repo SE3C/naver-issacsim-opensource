@@ -1,0 +1,43 @@
+{
+  "review_date_kst": "2026-10-15",
+  "cpu_environment": {
+    "python": "3.13.5",
+    "node": "v22.16.0",
+    "optuna": "4.8.0"
+  },
+  "checks": [
+    {
+      "command": "python test_optuna_cpu.py",
+      "exit_code": 0,
+      "data": "synthetic Optuna trials, temp SQLite, loopback HTTP; no real experiment"
+    },
+    {
+      "command": "node test_ui_calibration.js",
+      "exit_code": 0,
+      "data": "parsed reviewed JS constants and formula; synthetic rank inversion fixtures"
+    },
+    {
+      "command": "python test_worker_pure_cpu.py",
+      "exit_code": 0,
+      "data": "AST extracted pure funcs, no Isaac import"
+    },
+    {
+      "command": "python audit_saved_eval_zip_cpu.py fixture_synthetic_eval.zip --output fixture_audit_results.json",
+      "exit_code": 0,
+      "data": "synthetic ZIP only; initial utf8-sig error fixed then tested"
+    }
+  ],
+  "excluded": [
+    "app.main()",
+    "start.bat/start.sh",
+    "IsaacLab evaluator subprocess",
+    "GPU",
+    "real training",
+    "real official server",
+    "video",
+    "export",
+    "upload",
+    "real Windows evaluator ZIP"
+  ],
+  "input_zip_included": false
+}

@@ -1,0 +1,262 @@
+{
+  "schema": "release-exact-asset-copy-migration-v1",
+  "date": "2026-10-15",
+  "source_repository": "SE3C/naver-issacsim-nvidia",
+  "destination_repository": "SE3C/naver-issacsim-eval",
+  "scope": "10 integrated Windows PERSONAL videos/full-evaluation Releases only",
+  "originals_preserved": true,
+  "source_releases_deleted": false,
+  "tag_target_role": "Eval migration-record commit; not actual evaluator/task/training source",
+  "entries": [
+    {
+      "tag": "private-h1-20261011-exp-h1-action-rate-relaxation-model9999-video-eval",
+      "title": "[분석] H1 ACTRATE-0001 fresh 10K · model_9999 · PERSONAL videos + full evaluation",
+      "source_release": "https://github.com/SE3C/naver-issacsim-nvidia/releases/tag/private-h1-20261011-exp-h1-action-rate-relaxation-model9999-video-eval",
+      "destination_release": "https://github.com/SE3C/naver-issacsim-eval/releases/tag/private-h1-20261011-exp-h1-action-rate-relaxation-model9999-video-eval",
+      "source_published_at": "2026-10-11T08:14:47Z",
+      "assets": [
+        {
+          "name": "model_9999_h1_6terrain_evaluation_20261011-162017_8438c90e.zip",
+          "bytes": 34850043,
+          "digest": "sha256:ecb6df0e03bf11ec1e2259f5e0fd8b7d4b57e6e63ca09c482f31a8adcf63bfbe"
+        },
+        {
+          "name": "model_9999_h1_6terrain_evaluation_20261011-162017_8438c90e.zip.sha256",
+          "bytes": 129,
+          "digest": "sha256:1e45779dfaa7c43cd34ccb1ea3899cbf3ff4c0519f7a8910adc5a1ffc6158f9e"
+        },
+        {
+          "name": "publication_manifest.json",
+          "bytes": 1910,
+          "digest": "sha256:a9fb8cc662ad425a503035aad606a2efcb9f4132feffc81cadde84b2716a2e00"
+        }
+      ],
+      "record": "private-h1-20261011-exp-h1-action-rate-relaxation-model9999-video-eval/README.md"
+    },
+    {
+      "tag": "private-h1-20261011-exp-h1-action-first-planar-tracking-switch-model4650-video-eval",
+      "title": "[분석] H1 ACTRATE-0001 → lin=0.65 · PERSONAL model_4650 videos + evaluation",
+      "source_release": "https://github.com/SE3C/naver-issacsim-nvidia/releases/tag/private-h1-20261011-exp-h1-action-first-planar-tracking-switch-model4650-video-eval",
+      "destination_release": "https://github.com/SE3C/naver-issacsim-eval/releases/tag/private-h1-20261011-exp-h1-action-first-planar-tracking-switch-model4650-video-eval",
+      "source_published_at": "2026-10-11T01:15:58Z",
+      "assets": [
+        {
+          "name": "model_4650_h1_6terrain_evaluation_20261011-030854_89b4c4a0.zip",
+          "bytes": 35747757,
+          "digest": "sha256:5fa60c81a3808481b9a547ab097fa527a708e792992ea4443d66be3c5900ae3d"
+        },
+        {
+          "name": "model_4650_h1_6terrain_evaluation_20261011-030854_89b4c4a0.zip.sha256",
+          "bytes": 129,
+          "digest": "sha256:25890695c0cbdaccf353e423506b679d776aa6497e0dfe0767f6b7642a57edfd"
+        },
+        {
+          "name": "publication_manifest.json",
+          "bytes": 1767,
+          "digest": "sha256:be80d92609358e390adeb5943512a5e4e6fa55558740e5a5102a8f7236110812"
+        }
+      ],
+      "record": "private-h1-20261011-exp-h1-action-first-planar-tracking-switch-model4650-video-eval/README.md"
+    },
+    {
+      "tag": "private-h1-20261010-exp-h1-angular-tracking-boost-model2950-video-eval",
+      "title": "[분석] H1 ANGTRACK-065 · model_2950 · PERSONAL videos + full evaluation",
+      "source_release": "https://github.com/SE3C/naver-issacsim-nvidia/releases/tag/private-h1-20261010-exp-h1-angular-tracking-boost-model2950-video-eval",
+      "destination_release": "https://github.com/SE3C/naver-issacsim-eval/releases/tag/private-h1-20261010-exp-h1-angular-tracking-boost-model2950-video-eval",
+      "source_published_at": "2026-10-10T01:23:14Z",
+      "assets": [
+        {
+          "name": "model_best_h1_6terrain_evaluation_20261010-041416_066bf8a3.zip",
+          "bytes": 32626954,
+          "digest": "sha256:ec1bc325feae5cd6da1643a9fbbe13b0640ad7514b77b79e5532d8b836def93b"
+        },
+        {
+          "name": "model_best_h1_6terrain_evaluation_20261010-041416_066bf8a3.zip.sha256",
+          "bytes": 129,
+          "digest": "sha256:c78b335d269d34ad5178541a9d7763d7af393b9298de0cfd9c5c14fc4a83bac3"
+        },
+        {
+          "name": "publication_manifest.json",
+          "bytes": 2370,
+          "digest": "sha256:08ecb7d27e7abbae0ad0682630fc1959bbe46a1e97a04c9776461997c4ff6aee"
+        }
+      ],
+      "record": "private-h1-20261010-exp-h1-angular-tracking-boost-model2950-video-eval/README.md"
+    },
+    {
+      "tag": "private-h1-20261010-exp-h1-action-rate-smoothing-model2850-video-eval",
+      "title": "[분석] H1 ACTRATE-001 model_2850 PERSONAL 6-terrain video + scenario7 evaluation",
+      "source_release": "https://github.com/SE3C/naver-issacsim-nvidia/releases/tag/private-h1-20261010-exp-h1-action-rate-smoothing-model2850-video-eval",
+      "destination_release": "https://github.com/SE3C/naver-issacsim-eval/releases/tag/private-h1-20261010-exp-h1-action-rate-smoothing-model2850-video-eval",
+      "source_published_at": "2026-10-10T14:49:00Z",
+      "assets": [
+        {
+          "name": "model_2850_h1_6terrain_evaluation_20261010-233937_1cc2ab9d.zip",
+          "bytes": 35121564,
+          "digest": "sha256:1906880030393b904d7323bdbf71352f408a067328a09ac8bf87604438c07351"
+        },
+        {
+          "name": "model_2850_h1_6terrain_evaluation_20261010-233937_1cc2ab9d.zip.sha256",
+          "bytes": 129,
+          "digest": "sha256:8dfe7468ecc3c6e3807bb36df7a9c05203b3a44ef49a1eb121ace59c6b095f4f"
+        },
+        {
+          "name": "publication_manifest.json",
+          "bytes": 2168,
+          "digest": "sha256:458c2e96a4e1d4267277d987b4b79265846f2c2cb8d1bb8c6f5751219b1c93a1"
+        }
+      ],
+      "record": "private-h1-20261010-exp-h1-action-rate-smoothing-model2850-video-eval/README.md"
+    },
+    {
+      "tag": "private-h1-20261010-exp-h1-action-rate-relaxation-model2700-video-eval",
+      "title": "[분석] H1 ACTRATE-0001 · model_2700 · PERSONAL videos + full evaluation",
+      "source_release": "https://github.com/SE3C/naver-issacsim-nvidia/releases/tag/private-h1-20261010-exp-h1-action-rate-relaxation-model2700-video-eval",
+      "destination_release": "https://github.com/SE3C/naver-issacsim-eval/releases/tag/private-h1-20261010-exp-h1-action-rate-relaxation-model2700-video-eval",
+      "source_published_at": "2026-10-09T16:38:10Z",
+      "assets": [
+        {
+          "name": "model_2700_h1_6terrain_evaluation_20261010-012639_61aa406d.zip",
+          "bytes": 32539016,
+          "digest": "sha256:6270d299def2a3bcb8cc10253027898621dd65a00ad30baafde0cbcde03076e3"
+        },
+        {
+          "name": "model_2700_h1_6terrain_evaluation_20261010-012639_61aa406d.zip.sha256",
+          "bytes": 129,
+          "digest": "sha256:4eac0fec637ee9493f44cbbbe4e9e5bdf71bd9e8fbb273541455f2389653d828"
+        },
+        {
+          "name": "publication_manifest.json",
+          "bytes": 2655,
+          "digest": "sha256:c0c26d1d1e9e1d494f7eea93eb1e48a5781dfcfe6640a1c86419d99f817d54b9"
+        }
+      ],
+      "record": "private-h1-20261010-exp-h1-action-rate-relaxation-model2700-video-eval/README.md"
+    },
+    {
+      "tag": "private-h1-20261009-lintrack-075-corrected5k-model4997-video-eval",
+      "title": "[분석] H1 LINTRACK-075 corrected 5K · model_4997 · PERSONAL videos + full evaluation",
+      "source_release": "https://github.com/SE3C/naver-issacsim-nvidia/releases/tag/private-h1-20261009-lintrack-075-corrected5k-model4997-video-eval",
+      "destination_release": "https://github.com/SE3C/naver-issacsim-eval/releases/tag/private-h1-20261009-lintrack-075-corrected5k-model4997-video-eval",
+      "source_published_at": "2026-10-09T15:04:47Z",
+      "assets": [
+        {
+          "name": "h1_LINTRACK-075_corrected5k_model_4997_h1_6terrain_evaluation_20261009-235216_59e47db4.zip",
+          "bytes": 34470580,
+          "digest": "sha256:1c740a56fe30596202dbf98870f6f3d730d548d781131e86473f9d053e6a5488"
+        },
+        {
+          "name": "h1_LINTRACK-075_corrected5k_model_4997_h1_6terrain_evaluation_20261009-235216_59e47db4.zip.sha256",
+          "bytes": 157,
+          "digest": "sha256:18f5220868896eb85b3a9417342d43b5c4c9a6f4afbb890db7ea39ec968f5951"
+        },
+        {
+          "name": "publication_manifest.json",
+          "bytes": 3673,
+          "digest": "sha256:d03915720b60f10e4702864b5e1ed7f95ffcbb00391fcc5cbdad1dc90826e08a"
+        }
+      ],
+      "record": "private-h1-20261009-lintrack-075-corrected5k-model4997-video-eval/README.md"
+    },
+    {
+      "tag": "private-h1-20261008-exp-h1-rough-terrain-orientation-relaxation-model2800-control-video-eval",
+      "title": "[분석] H1 h1-submit-2 / TERM-50 · model_2800 · PERSONAL Windows 6영상 + 평가",
+      "source_release": "https://github.com/SE3C/naver-issacsim-nvidia/releases/tag/private-h1-20261008-exp-h1-rough-terrain-orientation-relaxation-model2800-control-video-eval",
+      "destination_release": "https://github.com/SE3C/naver-issacsim-eval/releases/tag/private-h1-20261008-exp-h1-rough-terrain-orientation-relaxation-model2800-control-video-eval",
+      "source_published_at": "2026-10-09T01:51:54Z",
+      "assets": [
+        {
+          "name": "model_2800_h1_6terrain_evaluation_20261008-171331_a8ab9d61.zip",
+          "bytes": 34012853,
+          "digest": "sha256:d4a47b0e182763e21077b688f44f7d9cdc00759c0f0f78f4217930e1c49975da"
+        },
+        {
+          "name": "model_2800_h1_6terrain_evaluation_20261008-171331_a8ab9d61.zip.sha256",
+          "bytes": 129,
+          "digest": "sha256:39ce2c2b8a47f9d27efac9fa6ee417372958f4f5df05ae7e034822261b6e3d4d"
+        },
+        {
+          "name": "publication_manifest.json",
+          "bytes": 2056,
+          "digest": "sha256:9c7705566d41564cededde43ebc681f5d2620ac36316eda07ac0be218f291668"
+        }
+      ],
+      "record": "private-h1-20261008-exp-h1-rough-terrain-orientation-relaxation-model2800-control-video-eval/README.md"
+    },
+    {
+      "tag": "private-go2-20261009-g2-submit-3-model4800-video-eval",
+      "title": "[분석] Go2 g2-submit-3 · original model_4800 · PERSONAL · 6-terrain + scenario7 evaluation",
+      "source_release": "https://github.com/SE3C/naver-issacsim-nvidia/releases/tag/private-go2-20261009-g2-submit-3-model4800-video-eval",
+      "destination_release": "https://github.com/SE3C/naver-issacsim-eval/releases/tag/private-go2-20261009-g2-submit-3-model4800-video-eval",
+      "source_published_at": "2026-10-09T13:41:06Z",
+      "assets": [
+        {
+          "name": "g2-submit-3_model_4800_go2_6terrain_evaluation_20261009-021618_04460d33.zip",
+          "bytes": 36843939,
+          "digest": "sha256:f2bb7917fd325544858ce5aecf801f54e24572c164ed5c6d38ed17c316a1d221"
+        },
+        {
+          "name": "g2-submit-3_model_4800_go2_6terrain_evaluation_20261009-021618_04460d33.zip.sha256",
+          "bytes": 142,
+          "digest": "sha256:e862fefc21ab4b5f12c664cfe51b801bfc8003cfb901ac8a9f8adc169da24f65"
+        },
+        {
+          "name": "publication_manifest.json",
+          "bytes": 2375,
+          "digest": "sha256:7d696d5a852e26505b46b5e125a9cf20e6993523588391f8f6953ecb086efa45"
+        }
+      ],
+      "record": "private-go2-20261009-g2-submit-3-model4800-video-eval/README.md"
+    },
+    {
+      "tag": "private-h1-20261007-exp-h1-rough-terrain-orientation-relaxation-model2850-video-eval",
+      "title": "[분석] H1 ORIENT-100 · model_2850 · PERSONAL Windows 6영상 + 평가",
+      "source_release": "https://github.com/SE3C/naver-issacsim-nvidia/releases/tag/private-h1-20261007-exp-h1-rough-terrain-orientation-relaxation-model2850-video-eval",
+      "destination_release": "https://github.com/SE3C/naver-issacsim-eval/releases/tag/private-h1-20261007-exp-h1-rough-terrain-orientation-relaxation-model2850-video-eval",
+      "source_published_at": "2026-10-07T01:10:21Z",
+      "assets": [
+        {
+          "name": "model_2850_ORIENT-100_h1_6terrain_evaluation_20261007-010444_f6b3b8b3.zip",
+          "bytes": 33323164,
+          "digest": "sha256:aecc82b13671d54c96813af6c02c1b2a7769ee001b30aa4a5c2761457110eb7a"
+        },
+        {
+          "name": "model_2850_ORIENT-100_h1_6terrain_evaluation_20261007-010444_f6b3b8b3.zip.sha256",
+          "bytes": 141,
+          "digest": "sha256:7ba9bac5159e55e523b0b895f2784141ce805a7990b3686921f3f04ff4ca2d72"
+        },
+        {
+          "name": "publication_manifest.json",
+          "bytes": 2153,
+          "digest": "sha256:509e03afed268aa9b6ac55e61125c95371f4f98048589d655976f4494fc544fb"
+        }
+      ],
+      "record": "private-h1-20261007-exp-h1-rough-terrain-orientation-relaxation-model2850-video-eval/README.md"
+    },
+    {
+      "tag": "private-go2-20261004-exp-go2-planar-tracking-terrain-progression-model7050-video-eval",
+      "title": "[분석] Go2 LINTRACK-125 · PERSONAL Windows · model_7050 · 6영상 + scenario7 평가",
+      "source_release": "https://github.com/SE3C/naver-issacsim-nvidia/releases/tag/private-go2-20261004-exp-go2-planar-tracking-terrain-progression-model7050-video-eval",
+      "destination_release": "https://github.com/SE3C/naver-issacsim-eval/releases/tag/private-go2-20261004-exp-go2-planar-tracking-terrain-progression-model7050-video-eval",
+      "source_published_at": "2026-10-04T01:22:47Z",
+      "assets": [
+        {
+          "name": "model_7050_go2_6terrain_evaluation_20261004-030710_e8bd9e18.zip",
+          "bytes": 34310566,
+          "digest": "sha256:34d45711d121a4bb59a92b6424f2652eeb915ed4f6436d49070389eacc33d1e1"
+        },
+        {
+          "name": "model_7050_go2_6terrain_evaluation_20261004-030710_e8bd9e18.zip.sha256",
+          "bytes": 130,
+          "digest": "sha256:df0ca8179d74a63e2492b5fe1badf4f619954f785acf3857015d4b7aab4e4ea2"
+        },
+        {
+          "name": "publication_manifest.json",
+          "bytes": 2053,
+          "digest": "sha256:7095b7d3c35e7782984fa64e622a91a4d8ce3ad782328637ed5163111255b492"
+        }
+      ],
+      "record": "private-go2-20261004-exp-go2-planar-tracking-terrain-progression-model7050-video-eval/README.md"
+    }
+  ]
+}

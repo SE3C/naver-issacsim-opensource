@@ -1,0 +1,7 @@
+﻿file,decoded_fps,reported_frames,video_times_s,selected_frame_count,full_frame_black_pixel_scan,black_frames_full_scan,black_frames_in_selected,selected_black_frame_ids,last_frame_robot_visibility,frame_998_status,inspection_scope
+01_stairs.mp4,50,1000,0.00..19.98,45,True,1,1,0,"body disappears at f999, colored command marker remains",body visible,selected frames across 0-20s; not an all-frame action review
+02_inverted_stairs.mp4,50,1000,0.00..19.98,45,True,1,1,0,"body disappears at f999, colored command marker remains",body visible,selected frames across 0-20s; not an all-frame action review
+03_boxes.mp4,50,1000,0.00..19.98,45,True,1,1,0,"body disappears at f999, colored command marker remains",body visible,selected frames across 0-20s; not an all-frame action review
+04_random_rough.mp4,50,1000,0.00..19.98,45,True,1,1,0,"body disappears at f999, colored command marker remains",body visible,selected frames across 0-20s; not an all-frame action review
+05_slope_up_10deg.mp4,50,1000,0.00..19.98,36,False,,1,0,"body disappears at f999, colored command marker remains",body visible,selected frames across 0-20s; not an all-frame action review
+06_slope_down_10deg.mp4,50,1000,0.00..19.98,36,False,,1,0,"body disappears at f999, colored command marker remains",body visible,selected frames across 0-20s; not an all-frame action review

@@ -1,0 +1,630 @@
+{
+  "source": "ZIP index.html pure source constants/formula",
+  "scenario_weight_sum": 70,
+  "anchor_target_official70": 56.37,
+  "anchor_B_calculated": {
+    "raw70": 50.1193,
+    "base70": 56.370000000000005,
+    "final70": 56.370000000000005,
+    "objective": 0.8052857142857144,
+    "per": [
+      {
+        "id": "H1",
+        "raw": 8.27715,
+        "base": 8.62,
+        "final": 8.62,
+        "delta_norm": 0
+      },
+      {
+        "id": "H2",
+        "raw": 9.8014,
+        "base": 11.24,
+        "final": 11.24,
+        "delta_norm": 0
+      },
+      {
+        "id": "H3",
+        "raw": 5.4124,
+        "base": 5.73,
+        "final": 5.73,
+        "delta_norm": 0
+      },
+      {
+        "id": "H4",
+        "raw": 5.1968,
+        "base": 5.66,
+        "final": 5.66,
+        "delta_norm": 0
+      },
+      {
+        "id": "H5",
+        "raw": 6.7095,
+        "base": 8.17,
+        "final": 8.17,
+        "delta_norm": 0
+      },
+      {
+        "id": "H6",
+        "raw": 7.406700000000001,
+        "base": 8.47,
+        "final": 8.47,
+        "delta_norm": 0
+      },
+      {
+        "id": "H7",
+        "raw": 7.31535,
+        "base": 8.48,
+        "final": 8.48,
+        "delta_norm": 0
+      }
+    ]
+  },
+  "profiles": {
+    "term50_official_anchor_5637": {
+      "declared_globalDelta70": 6.2507,
+      "actual_example_raw_delta70": 6.250700000000002,
+      "example": {
+        "raw70": 50.1193,
+        "base70": 56.370000000000005,
+        "final70": 56.370000000000005,
+        "objective": 0.8052857142857144,
+        "per": [
+          {
+            "id": "H1",
+            "raw": 8.27715,
+            "base": 8.62,
+            "final": 8.62,
+            "delta_norm": 0
+          },
+          {
+            "id": "H2",
+            "raw": 9.8014,
+            "base": 11.24,
+            "final": 11.24,
+            "delta_norm": 0
+          },
+          {
+            "id": "H3",
+            "raw": 5.4124,
+            "base": 5.73,
+            "final": 5.73,
+            "delta_norm": 0
+          },
+          {
+            "id": "H4",
+            "raw": 5.1968,
+            "base": 5.66,
+            "final": 5.66,
+            "delta_norm": 0
+          },
+          {
+            "id": "H5",
+            "raw": 6.7095,
+            "base": 8.17,
+            "final": 8.17,
+            "delta_norm": 0
+          },
+          {
+            "id": "H6",
+            "raw": 7.406700000000001,
+            "base": 8.47,
+            "final": 8.47,
+            "delta_norm": 0
+          },
+          {
+            "id": "H7",
+            "raw": 7.31535,
+            "base": 8.48,
+            "final": 8.48,
+            "delta_norm": 0
+          }
+        ]
+      },
+      "blank": {
+        "raw70": 0,
+        "base70": 6.250700000000002,
+        "final70": 6.250700000000002,
+        "objective": 0.08929571428571431,
+        "per": [
+          {
+            "id": "H1",
+            "raw": 0,
+            "base": 0.3428499999999992,
+            "final": 0.3428499999999992,
+            "delta_norm": 0
+          },
+          {
+            "id": "H2",
+            "raw": 0,
+            "base": 1.4386000000000003,
+            "final": 1.4386000000000003,
+            "delta_norm": 0
+          },
+          {
+            "id": "H3",
+            "raw": 0,
+            "base": 0.3176000000000003,
+            "final": 0.3176000000000003,
+            "delta_norm": 0
+          },
+          {
+            "id": "H4",
+            "raw": 0,
+            "base": 0.4632000000000006,
+            "final": 0.4632000000000006,
+            "delta_norm": 0
+          },
+          {
+            "id": "H5",
+            "raw": 0,
+            "base": 1.4604999999999995,
+            "final": 1.4604999999999995,
+            "delta_norm": 0
+          },
+          {
+            "id": "H6",
+            "raw": 0,
+            "base": 1.0633000000000006,
+            "final": 1.0633000000000006,
+            "delta_norm": 0
+          },
+          {
+            "id": "H7",
+            "raw": 0,
+            "base": 1.1646500000000009,
+            "final": 1.1646500000000009,
+            "delta_norm": 0
+          }
+        ]
+      },
+      "mean_delta_on_interior": 6.250700000000002
+    },
+    "ab_mean_20260921": {
+      "declared_globalDelta70": 6.9,
+      "actual_example_raw_delta70": 6.396599999999999,
+      "example": {
+        "raw70": 50.1193,
+        "base70": 56.5159,
+        "final70": 56.5159,
+        "objective": 0.80737,
+        "per": [
+          {
+            "id": "H1",
+            "raw": 8.27715,
+            "base": 8.620000000000001,
+            "final": 8.620000000000001,
+            "delta_norm": 0
+          },
+          {
+            "id": "H2",
+            "raw": 9.8014,
+            "base": 11.419999999999998,
+            "final": 11.419999999999998,
+            "delta_norm": 0
+          },
+          {
+            "id": "H3",
+            "raw": 5.4124,
+            "base": 5.739999999999999,
+            "final": 5.739999999999999,
+            "delta_norm": 0
+          },
+          {
+            "id": "H4",
+            "raw": 5.1968,
+            "base": 5.72,
+            "final": 5.72,
+            "delta_norm": 0
+          },
+          {
+            "id": "H5",
+            "raw": 6.7095,
+            "base": 7.9165,
+            "final": 7.9165,
+            "delta_norm": 0
+          },
+          {
+            "id": "H6",
+            "raw": 7.406700000000001,
+            "base": 8.542,
+            "final": 8.542,
+            "delta_norm": 0
+          },
+          {
+            "id": "H7",
+            "raw": 7.31535,
+            "base": 8.5574,
+            "final": 8.5574,
+            "delta_norm": 0
+          }
+        ]
+      },
+      "blank": {
+        "raw70": 0,
+        "base70": 6.396599999999999,
+        "final70": 6.396599999999999,
+        "objective": 0.09137999999999999,
+        "per": [
+          {
+            "id": "H1",
+            "raw": 0,
+            "base": 0.34284999999999993,
+            "final": 0.34284999999999993,
+            "delta_norm": 0
+          },
+          {
+            "id": "H2",
+            "raw": 0,
+            "base": 1.6186,
+            "final": 1.6186,
+            "delta_norm": 0
+          },
+          {
+            "id": "H3",
+            "raw": 0,
+            "base": 0.3276,
+            "final": 0.3276,
+            "delta_norm": 0
+          },
+          {
+            "id": "H4",
+            "raw": 0,
+            "base": 0.5231999999999999,
+            "final": 0.5231999999999999,
+            "delta_norm": 0
+          },
+          {
+            "id": "H5",
+            "raw": 0,
+            "base": 1.207,
+            "final": 1.207,
+            "delta_norm": 0
+          },
+          {
+            "id": "H6",
+            "raw": 0,
+            "base": 1.1353,
+            "final": 1.1353,
+            "delta_norm": 0
+          },
+          {
+            "id": "H7",
+            "raw": 0,
+            "base": 1.24205,
+            "final": 1.24205,
+            "delta_norm": 0
+          }
+        ]
+      },
+      "mean_delta_on_interior": 6.396599999999999
+    },
+    "b_exact_20260921": {
+      "declared_globalDelta70": 6.38,
+      "actual_example_raw_delta70": 6.396599999999999,
+      "example": {
+        "raw70": 50.1193,
+        "base70": 56.5159,
+        "final70": 56.5159,
+        "objective": 0.80737,
+        "per": [
+          {
+            "id": "H1",
+            "raw": 8.27715,
+            "base": 8.620000000000001,
+            "final": 8.620000000000001,
+            "delta_norm": 0
+          },
+          {
+            "id": "H2",
+            "raw": 9.8014,
+            "base": 11.419999999999998,
+            "final": 11.419999999999998,
+            "delta_norm": 0
+          },
+          {
+            "id": "H3",
+            "raw": 5.4124,
+            "base": 5.739999999999999,
+            "final": 5.739999999999999,
+            "delta_norm": 0
+          },
+          {
+            "id": "H4",
+            "raw": 5.1968,
+            "base": 5.72,
+            "final": 5.72,
+            "delta_norm": 0
+          },
+          {
+            "id": "H5",
+            "raw": 6.7095,
+            "base": 7.9165,
+            "final": 7.9165,
+            "delta_norm": 0
+          },
+          {
+            "id": "H6",
+            "raw": 7.406700000000001,
+            "base": 8.542,
+            "final": 8.542,
+            "delta_norm": 0
+          },
+          {
+            "id": "H7",
+            "raw": 7.31535,
+            "base": 8.5574,
+            "final": 8.5574,
+            "delta_norm": 0
+          }
+        ]
+      },
+      "blank": {
+        "raw70": 0,
+        "base70": 6.396599999999999,
+        "final70": 6.396599999999999,
+        "objective": 0.09137999999999999,
+        "per": [
+          {
+            "id": "H1",
+            "raw": 0,
+            "base": 0.34284999999999993,
+            "final": 0.34284999999999993,
+            "delta_norm": 0
+          },
+          {
+            "id": "H2",
+            "raw": 0,
+            "base": 1.6186,
+            "final": 1.6186,
+            "delta_norm": 0
+          },
+          {
+            "id": "H3",
+            "raw": 0,
+            "base": 0.3276,
+            "final": 0.3276,
+            "delta_norm": 0
+          },
+          {
+            "id": "H4",
+            "raw": 0,
+            "base": 0.5231999999999999,
+            "final": 0.5231999999999999,
+            "delta_norm": 0
+          },
+          {
+            "id": "H5",
+            "raw": 0,
+            "base": 1.207,
+            "final": 1.207,
+            "delta_norm": 0
+          },
+          {
+            "id": "H6",
+            "raw": 0,
+            "base": 1.1353,
+            "final": 1.1353,
+            "delta_norm": 0
+          },
+          {
+            "id": "H7",
+            "raw": 0,
+            "base": 1.24205,
+            "final": 1.24205,
+            "delta_norm": 0
+          }
+        ]
+      },
+      "mean_delta_on_interior": 6.396599999999999
+    },
+    "ref_mean_20260921": {
+      "declared_globalDelta70": -0.325,
+      "actual_example_raw_delta70": -0.176400000000001,
+      "example": {
+        "raw70": 50.1193,
+        "base70": 49.9429,
+        "final70": 49.9429,
+        "objective": 0.71347,
+        "per": [
+          {
+            "id": "H1",
+            "raw": 8.27715,
+            "base": 8.2446,
+            "final": 8.2446,
+            "delta_norm": 0
+          },
+          {
+            "id": "H2",
+            "raw": 9.8014,
+            "base": 9.7804,
+            "final": 9.7804,
+            "delta_norm": 0
+          },
+          {
+            "id": "H3",
+            "raw": 5.4124,
+            "base": 5.3984,
+            "final": 5.3984,
+            "delta_norm": 0
+          },
+          {
+            "id": "H4",
+            "raw": 5.1968,
+            "base": 5.1898,
+            "final": 5.1898,
+            "delta_norm": 0
+          },
+          {
+            "id": "H5",
+            "raw": 6.7095,
+            "base": 6.6675,
+            "final": 6.6675,
+            "delta_norm": 0
+          },
+          {
+            "id": "H6",
+            "raw": 7.406700000000001,
+            "base": 7.380450000000001,
+            "final": 7.380450000000001,
+            "delta_norm": 0
+          },
+          {
+            "id": "H7",
+            "raw": 7.31535,
+            "base": 7.28175,
+            "final": 7.28175,
+            "delta_norm": 0
+          }
+        ]
+      },
+      "blank": {
+        "raw70": 0,
+        "base70": 0,
+        "final70": 0,
+        "objective": 0,
+        "per": [
+          {
+            "id": "H1",
+            "raw": 0,
+            "base": 0,
+            "final": 0,
+            "delta_norm": 0
+          },
+          {
+            "id": "H2",
+            "raw": 0,
+            "base": 0,
+            "final": 0,
+            "delta_norm": 0
+          },
+          {
+            "id": "H3",
+            "raw": 0,
+            "base": 0,
+            "final": 0,
+            "delta_norm": 0
+          },
+          {
+            "id": "H4",
+            "raw": 0,
+            "base": 0,
+            "final": 0,
+            "delta_norm": 0
+          },
+          {
+            "id": "H5",
+            "raw": 0,
+            "base": 0,
+            "final": 0,
+            "delta_norm": 0
+          },
+          {
+            "id": "H6",
+            "raw": 0,
+            "base": 0,
+            "final": 0,
+            "delta_norm": 0
+          },
+          {
+            "id": "H7",
+            "raw": 0,
+            "base": 0,
+            "final": 0,
+            "delta_norm": 0
+          }
+        ]
+      },
+      "mean_delta_on_interior": -0.1764
+    }
+  },
+  "log_at_anchor": {
+    "raw70": 50.1193,
+    "base70": 56.370000000000005,
+    "final70": 56.370000000000005,
+    "objective": 0.8052857142857144,
+    "per": [
+      {
+        "id": "H1",
+        "raw": 8.27715,
+        "base": 8.62,
+        "final": 8.62,
+        "delta_norm": 0
+      },
+      {
+        "id": "H2",
+        "raw": 9.8014,
+        "base": 11.24,
+        "final": 11.24,
+        "delta_norm": 0
+      },
+      {
+        "id": "H3",
+        "raw": 5.4124,
+        "base": 5.73,
+        "final": 5.73,
+        "delta_norm": 0
+      },
+      {
+        "id": "H4",
+        "raw": 5.1968,
+        "base": 5.66,
+        "final": 5.66,
+        "delta_norm": 0
+      },
+      {
+        "id": "H5",
+        "raw": 6.7095,
+        "base": 8.17,
+        "final": 8.17,
+        "delta_norm": 0
+      },
+      {
+        "id": "H6",
+        "raw": 7.406700000000001,
+        "base": 8.47,
+        "final": 8.47,
+        "delta_norm": 0
+      },
+      {
+        "id": "H7",
+        "raw": 7.31535,
+        "base": 8.48,
+        "final": 8.48,
+        "delta_norm": 0
+      }
+    ]
+  },
+  "log_rank_flip": {
+    "A_raw": 56.70000000000001,
+    "B_raw": 56,
+    "A_final": 60.99616,
+    "B_final": 62.25070000000001,
+    "A_fall_pct": 35,
+    "B_fall_pct": 28.93
+  },
+  "clipped_fixed_delta_rank_flip": {
+    "a_inputs": {
+      "H1": 0.5,
+      "H2": 0.21999999999999997,
+      "H3": 0.5,
+      "H4": 0.5,
+      "H5": 0.88,
+      "H6": 0.5,
+      "H7": 0.5
+    },
+    "b_inputs": {
+      "H1": 0.5,
+      "H2": 0.5,
+      "H3": 0.5,
+      "H4": 0.5,
+      "H5": 0.5,
+      "H6": 0.5,
+      "H7": 0.5
+    },
+    "a_raw": 35.07,
+    "b_raw": 35,
+    "a_base": 41.120200000000004,
+    "b_base": 41.2507
+  },
+  "fixed_delta_max_adjustment70": 3.5
+}
