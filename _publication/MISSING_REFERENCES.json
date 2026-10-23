@@ -1,82 +1,12 @@
 [
   {
-    "file": "naver-issacsim/ORIGINALS_REFERENCE.md",
-    "original_reference": "data/processed/experiments/RECENT_POLICY_LINKS.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
     "file": "naver-issacsim/PROJECT_CONTEXT.md",
     "original_reference": "data/processed/codebase/README.md",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
     "file": "naver-issacsim/README.md",
-    "original_reference": "data/processed/experiments/RECENT_POLICY_LINKS.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/README.md",
     "original_reference": "data/processed/codebase/README.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/README.md",
-    "original_reference": "data/processed/experiments/DERIVED_IDENTITY_MAP.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/README.md",
-    "original_reference": "data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/README.md",
-    "original_reference": "data/processed/incoming/REPORT_CROSSWALK.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/README.md",
-    "original_reference": "data/processed/incoming/other/reviewed/README.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/README.md",
-    "original_reference": "data/processed/incoming/other/inbox/README.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/README.md",
-    "original_reference": "data/processed/incoming/README.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/README.md",
-    "original_reference": "data/processed/experiments/DERIVED_IDENTITY_MAP.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/data/processed/README.md",
-    "original_reference": "incoming/README.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/data/processed/README.md",
-    "original_reference": "experiments/README.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/data/processed/ai_library/00_START_HERE_CONTEXT_AND_MAP.md",
-    "original_reference": "../experiments/RECENT_POLICY_LINKS.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/data/processed/ai_library/00_START_HERE_CONTEXT_AND_MAP.md",
-    "original_reference": "../incoming/README.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/data/processed/ai_library/00_START_HERE_CONTEXT_AND_MAP.md",
-    "original_reference": "../incoming/RELATIONSHIPS.md",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
@@ -135,11 +65,6 @@
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/ai_library/21_WINDOWS_GO2_VIDEO_AND_EVALUATION.md",
-    "original_reference": "../experiments/RECENT_POLICY_LINKS.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
     "file": "naver-issacsim/data/processed/ai_library/_history/00_START_HERE_20261012_PRE_CLEANUP.md",
     "original_reference": "../../incoming/other/reviewed/2026-09-26_H1_ORGANIZER_CHECKPOINT_QA_SIRIUS_YEOLMU.md",
     "status": "not_in_selected_snapshot_or_historical_reference"
@@ -155,8 +80,18 @@
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/experiments/go2/README.md",
-    "original_reference": "../../incoming/REPORT_CROSSWALK.md",
+    "file": "naver-issacsim/data/processed/experiments/README.md",
+    "original_reference": "./h1/analysis/2026-09-10_OFFICIAL_EVAL_H1_ROUND2_TERM50.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/experiments/README.md",
+    "original_reference": "./h1/analysis/2026-09-30_OFFICIAL_EVAL_H1_ROUND4_AIRTIME025.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/experiments/RECENT_POLICY_LINKS.md",
+    "original_reference": "../incoming/other/reviewed/NCRC_R3_WEIGHT_SIMILARITY_DISCOVERY_2026-09-23.md",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
@@ -227,11 +162,6 @@
   {
     "file": "naver-issacsim/data/processed/experiments/h1/README.md",
     "original_reference": "./2026-10-19_PRELIM_R7_MODEL40500_SUBMISSION/env.yaml",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/data/processed/experiments/h1/README.md",
-    "original_reference": "../../incoming/REPORT_CROSSWALK.md",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
@@ -310,33 +240,138 @@
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/incoming/other/reviewed/H1_ACTRATE0002_MODEL2950_POLICY_ANALYSIS_20261017/H1_ACTRATE0002_MODEL2950_POLICY_ANALYSIS_20261017.md",
-    "original_reference": "figures/body_progress_vs_command.png",
+    "file": "naver-issacsim/data/processed/incoming/REPORT_CROSSWALK.md",
+    "original_reference": "other/reviewed/GO2_R3_R5_SURVIVAL_TRACKING_ORGANIZER_DM_RECEIVED_20261008.md",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/incoming/other/reviewed/H1_ACTRATE0002_MODEL2950_POLICY_ANALYSIS_20261017/H1_ACTRATE0002_MODEL2950_POLICY_ANALYSIS_20261017.md",
-    "original_reference": "figures/unwanted_motion.png",
+    "file": "naver-issacsim/data/processed/incoming/REPORT_CROSSWALK.md",
+    "original_reference": "other/reviewed/SE3C_예선5라운드_Go2_공식평가_사용자전달원문_20261008.md",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/incoming/other/reviewed/H1_ACTRATE_PARENT_UNCHANGED_RESTORATION_COMPARISON_20261015/H1_ACTRATE_PARENT_UNCHANGED_RESTORATION_REPORT_20261015.md",
-    "original_reference": "figures/rough_progress_ecdf.png",
+    "file": "naver-issacsim/data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
+    "original_reference": "other/reviewed/NCRC 예선 직접 평가20261021.pdf",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/incoming/other/reviewed/H1_ACTRATE_PARENT_UNCHANGED_RESTORATION_COMPARISON_20261015/H1_ACTRATE_PARENT_UNCHANGED_RESTORATION_REPORT_20261015.md",
-    "original_reference": "figures/rough_mean_p05_worst.png",
+    "file": "naver-issacsim/data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
+    "original_reference": "other/reviewed/H1_MODEL11650_OFFICIAL_EVALUATION_COMMENT_20261021.txt",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/incoming/other/reviewed/H1_ACTRATE_PARENT_UNCHANGED_RESTORATION_COMPARISON_20261015/H1_ACTRATE_PARENT_UNCHANGED_RESTORATION_REPORT_20261015.md",
-    "original_reference": "figures/scenario_tracking.png",
+    "file": "naver-issacsim/data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
+    "original_reference": "other/reviewed/H1_ROUND7_ORGANIZER_FILE_CONFIRMATION_20261021.txt",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/incoming/other/reviewed/H1_ACTRATE_PARENT_UNCHANGED_RESTORATION_COMPARISON_20261015/H1_ACTRATE_PARENT_UNCHANGED_RESTORATION_REPORT_20261015.md",
-    "original_reference": "figures/rough_seed_consistency.png",
+    "file": "naver-issacsim/data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
+    "original_reference": "other/reviewed/H1_JOINT-LIN065-ANG060-ACT0003_POLICY_ANALYSIS_20261017/H1_JOINT-LIN065-ANG060-ACT0003_POLICY_ANALYSIS_20261017.zip",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
+    "original_reference": "other/reviewed/H1_ACTRATE0002_MODEL2950_POLICY_ANALYSIS_20261017/H1_ACTRATE0002_MODEL2950_POLICY_ANALYSIS_20261017.zip",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
+    "original_reference": "other/reviewed/SE3C_예선4라운드_H1_평가_20260930.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
+    "original_reference": "other/reviewed/GO2_R3_R5_SURVIVAL_TRACKING_ORGANIZER_DM_RECEIVED_20261008.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
+    "original_reference": "other/reviewed/SE3C_예선3라운드_Go2_평가_및_운영진답변_20260920.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
+    "original_reference": "other/reviewed/SE3C_예선5라운드_Go2_공식평가_사용자전달원문_20261008.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
+    "original_reference": "other/reviewed/01_운영진_자동평가_Tracking_Survival_공개답변_20260926.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
+    "original_reference": "other/reviewed/2026-09-21_OPTUNA_PERSONAL_ASK_TELL_ORGANIZER_APPROVAL.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
+    "original_reference": "other/reviewed/2026-09-26_H1_ORGANIZER_CHECKPOINT_QA_SIRIUS_YEOLMU.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
+    "original_reference": "other/reviewed/2026-10-02_SUBMISSION_REPORT_BASELINE_REFERENCE_ORGANIZER_REPLY.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
+    "original_reference": "other/reviewed/NCRC_2026_예선_리포트_1차_영상_OCR_결과.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
+    "original_reference": "other/reviewed/NCRC_20260913_MASTER_TRACKING_REPORT.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
+    "original_reference": "other/reviewed/NCRC_R3_WEIGHT_SIMILARITY_DISCOVERY_2026-09-23.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
+    "original_reference": "other/reviewed/NCRC_WEBSITE_PUBLIC_ANALYSIS_2026-09-23.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/ot/README.md",
+    "original_reference": "./transcripts/2026_ot_online_briefing_corrected_transcript.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/ot/README.md",
+    "original_reference": "./transcripts/2026_ot_online_briefing_corrected_captions.srt",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/ot/README.md",
+    "original_reference": "./analyses/2026_ot_online_briefing_low_confidence_crosscheck.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/ot/README.md",
+    "original_reference": "./analyses/2026_ot_online_briefing_audio_video_integrated_analysis.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/inbox/README.md",
+    "original_reference": "./h1_finalize_bug_status/NCRC_H1_finalize_bug_현재상태_2026-08-26_수신원문.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/inbox/README.md",
+    "original_reference": "./h1_finalize_bug_status/h1_finalize_bug_current_status_수신원문.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/inbox/README.md",
+    "original_reference": "./personal_server/H1_exp1_termination_m50_long_25000iter_통합분석_수신원문.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/inbox/README.md",
+    "original_reference": "./personal_server/h1_2026-09-07_l40s_baseline_screening/README.md",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
@@ -1280,63 +1315,158 @@
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/incoming/other/reviewed/H1_JOINT-LIN065-ANG060-ACT0003_POLICY_ANALYSIS_20261017/H1_JOINT-LIN065-ANG060-ACT0003_POLICY_ANALYSIS_20261017.md",
-    "original_reference": "figures/tracking_by_case.png",
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./NCRC 예선 직접 평가20261021.pdf",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/incoming/other/reviewed/H1_JOINT-LIN065-ANG060-ACT0003_POLICY_ANALYSIS_20261017/H1_JOINT-LIN065-ANG060-ACT0003_POLICY_ANALYSIS_20261017.md",
-    "original_reference": "figures/H5_progress_histogram.png",
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./H1_MODEL11650_OFFICIAL_EVALUATION_COMMENT_20261021.txt",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/incoming/other/reviewed/H1_JOINTTRACK_ORIENT_MODEL2850_POLICY_ANALYSIS_20261017/H1_JOINTTRACK_ORIENT_MODEL2850_POLICY_ANALYSIS_20261017.md",
-    "original_reference": "h5_progress_histogram.png",
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./H1_ROUND7_ORGANIZER_FILE_CONFIRMATION_20261021.txt",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/incoming/other/reviewed/H1_JOINTTRACK_ORIENT_MODEL2850_POLICY_ANALYSIS_20261017/H1_JOINTTRACK_ORIENT_MODEL2850_POLICY_ANALYSIS_20261017.md",
-    "original_reference": "video_frames/01_stairs_zoom.jpg",
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./H1_10K_TOP10_SELECTION_20261018/received_original.zip",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/incoming/other/reviewed/H1_JOINTTRACK_ORIENT_MODEL2850_POLICY_ANALYSIS_20261017/H1_JOINTTRACK_ORIENT_MODEL2850_POLICY_ANALYSIS_20261017.md",
-    "original_reference": "video_frames/02_inverted_stairs_zoom.jpg",
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./H1_LINTRACK075_ACTRATE0001_TERM50_FRESH3K_MODEL2850_POLICY_ANALYSIS_20261018/H1_LINTRACK075_ACTRATE0001_TERM50_FRESH3K_MODEL2850_POLICY_ANALYSIS_20261018.zip",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/incoming/other/reviewed/H1_JOINTTRACK_ORIENT_MODEL2850_POLICY_ANALYSIS_20261017/H1_JOINTTRACK_ORIENT_MODEL2850_POLICY_ANALYSIS_20261017.md",
-    "original_reference": "video_frames/03_boxes_zoom.jpg",
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./H1_JOINTTRACK_ORIENT_MODEL2850_POLICY_ANALYSIS_20261017/H1_JOINTTRACK_ORIENT_MODEL2850_POLICY_ANALYSIS_20261017.zip",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/incoming/other/reviewed/H1_JOINTTRACK_ORIENT_MODEL2850_POLICY_ANALYSIS_20261017/H1_JOINTTRACK_ORIENT_MODEL2850_POLICY_ANALYSIS_20261017.md",
-    "original_reference": "video_frames/04_random_rough_zoom.jpg",
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./H1_JOINT-LIN065-ANG060-ACT0003_POLICY_ANALYSIS_20261017/H1_JOINT-LIN065-ANG060-ACT0003_POLICY_ANALYSIS_20261017.zip",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/incoming/other/reviewed/H1_JOINTTRACK_ORIENT_MODEL2850_POLICY_ANALYSIS_20261017/H1_JOINTTRACK_ORIENT_MODEL2850_POLICY_ANALYSIS_20261017.md",
-    "original_reference": "video_frames/05_slope_up_10deg_zoom.jpg",
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./H1_ACTRATE0002_MODEL2950_POLICY_ANALYSIS_20261017/H1_ACTRATE0002_MODEL2950_POLICY_ANALYSIS_20261017.zip",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/incoming/other/reviewed/H1_JOINTTRACK_ORIENT_MODEL2850_POLICY_ANALYSIS_20261017/H1_JOINTTRACK_ORIENT_MODEL2850_POLICY_ANALYSIS_20261017.md",
-    "original_reference": "video_frames/06_slope_down_10deg_zoom.jpg",
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./NCRC_OPTUNA_PC_ASK_TELL_V2_20261015/MANIFEST_SHA256.json",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/incoming/other/reviewed/H1_LINTRACK075_ACTRATE0001_TERM50_FRESH3K_MODEL2850_POLICY_ANALYSIS_20261018/H1_LINTRACK075_ACTRATE0001_TERM50_FRESH3K_MODEL2850_POLICY_ANALYSIS_20261018.md",
-    "original_reference": "figures/tracking_by_case.png",
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./H1_HYPOTHESIS_DECISION_20261015/evidence/INPUT_FILES.json",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/incoming/other/reviewed/H1_LINTRACK075_ACTRATE0001_TERM50_FRESH3K_MODEL2850_POLICY_ANALYSIS_20261018/H1_LINTRACK075_ACTRATE0001_TERM50_FRESH3K_MODEL2850_POLICY_ANALYSIS_20261018.md",
-    "original_reference": "figures/yaw_error_by_case.png",
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./H1_HYPOTHESIS_DECISION_20261015/evidence/presets/h1-submit-2/agent.yaml",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/data/processed/incoming/other/reviewed/H1_LINTRACK075_ACTRATE0001_TERM50_FRESH3K_MODEL2850_POLICY_ANALYSIS_20261018/H1_LINTRACK075_ACTRATE0001_TERM50_FRESH3K_MODEL2850_POLICY_ANALYSIS_20261018.md",
-    "original_reference": "figures/h5_progress_distribution.png",
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./H1_HYPOTHESIS_DECISION_20261015/evidence/presets/h1-submit-2/env.yaml",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./H1_HYPOTHESIS_DECISION_20261015/evidence/presets/h1-submit-6/env.yaml",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./H1_HYPOTHESIS_DECISION_20261015/evidence/reference/06_HUMANOID_TRAINING_CODE.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./NCRC_OPTUNA_PC_ASK_TELL_V2_20261015/MANIFEST_SHA256.json",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./NCRC_OPTUNA_PC_ASK_TELL_V2_20261015/improved_pc_optuna_v2/reference/calibrator_DIAGNOSTIC_ONLY.html",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./NCRC_OPTUNA_PC_ASK_TELL_V2_20261015/improved_pc_optuna_v2/start.bat",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./NCRC_OPTUNA_PC_ASK_TELL_V2_20261015/source_originals/OPTUNA_EXISTING_SESSION_IMPROVEMENT_20261015.zip",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./NCRC_H1_review_report_and_cpu_evidence_20261015/fixture_synthetic_eval.zip",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./SE3C_예선4라운드_H1_평가_20260930.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./GO2_R3_R5_SURVIVAL_TRACKING_ORGANIZER_DM_RECEIVED_20261008.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./SE3C_예선3라운드_Go2_평가_및_운영진답변_20260920.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./SE3C_예선5라운드_Go2_공식평가_사용자전달원문_20261008.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./01_운영진_자동평가_Tracking_Survival_공개답변_20260926.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./2026-09-21_OPTUNA_PERSONAL_ASK_TELL_ORGANIZER_APPROVAL.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./2026-09-26_H1_ORGANIZER_CHECKPOINT_QA_SIRIUS_YEOLMU.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./2026-10-02_SUBMISSION_REPORT_BASELINE_REFERENCE_ORGANIZER_REPLY.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./NCRC_R3_WEIGHT_SIMILARITY_DISCOVERY_2026-09-23.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./NCRC_WEBSITE_PUBLIC_ANALYSIS_2026-09-23.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./NCRC_20260913_MASTER_TRACKING_REPORT.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
+    "file": "naver-issacsim/data/processed/incoming/other/reviewed/README.md",
+    "original_reference": "./NCRC_2026_예선_리포트_1차_영상_OCR_결과.md",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
@@ -1352,11 +1482,6 @@
   {
     "file": "naver-issacsim/data/processed/operations/2026-10-15_OPTUNA_PC_ASK_TELL_V2_INTAKE.md",
     "original_reference": "../incoming/other/reviewed/2026-09-21_OPTUNA_PERSONAL_ASK_TELL_ORGANIZER_APPROVAL.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/data/processed/operations/README.md",
-    "original_reference": "../experiments/README.md",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
@@ -1425,68 +1550,13 @@
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/docs/AI_LIBRARY_GUIDE.md",
-    "original_reference": "../data/processed/experiments/RECENT_POLICY_LINKS.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/docs/DATA_LAYOUT.md",
-    "original_reference": "../data/processed/incoming/ot/README.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/docs/DATA_LAYOUT.md",
-    "original_reference": "../data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/docs/DATA_LAYOUT.md",
-    "original_reference": "../data/processed/incoming/REPORT_CROSSWALK.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/docs/DATA_LAYOUT.md",
-    "original_reference": "../data/processed/incoming/other/reviewed/README.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/docs/DATA_LAYOUT.md",
-    "original_reference": "../data/processed/incoming/other/inbox/README.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/docs/DATA_LAYOUT.md",
-    "original_reference": "../data/processed/experiments/README.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
     "file": "naver-issacsim/docs/RELEASE_TAXONOMY.md",
     "original_reference": "../data/processed/experiments/h1/analysis/2026-09-30_OFFICIAL_EVAL_H1_ROUND4_AIRTIME025.md",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
-    "file": "naver-issacsim/docs/reorganization/2026-10-12_STAGE4_REPORT_LINKAGE.md",
-    "original_reference": "../../data/processed/incoming/REPORT_CROSSWALK.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/docs/reorganization/2026-10-12_STAGE5_SOURCE_COVERAGE.md",
-    "original_reference": "../../data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/docs/reorganization/2026-10-12_STAGE5_SOURCE_COVERAGE.md",
-    "original_reference": "../../data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
     "file": "naver-issacsim/docs/reorganization/2026-10-13_STAGE7_WORK_TYPE_SPLIT.md",
     "original_reference": "./_snapshots/2026-10-13_NVIDIA_RELEASES_BEFORE.json",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/docs/reorganization/2026-10-13_STAGE7_WORK_TYPE_SPLIT.md",
-    "original_reference": "../../data/processed/experiments/RECENT_POLICY_LINKS.md",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
@@ -1616,22 +1686,7 @@
   },
   {
     "file": "naver-issacsim/docs/reorganization/README.md",
-    "original_reference": "../../data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/docs/reorganization/README.md",
-    "original_reference": "../../data/processed/incoming/other/inbox/README.md",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/docs/reorganization/README.md",
     "original_reference": "./_snapshots/2026-10-13_NVIDIA_RELEASES_BEFORE.json",
-    "status": "not_in_selected_snapshot_or_historical_reference"
-  },
-  {
-    "file": "naver-issacsim/docs/reorganization/README.md",
-    "original_reference": "../../data/processed/experiments/RECENT_POLICY_LINKS.md",
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {

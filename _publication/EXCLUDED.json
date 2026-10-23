@@ -2,62 +2,62 @@
   {
     "repository": "issacsimz",
     "path": "tests/test_orchestration.py",
-    "reason": "공식 keeper source가 test fixture에 내장된 파일. 직전 37→36 검토에서 보류한 동일 테스트로 이번에도 보류/제외."
+    "reason": "자체 테스트지만 keeper 원문 전체를 expected 문자열로 재수록하고 byte-for-byte 동일성을 검사해, 파일 공개 시 제외 대상 keeper source가 함께 공개됨."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/experiments/h1/analysis/2026-09-10_OFFICIAL_EVAL_H1_ROUND2_TERM50.md",
-    "reason": "문서 본문에 공식 평가자의 제3자 피드백 직접 인용이 있어 원문 유지 조건에서 제외."
+    "reason": "공식 AI 평가 코멘트 전체 인용이 포함되어 있어 원문 인용 파일 단위 제외 원칙을 적용."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/experiments/h1/analysis/2026-09-10_ROUND2_EVALUATION_RECORD_AND_FUTURE_SUBMISSION_TEMPLATE.md",
-    "reason": "문서 본문에 공식 평가자의 제3자 피드백 직접 인용이 있어 원문 유지 조건에서 제외."
+    "reason": "본문이 사용자가 제공한 공식 결과 화면의 전사본을 구조화한 자료라고 명시하며, 제출문과 공식 AI 코멘트까지 원문 형태로 포함."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/experiments/h1/analysis/2026-09-30_OFFICIAL_EVAL_H1_ROUND4_AIRTIME025.md",
-    "reason": "문서 본문에 공식 평가자의 제3자 피드백 직접 인용이 있어 원문 유지 조건에서 제외."
+    "reason": "공식 AI 평가 코멘트 전체 인용이 포함되어 있어 원문 인용 파일 단위 제외 원칙을 적용."
   },
   {
     "repository": "naver-issacsim-eval",
     "path": "AGENTS.md",
-    "reason": "AGENTS.md는 로컬 지침 파일로 공개 대상에서 제외."
+    "reason": "저장소 로컬 작업 지침/운영 정책 파일이며 공개용 자체 결과 문서가 아님."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/experiments/h1/2026-10-19_PRELIM_R7_MODEL11650_SUBMISSION/env.yaml",
-    "reason": "공식 제출/native resolved config artifact이며 자체 분석 보고서가 아님."
+    "reason": "전체 제출 환경 preset 원본."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/experiments/h1/2026-10-19_PRELIM_R7_MODEL11650_SUBMISSION/policy.pt",
-    "reason": "정책 모델 가중치 파일; 요청 범위의 명시적 제외 대상."
+    "reason": "학습 모델/정책 binary."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/experiments/h1/2026-10-19_PRELIM_R7_MODEL40500_SUBMISSION/env.yaml",
-    "reason": "공식 제출/native resolved config artifact이며 자체 분석 보고서가 아님."
+    "reason": "전체 제출 환경 preset 원본."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/experiments/h1/2026-10-19_PRELIM_R7_MODEL40500_SUBMISSION/policy.pt",
-    "reason": "정책 모델 가중치 파일; 요청 범위의 명시적 제외 대상."
+    "reason": "학습 모델/정책 binary."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/experiments/h1/2026-10-19_PRELIM_R7_SUBMISSION/env.yaml",
-    "reason": "공식 제출/native resolved config artifact이며 자체 분석 보고서가 아님."
+    "reason": "전체 제출 환경 preset 원본."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/experiments/h1/2026-10-19_PRELIM_R7_SUBMISSION/policy.pt",
-    "reason": "정책 모델 가중치 파일; 요청 범위의 명시적 제외 대상."
+    "reason": "학습 모델/정책 binary."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/reviewed/01_운영진_자동평가_Tracking_Survival_공개답변_20260926.md",
-    "reason": "운영진의 질의응답을 답변 원문 보존본으로 직접 전사한 문서. 본인 분석본이 아니라 제3자 발언 원문이므로 분석 파생본과 분리."
+    "reason": "운영진 공개답변 원문/응답 본문을 담은 source record이지 자체 분석물이 아니다."
   },
   {
     "repository": "naver-issacsim",
@@ -87,7 +87,7 @@
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/reviewed/H1_HYPOTHESIS_DECISION_20261015/evidence/reference/06_HUMANOID_TRAINING_CODE.md",
-    "reason": "공식 학습 코드와 코드 백업을 분석 대상으로 삼은 reference 문서. 공식 소스 복제·인용 가능성이 있어 문서 전체 제외."
+    "reason": "공식 H1 학습 코드의 장문 복제/reference 문서."
   },
   {
     "repository": "naver-issacsim",
@@ -107,17 +107,17 @@
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/inbox/h1_finalize_bug_status/NCRC_H1_finalize_bug_현재상태_2026-08-26_수신원문.md",
-    "reason": "수신 원문에 공식 _finalize.py 코드 조각과 운영진 Discord 전달·상태 맥락이 함께 포함되어 있어 개인 문구만 가릴 수 없는 혼합 문서. 전체 보류."
+    "reason": "개인 Discord 제보·운영진 답변 및 직접 메시지 인용(본문 679행)이 포함된 원문성 수신 기록."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/inbox/h1_finalize_bug_status/h1_finalize_bug_current_status_수신원문.md",
-    "reason": "공식 _finalize.py 선택 코드 복제와 운영진 응답 상태가 함께 들어간 수신 원문. 전체 보류."
+    "reason": "공식 코드 복제 블록이 포함된 원문성 수신 보고서: 본문 19–36행의 `_finalize.py` 코드 발췌. 원문 그대로 공개하지 않음."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/inbox/personal_server/H1_exp1_termination_m50_long_25000iter_통합분석_수신원문.md",
-    "reason": "자체 분석을 포함하지만 공식 train.py/play.py/_finalize.py 및 reward source 조각·코드 차이를 함께 수록. 원문 유지 원칙상 부분 삭제 대신 전체 보류."
+    "reason": "공식 코드 복제 블록이 포함된 원문성 수신 보고서: 본문 584–589행의 `_finalize.py` 코드 발췌. 원문 그대로 공개하지 않음."
   },
   {
     "repository": "naver-issacsim",
@@ -127,17 +127,17 @@
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/ot/analyses/2026_ot_online_briefing_low_confidence_crosscheck.md",
-    "reason": "강의 음성·자막 전사 대조와 발화 직접 인용이 포함된 강의 자료. 외부 공유 자제 요청 발화도 있어 문서 전체 제외."
+    "reason": "강의·자막 직접 전사 대조 자료."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/ot/analyses/2026_ot_online_briefing_audio_video_integrated_analysis.md",
-    "reason": "운영진 강의 화면·음성 내용을 기반으로 한 OT 브리핑 분석. 강의 material과 발표 내용을 복제·요약한 문서라 제외."
+    "reason": "강의/브리핑 음성·화면의 내용과 교육자료를 분석·요약하며 강의자료 재현과 직접 연결된다."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/ot/transcripts/2026_ot_online_briefing_corrected_transcript.md",
-    "reason": "온라인 OT 약 57분의 전체 교정 전사. 강의 전사 자료."
+    "reason": "온라인 OT 강의 전체 전사."
   },
   {
     "repository": "naver-issacsim",
@@ -147,22 +147,22 @@
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/reviewed/GO2_R3_R5_SURVIVAL_TRACKING_ORGANIZER_DM_RECEIVED_20261008.md",
-    "reason": "운영진 DM 수신 원문. 직접 인용 및 비공개 대화 자료이므로 제외."
+    "reason": "운영진 DM 수신 원문."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/reviewed/2026-09-21_OPTUNA_PERSONAL_ASK_TELL_ORGANIZER_APPROVAL.md",
-    "reason": "개인 Optuna 사용에 관한 운영진 승인·응답 원문 기록. 외부 대화 원문을 포함하는 문서라 보류."
+    "reason": "운영진 승인·답변 원문을 보존한 자료."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/reviewed/2026-09-26_H1_ORGANIZER_CHECKPOINT_QA_SIRIUS_YEOLMU.md",
-    "reason": "운영진 checkpoint 질의응답 기록으로 제3자 답변 원문이 포함된 대화 자료."
+    "reason": "운영진 질의응답 원문/전달본."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/reviewed/2026-10-02_SUBMISSION_REPORT_BASELINE_REFERENCE_ORGANIZER_REPLY.md",
-    "reason": "운영진 제출·baseline 답변이 포함된 원문 대화 기록. 분석본과 분리."
+    "reason": "운영진 제출·baseline 답변 원문을 포함한다."
   },
   {
     "repository": "naver-issacsim",
@@ -176,108 +176,63 @@
   },
   {
     "repository": "naver-issacsim",
-    "path": "data/processed/incoming/README.md",
-    "reason": "수신함 색인 본문이 운영·수신 상태와 원문 경로를 연결하며 OT 전사 및 운영진 답변 관련 인덱스를 포함. 분석 보고서가 아닌 원문 추적 색인."
-  },
-  {
-    "repository": "naver-issacsim",
-    "path": "data/processed/incoming/RELATIONSHIPS.md",
-    "reason": "원문과 후속 분석의 관계를 찾는 탐색 색인. source lineage/원문 연결만 제공하고 독립 분석 결과가 아님."
-  },
-  {
-    "repository": "naver-issacsim",
-    "path": "data/processed/incoming/REPORT_CROSSWALK.md",
-    "reason": "답변·화면 전사와 분석본 간 연결 및 source-to-interpretation 추적 색인. private/원문자료 관계를 공개하지 않도록 제외."
-  },
-  {
-    "repository": "naver-issacsim",
-    "path": "data/processed/incoming/REPORT_PROVENANCE_TRIAGE.md",
-    "reason": "수신 원문별 출처·참조를 상세 추적하는 내부 provenance 목록. 미공개 원문 및 운영 자료 연결 정보를 포함."
-  },
-  {
-    "repository": "naver-issacsim",
-    "path": "data/processed/incoming/ot/README.md",
-    "reason": "온라인 OT 전사·자막 및 발화/강의 분석 자료의 인덱스. 강의 자료 문맥과 연결."
-  },
-  {
-    "repository": "naver-issacsim",
-    "path": "data/processed/incoming/ot/synthesis/README.md",
-    "reason": "OT synthesis 폴더의 강의자료 처리 안내. 독립 분석 산출물이 아닌 강의 경계용 안내."
-  },
-  {
-    "repository": "naver-issacsim",
-    "path": "data/processed/incoming/other/README.md",
-    "reason": "기타 수신 문서의 내부 분류·보존 경로 안내. 독립된 본인 분석이 아님."
-  },
-  {
-    "repository": "naver-issacsim",
-    "path": "data/processed/incoming/other/inbox/README.md",
-    "reason": "미검토 수신 원문 목록/상태 안내. raw intake 인덱스이므로 공개 분석과 분리."
-  },
-  {
-    "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/reviewed/H1_HYPOTHESIS_DECISION_20261015/evidence/INPUT_FILES.json",
-    "reason": "가설 분석의 입력 파일 원본 목록·경로 매니페스트. 원본/private archive 참조 목록이므로 전체 보류."
+    "reason": "분석 입력 원본·archive 위치를 나열한 private source manifest로 결과 분석이 아니다."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/reviewed/H1_MODEL11650_OFFICIAL_EVALUATION_COMMENT_20261021.txt",
-    "reason": "공식 평가 코멘트 원문/전달 자료. 본인 점수 집계와 구분하여 외부 평가 발언 원문은 제외."
+    "reason": "공식 평가 코멘트 원문/전달자료."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/reviewed/H1_ROUND7_ORGANIZER_FILE_CONFIRMATION_20261021.txt",
-    "reason": "운영진 제출 파일 확인 응답 기록. 사적 운영 대화의 원문·확인 내용이라 제외."
+    "reason": "운영진 파일 확인 응답 원문."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/reviewed/NCRC_20260913_MASTER_TRACKING_REPORT.md",
-    "reason": "훈련·교육·운영 자료와 공식 source 경로를 함께 모은 내부 마스터 추적 문서. 개인 분석만 분리할 수 없어 전체 보류."
+    "reason": "사용자 자체 분석은 맞지만 official training source·운영 백업·개인 서버·광범위한 증거경로 및 개인 홈 경로를 한 문서에 섞은 종합본. 이번 라운드에서는 범위 검토 보류(단순 운영언급만을 이유로 한 제외는 아님)."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/reviewed/NCRC_2026_예선_리포트_1차_영상_OCR_결과.md",
-    "reason": "공식 발표·영상 내용을 OCR로 옮긴 자료 전사. 발표 자료 전문/전사 성격."
+    "reason": "공식 발표/영상의 OCR 전사 결과로 원자료 내용을 재현한다."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/reviewed/NCRC_OPTUNA_PC_ASK_TELL_V2_20261015/MANIFEST_SHA256.json",
-    "reason": "수신 원본 ZIP 내부 구성·hash manifest. 원본 archive inventory로 분리 보존."
+    "reason": "수신 ZIP 내부 파일 hash 목록으로 원본 archive inventory/출처 명세이지 독립 분석 산출물이 아니다."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/reviewed/NCRC_OPTUNA_PC_ASK_TELL_V2_20261015/improved_pc_optuna_v2/reference/calibrator_DIAGNOSTIC_ONLY.html",
-    "reason": "외부 reference UI/원본 계산 도구의 복제본으로 표시된 HTML. 본인 개선앱의 index.html과 구분해 제외."
+    "reason": "외부/기존 calibrator UI reference 복제본이며 사용자 자체 개선 app이 아니다."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/reviewed/NCRC_R3_WEIGHT_SIMILARITY_DISCOVERY_2026-09-23.md",
-    "reason": "제3자 제출 사례의 remark·식별자·학교 정보와 외부 평가 문맥을 재현하는 문서. 본인 분석만으로 분리하기 어려워 전체 보류."
+    "reason": "자체 분석 형식이나 개인 평가 응답의 remark를 직접 인용하고 사용자 팀 식별자·평가 내부 메모를 포함한다. 직접 third-party feedback 인용 부분이 섞여 있어 whole-file hold."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/reviewed/NCRC_WEBSITE_PUBLIC_ANALYSIS_2026-09-23.md",
-    "reason": "외부 공개 웹 자료의 인물 프로필·학교/개인 remark를 분석·인용하는 문서. 사용자 본인 프로필 mask로 해결되지 않아 전체 보류."
-  },
-  {
-    "repository": "naver-issacsim",
-    "path": "data/processed/incoming/other/reviewed/README.md",
-    "reason": "reviewed 항목을 나열하는 원문·상태 인덱스이며 여러 보류 대상 대화·평가원문으로 연결. 독립 보고서가 아님."
+    "reason": "공개 웹 분석과 사용자 팀의 상세 evaluation API 응답·비공개 remark 필드가 혼합되어 있다. 일반 run 점수 요약만으로 분리되지 않아 원문 전체 hold."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/reviewed/SE3C_예선5라운드_Go2_공식평가_사용자전달원문_20261008.md",
-    "reason": "제출 파일 URL과 공식 평가 코멘트·점수의 전달 원문을 보존하는 기록. 본인 run 지표와 제3자 평가 발언/원문을 분리해 전체 제외."
+    "reason": "공식 평가의 사용자 전달 원문."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/reviewed/SE3C_예선3라운드_Go2_평가_및_운영진답변_20260920.md",
-    "reason": "예선 평가와 이후 운영진 문의·답변의 원문 중심 보존 문서. 제출물 링크, feedback 원문이 포함돼 전체 보류."
+    "reason": "공식 평가와 운영진 문의·응답 원문이 혼합된 자료."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/incoming/other/reviewed/SE3C_예선4라운드_H1_평가_20260930.md",
-    "reason": "전달받은 공식 점수/리포트/AI 코멘트 원문 중심 기록이며 제출 policy/env 서명 링크도 포함. 직접 평가 원문과 credential형 URL을 분리할 수 없어 전체 보류."
+    "reason": "공식 평가 원문·코멘트 전달본."
   },
   {
     "repository": "naver-issacsim",
@@ -287,42 +242,42 @@
   {
     "repository": "naver-issacsim",
     "path": "research/submission_presets/g2-submit-3/agent.yaml",
-    "reason": "전체 공식 Run agent preset YAML; preset 전체 YAML 공개 보류 방침."
+    "reason": "전체 제출 agent preset 원본."
   },
   {
     "repository": "naver-issacsim",
     "path": "research/submission_presets/g2-submit-3/env.yaml",
-    "reason": "전체 공식 Run environment preset YAML; preset 전체 YAML 공개 보류 방침."
+    "reason": "전체 제출 env preset 원본."
   },
   {
     "repository": "naver-issacsim",
     "path": "research/submission_presets/h1-submit-2/agent.yaml",
-    "reason": "전체 공식 제출 preset agent YAML; preset 전체 YAML 공개 보류 방침."
+    "reason": "전체 제출 agent preset 원본."
   },
   {
     "repository": "naver-issacsim",
     "path": "research/submission_presets/h1-submit-2/env.yaml",
-    "reason": "전체 공식 제출 preset environment YAML; preset 전체 YAML 공개 보류 방침."
+    "reason": "전체 제출 env preset 원본."
   },
   {
     "repository": "naver-issacsim",
     "path": "research/submission_presets/h1-submit-4/agent.yaml",
-    "reason": "전체 공식 제출 preset agent YAML; preset 전체 YAML 공개 보류 방침."
+    "reason": "전체 제출 agent preset 원본."
   },
   {
     "repository": "naver-issacsim",
     "path": "research/submission_presets/h1-submit-4/env.yaml",
-    "reason": "전체 공식 제출 preset environment YAML; preset 전체 YAML 공개 보류 방침."
+    "reason": "전체 제출 env preset 원본."
   },
   {
     "repository": "naver-issacsim",
     "path": "research/submission_presets/h1-submit-6/agent.yaml",
-    "reason": "전체 공식 제출 preset agent YAML; preset 전체 YAML 공개 보류 방침."
+    "reason": "전체 제출 agent preset 원본."
   },
   {
     "repository": "naver-issacsim",
     "path": "research/submission_presets/h1-submit-6/env.yaml",
-    "reason": "전체 공식 제출 preset environment YAML; preset 전체 YAML 공개 보류 방침."
+    "reason": "전체 제출 env preset 원본."
   },
   {
     "repository": "naver-issacsim",
@@ -332,17 +287,17 @@
   {
     "repository": "naver-issacsim",
     "path": "data/processed/external_analysis/2026-09-23_ORGANIZER_DAILY_HONEY_TIPS_SOURCE_AND_NOTES.md",
-    "reason": "본문에 ‘전달받은 원문’ 섹션과 원문 전사·복사 블록이 포함된 운영진 자료라 전체 제외."
+    "reason": "Discord 운영진 게시물 발췌를 원문 그대로 보존한 자료."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/external_analysis/image_analysis_requests.jsonl",
-    "reason": "분석 요청 원문 로그로 요약·색인·결론 문서가 아니며, 공개 지식자료에 필요한 내용이 아님."
+    "reason": "강의 이미지의 원본 로컬 경로/이미지명과 분석 대상·요청 필드를 나열하는 source-request manifest."
   },
   {
     "repository": "naver-issacsim",
     "path": "data/processed/external_analysis/video_analysis_requests.jsonl",
-    "reason": "분석 요청 원문 로그로 요약·색인·결론 문서가 아니며, 공개 지식자료에 필요한 내용이 아님."
+    "reason": "강의 영상 ID/URL 및 요청 정보를 나열하는 source-request manifest."
   },
   {
     "repository": "naver-issacsim",
@@ -991,11 +946,6 @@
   },
   {
     "repository": "naver-issacsim-originals",
-    "path": "data/raw/official_server_runs/h1/2026-10-19_round7_model40500_submission/ARCHIVE_RECONSTRUCTION.md",
-    "reason": "메타데이터가 아닌 원본 evidence/binary artifact이므로 제외."
-  },
-  {
-    "repository": "naver-issacsim-originals",
     "path": "data/raw/official_server_runs/h1/2026-10-19_round7_model40500_submission/env.yaml",
     "reason": "훈련·시뮬레이터 설정 스냅샷으로 source/config 제외."
   },
@@ -1467,6 +1417,61 @@
   {
     "repository": "issacsimz",
     "path": "scripts/organizer_keep_ckpt_h1_verbatim.sh",
-    "reason": "verbatim keeper shell 원문이므로 수정·재게시 대상에서 제외."
+    "reason": "공식 keeper 스크립트 원문으로 명시적 제외 범주."
+  },
+  {
+    "repository": "naver-issacsim",
+    "path": "data/processed/server_backup/code/training/humanoid/h1_task/__init__.py.md",
+    "reason": "공식 training 소스 코드의 서버 백업 복제본(.py.md)이므로 제외."
+  },
+  {
+    "repository": "naver-issacsim",
+    "path": "data/processed/server_backup/code/training/humanoid/h1_task/_finalize.py.md",
+    "reason": "공식 training 소스 코드의 서버 백업 복제본(.py.md)이므로 제외."
+  },
+  {
+    "repository": "naver-issacsim",
+    "path": "data/processed/server_backup/code/training/humanoid/h1_task/agent_cfg.py.md",
+    "reason": "공식 training 소스 코드의 서버 백업 복제본(.py.md)이므로 제외."
+  },
+  {
+    "repository": "naver-issacsim",
+    "path": "data/processed/server_backup/code/training/humanoid/h1_task/env_cfg.py.md",
+    "reason": "공식 training 소스 코드의 서버 백업 복제본(.py.md)이므로 제외."
+  },
+  {
+    "repository": "naver-issacsim",
+    "path": "data/processed/server_backup/code/training/quadruped/go2_task/__init__.py.md",
+    "reason": "공식 training 소스 코드의 서버 백업 복제본(.py.md)이므로 제외."
+  },
+  {
+    "repository": "naver-issacsim",
+    "path": "data/processed/server_backup/code/training/quadruped/go2_task/_finalize.py.md",
+    "reason": "공식 training 소스 코드의 서버 백업 복제본(.py.md)이므로 제외."
+  },
+  {
+    "repository": "naver-issacsim",
+    "path": "data/processed/server_backup/code/training/quadruped/go2_task/agent_cfg.py.md",
+    "reason": "공식 training 소스 코드의 서버 백업 복제본(.py.md)이므로 제외."
+  },
+  {
+    "repository": "naver-issacsim",
+    "path": "data/processed/server_backup/code/training/quadruped/go2_task/env_cfg.py.md",
+    "reason": "공식 training 소스 코드의 서버 백업 복제본(.py.md)이므로 제외."
+  },
+  {
+    "repository": "naver-issacsim",
+    "path": "data/processed/server_backup/code/examples/19/assets/h1/.collect.mapping.json.md",
+    "reason": "서버 백업 파일 수집/매핑 메타데이터이며 H1/Go2 자체 실험 보고서·결과물이 아님."
+  },
+  {
+    "repository": "naver-issacsim",
+    "path": "data/processed/server_backup/code/practice_sim/assets/go2/.collect.mapping.json.md",
+    "reason": "서버 백업 파일 수집/매핑 메타데이터이며 H1/Go2 자체 실험 보고서·결과물이 아님."
+  },
+  {
+    "repository": "naver-issacsim",
+    "path": "data/processed/server_backup/code/practice_sim/assets/h1/.collect.mapping.json.md",
+    "reason": "서버 백업 파일 수집/매핑 메타데이터이며 H1/Go2 자체 실험 보고서·결과물이 아님."
   }
 ]
