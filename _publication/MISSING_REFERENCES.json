@@ -240,6 +240,11 @@
     "status": "not_in_selected_snapshot_or_historical_reference"
   },
   {
+    "file": "naver-issacsim/data/processed/external_analysis/video_reports/README.md",
+    "original_reference": "./07_compliance_and_prohibited_actions_VQE9DPn4KAg.md",
+    "status": "not_in_selected_snapshot_or_historical_reference"
+  },
+  {
     "file": "naver-issacsim/data/processed/incoming/REPORT_CROSSWALK.md",
     "original_reference": "other/reviewed/GO2_R3_R5_SURVIVAL_TRACKING_ORGANIZER_DM_RECEIVED_20261008.md",
     "status": "not_in_selected_snapshot_or_historical_reference"

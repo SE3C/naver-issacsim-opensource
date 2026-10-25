@@ -1,5 +1,10 @@
 [
   {
+    "repository": "naver-issacsim",
+    "path": "data/processed/external_analysis/video_reports/07_compliance_and_prohibited_actions_VQE9DPn4KAg.md",
+    "reason": "2026-10-25 공개 제외: 외부 공유·재업로드를 제한한 공지 id=7의 영상(VQE9DPn4KAg) 화면을 상세 재구성한 문서. 사용자 요청으로 공개 사본만 파일 단위 제외하며 비공개 원본과 기존 이력은 보존한다."
+  },
+  {
     "repository": "issacsimz",
     "path": "tests/test_orchestration.py",
     "reason": "자체 테스트지만 keeper 원문 전체를 expected 문자열로 재수록하고 byte-for-byte 동일성을 검사해, 파일 공개 시 제외 대상 keeper source가 함께 공개됨."

@@ -2856,18 +2856,6 @@
     "redaction": null
   },
   {
-    "target": "naver-issacsim/data/processed/external_analysis/video_reports/07_compliance_and_prohibited_actions_VQE9DPn4KAg.md",
-    "source_repository": "naver-issacsim",
-    "source_path": "data/processed/external_analysis/video_reports/07_compliance_and_prohibited_actions_VQE9DPn4KAg.md",
-    "source_commit": "b4f852a4a00246c931d7df6c8c2691dbbafa8ddc",
-    "source_storage": "git_blob",
-    "source_mode": "100644",
-    "source_sha256": "9d7cfeb381ef81e21bc8ee9fad8b3c96dbcd391026279196222b2e7363e217c3",
-    "public_sha256": "9d7cfeb381ef81e21bc8ee9fad8b3c96dbcd391026279196222b2e7363e217c3",
-    "status": "byte_identical",
-    "redaction": null
-  },
-  {
     "target": "naver-issacsim/data/processed/external_analysis/video_reports/README.md",
     "source_repository": "naver-issacsim",
     "source_path": "data/processed/external_analysis/video_reports/README.md",
