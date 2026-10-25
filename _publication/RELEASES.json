@@ -45,14 +45,14 @@
     "public_title": "[PERSONAL] H1 model40300 two-seed local evaluation",
     "asset": "model_40300_h1_LOCAL_evaluation_2seed_20261019.zip",
     "source_sha256": "046359f52f88035b79866b17469c49ad8bd62c3af2135b3ebe72ec1a5f535ceb",
-    "public_sha256": "b498aa83cfb9420b38dedafd3fdae448b495f478d9462bd61622a355864f29f7",
+    "public_sha256": "72dd91f30d8c6dcaf5f1cf035bf5c4ba042e48ae2c0c6ccb1a5c846b2c90f77f",
     "bytes": 377556,
     "status": "personal_profile_blinded",
     "members_blinded": [
       {
         "path": "launcher_result.json",
         "source_sha256": "dbd99046ba9af96f38f3c7fe5ec129ec360fd248f7b0143d851502542a2edfbc",
-        "public_sha256": "b456e5c31c701afa7da4bea82032e3f6d350b7794974c0d2ecb65895898dbd0f"
+        "public_sha256": "21a34a0b821a5ae6a58f354f978b04fc60f8da0ee589e51ab3f2d01b3285fec0"
       },
       {
         "path": "video_evaluation_link.json",
@@ -64,7 +64,7 @@
       {
         "name": "model_40300_h1_LOCAL_evaluation_2seed_20261019.zip",
         "source_sha256": "046359f52f88035b79866b17469c49ad8bd62c3af2135b3ebe72ec1a5f535ceb",
-        "public_sha256": "b498aa83cfb9420b38dedafd3fdae448b495f478d9462bd61622a355864f29f7",
+        "public_sha256": "72dd91f30d8c6dcaf5f1cf035bf5c4ba042e48ae2c0c6ccb1a5c846b2c90f77f",
         "bytes": 377556,
         "status": "personal_profile_blinded"
       },

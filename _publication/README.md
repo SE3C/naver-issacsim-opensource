@@ -20,7 +20,7 @@
 
 ## Release 보존
 
-[RELEASES.json](RELEASES.json)이 원래 저장소·tag·제목·본문 SHA·asset 이름·원본/공개 SHA를 연결합니다. 공개 tag의 `eval--`·`analysis--` 접두어는 원래 저장소 구분용이며 새 실험 ID가 아닙니다. 각 Release의 공개 안내 뒤 원래 본문은 그대로입니다. `analysis--` 기술 보고서 Release는 보고서만 선별하며 원문이 설명하는 policy·env·전체 제출 snapshot은 포함하지 않습니다.
+[RELEASES.json](RELEASES.json)은 개별 실험·보고서 Release 39건의 원래 저장소·tag·제목·본문 SHA·asset 이름·원본/공개 SHA를 연결합니다. 과거 묶음 snapshot 2건은 이 manifest 범위 밖이며 [역사적 snapshot 안내](HISTORICAL_SNAPSHOTS.md)에서 구분합니다. 공개 tag의 `eval--`·`analysis--` 접두어는 원래 저장소 구분용이며 새 실험 ID가 아닙니다. 각 Release의 공개 안내 뒤 원래 본문은 그대로입니다. `analysis--` 기술 보고서 Release는 보고서만 선별하며 원문이 설명하는 policy·env·전체 제출 snapshot은 포함하지 않습니다.
 
 ZIP도 원래 파일명·멤버 이름·순서·구성을 유지합니다. 로그나 기존 checksum 파일을 빼지 않습니다. 개인정보가 없다면 ZIP 자체를 바이트 동일하게 복사합니다. 블라인드가 필요한 경우 해당 텍스트의 개인 프로필 부분만 바꾸며 영상·episode 원자료는 바이트 동일하게 보존합니다. ZIP 안의 기존 checksum은 원본 자료 기준이므로 블라인드한 파일에는 맞지 않을 수 있습니다. 공개 asset의 정확한 SHA는 위 manifest를 사용합니다.
 
